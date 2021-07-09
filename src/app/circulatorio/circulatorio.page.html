@@ -1,0 +1,24 @@
+<ion-header> 
+  <ion-toolbar> 
+    <ion-buttons slot="start"> 
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-card-title><h1>Sistema Circulatório</h1></ion-card-title>
+  </ion-toolbar> 
+</ion-header> 
+
+<ion-content>
+  <ion-title><h1>LOGO DO SISTEMA</h1></ion-title>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title style="text-align: center; color: black">RESUMO</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p style="text-align: justify">O Sistema Circulatório ou Cardiovascular é subdividido pelos distritos sanguíneo e linfático, responsáveis por transportar fluidos corporais que carregam água, nutrientes, excreções, gases, hormônios, células de defesa entre outras substâncias, que perpassam as trilhões de células presentes no corpo humano. O distrito sanguíneo é composto pelo coração, pelos vasos sanguíneos e pelo sangue, enquanto o distrito linfático é formado pelos órgãos linfoides, linfonodos, vasos linfáticos e linfa [2], [5].</p>
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-button expand="block" color="success" fill="outline" (click)="chamarDis_sang()">DISTRITO SANGUÍNEO</ion-button>
+  <ion-button expand="block" color="success" fill="outline" (click)="chamarDis_linf()">DISTRITO LINFÁTICO</ion-button>
+  <ion-button expand="block" color="success" fill="outline" (click)="chamarDef_Corp()">AS DEFESAS CORPORAIS</ion-button>
+</ion-content>

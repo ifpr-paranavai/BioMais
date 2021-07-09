@@ -1,0 +1,92 @@
+ion-menu {
+    --ion-background-color: var(--ion-color-light);
+  
+    ion-toolbar {
+      --background: var(--ion-color-success);
+    }
+  }
+ 
+  
+ 
+ .botaoPares {
+     background-color: #ffffff;
+     display: inline-block;
+     padding: 0;
+     margin: 0;
+     vertical-align: middle;
+     width:50%;
+     border: 4px solid #F0E68C;
+     border-radius: 10px;
+     padding-top: 6px;
+     margin-bottom: 10px;
+ 
+ }
+ .bordas {
+     border: 4px solid #F0E68C;
+     border-radius: 10px;
+ 
+ }
+ 
+ button {
+     background-color: #ffffff;
+     display: inline-block;
+     height: 174px;
+     padding: 0;
+     margin: 0;
+     vertical-align: top;
+     width:45%;
+     border: 2px solid #F0E68C;
+     border-radius: 10px;
+     margin: 2%;
+ 
+ }
+ 
+ #close-image img {
+     display: block;
+     height: 100%;
+     width: 100%;
+ }
+ 
+ /*
+ button {
+     display: inline-block;
+     height: 174px;
+     padding: 0;
+     margin: 0;
+     vertical-align: top;
+     width:144px;
+ }
+ #close-image img {
+     display: block;
+     height: 170px;
+     width: 140px;
+ }
+ */
+ 
+ 
+   .fundo{
+        background-color: yellow;
+   }
+ 
+   .teste {
+ //background:#333;
+ //width:100%;
+ margin: auto;
+ padding:10px;
+ text-align:center;
+ border:1px solid black;
+ text-align: left;
+ 
+ -moz-border-radius:7px;
+ -webkit-border-radius:7px;
+  border-radius:10px;
+ }
+ .centro {
+     width:100px;
+     height:100px;
+     position:absolute;
+     top:50%;
+     left:50%;
+     margin-top:-50px;
+     margin-left:-50px;
+ }

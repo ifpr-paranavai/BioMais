@@ -1,0 +1,63 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-row>
+    <ion-title>
+      Material para estudo
+    </ion-title>
+    <ion-icon style="margin-right: 15px;" color="warning" name="trophy-sharp"size="large"></ion-icon>
+    </ion-row>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card (click)="chamardiGestorio()">
+    <ion-card-header>
+      <ion-fab-button style="float: left;" size="small" fab-fixed color="secondary" >
+        <img src="assets/imagensCorpo/teoriasd7.png" width="30">
+      </ion-fab-button>
+      <h2><ion-icon style="float: right;" name="chevron-forward-sharp"></ion-icon></h2>
+      <ion-card-title>Sistema Digestório</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card (click)="chamarcirCulatorio()">
+    <ion-card-header>
+      <ion-fab-button style="float: left;" size="small" fab-fixed color="warning" >
+        <img src="assets/imagensCorpo/circulatory_system.png" width="20">
+      </ion-fab-button>
+      <h2><ion-icon style="float: right;" name="chevron-forward-sharp"></ion-icon></h2>
+      <ion-card-title>Sistema Circulatório</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card (click)="chamarRespiratorio()">  
+    <ion-card-header>
+      <ion-fab-button style="float: left;" size="small" fab-fixed color="success" >
+        <img src="assets/imagensCorpo/teoriasd5.png" width="30">
+      </ion-fab-button>
+      <h2><ion-icon style="float: right;" name="chevron-forward-sharp"></ion-icon></h2>
+      <ion-card-title>Sistema Respiratório</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card (click)="chamarUrinario()">
+    <ion-card-header>
+      <ion-fab-button style="float: left;" size="small" fab-fixed >
+        <img src="assets/icon/austrolapiteco.png" width="18">
+      </ion-fab-button>
+      <h2><ion-icon style="float: right;" name="chevron-forward-sharp"></ion-icon></h2>
+      <ion-card-title>Sistema Urinário</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card (click)="chamarReprodutor()">
+    <ion-card-header>
+      <ion-fab-button style="float: left;" size="small" fab-fixed color="danger" >
+        <img src="assets/icon/austrolapiteco.png" width="18">
+      </ion-fab-button>
+      <h2><ion-icon style="float: right;" name="chevron-forward-sharp"></ion-icon></h2>
+      <ion-card-title>Sistema Reprodur</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+  
+</ion-content>

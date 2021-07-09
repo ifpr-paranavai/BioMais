@@ -1,0 +1,53 @@
+<ion-app>
+  <ion-menu side="start" content-id="main-content">
+    <ion-header style="background-color: green;">
+      <ion-toolbar translucent>
+        <ion-row> </ion-row> <!-- Caractere invisível -->
+        <ion-title>
+          <img src="assets/icon/favicon.png">
+        </ion-title>
+        <ion-row> </ion-row> <!-- Caractere invisível -->
+        <b><ion-label style="font-size: 20px;">    BioMais</ion-label></b> <!-- Caracteres invisíveis -->
+        <ion-row> </ion-row> <!-- Caractere invisível -->
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item>
+          <ion-icon name="document-text-outline" color="medium" slot="start"></ion-icon>
+          <b><ion-label>Termos de Uso</ion-label></b>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="exit-outline" color="danger" slot="start"></ion-icon>
+          <b><ion-label>Sair</ion-label></b>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <div class="ion-page" id="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-row>
+        <ion-title>Aprender</ion-title>
+        <ion-title color="success">{{quantidadeTotalPontos}} BioPontos</ion-title>
+        </ion-row>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <div>
+        <img class="bordas" style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px"   src="assets/teste/capasistemadigestorio.png" (click)="iniciarResolucao('1')"/>
+        <img class="bordas" style="float: left; width: 45%; margin-top: 2%; margin-bottom: 10px"  src="assets/teste/capacirculatorio.jpg" (click)="iniciarResolucao('2')"/>
+        </div>
+
+        <img class="bordas" style="width: 45%; margin-top: 6px" src="assets/teste/capasistemarespiratorio.png"/>
+        <img class="bordas" style="float: left; width: 45%; margin-right: 5%; margin-left: 2%; margin-top: 6px" src="assets/teste/capasistemareprodutor.png"/>
+        <div>
+        <img class="bordas" style="float: left; width: 45%; margin-top: 10px; margin-left: 2%" src="assets/teste/capasistemasensorial.png"/>
+        </div>
+    </ion-content>
+  </div>
+</ion-app>

@@ -1,0 +1,57 @@
+page-questao-par {
+
+    .botaoPares {
+        background-color: #ffffff;
+        display: inline-block;
+        height: 174px;
+        padding: 0;
+        margin: 0;
+        vertical-align: top;
+        width:45%;
+        border: 6px solid;
+        border-radius: 10px;
+        margin: 2%;
+  
+    }
+  
+    #close-image img {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+  
+  
+    img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    .fundo{
+         background-color: yellow;
+    }
+  
+    .teste {
+  //background:#333;
+  //width:100%;
+  margin: auto;
+  padding:10px;
+  text-align:center;
+  border:1px solid black;
+  text-align: left;
+  
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+   border-radius:10px;
+  }
+  .centro {
+      width:100px;
+      height:100px;
+      position:absolute;
+      top:50%;
+      left:50%;
+      margin-top:-50px;
+      margin-left:-50px;
+  }
+  }

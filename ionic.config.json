@@ -1,0 +1,7 @@
+{
+  "name": "bioMais",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
