@@ -117,7 +117,7 @@ export class QuestaoMultiplaEscolhaPage {
         const modal = await this.modalController.create({
             component: FeedbackPage,
             cssClass: 'my-custom-class',
-            componentProps: {"home": this, 'questaoFeedBack': feedBackImagem, feedBackTexto}
+            componentProps: {"home": this.home, 'questaoFeedBack': feedBackImagem, feedBackTexto}
             
         });
         return await modal.present();
