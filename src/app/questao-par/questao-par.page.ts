@@ -22,6 +22,7 @@ export class QuestaoParPage {
   private inTimeOut;
   private questao;
   private home;
+  private totalPontos;
 
   private erros;
 
@@ -34,6 +35,7 @@ export class QuestaoParPage {
       this.home = navParams.get("home");
       this.precionado1 = false;
       this.precionado2 = false;
+      this.totalPontos = Tab1Page.quantidadePontos;
 
       this.erros = 0;
 
