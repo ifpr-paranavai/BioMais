@@ -1,40 +1,42 @@
 <ion-header>
 
-  <ion-toolbar color="light">
-    <ion-title color="success" slot="end">{{totalPontos}} BioPontos</ion-title>
-  </ion-toolbar>
-  
+    <ion-toolbar color="light">
+        <ion-title color="success" slot="end">{{totalPontos}} BioPontos</ion-title>
+    </ion-toolbar>
+
 </ion-header>
 
 
 <ion-content padding>
-  <div class="fundos">
+    <div class="fundos">
 
-  <h3>{{questao.enunciado}}</h3>
-  <h5>As alternativas corretas são {{questao.pares}}</h5>
-  <img style="width: 100%" *ngIf="questao.imagem != ''" [src]="questao.imagem"/>
-  <br/>
-  <div style="text-align: center">
+        <h3>{{questao.enunciado}}</h3>
+        <h5>As alternativas corretas são {{questao.pares}}</h5>
+        <div class="boxImg">
+            <img style="width: 100%" *ngIf="questao.imagem != ''" [src]="questao.imagem" />
+        </div>
+        <br/>
+        <div style="text-align: center">
 
-  </div>
+        </div>
 
-  <div style="text-align: center" >
-    <span *ngFor="let par of pares">
-      <button [disabled]="par.desabilitar" class="botaoPares" (click)="botaoPrecionadoNovo(par)" [ngStyle]="{'border-color': par.corBorda}" id="close-image"><img *ngIf="par.imagem != ''" [src]="par.imagem"/><h5>{{par.descricao}}</h5></button>
+        <div style="text-align: center">
+            <span *ngFor="let par of pares">
+      <button [disabled]="par.desabilitar" class="botaoPares" (click)="botaoPrecionadoNovo(par)" [ngStyle]="{'border-color': par.corBorda}" id="close-image"> <div *ngIf="par.imagem != ''" class="boxImg"><img *ngIf="par.imagem != ''" [src]="par.imagem"/></div><h5>{{par.descricao}}</h5></button>
     </span>
 
-</div>
+        </div>
 
 
 
 
-</div>
-<br/>
+    </div>
+    <br/>
 
 
 </ion-content>
 <ion-footer>
-  <ion-toolbar>
-    <button ion-button (click)="verificar()"  style="width: 100%">Continuar</button>
-  </ion-toolbar>
+    <ion-toolbar>
+        <button ion-button (click)="verificar()" style="width: 100%">Continuar</button>
+    </ion-toolbar>
 </ion-footer>
