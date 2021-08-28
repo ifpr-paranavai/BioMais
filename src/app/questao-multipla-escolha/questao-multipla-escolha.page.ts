@@ -69,7 +69,8 @@ export class QuestaoMultiplaEscolhaPage {
             Tab1Page.quantidadeQuestoesConsecutivas++;
             Tab1Page.acerto++;
             this.presentLoadingCustomSucesso();
-            this.home.continuar();
+            this.feedback();
+            //this.home.continuar();
         } else {
             console.log("Você errou :(");
             if (this.tentativas == 0) {
