@@ -12,16 +12,21 @@
     <div class="boxImg">
         <img style="width: 100%" *ngIf="questao.imagem != ''" [src]="questao.imagem" />
     </div>
-    <br/>
+    <br />
     <span *ngFor="let alter of alternativas">
-  <ul>
-  <button  *ngIf="alter.texto != undefined" (click)="marcarAlteranativa(alter)" [ngStyle]="{'background-color': alter.corBorda}" class="botaoPares"><h5 style="text-align: justify">{{alter.texto}}</h5></button>
-  </ul>
-</span>
+
+        <button style="margin: 5px;border-radius: 10px" *ngIf="alter.texto != undefined"
+            (click)="marcarAlteranativa(alter)" [ngStyle]="{'background-color': alter.corBorda}" class="botaoPares">
+            <h5 style="text-align: justify">{{alter.texto}}</h5>
+        </button>
+
+    </span>
 
 </ion-content>
 <ion-footer>
     <ion-toolbar>
-        <button ion-button (click)="verificar()" style="width: 100%">Verificar</button>
+        <ion-button color="success" expand="block" (click)="verificar()">
+            <ion-icon name="checkmark-done-outline"></ion-icon>&nbsp;&nbsp;Verificar
+        </ion-button>
     </ion-toolbar>
 </ion-footer>
