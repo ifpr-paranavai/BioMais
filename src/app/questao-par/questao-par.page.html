@@ -11,7 +11,6 @@
     <div class="fundos">
 
         <h3>{{questao.enunciado}}</h3>
-        <h5>As alternativas corretas são {{questao.pares}}</h5>
         <div class="boxImg">
             <img style="width: 100%" *ngIf="questao.imagem != ''" [src]="questao.imagem" />
         </div>
@@ -22,7 +21,7 @@
 
         <div style="text-align: center">
             <span *ngFor="let par of pares">
-      <button [disabled]="par.desabilitar" class="botaoPares" (click)="botaoPrecionadoNovo(par)" [ngStyle]="{'border-color': par.corBorda}" id="close-image"> <div *ngIf="par.imagem != ''" class="boxImg"><img *ngIf="par.imagem != ''" [src]="par.imagem"/></div><h5>{{par.descricao}}</h5></button>
+      <button style="margin: 5px;border-radius: 10px" [disabled]="par.desabilitar" class="botaoPares" (click)="botaoPrecionadoNovo(par)" [ngStyle]="{'background-color': par.corBorda}" id="close-image"> <div *ngIf="par.imagem != ''" class="boxImg"><img *ngIf="par.imagem != ''" [src]="par.imagem"/></div><h5>{{par.descricao}}</h5></button>
     </span>
 
         </div>
@@ -37,8 +36,8 @@
 </ion-content>
 <ion-footer>
     <ion-toolbar>
-        <ion-button color="success" expand="block" (click)="verificar()">
+       <!--  <ion-button color="success" expand="block" (click)="verificar()">
             <ion-icon name="checkmark-done-outline"></ion-icon>&nbsp;&nbsp;Verificar
-        </ion-button>
+        </ion-button> -->
     </ion-toolbar>
 </ion-footer>
