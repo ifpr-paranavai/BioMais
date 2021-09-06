@@ -69,7 +69,8 @@ export class QuestaoMultiplaEscolhaPage {
             Tab1Page.quantidadeQuestoesConsecutivas++;
             Tab1Page.acerto++;
             this.presentLoadingCustomSucesso();
-            this.home.continuar();
+            this.feedback();
+            //this.home.continuar();
         } else {
             console.log("Você errou :(");
             if (this.tentativas == 0) {
@@ -117,7 +118,7 @@ export class QuestaoMultiplaEscolhaPage {
         const modal = await this.modalController.create({
             component: FeedbackPage,
             cssClass: 'my-custom-class',
-            componentProps: {"home": this, 'questaoFeedBack': feedBackImagem, feedBackTexto}
+            componentProps: {"home": this.home, 'questaoFeedBack': feedBackImagem, feedBackTexto}
             
         });
         return await modal.present();
