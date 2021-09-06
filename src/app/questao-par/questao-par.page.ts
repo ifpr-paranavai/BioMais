@@ -15,25 +15,31 @@ export class QuestaoParPage {
 
 
 
-    private precionado1;
-    private botaoPrecionado1;
-    private precionado2;
-    private desabilitaBotao;
-    private inTimeOut;
-    private questao;
-    private home;
+
+  private precionado1;
+  private botaoPrecionado1;
+  private precionado2;
+  private desabilitaBotao;
+  private inTimeOut;
+  private questao;
+  private home;
+  private totalPontos;
+
 
     private erros;
 
     showImage: boolean = false;
 
-    private pares;
-    constructor(public modalController: ModalController, public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController, private toastCtrl: ToastController, public loadingCtrl: LoadingController) {
-        //this.funcao = params.get("funcao");
-        //RECEBER O ID DA QUESTÃO QUE SERÁ ABERTA....
-        this.home = navParams.get("home");
-        this.precionado1 = false;
-        this.precionado2 = false;
+
+  private pares;
+  constructor(public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController, private toastCtrl: ToastController, public loadingCtrl: LoadingController) {
+      //this.funcao = params.get("funcao");
+      //RECEBER O ID DA QUESTÃO QUE SERÁ ABERTA....
+      this.home = navParams.get("home");
+      this.precionado1 = false;
+      this.precionado2 = false;
+      this.totalPontos = Tab1Page.quantidadePontos;
+
 
         this.erros = 0;
 
