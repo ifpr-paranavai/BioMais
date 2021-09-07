@@ -22,10 +22,10 @@ import { QuestaoParPage } from '../questao-par/questao-par.page';
 import { SucessoPage } from '../sucesso/sucesso';
 import { FeedbackPage } from '../feedback/feedback';
 
-import { QuestoesMEG1 } from '../models/QuestoesMEG1';
-import { QuestoesMEG2 } from '../models/QuestoesMEG2';
-import { QuestoesTPG1 } from '../models/QuestoesTPG1';
-import { QuestoesTPG2 } from '../models/QuestoesTPG2';
+import { QuestoesMEG1 } from '../models/questoes-me/QuestoesMEG1';
+import { QuestoesMEG2 } from '../models/questoes-me/QuestoesMEG2';
+import { QuestoesTPG1 } from '../models/questoes-tp/QuestoesTPG1';
+import { QuestoesTPG2 } from '../models/questoes-tp/QuestoesTPG2';
 
 import { IonicStorageModule } from '@ionic/storage';
 import { Storage } from '@ionic/storage';
