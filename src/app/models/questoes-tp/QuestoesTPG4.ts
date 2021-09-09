@@ -7,7 +7,7 @@ import { IonicModule } from "@ionic/angular";
 @Injectable({
   providedIn: "root",
 })
-export class QuestoesTPG2 {
+export class QuestoesTPG4 {
   public questoesToquePares;
 
   getQuestoes() {
