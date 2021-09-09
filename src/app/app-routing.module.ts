@@ -68,6 +68,10 @@ const routes: Routes = [
   {
     path: 'sistem-muscular',
     loadChildren: () => import('./sistem-muscular/sistem-muscular.module').then( m => m.SistemMuscularPageModule)
+  },
+  {
+    path: 'sistema-endocrino',
+    loadChildren: () => import('./sistema-endocrino/sistema-endocrino.module').then( m => m.SistemaEndocrinoPageModule)
   }
 
 

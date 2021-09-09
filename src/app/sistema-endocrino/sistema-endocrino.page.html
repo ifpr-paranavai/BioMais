@@ -3,12 +3,12 @@
     <ion-buttons slot="start">
       <ion-back-button></ion-back-button>
     </ion-buttons>
-    <ion-title><h1>Sistema Muscular</h1></ion-title>
+    <ion-card-title><h1>Sistema Endócrino</h1></ion-card-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-img src="assets/imagensCorpo/Capa muscular.png"></ion-img>
+  <ion-img src="assets/imagensCorpo/Capa endócrino.png"></ion-img>
   <ion-card (click)="expandItem(item)" (click)="toggle()" *ngFor="let item of items">
     <ion-card-header>
       <h1>
@@ -17,7 +17,7 @@
       </h1>
       <ion-title style="color:black">{{item.titulo}}</ion-title>
       <ion-title style="color:black">{{item.titulo2}}</ion-title>
-    </ion-card-header><!---------------comentario aleatório marcação-->
+    </ion-card-header>
     <ion-card-content>
       <app-expandable expandHeight="3000px" [expanded]="item.expanded">
         <ion-card-subtitle style="text-align: justify; font-size: 15.5px" [innerHTML]="item.referenciaFim"></ion-card-subtitle>
@@ -35,16 +35,6 @@
         <ion-card-subtitle style="text-align: center;" [innerHTML]="item.referenciaImagem3"></ion-card-subtitle>
         <br>
         <p *ngIf="item.texto3" style="text-align: justify; font-size: 15.5px" [innerHTML]="item.texto3"></p>
-        <br>
-        <ion-img *ngIf="item.imagem4" src="{{item.imagem4}}"></ion-img>
-        <ion-card-subtitle style="text-align: center;" [innerHTML]="item.referenciaImagem4"></ion-card-subtitle>
-        <br>
-        <p *ngIf="item.texto4" style="text-align: justify; font-size: 15.5px" [innerHTML]="item.texto4"></p>
-        <br>
-        <ion-img *ngIf="item.imagem5" src="{{item.imagem5}}"></ion-img>
-        <ion-card-subtitle style="text-align: center;" [innerHTML]="item.referenciaImagem5"></ion-card-subtitle>
-        <br>
-        <p *ngIf="item.texto5" style="text-align: justify; font-size: 15.5px" [innerHTML]="item.texto5"></p>
       </app-expandable>
     </ion-card-content>
   </ion-card>
