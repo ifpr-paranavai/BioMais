@@ -134,8 +134,8 @@ export class QuestoesMEG3 {
         alternativa4:
           "Durante a expiração forçada, eliminamos todo o ar presente nos pulmões devido à contração do diafragma, não deixando nenhum ar residual, podendo acarretar na morte, pois a respiração é um processo totalmente voluntário.",
         alternativaCorreta: "1",
-        feedBackImagem: "",
-        feedBackLegendaImagem: "",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "Na expiração (saída de ar dos pulmões), o processo é o oposto: diafragma relaxa e sobe, os músculos intercostais externos relaxam e abaixam as costelas, proporcionando uma diminuição do volume da caixa torácica e forçando o ar a sair dos pulmões.",
       },

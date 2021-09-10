@@ -72,6 +72,10 @@ const routes: Routes = [
   {
     path: 'sistema-endocrino',
     loadChildren: () => import('./sistema-endocrino/sistema-endocrino.module').then( m => m.SistemaEndocrinoPageModule)
+  },
+  {
+    path: 'feedbacknew',
+    loadChildren: () => import('./feedbacknew/feedbacknew.module').then( m => m.FeedbacknewPageModule)
   }
 
 

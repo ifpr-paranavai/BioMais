@@ -4,7 +4,7 @@ const nav = document.querySelector('ion-nav'); // possivel solução para o navC
 import { AlertController } from '@ionic/angular';
 import { ModalController } from '@ionic/angular';
 import { Tab1Page } from '../tab1/tab1.page';
-import { FeedbackPage } from '../feedback/feedback';
+import { FeedbacknewPage } from '../feedbacknew/feedbacknew.page';
 
 /*
   Generated class for the QuestaoMultiplaEscolha page.
@@ -65,16 +65,16 @@ export class QuestaoMultiplaEscolhaPage {
     verificar() {
 
         if (this.arraysIguais(this.verificarMarcadas(), this.questao.alternativaCorreta)) {
-            console.log("Parabéns, você acertou");
+          //  console.log("Parabéns, você acertou");
             Tab1Page.quantidadeQuestoesConsecutivas++;
             Tab1Page.acerto++;
             this.presentLoadingCustomSucesso();
             this.feedback();
             //this.home.continuar();
         } else {
-            console.log("Você errou :(");
+         //   console.log("Você errou :(");
             if (this.tentativas == 0) {
-                console.log("Você tem " + this.tentativas + " tentativas");
+              //  console.log("Você tem " + this.tentativas + " tentativas");
                 Tab1Page.quantidadeQuestoesConsecutivas = -1;
                 this.presentLoadingCustomErro();
                 this.feedback();
@@ -116,9 +116,9 @@ export class QuestaoMultiplaEscolhaPage {
         let feedBackTexto = this.questao.feedBackTexto;
         
         const modal = await this.modalController.create({
-            component: FeedbackPage,
+            component: FeedbacknewPage,
             cssClass: 'my-custom-class',
-            componentProps: {"home": this.home, 'questaoFeedBack': feedBackImagem, feedBackTexto}
+            componentProps: {"home": this.home, "imagem": feedBackImagem, "texto":feedBackTexto}
             
         });
         return await modal.present();
@@ -151,7 +151,7 @@ export class QuestaoMultiplaEscolhaPage {
 
         loading.onDidDismiss(() => {
             this.feedbackPrimeiraTentativa();
-            console.log('Dismissed loading');
+           // console.log('Dismissed loading');
         });
 
         loading.present();
@@ -187,7 +187,7 @@ export class QuestaoMultiplaEscolhaPage {
         await loading.present();
 
         const {role, data} = await loading.onDidDismiss();
-        console.log("Loading Erro", role)
+        //("Loading Erro", role)
     }
 
     async presentLoadingCustomSucesso() {
@@ -200,7 +200,7 @@ export class QuestaoMultiplaEscolhaPage {
         await loading.present();
 
         const {role, data} = await loading.onDidDismiss();
-        console.log("ta pegand", role) 
+        //console.log("ta pegand", role) 
     }
 
     presentToast(mensagem) {

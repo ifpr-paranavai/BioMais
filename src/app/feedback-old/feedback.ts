@@ -20,8 +20,8 @@ import { ModalController } from '@ionic/angular';
       this.imagem = navParams.get("imagem");
       this.texto = navParams.get("texto");
 
-      console.log("TEXT "+this.texto);
-      console.log("IMG "+this.imagem);
+     // console.log("TEXT "+this.texto);
+      //console.log("IMG "+this.imagem);
       this.chamada = 0;
     }
 

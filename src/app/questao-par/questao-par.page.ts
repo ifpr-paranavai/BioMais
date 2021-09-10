@@ -3,7 +3,7 @@ import { NavController, NavParams, ToastController, AlertController, LoadingCont
 const nav = document.querySelector('ion-nav'); // possivel solução para o navController
 import { Tab1Page } from '../tab1/tab1.page';
 
-import { FeedbackPage } from '../feedback/feedback';
+import { FeedbacknewPage } from '../feedbacknew/feedbacknew.page';
 
 @Component({
     selector: 'page-questao-par',
@@ -233,9 +233,9 @@ export class QuestaoParPage {
         let feedBackTexto = this.questao.feedBackTexto;
 
         const modal = await this.modalController.create({
-            component: FeedbackPage,
+            component: FeedbacknewPage,
             cssClass: 'my-custom-class',
-            componentProps: { "home": this.home, 'questaoFeedBack': feedBackImagem, feedBackTexto }
+            componentProps: {"home": this.home, "imagem": feedBackImagem, "texto":feedBackTexto}
 
         });
         return await modal.present();
@@ -244,7 +244,7 @@ export class QuestaoParPage {
 
     feedbackOld() {
         this.navCtrl.pop();
-        nav.push(FeedbackPage, { 'home': this.home, 'imagem': this.questao.feedBackImagem });
+        nav.push(FeedbacknewPage, { 'home': this.home, 'imagem': this.questao.feedBackImagem });
         /*
           let alert = this.alertCtrl.create();
           alert.setTitle('Vamos aprender mais!!');

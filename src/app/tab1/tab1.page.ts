@@ -20,7 +20,7 @@ import { ModalController } from '@ionic/angular';
 import { QuestaoMultiplaEscolhaPage } from '../questao-multipla-escolha/questao-multipla-escolha.page';
 import { QuestaoParPage } from '../questao-par/questao-par.page';
 import { SucessoPage } from '../sucesso/sucesso';
-import { FeedbackPage } from '../feedback/feedback';
+import { FeedbacknewPage } from '../feedbacknew/feedbacknew.page';
 
 import { QuestoesMEG1 } from '../models/questoes-me/QuestoesMEG1';
 import { QuestoesMEG2 } from '../models/questoes-me/QuestoesMEG2';
@@ -182,7 +182,7 @@ export class Tab1Page {
 
 
     chamarQuestao(tipo) {
-        console.log(tipo);
+        //console.log(tipo);
 
         switch (tipo) {
             case 'par':
@@ -511,12 +511,12 @@ export class Tab1Page {
 
             this.quantidadeTotalPontos += Tab1Page.quantidadePontos + Tab1Page.quantiadePontosRecompensaQuestoesConsecutivas;
 
-            console.log("Fim!, foram acumulados " + Tab1Page.quantidadePontos + " pontos");
+            //console.log("Fim!, foram acumulados " + Tab1Page.quantidadePontos + " pontos");
 
 
 
         } else {
-            console.log("terminou as questões, finalizar");
+            //console.log("terminou as questões, finalizar");
             //this.navCtrl.push(SucessoPage);
             const modal = await this.modalController.create({
                 component: SucessoPage,
@@ -624,7 +624,7 @@ export class Tab1Page {
             for(let x=0; x<20; x++){
                 this.questoesSelecionadasNovaImplementacao.push(questoesNovas[x]);
             }
-            console.log("AAAAAAAAAAAAAAAAA TO VIVO");
+           /// console.log("AAAAAAAAAAAAAAAAA TO VIVO");
             this.continuar();
         }
         else if(grupo == 2){
@@ -717,7 +717,7 @@ export class Tab1Page {
             }
             this.continuar();
         }
-        console.log("grupo "+ grupo + "selecionado");
+        //console.log("grupo "+ grupo + "selecionado");
     }
 
     //--------------------------------------------------------------------------------------------------------
@@ -736,7 +736,7 @@ export class Tab1Page {
 
             this.questoesSelecionadas = this.embaralharArray(this.questoesSelecionadas);
 
-            console.log("Foram embaralhadas " + this.questoesSelecionadas.length + " questões");
+           // console.log("Foram embaralhadas " + this.questoesSelecionadas.length + " questões");
     
     
             Tab1Page.quantidadeQuestoesConsecutivas = 0;
@@ -745,7 +745,7 @@ export class Tab1Page {
             this.quantidadeQuestoesResolvidas = 0;
     
             Tab1Page.acerto = 0;
-            console.log("Dentro do grupo " + grupo);
+           // console.log("Dentro do grupo " + grupo);
     
             this.continuar();
 

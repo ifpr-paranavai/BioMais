@@ -61,8 +61,8 @@ export class QuestoesMEG6 {
         alternativa6:
           "Uma das funções do sistema esquelético consiste na manutenção da homeostasia mineral no organismo, uma vez os ossos armazenam minerais como cálcio e fósforo e, conforme a necessidade, liberam na corrente sanguínea, mantendo o equilíbrio mineral essencial.",
         alternativaCorreta: "2,3,5,6",
-        feedBackImagem: "",
-        feedBackLegendaImagem: "",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "- Produção de células sanguíneas (hematopoiese), como hemácias, leucócitos e plaquetas, que ocorre no interior de alguns ossos, na medula óssea vermelha.<br/>- Fornecer suporte corporal, sustentando tecidos moles, e assistência ao movimento, sendo ponto de apoio para a ação da maioria dos tendões e músculos esqueléticos.<br/>- Proteger os órgãos internos contra possíveis lesões, como ossos do crânio e caixa torácica.<br/>- Manutenção da homeostasia mineral no organismo, uma vez os ossos armazenam minerais como cálcio e fósforo e, conforme a necessidade, liberam na corrente sanguínea, mantendo o equilíbrio mineral essencial.",
       },
