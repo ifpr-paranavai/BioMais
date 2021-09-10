@@ -53,7 +53,27 @@ const routes: Routes = [
   {
     path: 'questao-par',
     loadChildren: () => import('./questao-par/questao-par.module').then( m => m.QuestaoParPageModule)
+  },  {
+    path: 'sistema-reprodutor-feminino',
+    loadChildren: () => import('./sistema-reprodutor-feminino/sistema-reprodutor-feminino.module').then( m => m.SistemaReprodutorFemininoPageModule)
+  },
+  {
+    path: 'sistema-reprodutor-masculino',
+    loadChildren: () => import('./sistema-reprodutor-masculino/sistema-reprodutor-masculino.module').then( m => m.SistemaReprodutorMasculinoPageModule)
+  },
+  {
+    path: 'fecundacao-contracepcao',
+    loadChildren: () => import('./fecundacao-contracepcao/fecundacao-contracepcao.module').then( m => m.FecundacaoContracepcaoPageModule)
+  },
+  {
+    path: 'sistem-muscular',
+    loadChildren: () => import('./sistem-muscular/sistem-muscular.module').then( m => m.SistemMuscularPageModule)
+  },
+  {
+    path: 'sistema-endocrino',
+    loadChildren: () => import('./sistema-endocrino/sistema-endocrino.module').then( m => m.SistemaEndocrinoPageModule)
   }
+
 
 ];
 @NgModule({

@@ -28,5 +28,11 @@ export class Tab2Page {
   chamarReprodutor(){
     this.router.navigate(['reprodutor'])
   }
+  chamarMuscular(){
+    this.router.navigate(['sistem-muscular'])
+  }
+  chamarEndocrino(){
+    this.router.navigate(['sistema-endocrino'])
+  }
 
 }
