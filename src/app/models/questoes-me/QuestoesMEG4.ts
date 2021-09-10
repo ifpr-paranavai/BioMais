@@ -76,7 +76,9 @@ export class QuestoesMEG4 {
         alternativa3:
           "A micção é um processo exclusivamente voluntário, controlado por hormônios como a angiotensina e o glucagon.",
         alternativa4: "",
+
         alternativaCorreta: "1",
+        alternativaCorreta: "",
         feedBackImagem: "",
         feedBackLegendaImagem: "",
         feedBackTexto: "",

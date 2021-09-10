@@ -21,12 +21,12 @@ export class Tab3Page {
           role: 'cancel',
           cssClass: 'secondary',
           handler: (blah) => {
-            console.log('Não comprou :(');
+           /// console.log('Não comprou :(');
           }
         }, {
           text: 'Comprar',
           handler: () => {
-            console.log('Habilitado :D');
+           // console.log('Habilitado :D');
           }
         }
       ]
@@ -38,7 +38,7 @@ export class Tab3Page {
 
   alteradorCores() {
     document.getElementById("testando").style.backgroundColor = "purple";
-    console.log('é pra ter alterado a cor')
+   // console.log('é pra ter alterado a cor')
   }
 
 

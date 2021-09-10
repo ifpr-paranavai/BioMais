@@ -10,7 +10,7 @@
     <h3>{{questao.enunciado}}</h3>
   <!--   <h5>A correta é a {{questao.alternativaCorreta}}</h5> -->
     <div class="boxImg">
-        <img style="width: 100%" *ngIf="questao.imagem != ''" [src]="questao.imagem" />
+        <img style="width: 100%" *ngIf="questao.imagem && questao.imagem.trim().toUpperCase() != 'SEM'" [src]="questao.imagem.includes('gif')?'assets/imagens/questoes/'+questao.imagem+'.gif':'assets/imagens/questoes/'+questao.imagem+'.png'" />
     </div>
     <br />
     <span *ngFor="let alter of alternativas">

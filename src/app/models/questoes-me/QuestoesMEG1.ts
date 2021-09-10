@@ -273,7 +273,9 @@ export class QuestoesMEG1 {
         alternativa3:
           "Pacientes com disfunção desta estrutura geralmente apresentam icterícia e hepatite.",
         alternativa4: "",
+
         alternativaCorreta: "3",
+        alternativaCorreta: "",
         feedBackImagem: "",
         feedBackLegendaImagem: "",
         feedBackTexto: "",
