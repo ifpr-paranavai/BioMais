@@ -2,6 +2,29 @@
 
     <ion-toolbar color="light">
         <ion-title color="success" slot="end">{{totalPontos}} BioPontos</ion-title>
+        <ion-grid>
+            <ion-row>
+                <ion-col>
+                    <div style="border-left: 20px;">
+                        <img style="width: 20%; float:left;" [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>0?1:0.1}"
+                            src="assets/imagens/coracao.png" /> 
+
+                            <img style="width: 20%; float:left;" [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>1?1:0.1}"
+                            src="assets/imagens/coracao.png" /> 
+
+                            <img style="width: 20%; float:left;" [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>2?1:0.1}"
+                            src="assets/imagens/coracao.png" /> 
+
+                            <img style="width: 20%; float:left;" [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>3?1:0.1}"
+                            src="assets/imagens/coracao.png" /> 
+
+                            <img style="width: 20%; float:left;" [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>4?1:0.1}"
+                            src="assets/imagens/coracao.png" /> 
+                        </div>
+
+                </ion-col>
+            </ion-row>
+        </ion-grid>
     </ion-toolbar>
 
 </ion-header>
@@ -10,18 +33,18 @@
 <ion-content padding>
     <div class="fundos">
 
-        <h3>{{questao.enunciado}}</h3>
+        <div style="margin-left: 10px; margin-right: 10px;"><h5 style="text-align: justify">{{questao.enunciado}}</h5></div>
         <div class="boxImg">
             <img style="width: 100%" *ngIf="questao.imagem && questao.imagem.trim().toUpperCase() != 'SEM'" [src]="questao.imagem.includes('gif')?'assets/imagens/questoes/'+questao.imagem+'.gif':'assets/imagens/questoes/'+questao.imagem+'.png'" />
         </div>
         <br/>
-        <div style="text-align: center">
+        <div style="text-align: center"> 
 
         </div>
 
         <div style="text-align: center">
             <span *ngFor="let par of pares">
-      <button style="margin: 5px;border-radius: 10px" [disabled]="par.desabilitar" class="botaoPares" (click)="botaoPrecionadoNovo(par)" [ngStyle]="{'background-color': par.corBorda}" id="close-image"> <div *ngIf="par.imagem != ''" class="boxImg"><img *ngIf="par.imagem.trim().toUpperCase() != 'SEM'" [src]="par.imagem.includes('gif')?'assets/imagens/questoes/'+par.imagem+'.gif':'assets/imagens/questoes/'+par.imagem+'.png'"/></div><h5>{{par.descricao}}</h5></button>
+      <button style="margin: 5px;border-radius: 10px" [disabled]="par.desabilitar" class="botaoPares" (click)="botaoPrecionadoNovo(par)" [ngStyle]="{'background-color': par.corBorda}" id="close-image"> <div *ngIf="(par.imagem && par.imagem != '') || par.descricao.includes('img')" class="boxImg"><img *ngIf="(par.imagem && par.imagem.trim().toUpperCase() != '' && par.imagem.trim().toUpperCase() != 'SEM')|| par.descricao.includes('img')" [src]="par.descricao.includes('gif')?'assets/imagens/questoes/'+par.descricao+'.gif':'assets/imagens/questoes/'+par.descricao+'.png'"/></div><h5 *ngIf="!par.descricao.includes('img')">{{par.descricao}}</h5></button>
     </span>
 
         </div>

@@ -275,8 +275,7 @@ export class QuestoesMEG1 {
         alternativa4: "",
 
         alternativaCorreta: "3",
-        alternativaCorreta: "",
-        feedBackImagem: "",
+        feedBackImagem: "SEM",
         feedBackLegendaImagem: "",
         feedBackTexto: "",
       },

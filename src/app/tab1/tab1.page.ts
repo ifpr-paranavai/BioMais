@@ -13,7 +13,7 @@ Atuais problemas
 import { Component } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 
-import { NavController, ToastController, AlertController, Platform } from '@ionic/angular';
+import { NavController, ToastController, AlertController, Platform, LoadingController } from '@ionic/angular';
 const nav = document.querySelector('ion-nav'); // possivel solução para o navController
 import { ModalController } from '@ionic/angular';
 
@@ -44,10 +44,11 @@ import { QuestoesTPG8 } from '../models/questoes-tp/QuestoesTPG8';
 import { QuestoesTPG9 } from '../models/questoes-tp/QuestoesTPG9';
 import { QuestoesTPG10 } from '../models/questoes-tp/QuestoesTPG10';
 
+import {Pontuacao} from '../models/pontuacao';
+
 
 import { IonicStorageModule } from '@ionic/storage';
 import { Storage } from '@ionic/storage';
-import { LoadingController } from '@ionic/angular';
 import { timeoutWith } from 'rxjs-compat/operator/timeoutWith';
 
 export function continuar() {}
@@ -88,22 +89,23 @@ export class Tab1Page {
     private questoesSelecionadas = [];
     private questoesSelecionadasNovaImplementacao = [];
 
-    public static acerto = 0;
+    
 
     private quantidadeQuestaoResolver = 3;
     private quantidadeQuestoesResolvidas = 0;
     private questoesMultiplaGrupoSelecionado = [];
     private questoesParesGrupoSelecionado = [];
 
-    public static quantidadeQuestoesConsecutivas = 0;
-    public static quantiadePontosRecompensaQuestoesConsecutivas = 0;
-    public static quantidadePontos = 0;
+    
+    
+    
     public static quantidadePontosDia;
     //public static usuarioLogado={resolvidog1:"", nome:""};
     public quantidadeTotalPontos = 0;
-
+    private pontuacao=Pontuacao.getInstance();
 
     constructor(
+        public loadingCtrl: LoadingController,
         private questoesMEG1: QuestoesMEG1,
         private questoesMEG2: QuestoesMEG2,
         private questoesMEG3: QuestoesMEG3,
@@ -134,6 +136,7 @@ export class Tab1Page {
         private platform: Platform,
         public navCtrl: NavController) {
 
+            //console.log("AAAAAA");
         this.questoesMultiplaEscolhaG1 = questoesMEG1.getQuestoes();
         this.questoesMultiplaEscolhaG2 = questoesMEG2.getQuestoes();
         this.questoesMultiplaEscolhaG8 = questoesMEG3.getQuestoes();
@@ -155,6 +158,16 @@ export class Tab1Page {
         this.questoesToqueParesG8 = questoesTPG8.getQuestoes();
         this.questoesToqueParesG9 = questoesTPG9.getQuestoes();
         this.questoesToqueParesG10 = questoesTPG10.getQuestoes();
+
+        
+      this.storage.get('totalPontos').then((val) => {
+        let total=0;
+        if(val!=null && val!=undefined){
+            total = parseFloat(val);
+        }
+        this.pontuacao.quantidadeTotalPontos=total;
+       
+      });
 
     }
 
@@ -473,17 +486,40 @@ export class Tab1Page {
     }
 
     //--------------------------------------------------------------------------------------------------------
+    async maisPontos() {
+
+        const loading = await this.loadingCtrl.create({
+            spinner: null,
+            message: `
+      <div >
+        <h3>Parabéns, você ganhou mais 10 pontos!!</h3>
+      </div>`,
+            duration: 1000
+        });
+        await loading.present();
+
+        const {role, data} = await loading.onDidDismiss();
+        //("Loading Erro", role)
+    }
 
 
     async continuar() {
         let questaoSelecionada = this.retornaQuestaoAleatoriamenteNovaImplementacao();
 
+        if (this.pontuacao.acerto == 1) {
+            this.pontuacao.quantidadePontos += 10;
+        }
+
+        if(this.pontuacao.quantidadeQuestoesConsecutivas>4){
+            this.maisPontos();
+            this.pontuacao.quantidadePontos += 10;
+            this.pontuacao.quantidadeQuestoesConsecutivas=-1;
+        }
+        this.pontuacao.acerto = 0;
+
         if (questaoSelecionada != undefined) {
             //verificar
-            if (Tab1Page.acerto == 1) {
-                Tab1Page.quantidadePontos += 10;
-            }
-            Tab1Page.acerto = 0;
+        
 
             if (questaoSelecionada.modelo == 1 || questaoSelecionada.modelo == 3) {
 
@@ -509,7 +545,7 @@ export class Tab1Page {
 
             }
 
-            this.quantidadeTotalPontos += Tab1Page.quantidadePontos + Tab1Page.quantiadePontosRecompensaQuestoesConsecutivas;
+            this.quantidadeTotalPontos += this.pontuacao.quantidadePontos + this.pontuacao.quantiadePontosRecompensaQuestoesConsecutivas;
 
             //console.log("Fim!, foram acumulados " + Tab1Page.quantidadePontos + " pontos");
 
@@ -616,10 +652,15 @@ export class Tab1Page {
 
     iniciarResolucao(grupo) {
         this.questoesSelecionadasNovaImplementacao = [];
+        this.quantidadeQuestoesResolvidas=0;
+        this.pontuacao.acerto=0;
+        this.pontuacao.quantidadePontos=0;
+        this.pontuacao.quantidadeQuestoesConsecutivas=-1;
+        
         if(grupo == 1){
             let questoesNovas = this.shuffle([].concat(this.questoesMultiplaEscolhaG1,this.questoesToqueParesG1));
             questoesNovas = this.shuffle(questoesNovas);
-            questoesNovas = this.shuffle(questoesNovas);
+            //questoesNovas = this.shuffle(questoesNovas);
 
             for(let x=0; x<20; x++){
                 this.questoesSelecionadasNovaImplementacao.push(questoesNovas[x]);
@@ -630,7 +671,7 @@ export class Tab1Page {
         else if(grupo == 2){
             let questoesNovas = this.shuffle([].concat(this.questoesMultiplaEscolhaG2,this.questoesToqueParesG2));
             questoesNovas = this.shuffle(questoesNovas);
-            questoesNovas = this.shuffle(questoesNovas);
+            //questoesNovas = this.shuffle(questoesNovas);
 
             for(let x=0; x<20; x++){
                 this.questoesSelecionadasNovaImplementacao.push(questoesNovas[x]);
@@ -640,7 +681,7 @@ export class Tab1Page {
         else if(grupo == 3){
             let questoesNovas = this.shuffle([].concat(this.questoesMultiplaEscolhaG3,this.questoesToqueParesG3));
             questoesNovas = this.shuffle(questoesNovas);
-            questoesNovas = this.shuffle(questoesNovas);
+            //questoesNovas = this.shuffle(questoesNovas);
 
             for(let x=0; x<20; x++){
                 this.questoesSelecionadasNovaImplementacao.push(questoesNovas[x]);
@@ -650,7 +691,7 @@ export class Tab1Page {
         else if(grupo == 4){
             let questoesNovas = this.shuffle([].concat(this.questoesMultiplaEscolhaG4,this.questoesToqueParesG4));
             questoesNovas = this.shuffle(questoesNovas);
-            questoesNovas = this.shuffle(questoesNovas);
+           // questoesNovas = this.shuffle(questoesNovas);
 
             for(let x=0; x<20; x++){
                 this.questoesSelecionadasNovaImplementacao.push(questoesNovas[x]);
@@ -660,7 +701,7 @@ export class Tab1Page {
         else if(grupo == 5){
             let questoesNovas = this.shuffle([].concat(this.questoesMultiplaEscolhaG5,this.questoesToqueParesG5));
             questoesNovas = this.shuffle(questoesNovas);
-            questoesNovas = this.shuffle(questoesNovas);
+            //questoesNovas = this.shuffle(questoesNovas);
 
             for(let x=0; x<20; x++){
                 this.questoesSelecionadasNovaImplementacao.push(questoesNovas[x]);
@@ -670,7 +711,7 @@ export class Tab1Page {
         else if(grupo == 6){
             let questoesNovas = this.shuffle([].concat(this.questoesMultiplaEscolhaG6,this.questoesToqueParesG6));
             questoesNovas = this.shuffle(questoesNovas);
-            questoesNovas = this.shuffle(questoesNovas);
+            //questoesNovas = this.shuffle(questoesNovas);
 
             for(let x=0; x<20; x++){
                 this.questoesSelecionadasNovaImplementacao.push(questoesNovas[x]);
@@ -680,7 +721,7 @@ export class Tab1Page {
         else if(grupo == 7){
             let questoesNovas = this.shuffle([].concat(this.questoesMultiplaEscolhaG7,this.questoesToqueParesG7));
             questoesNovas = this.shuffle(questoesNovas);
-            questoesNovas = this.shuffle(questoesNovas);
+           // questoesNovas = this.shuffle(questoesNovas);
 
             for(let x=0; x<20; x++){
                 this.questoesSelecionadasNovaImplementacao.push(questoesNovas[x]);
@@ -690,7 +731,7 @@ export class Tab1Page {
         else if(grupo == 8){
             let questoesNovas = this.shuffle([].concat(this.questoesMultiplaEscolhaG8,this.questoesToqueParesG8));
             questoesNovas = this.shuffle(questoesNovas);
-            questoesNovas = this.shuffle(questoesNovas);
+           // questoesNovas = this.shuffle(questoesNovas);
 
             for(let x=0; x<20; x++){
                 this.questoesSelecionadasNovaImplementacao.push(questoesNovas[x]);
@@ -700,7 +741,7 @@ export class Tab1Page {
         else if(grupo == 9){
             let questoesNovas = this.shuffle([].concat(this.questoesMultiplaEscolhaG9,this.questoesToqueParesG9));
             questoesNovas = this.shuffle(questoesNovas);
-            questoesNovas = this.shuffle(questoesNovas);
+           // questoesNovas = this.shuffle(questoesNovas);
 
             for(let x=0; x<20; x++){
                 this.questoesSelecionadasNovaImplementacao.push(questoesNovas[x]);
@@ -710,7 +751,7 @@ export class Tab1Page {
         else if(grupo == 10){
             let questoesNovas = this.shuffle([].concat(this.questoesMultiplaEscolhaG10,this.questoesToqueParesG10));
             questoesNovas = this.shuffle(questoesNovas);
-            questoesNovas = this.shuffle(questoesNovas);
+           // questoesNovas = this.shuffle(questoesNovas);
 
             for(let x=0; x<20; x++){
                 this.questoesSelecionadasNovaImplementacao.push(questoesNovas[x]);
@@ -739,12 +780,12 @@ export class Tab1Page {
            // console.log("Foram embaralhadas " + this.questoesSelecionadas.length + " questões");
     
     
-            Tab1Page.quantidadeQuestoesConsecutivas = 0;
-            Tab1Page.quantidadePontos = 0;
-            Tab1Page.quantiadePontosRecompensaQuestoesConsecutivas = 0;
+           this.pontuacao.quantidadeQuestoesConsecutivas = 0;
+           this.pontuacao.quantidadePontos = 0;
+           this.pontuacao.quantiadePontosRecompensaQuestoesConsecutivas = 0;
             this.quantidadeQuestoesResolvidas = 0;
     
-            Tab1Page.acerto = 0;
+            this.pontuacao.acerto = 0;
            // console.log("Dentro do grupo " + grupo);
     
             this.continuar();

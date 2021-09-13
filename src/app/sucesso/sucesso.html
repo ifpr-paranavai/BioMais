@@ -7,14 +7,24 @@
   </ion-header>
   
   <ion-content padding>
-    <h2 color="primary">Parabéns!!!</h2>
-  <p>  Você fez {{pontos}} pontos!!</p>
-    <div>
-      <p>
-      Por ter respondido {{quantidadeSequencia}} questões consecutivas sem erros você ganhou mais {{pontosSequencia}} pontos.
-    </p>
-    </div>
-    <br/>
-    <h1 color="secondary">Total: {{pontos + pontosSequencia}} PT</h1>
+
+    <ion-grid>
+      <ion-row>
+          <ion-col>
+              <div style="border-left: 20px;">
+                <h2 color="primary">Parabéns!!!</h2>
+                <p>  Você fez {{pontos}} pontos!!</p>
+                  <div>
+              
+                  </div>
+                  <br/>
+                
+                  </div>
+
+          </ion-col>
+      </ion-row>
+  </ion-grid>
+
+    
   
   </ion-content>

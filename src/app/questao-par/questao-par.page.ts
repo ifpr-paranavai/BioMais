@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, ToastController, AlertController, LoadingController, ModalController } from '@ionic/angular';
 const nav = document.querySelector('ion-nav'); // possivel solução para o navController
-import { Tab1Page } from '../tab1/tab1.page';
+
+import {Pontuacao} from '../models/pontuacao';
 
 import { FeedbacknewPage } from '../feedbacknew/feedbacknew.page';
 
@@ -11,7 +12,7 @@ import { FeedbacknewPage } from '../feedbacknew/feedbacknew.page';
     styleUrls: ['questao-par.page.scss']
 })
 export class QuestaoParPage {
-
+    private pontuacao=Pontuacao.getInstance();
   private precionado1;
   private botaoPrecionado1;
   private precionado2;
@@ -31,16 +32,16 @@ export class QuestaoParPage {
   constructor(public modalController: ModalController, public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController, private toastCtrl: ToastController, public loadingCtrl: LoadingController) {
       //this.funcao = params.get("funcao");
       //RECEBER O ID DA QUESTÃO QUE SERÁ ABERTA....
-      this.home = navParams.get("home");
+
       this.precionado1 = false;
       this.precionado2 = false;
-      this.totalPontos = Tab1Page.quantidadePontos;
+      this.totalPontos = this.pontuacao.quantidadePontos;
 
 
         this.erros = 0;
 
         this.questao = navParams.get("questao");
-
+        this.home = navParams.get("home");
 
 
         if (this.questao.modelo == 3) {
@@ -84,9 +85,9 @@ export class QuestaoParPage {
     verificar() {
         //linhas temporárias
         this.navCtrl.pop();
-        this.presentLoadingCustomSucesso();
-        Tab1Page.quantidadeQuestoesConsecutivas++;
-        Tab1Page.acerto++;
+        this.presentLoadingCustomSucesso();        
+        this.pontuacao.quantidadeQuestoesConsecutivas++;
+        this.pontuacao.acerto++;
         
     }
 
@@ -149,7 +150,7 @@ export class QuestaoParPage {
 
                     } else {
                         //errou
-                        console.log("ERROU")
+                       // console.log("ERROU")
                         this.erros += 1;
 
                         item.corBorda = "#d9534f";
@@ -173,7 +174,7 @@ export class QuestaoParPage {
                     if (this.erros == 1) {
                         //mostrar a mensagem informado que tem apenas um erro....
                         //console.log("Um erro, tem mais uma chance");
-                        Tab1Page.quantidadeQuestoesConsecutivas = -1;
+                        this.pontuacao.quantidadeQuestoesConsecutivas = -1;
                         this.mostraErroPrimeiraTentativa();
                         //this.mostraErroPrimeiraTentativa();
                     }
@@ -228,7 +229,7 @@ export class QuestaoParPage {
     }
 
     async feedback() { // TEM Q ARRUMAR ISSO
-
+        this.modalController.dismiss();
         let feedBackImagem = this.questao.feedBackImagem;
         let feedBackTexto = this.questao.feedBackTexto;
 
@@ -238,6 +239,9 @@ export class QuestaoParPage {
             componentProps: {"home": this.home, "imagem": feedBackImagem, "texto":feedBackTexto}
 
         });
+       // alert("asd")
+        
+        
         return await modal.present();
     }
 

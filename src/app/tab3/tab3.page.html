@@ -5,8 +5,8 @@
     </ion-title>
 
     <ion-title color="dark" slot="end">
-      50
-    <ion-icon name="body"></ion-icon>
+      {{pontuacao.quantidadeTotalPontos}} Bio Pontos
+    
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -16,22 +16,22 @@
   <ion-row></ion-row>
 
 <ion-grid>   <!-- Botão pra alterar as cores -->
-    <ion-button (click)="alteradorCores()" style="height: 45px;" expand="block" color="success">   
+  <!--   <ion-button (click)="alteradorCores()" style="height: 45px;" expand="block" color="success">   
       <ion-label style="padding-right:75%;">Cores</ion-label>
       <ion-icon name="chevron-down-outline"></ion-icon>
-    </ion-button>
+    </ion-button> -->
     
 
     <ion-col></ion-col> <!-- Serve para dar espaço entre os cards -->
 
 
   <ion-row>
-    <ion-col>
+   <!--  <ion-col>
       <ion-button style="height: 45px;" expand="block" color="tertiary">
           <ion-label style="padding-right:45%;">Ícone</ion-label>
           <ion-icon name="leaf-sharp"></ion-icon>
       </ion-button>
-    </ion-col>
+    </ion-col> -->
 
     <ion-col>
       <ion-button style="height: 45px;" expand="block" color="dark">
@@ -42,29 +42,29 @@
   </ion-row>
 
 
-  <ion-card>
+ <!--  <ion-card>
     <ion-item color="medium">
       <ion-label>Tema</ion-label>
       <ion-icon name="sunny"></ion-icon>
       <ion-toggle color="dark"></ion-toggle>
       <ion-icon name="sunny-outline"></ion-icon>
     </ion-item>
-  </ion-card>
+  </ion-card> -->
 
 <ion-col></ion-col>
 
-  <ion-card>
+<!--   <ion-card>
     <ion-item color="danger">
       <ion-label>Desbloquear Segredo</ion-label>
       <ion-icon name="lock-closed" color="warning"></ion-icon>
     </ion-item>
   </ion-card>
-
+ -->
 </ion-grid>
 
 <ion-col></ion-col>
 
-<ion-grid> <!-- icones -->
+<!-- <ion-grid>
   <ion-row nowrap>
 
     <ion-col>
@@ -100,7 +100,7 @@
   </ion-row>
 
 
-  <ion-row nowrap> <!-- icones 2 -->
+  <ion-row nowrap> 
 
     <ion-col>
       <ion-fab-button size="large" fab-fixed color="success">
@@ -133,7 +133,7 @@
     </ion-col>
 
   </ion-row>
-</ion-grid>
+</ion-grid> -->
 
 
 

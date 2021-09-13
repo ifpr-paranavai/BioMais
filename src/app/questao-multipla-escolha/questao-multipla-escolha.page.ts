@@ -3,7 +3,7 @@ import { NavController, NavParams, ToastController, LoadingController } from '@i
 const nav = document.querySelector('ion-nav'); // possivel solução para o navController
 import { AlertController } from '@ionic/angular';
 import { ModalController } from '@ionic/angular';
-import { Tab1Page } from '../tab1/tab1.page';
+import {Pontuacao} from '../models/pontuacao';
 import { FeedbacknewPage } from '../feedbacknew/feedbacknew.page';
 
 /*
@@ -21,6 +21,7 @@ import { FeedbacknewPage } from '../feedbacknew/feedbacknew.page';
 export class QuestaoMultiplaEscolhaPage {
     //private home;
     //private questao;
+    private pontuacao=Pontuacao.getInstance();
     private alternativaSelecionada;
     private tentativas = 0;
     private totalPontos;
@@ -31,7 +32,7 @@ export class QuestaoMultiplaEscolhaPage {
     private corAlternativa5 = "#F0E68C";
     private corAlternativa6 = "#F0E68C";
     private alternativas;
-    @Input() home: Tab1Page;
+    private home;
     @Input() questao: {feedBackTexto:"", feedBackImagem: "", alternativaCorreta: "", alternativa1: "", alternativa2: "", alternativa3: "", alternativa4: "", alternativa5: "", alternativa6: "" }
 
 
@@ -39,7 +40,7 @@ export class QuestaoMultiplaEscolhaPage {
         this.home = navParams.get("home");
         this.questao = navParams.get("questao");
         this.tentativas = 0;
-        this.totalPontos = Tab1Page.quantidadePontos;
+        this.totalPontos = this.pontuacao.quantidadePontos;
 
         this.alternativas = [{ "alernativa": 1, "corBorda": "#F0E68C", "texto": this.questao.alternativa1 },
         { "alernativa": 2, "corBorda": "#F0E68C", "texto": this.questao.alternativa2 },
@@ -66,8 +67,8 @@ export class QuestaoMultiplaEscolhaPage {
 
         if (this.arraysIguais(this.verificarMarcadas(), this.questao.alternativaCorreta)) {
           //  console.log("Parabéns, você acertou");
-            Tab1Page.quantidadeQuestoesConsecutivas++;
-            Tab1Page.acerto++;
+          this.pontuacao.quantidadeQuestoesConsecutivas++;
+          this.pontuacao.acerto++;
             this.presentLoadingCustomSucesso();
             this.feedback();
             //this.home.continuar();
@@ -75,7 +76,7 @@ export class QuestaoMultiplaEscolhaPage {
          //   console.log("Você errou :(");
             if (this.tentativas == 0) {
               //  console.log("Você tem " + this.tentativas + " tentativas");
-                Tab1Page.quantidadeQuestoesConsecutivas = -1;
+              this.pontuacao.quantidadeQuestoesConsecutivas = -1;
                 this.presentLoadingCustomErro();
                 this.feedback();
 
@@ -106,21 +107,23 @@ export class QuestaoMultiplaEscolhaPage {
         if (this.alternativas[5].corBorda == "#5cb85c") {
             marcadas.push(6);
         }
+        
         return marcadas;
     }
 
 
     async feedback() { // TEM Q ARRUMAR ISSO
-
+        this.modalController.dismiss();
         let feedBackImagem = this.questao.feedBackImagem;
         let feedBackTexto = this.questao.feedBackTexto;
         
         const modal = await this.modalController.create({
             component: FeedbacknewPage,
             cssClass: 'my-custom-class',
-            componentProps: {"home": this.home, "imagem": feedBackImagem, "texto":feedBackTexto}
+            componentProps: {"home":this.home,"imagem": feedBackImagem, "texto":feedBackTexto}
             
         });
+        
         return await modal.present();
     }
 
@@ -222,11 +225,15 @@ export class QuestaoMultiplaEscolhaPage {
 
 
     arraysIguais(a, b) {
+        a=a.toString();
+        b=b.toString();
+        //alert(a);
+        //alert(b);
         var i = a.length;
         if (i != b.length) return false;
         while (i--) {
-            if (a[i] !== b[i]) return false;
-        }
+            if (a[i] != b[i]) return false;
+        }       
         return true;
     };
 

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AlertController } from '@ionic/angular';
+import { Pontuacao } from '../models/pontuacao';
 
 @Component({
   selector: 'app-tab3',
@@ -7,7 +8,7 @@ import { AlertController } from '@ionic/angular';
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page {
-
+  private pontuacao=Pontuacao.getInstance();
   constructor(public alertController:AlertController) {}
 
   async alertaPrimata() {

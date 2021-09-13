@@ -1,7 +1,6 @@
 import { Component, OnInit,  Input} from '@angular/core';
 import { NavController, NavParams, ToastController, LoadingController } from '@ionic/angular';
 const nav = document.querySelector('ion-nav');
-import { Tab1Page } from '../tab1/tab1.page';
 import { QuestaoMultiplaEscolhaPage } from '../questao-multipla-escolha/questao-multipla-escolha.page';
 import { ModalController } from '@ionic/angular';
 
@@ -12,7 +11,7 @@ import { ModalController } from '@ionic/angular';
 })
 export class FeedbacknewPage {
 
-  @Input() home: Tab1Page;
+  @Input() home;
   @Input() imagem;
   @Input() texto;
   private chamada;
@@ -27,6 +26,8 @@ export class FeedbacknewPage {
   }
 
   async continuar(){
+    this.modalController.dismiss();
     this.home.continuar();
+ 
   } 
 }

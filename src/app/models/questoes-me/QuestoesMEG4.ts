@@ -78,8 +78,7 @@ export class QuestoesMEG4 {
         alternativa4: "",
 
         alternativaCorreta: "1",
-        alternativaCorreta: "",
-        feedBackImagem: "",
+        feedBackImagem: "SEM",
         feedBackLegendaImagem: "",
         feedBackTexto: "",
       },

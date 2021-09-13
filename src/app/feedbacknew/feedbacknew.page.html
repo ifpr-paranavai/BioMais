@@ -7,7 +7,7 @@
 </ion-header>
 <ion-content padding>
   <ion-img *ngIf="imagem && imagem.trim().toUpperCase() != 'SEM'" [src]="imagem.includes('gif')?'assets/imagens/feedback/'+imagem+'.gif':'assets/imagens/feedback/'+imagem+'.png'" ></ion-img>
-  <p>{{texto}}</p>
+  <div style="margin-left: 10px; margin-right: 10px;"><h5 style="text-align: justify" [innerHTML]="texto"></h5></div>
 </ion-content>
 
 <ion-footer>
