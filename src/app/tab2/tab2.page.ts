@@ -34,5 +34,14 @@ export class Tab2Page {
   chamarEndocrino(){
     this.router.navigate(['sistema-endocrino'])
   }
+  chamarNervoso(){
+    this.router.navigate(['sistema-nervoso'])
+  }
+  chamarEsqueletico(){
+    this.router.navigate(['sistema-esqueletico'])
+  }
+  chamarSentidos(){
+    this.router.navigate(['sentidos'])
+  }
 
 }

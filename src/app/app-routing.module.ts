@@ -72,6 +72,30 @@ const routes: Routes = [
   {
     path: 'sistema-endocrino',
     loadChildren: () => import('./sistema-endocrino/sistema-endocrino.module').then( m => m.SistemaEndocrinoPageModule)
+  },
+  {
+    path: 'sistema-nervoso',
+    loadChildren: () => import('./sistema-nervoso/sistema-nervoso.module').then( m => m.SistemaNervosoPageModule)
+  },
+  {
+    path: 'tecido-nervoso',
+    loadChildren: () => import('./tecido-nervoso/tecido-nervoso.module').then( m => m.TecidoNervosoPageModule)
+  },
+  {
+    path: 'nervoso-central',
+    loadChildren: () => import('./nervoso-central/nervoso-central.module').then( m => m.NervosoCentralPageModule)
+  },
+  {
+    path: 'nervoso-periferico',
+    loadChildren: () => import('./nervoso-periferico/nervoso-periferico.module').then( m => m.NervosoPerifericoPageModule)
+  },
+  {
+    path: 'sistema-esqueletico',
+    loadChildren: () => import('./sistema-esqueletico/sistema-esqueletico.module').then( m => m.SistemaEsqueleticoPageModule)
+  },
+  {
+    path: 'sentidos',
+    loadChildren: () => import('./sentidos/sentidos.module').then( m => m.SentidosPageModule)
   }
 
 
