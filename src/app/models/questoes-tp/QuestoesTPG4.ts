@@ -331,7 +331,7 @@ export class QuestoesTPG4 {
         feedBackImagem: "feedback2m3uri",
         feedBackLegendaImagem:
           "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
-        feedBackTexto: "Sem",
+        feedBackTexto: "SEM",
       },
     ];
   }

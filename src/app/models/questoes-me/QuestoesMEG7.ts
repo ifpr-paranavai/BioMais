@@ -36,8 +36,8 @@ export class QuestoesMEG7 {
         alternativa6:
           "Geração de calor, de modo que, com a contração muscular o músculo produz calor por meio de um processo denominado termogênese, que é utilizado para manter a temperatura normal do corpo.",
         alternativaCorreta: "1,3,4,6",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "Dentre as principais funções dos músculos do corpo humano (tecido muscular liso, estriado esquelético e estriado cardíaco), destacam-se:<br/>Efetuação de movimentos corporais resultantes de contrações musculares, a partir do funcionamento integrado entre músculos esqueléticos, ossos e articulações.<br/>Estabilização das posições do corpo, como ficar em pé ou sentado, por exemplo, de modo que os músculos posturais se contraem de forma contínua quando estamos acordados, o que chamamos de tônus muscular.<br/>Armazenamento e movimentação de substâncias no corpo, como por exemplo: manutenção de alimento no estômago pelos esfíncteres, bombeamento de sangue pelo músculo cardíaco e ajuda no retorno do sangue venoso para o coração pela contração de músculos esqueléticos.<br/>Geração de calor, de modo que, com a contração muscular o músculo produz calor por meio de um processo denominado termogênese, que é utilizado para manter a temperatura normal do corpo.",
       },
@@ -61,8 +61,8 @@ export class QuestoesMEG7 {
         alternativa6:
           "Durante um exercício físico muito intenso, as células produzem ATP por meio da fermentação láctica, sendo esta a primeira alternativa de produção de energia, passando a realizar a respiração aeróbia apenas em situações em que há quantidade insuficiente de oxigênio chegando aos músculos.",
         alternativaCorreta: "3,4,5",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "A contração muscular ocorre quando os sarcômeros encurtam pelo deslizamento dos filamentos de actina sobre os filamentos de miosina. Esse processo necessita de energia (ATP) e íons de Cálcio.<br/>A contração muscular é um processo que demanda energia, que é obtida pela quebra da molécula de ATP. As células podem produzir ATP realizando respiração aeróbia nas mitocôndrias. (De forma simplificada, a respiração aeróbia é um processo no qual as células utilizam da glicose e oxigênio para produzir energia).<br/>Durante um exercício físico muito intenso, as células podem produzir ATP (de forma alternativa) por meio da fermentação láctica, em situações em que o organismo não realiza respiração aeróbia em decorrência da quantidade insuficiente de oxigênio que chega aos músculos.",
       },
@@ -86,8 +86,8 @@ export class QuestoesMEG7 {
         alternativa6:
           "A contração muscular pode ser isotônica, quando o músculo encurta durante a contração, como no caso dos músculos dos membros inferiores, ou isométrica, quando o músculo não sofre encurtamento durante a contração, como no caso dos músculos que mantém a postura.",
         alternativaCorreta: "1,3,6",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "Os músculos esqueléticos atuam geralmente em duplas, com movimentos antagônicos: o músculo principal que realiza um movimento específico é chamado de agonista, enquanto o músculo que se opõe à ação do agonista, realizando movimento contrário, é denominado músculo antagonista. Assim, quando um músculo agonista se contrai e sofre encurtamento, seu antagonista se alonga, resultando um movimento coordenado. Um exemplo é a flexão do antebraço, onde o bíceps atua como agonista enquanto o tríceps como antagonista.<br/>Vale lembrar que a contração muscular segue a “lei do tudo ou nada”, em que a fibra se contrai totalmente, ou não se contrai. No entanto, o grau de contração de um músculo depende da quantidade de fibras submetidas a estímulos nervosos. Quando o estímulo é fraco, só algumas fibras são estimuladas acarretando uma contração fraca, se o estímulo for forte, muitas fibras são estimuladas resultando uma contração intensa.<br/>A contração muscular pode ser isotônica, quando o músculo encurta durante a contração, como no caso dos músculos dos membros inferiores, ou isométrica, quando o músculo não sofre encurtamento durante a contração, como no caso dos músculos que mantém a postura.",
       },
@@ -282,8 +282,8 @@ export class QuestoesMEG7 {
         alternativa4:
           "A contração muscular ocorre quando as terminações axônicas de um nervo motor, que chegam às fibras musculares e lançam uma substância neurotransmissora, a acetilcolina, que desencadeia o processo de contração.",
         alternativaCorreta: "4",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "A contração muscular ocorre quando as terminações axônicas de um nervo motor, que chegam às fibras musculares e lançam uma substância neurotransmissora, a acetilcolina, em espaços estreitos entre as terminações axônicas do nervo motor e as membranas celulares das fibras musculares.<br/>Essa substância promove alteração no interior das fibras musculares, gerando um potencial de ação envolvendo a liberação de íons de Cálcio e gasto de energia, que acarreta o processo de contração muscular.",
       },
@@ -303,8 +303,8 @@ export class QuestoesMEG7 {
         alternativa4:
           "Durante um exercício físico intenso, a produção de energia não pode ser realizada de forma alternativa por fermentação láctica, que é exclusivo de microrganismos. Contudo, a produção de energia via respiração aeróbia causa dor e intoxicação das fibras musculares.",
         alternativaCorreta: "1",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "Durante um exercício físico intenso, a produção de energia pode ser realizada de forma alternativa por fermentação láctica, na carência de oxigênio. Contudo, esse processo libera ácido lático, cujo acúmulo causa dor e intoxicação das fibras musculares.",
       },
@@ -324,8 +324,8 @@ export class QuestoesMEG7 {
         alternativa4:
           "Quando os músculos se contraem por um longo período de tempo, todas as fibras são estimuladas por ácido lático, o que enrijece a musculatura possibilitando que fique contraída por um longo período de tempo.",
         alternativaCorreta: "3",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "Durante a contração muscular, uma fibra muscular estriada consegue se manter contraída por milésimos de segundos. Contudo, sabe-se que um músculo pode se manter contraído por um longo período de tempo, como quando seguramos um objeto pesado, por exemplo.<br/>Isso ocorre porque: enquanto houver estimulação nervosa, haverá alternância entre as fibras contraídas e relaxadas. Assim, quando as fibras se relaxam, outras se contraem em seu lugar, mantendo um estado permanente de atividade ou tensão muscular.",
       },

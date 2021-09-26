@@ -36,8 +36,8 @@ export class QuestoesMEG10 {
         alternativa6:
           "Todos os receptores sensoriais do sentido do tato estão localizados na epiderme, região que permite maior proximidade do corpo com o objeto tocado.",
         alternativaCorreta: "1,4,5",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "O sentido do tato, diferentemente de outros sentidos, como o olfato e paladar, não se localiza em uma região especifica, mas em praticamente todas as regiões da pele.<br/>A percepção do tato é efetivada por meio de células sensoriais especializadas denominadas mecanorreceptores, capazes de detectar variações de pressão.<br/>Além dos diversos receptores responsáveis pelo tato, a pele também possui células sensoriais especializadas na detecção de dor, aumento e diminuição da temperatura.",
       },
@@ -55,8 +55,8 @@ export class QuestoesMEG10 {
         alternativa5: "Corpúsculo de Meissner e células mitrais.",
         alternativa6: "Células cone e terminações de Paccini.",
         alternativaCorreta: "2,3,4",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "Dentre os principais receptores do tato, encontram-se:<br/>Terminações nervosas livres: São terminações nervosas formadas por um axônio ramificado, capazes de detectar sensações de tato (pressão), térmicas (calor e frio) e dolorosas. Estão distribuídas por toda a nossa pele e também em outros tecidos.<br/>Corpúsculo de Meissner: São receptores pequenos formados por um axônio mielínico. Apresenta uma grande sensibilidade e é encontrado em áreas de pele sem pelos (lábios e pontas dos dedos). São sensíveis a vibrações de baixa frequência e a movimentos de objetos na superfície da pele (estímulos passageiros).<br/>Discos de Merkel: São receptores formados por ramificações axonais com vários discos terminais. São encontrados principalmente em áreas que apresentam grandes quantidades de corpúsculos de Meissner, como nas pontas dos dedos. Esses receptores percebem o toque contínuo de objetos sobre a pele.<br/>Órgão terminal do pelo: Na base do pelo, encontra-se uma fibra nervosa que envolve o folículo piloso, e é estimulada por qualquer movimento do pelo. Esses receptores atuam percebendo, principalmente, movimentos de objetos e o contato inicial de um objeto sobre a pele.<br/>Terminações de Ruffini: São receptores pequenos e pouco abundantes. Estão localizados em camadas mais profundas da pele e em tecidos mais profundos bem como em cápsulas articulares. Estão relacionados com a percepção de sinais de tato e pressão prolongados e intensos, bem como sensações térmicas de calor.<br/>Corpúsculos de Pacini: Receptores com terminação nervosa envolvida por camadas concêntricas de tecido conjuntivo, adquirindo o aspecto de uma cebola. Estão localizados abaixo da pele e nos tecidos das fáscias. O estímulo de receptor tátil ocorre apenas pela compressão local e rápida dos tecidos, captando sensações de toque e vibração.<br/>Corpúsculos de Krause: São estruturas formadas por uma fibra nervosa, cuja terminação tem a forma de bastão com uma das extremidades mais grossa. Estão localizados em regiões de limite da epiderme com a mucosa, como ao redor dos lábios e dos genitais. Captam sensações térmicas de frio.",
       },
@@ -80,8 +80,8 @@ export class QuestoesMEG10 {
         alternativa6:
           "Um tipo de receptores sensoriais são os interoceptores, responsáveis por captar estímulos internos como a composição do sangue, Ph, pressão osmótica, temperatura, etc., permitindo sentir sede, fome, frio e dor.",
         alternativaCorreta: "2,4,6",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "As células sensoriais especializadas em captar estímulos podem ser classificadas em: exteroceptores, proprioceptores e interoceptores.<br/>São considerados exteroceptores quando captam estímulos do meio externo, como receptores do tato, audição, olfato, paladar e visão. Certos tipos de exteroceptores são os quimioceptores, que são estimulados por moléculas de substancias químicas que se encaixam em proteínas da membrana celular, como no caso do paladar e olfato.<br/>São proprioceptores quando captam estímulos internos (músculos, tendões, articulações e órgãos internos), informando o SNC sobre a posição dos braços, pernas e cabeça em relação ao corpo; e interoceptores, quando captam estímulos internos como a composição do sangue, Ph, pressão osmótica, temperatura, etc., permitindo sentir sede, fome, frio e dor.",
       },
@@ -293,8 +293,8 @@ export class QuestoesMEG10 {
         alternativa4:
           "Transmitir as vibrações do tímpano para o nervo auditivo",
         alternativaCorreta: "3",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "A função dos ossículos da orelha média é a de transmitir as vibrações do tímpano para a janela oval.",
       },
@@ -310,8 +310,8 @@ export class QuestoesMEG10 {
         alternativa3: "Pupila → córnea → humor aquoso → corpo vítreo → lente",
         alternativa4: "Pupila → córnea → corpo vítreo → lente → humor aquoso",
         alternativaCorreta: "1",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "Quando um raio de luz penetra o olho, a sequência de estruturas pelas quais ele passa até formar a imagem na retina consiste em:<br/>Córnea → humor aquoso → pupila → lente → corpo vítreo",
       },
@@ -331,8 +331,8 @@ export class QuestoesMEG10 {
         alternativa4:
           "As estruturas capazes de perceber estímulos de pressão são chamadas mecanorreceptores",
         alternativaCorreta: "4",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "As estruturas capazes de perceber estímulos de pressão são chamadas mecanorreceptores",
       },

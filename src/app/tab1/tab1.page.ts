@@ -139,12 +139,12 @@ export class Tab1Page {
             //console.log("AAAAAA");
         this.questoesMultiplaEscolhaG1 = questoesMEG1.getQuestoes();
         this.questoesMultiplaEscolhaG2 = questoesMEG2.getQuestoes();
-        this.questoesMultiplaEscolhaG8 = questoesMEG3.getQuestoes();
-        this.questoesMultiplaEscolhaG3 = questoesMEG4.getQuestoes();
-        this.questoesMultiplaEscolhaG4 = questoesMEG5.getQuestoes();
-        this.questoesMultiplaEscolhaG5 = questoesMEG6.getQuestoes();
-        this.questoesMultiplaEscolhaG6 = questoesMEG7.getQuestoes();
-        this.questoesMultiplaEscolhaG7 = questoesMEG8.getQuestoes();
+        this.questoesMultiplaEscolhaG3 = questoesMEG3.getQuestoes();
+        this.questoesMultiplaEscolhaG4 = questoesMEG4.getQuestoes();
+        this.questoesMultiplaEscolhaG5 = questoesMEG5.getQuestoes();
+        this.questoesMultiplaEscolhaG6 = questoesMEG6.getQuestoes();
+        this.questoesMultiplaEscolhaG7 = questoesMEG7.getQuestoes();
+        this.questoesMultiplaEscolhaG8 = questoesMEG8.getQuestoes();
         this.questoesMultiplaEscolhaG9 = questoesMEG9.getQuestoes();
         this.questoesMultiplaEscolhaG10 = questoesMEG10.getQuestoes();
 
@@ -513,7 +513,7 @@ export class Tab1Page {
         if(this.pontuacao.quantidadeQuestoesConsecutivas>4){
             this.maisPontos();
             this.pontuacao.quantidadePontos += 10;
-            this.pontuacao.quantidadeQuestoesConsecutivas=-1;
+            this.pontuacao.quantidadeQuestoesConsecutivas=0;
         }
         this.pontuacao.acerto = 0;
 
@@ -655,7 +655,7 @@ export class Tab1Page {
         this.quantidadeQuestoesResolvidas=0;
         this.pontuacao.acerto=0;
         this.pontuacao.quantidadePontos=0;
-        this.pontuacao.quantidadeQuestoesConsecutivas=-1;
+        this.pontuacao.quantidadeQuestoesConsecutivas=0;
         
         if(grupo == 1){
             let questoesNovas = this.shuffle([].concat(this.questoesMultiplaEscolhaG1,this.questoesToqueParesG1));

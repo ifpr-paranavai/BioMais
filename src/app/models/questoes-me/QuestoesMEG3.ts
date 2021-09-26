@@ -88,8 +88,8 @@ export class QuestoesMEG3 {
         alternativa6:
           "O sistema respiratório humano envolve gases como o oxigênio e o gás carbônico, que transitam pelo corpo por meio de tubos respiratórios até chegarem às células, de modo que estes gases não interagem diretamente com o sistema circulatório.",
         alternativaCorreta: "1,2,3",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "O número de movimentos respiratórios (inspiração e expiração) executados por minuto caracterizam a frequência respiratória, que em condições normais, situa-se entre 12 a 15 vezes por minuto.<br/>Os reforços de cartilagem presentes na traqueia e nos brônquios tem como função manter essas estruturas sempre abertas, permitindo que o ar possa fluir durante a inspiração e expiração.<br/>A cavidade nasal possui projeções denominadas conchas nasais, que formam canais para a passagem de ar, denominados meatos.<br/>A faringe é um órgão que abrange tanto o sistema respiratório como o digestório, uma vez que permite tanto a passagem de ar em direção aos pulmões, como de alimento em direção ao esôfago.<br/>A hematose consiste nas trocas gasosas onde o gás oxigênio presente no ar dos alvéolos difunde-se para os capilares sanguíneos e penetra nas hemácias, onde se combina com a hemoglobina.<br/>Portanto, o sistema respiratório humano se relaciona com o sistema circulatório, pois é por meio deste que os gases são transportados pelo organismo.",
       },
@@ -301,8 +301,8 @@ export class QuestoesMEG3 {
         alternativa4:
           "A hemoglobina é responsável pelo transporte de CO2, que se ligam a um grupo heme por meio do ferro. O CO2 então é levado aos tecidos de todo o corpo para ser utilizado na produção de ATP.",
         alternativaCorreta: "1",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "Moléculas de O2 se ligam a molécula de hemoglobina, cada uma delas em um grupo heme, formando um complexo instável chamado oxiemoglobina, onde o O2 viaja pelo corpo, chegando aos capilares dos tecidos.",
       },
@@ -322,8 +322,8 @@ export class QuestoesMEG3 {
         alternativa4:
           "A taxa de O2 diminui devido à hematose, provocando aumento do pH sanguíneo. O pH ácido do sangue é detectado pelo sistema nervoso, que promove a contração dos músculos abdominais, aumentando a ventilação pulmonar.",
         alternativaCorreta: "1",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "Ao deixarmos um estado de repouso para realizar uma atividade física intensa, os centros nervosos que controlam a respiração (localizados no bulbo encefálico e medula espinhal) identificam as condições em que o corpo se encontra, determinando maior ou menor ventilação pulmonar por meio de impulsos nervosos.<br/>Assim, durante uma atividade física intensa, a taxa de CO2 aumenta devido à respiração celular, provocando redução no pH sanguíneo. A acidez do sangue é detectada pelo sistema nervoso, que promove a contração dos músculos respiratórios, aumentando a ventilação pulmonar.",
       },
@@ -343,8 +343,8 @@ export class QuestoesMEG3 {
         alternativa4:
           "A pressão parcial de O2 é menor no ar que entra nos alvéolos do que no sangue dos capilares. A pressão parcial do CO2 é maior no ar que entra nos alvéolos do que no sangue dos capilares.",
         alternativaCorreta: "1",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "As trocas gasosas entre os alvéolos e sangue (hematose) ocorrem por difusão, isto é, transporte passivo de moléculas, onde estas se movimentam do meio de maior concentração (maior pressão parcial) para o meio de menor concentração (menor pressão parcial). Assim, a pressão parcial de O2 é maior no ar que entra nos alvéolos do que no sangue dos capilares, enquanto a pressão parcial do CO2 é maior no sangue dos capilares do que no ar que entra nos alvéolos.",
       },

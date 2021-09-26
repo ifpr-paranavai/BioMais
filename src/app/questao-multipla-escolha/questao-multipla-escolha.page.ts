@@ -5,6 +5,7 @@ import { AlertController } from '@ionic/angular';
 import { ModalController } from '@ionic/angular';
 import {Pontuacao} from '../models/pontuacao';
 import { FeedbacknewPage } from '../feedbacknew/feedbacknew.page';
+/* import { NativeAudio } from '@ionic-native/native-audio/ngx'; */
 
 /*
   Generated class for the QuestaoMultiplaEscolha page.
@@ -33,7 +34,7 @@ export class QuestaoMultiplaEscolhaPage {
     private corAlternativa6 = "#F0E68C";
     private alternativas;
     private home;
-    @Input() questao: {feedBackTexto:"", feedBackImagem: "", alternativaCorreta: "", alternativa1: "", alternativa2: "", alternativa3: "", alternativa4: "", alternativa5: "", alternativa6: "" }
+    @Input() questao: {legendaImagem:"",feedBackTexto:"", feedBackImagem: "", alternativaCorreta: "", alternativa1: "", alternativa2: "", alternativa3: "", alternativa4: "", alternativa5: "", alternativa6: "" }
 
 
     constructor(public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController, private toastCtrl: ToastController, public loadingCtrl: LoadingController, public modalController: ModalController,) {
@@ -41,13 +42,39 @@ export class QuestaoMultiplaEscolhaPage {
         this.questao = navParams.get("questao");
         this.tentativas = 0;
         this.totalPontos = this.pontuacao.quantidadePontos;
+      
 
-        this.alternativas = [{ "alernativa": 1, "corBorda": "#F0E68C", "texto": this.questao.alternativa1 },
-        { "alernativa": 2, "corBorda": "#F0E68C", "texto": this.questao.alternativa2 },
-        { "alernativa": 3, "corBorda": "#F0E68C", "texto": this.questao.alternativa3 },
-        { "alernativa": 4, "corBorda": "#F0E68C", "texto": this.questao.alternativa4 },
-        { "alernativa": 5, "corBorda": "#F0E68C", "texto": this.questao.alternativa5 },
-        { "alernativa": 6, "corBorda": "#F0E68C", "texto": this.questao.alternativa6 }];
+
+       // console.log(this.questao.alternativaCorreta)
+
+       this.alternativas=[];
+
+        if(this.questao.alternativa1!=undefined){
+            this.alternativas.push( { "alernativa": 1, "corBorda": "#F0E68C", "texto": this.questao.alternativa1 });
+        }
+
+        if(this.questao.alternativa2!=undefined){
+            this.alternativas.push( { "alernativa": 2, "corBorda": "#F0E68C", "texto": this.questao.alternativa2 });
+        }
+
+        if(this.questao.alternativa3!=undefined){
+            this.alternativas.push( { "alernativa": 3, "corBorda": "#F0E68C", "texto": this.questao.alternativa3 });
+        }
+
+        if(this.questao.alternativa4!=undefined){
+            this.alternativas.push( { "alernativa": 4, "corBorda": "#F0E68C", "texto": this.questao.alternativa4 });
+        }
+
+        if(this.questao.alternativa5!=undefined){
+            this.alternativas.push( { "alernativa":5, "corBorda": "#F0E68C", "texto": this.questao.alternativa5 });
+        }
+
+        if(this.questao.alternativa6!=undefined){
+            this.alternativas.push( { "alernativa": 6, "corBorda": "#F0E68C", "texto": this.questao.alternativa6 });
+        }
+
+        this.alternativas = this.embaralharArray(this.alternativas);
+       // console.log(this.alternativas);
         //console.log("alternativa 6: " + this.questao.alternativa6);
     }
 
@@ -76,7 +103,7 @@ export class QuestaoMultiplaEscolhaPage {
          //   console.log("Você errou :(");
             if (this.tentativas == 0) {
               //  console.log("Você tem " + this.tentativas + " tentativas");
-              this.pontuacao.quantidadeQuestoesConsecutivas = -1;
+              this.pontuacao.quantidadeQuestoesConsecutivas = 0;
                 this.presentLoadingCustomErro();
                 this.feedback();
 
@@ -89,23 +116,23 @@ export class QuestaoMultiplaEscolhaPage {
 
     verificarMarcadas() {
         let marcadas = [];
-        if (this.alternativas[0].corBorda == "#5cb85c") {
-            marcadas.push(1);
+        if (this.questao.alternativa1!=undefined && this.alternativas[0].corBorda == "#5cb85c") {
+            marcadas.push(this.alternativas[0].alernativa);
         }
-        if (this.alternativas[1].corBorda == "#5cb85c") {
-            marcadas.push(2);
+        if (this.questao.alternativa2!=undefined && this.alternativas[1].corBorda == "#5cb85c") {
+            marcadas.push(this.alternativas[1].alernativa);
         }
-        if (this.alternativas[2].corBorda == "#5cb85c") {
-            marcadas.push(3);
+        if (this.questao.alternativa3!=undefined && this.alternativas[2].corBorda == "#5cb85c") {
+            marcadas.push(this.alternativas[2].alernativa);
         }
-        if (this.alternativas[3].corBorda == "#5cb85c") {
-            marcadas.push(4);
+        if (this.questao.alternativa4!=undefined && this.alternativas[3].corBorda == "#5cb85c") {
+            marcadas.push(this.alternativas[3].alernativa);
         }
-        if (this.alternativas[4].corBorda == "#5cb85c") {
-            marcadas.push(5);
+        if (this.questao.alternativa5!=undefined && this.alternativas[4].corBorda == "#5cb85c") {
+            marcadas.push(this.alternativas[4].alernativa);
         }
-        if (this.alternativas[5].corBorda == "#5cb85c") {
-            marcadas.push(6);
+        if (this.questao.alternativa6!=undefined && this.alternativas[5].corBorda == "#5cb85c") {
+            marcadas.push(this.alternativas[5].alernativa);
         }
         
         return marcadas;
@@ -120,7 +147,7 @@ export class QuestaoMultiplaEscolhaPage {
         const modal = await this.modalController.create({
             component: FeedbacknewPage,
             cssClass: 'my-custom-class',
-            componentProps: {"home":this.home,"imagem": feedBackImagem, "texto":feedBackTexto}
+            componentProps: {"legenda":this.questao.legendaImagem,"home":this.home,"imagem": feedBackImagem, "texto":feedBackTexto}
             
         });
         
@@ -236,5 +263,13 @@ export class QuestaoMultiplaEscolhaPage {
         }       
         return true;
     };
+
+    embaralharArray(a) {
+        for (let i = a.length; i; i--) {
+            let j = Math.floor(Math.random() * i);
+            [a[i - 1], a[j]] = [a[j], a[i - 1]];
+        }
+        return a;
+    }
 
 }

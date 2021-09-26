@@ -36,8 +36,8 @@ export class QuestoesMEG5 {
         alternativa6:
           "Ao ser formado, o ovócito secundário inicia a segunda divisão da meiose, mas estaciona. O acúmulo de líquido no interior do folículo causa sua ruptura e libertação do ovócito secundário, processo denominado ovulação.",
         alternativaCorreta: "1,2,4,6",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "A ovulogênese tem início antes do nascimento da mulher, em sua vida intrauterina, quando as células precursoras dos gametas, as ovogônias, se transformam em ovócitos primários, que permanecem estacionados até a puberdade.<br/>Ao nascer, em cada um de seus ovários, a mulher possui cerca de 500 mil folículos ovarianos, contudo a maioria deles degenera antes mesmo da puberdade.<br/>Após a menarca (primeira menstruação) na puberdade, em média a cada 28 dias um dos ovócitos primários sofre maturação, produzindo duas células de tamanho diferente: uma grande, o ovócito secundário, e outra pequena, o glóbulo polar, que se degenera.<br/>Ao ser formado, o ovócito secundário inicia a segunda divisão da meiose, mas estaciona. O acúmulo de líquido no interior do folículo causa sua ruptura e libertação do ovócito secundário, processo denominado ovulação.",
       },
@@ -61,8 +61,8 @@ export class QuestoesMEG5 {
         alternativa6:
           "Os gametas masculinos são formados por um processo denominado espermatogênese e sua liberação é chamada ovulação.",
         alternativaCorreta: "2,3,5",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "A espermatogênese ocorre a partir de células precursoras denominadas espermatogônias, que se multiplicam lentamente, por mitose, até a puberdade, quando passam a se multiplicar com intensidade, até o fim da vida do homem.<br/>Após a puberdade, enquanto algumas espermatogônias se multiplicam, outras se transformam em espermatócitos primários, que passam pela primeira divisão meiótica e origina dois espermatócitos secundários.<br/>Cada espermatócito secundário se divide por meiose, formando duas espermátides, que passam por um processo chamado espermiogênese, transformando-se em espermatozoides.",
       },
@@ -86,8 +86,8 @@ export class QuestoesMEG5 {
         alternativa6:
           "Caso haja fecundação, é liberado o hormônio HCG, que estimula o corpo-lúteo a continuar em atividade, mantendo elevadas as taxas hormonais, impedindo a menstruação e mantendo o endométrio durante a gravidez.",
         alternativaCorreta: "1,5,6",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "O corpo-lúteo atua na produção de hormônios sexuais (pouco estrógeno e bastante progesterona), que atuam sobre o endométrio na preparação para uma eventual gravidez.<br/>A presença de hormônios sexuais produzidos pelo corpo-lúteo inibe a produção de FSH e LH. Caso não haja fecundação, a queda do LH faz com que o corpo-lúteo degenere, deixando de produzir hormônios estrógeno e progesterona, o que faz com que a mucosa uterina se desprenda e seja eliminada na menstruação.<br/>Caso haja fecundação, é liberado o hormônio HCG (gonadotrofina coriônica), que estimula o corpo-lúteo a continuar em atividade, mantendo elevadas as taxas hormonais de estrogênio e progesterona, impedindo a menstruação e mantendo o endométrio durante os primeiros quatro meses de gravidez. A partir de então, o corpo-lúteo degenera e a placenta se torna responsável pela manutenção dos níveis hormonais, que mantém a proliferação da mucosa uterina até o final da gravidez.",
       },
@@ -347,8 +347,8 @@ export class QuestoesMEG5 {
         alternativa4:
           "O DIU, ao criar um processo inflamatório no útero impedindo a implantação de embriões no útero, impede a transmissão de DSTs.",
         alternativaCorreta: "1",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "A camisinha feminina ou masculina, ou preservativo, é um protetor de látex que previne das DSTs por consistirem em métodos de barreira que impedem o contato direto e a troca de fluidos entre as regiões íntimas durante o ato sexual.",
       },
@@ -368,8 +368,8 @@ export class QuestoesMEG5 {
         alternativa4:
           "Ao inserir a camisinha no pênis, é necessário segurar sua ponta para retirar o ar, evitando que estoure durante a ejaculação.",
         alternativaCorreta: "4",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "Ao inserir a camisinha no pênis, é necessário segurar sua ponta para retirar o ar, evitando que estoure durante a ejaculação.",
       },

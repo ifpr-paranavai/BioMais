@@ -36,8 +36,8 @@ export class QuestoesMEG6 {
         alternativa6:
           "Nas articulações sinoviais, há cavidade articular e os ossos são articulados pelo tecido conjuntivo denso não modelado de uma cápsula articular com líquido viscoso. Todas as articulações sinoviais permitem mobilidade ampla, caracterizando-se como diartrose, como no caso das articulações dos membros inferiores e superiores.",
         alternativaCorreta: "1,4,6",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "Nas articulações fibrosas, os ossos são unidos firmemente por tecido conjuntivo denso não modelado e rico em fibras de colágeno. Geralmente não permitem mobilidade, sendo do tipo sinartrose, como no caso dos ossos do crânio.<br/>Nas articulações cartilaginosas, há cavidade articular e os ossos se comunicam por meio de cartilagem. Geralmente, esse tipo de articulação possibilita mobilidade reduzida, caracterizando-se funcionalmente como anfiartrose, como no caso da coluna vertebral.<br/>Nas articulações sinoviais, há cavidade articular e os ossos são articulados pelo tecido conjuntivo denso não modelado de uma cápsula articular com líquido viscoso. Todas as articulações sinoviais permitem mobilidade ampla, caracterizando-se como diartrose, como no caso das articulações dos membros inferiores e superiores.",
       },
@@ -86,8 +86,8 @@ export class QuestoesMEG6 {
         alternativa6:
           "A osteoporose é uma doença que afeta as articulações, em decorrência de vários fatores, sendo mais comum em pessoas acima de 50 anos. Assim, as pessoas acometidas apresentam dor e inflamação nas articulações, afetando também ligamentos, tendões e músculos.",
         alternativaCorreta: "1,4,5",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "A formação do tecido ósseo é feita por células ósseas chamadas osteoblastos. Essas células produzem a matriz extracelular, que possui a proteína colágeno, conferindo certa flexibilidade ao osso.<br/>Os osteoclastos se movem na superfície óssea e destroem áreas lesadas ou envelhecidas, digerindo e reabsorvendo partes do osso, abrindo caminho para a regeneração pelos osteoblastos.<br/>A osteoporose é uma doença que afeta os ossos, em decorrência de vários fatores, sendo mais comum em pessoas acima de 50 anos. Assim, as pessoas acometidas apresentam descalcificação dos ossos, tornando-os frágeis e quebradiços.",
       },
@@ -207,8 +207,8 @@ export class QuestoesMEG6 {
         alternativa4:
           "O cíngulo dos membros superiores é denominado cintura escapular e é formado pelos ossos escápula e clavícula. O cíngulo dos membros inferiores é denominado cintura pélvica e é formado pela fusão dos ossos ílio, ísquio e púbis.",
         alternativaCorreta: "4",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "Os membros superiores e inferiores se prendem ao esqueleto axial por meio de um conjunto de ossos denominado cíngulo (superior ou inferior). O cíngulo dos membros superiores é denominado cintura escapular e é formado pelos ossos escápula e clavícula. O cíngulo dos membros inferiores é denominado cintura pélvica e é formado pela fusão dos ossos ílio, ísquio e púbis.",
       },
@@ -228,8 +228,8 @@ export class QuestoesMEG6 {
         alternativa4:
           "São exemplos de patologias do sistema esquelético: osteoporose, cálculos renais, artrose, AVC, doença de chagas e lordose.",
         alternativaCorreta: "1",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "São exemplos de patologias do sistema esquelético: osteoporose, artrite reumatoide, artrose, cifose, escoliose e lordose.<br/>A osteoporose é uma doença que acarreta a perda da massa óssea, tornando os ossos mais fracos e com maior propensão à fraturas.<br/>A artrite reumatoide é uma doença inflamatória que acomete as articulações, acarretando inchaço e dor, que em casos contínuos pode acarretar na deformidade das regiões das articulações.<br/>A artrose consiste no desgaste dos tecidos de proteção das extremidades ósseas (cartilagem) que, apesar de ser um processo natural e não, de fato, uma doença, comete as articulações, causando dor e desconforto.<br/>A cifose consiste na curvatura excessiva da coluna vertebral torácica para frente, formando a curvatura conhecida como “corcunda”.<br/>A escoliose consiste em um desvio anormal da coluna vertebral, em forma de C ou S.<br/>A lordose consiste na curvatura anormal da região lombar, acima dos glúteos.",
       },
@@ -249,8 +249,8 @@ export class QuestoesMEG6 {
         alternativa4:
           "Músculos variados ligam-se aos ossos curtos por vasos sanguíneos e, quando os músculos se contraem, puxam os ossos em que estão ligados. Assim, os ossos atuam como pontos de apoio para que, a musculatura involuntária possibilite a locomoção.",
         alternativaCorreta: "1",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "É sabido que os ossos têm função na locomoção humana. Contudo, por si só, apesar de apresentar estruturas articulares, os ossos não realizam sozinhos o movimento corporal. Músculos esqueléticos ligam-se aos ossos por tendões e, quando os músculos se contraem, puxam os ossos em que estão ligados. Assim, os ossos atuam como pontos de apoio para que, em conjunto com músculos e tendões, possibilitem a locomoção.",
       },

@@ -14,11 +14,13 @@ export class FeedbacknewPage {
   @Input() home;
   @Input() imagem;
   @Input() texto;
+  @Input() legenda;
   private chamada;
   constructor(public navCtrl: NavController, public navParams: NavParams, public modalController: ModalController) {
     this.home = navParams.get("home");
     this.imagem = navParams.get("imagem");
     this.texto = navParams.get("texto");
+    this.legenda = navParams.get("legenda");
 
  //   console.log("TEXT "+this.texto);
    // console.log("IMG "+this.imagem);

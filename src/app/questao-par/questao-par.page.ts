@@ -174,7 +174,7 @@ export class QuestaoParPage {
                     if (this.erros == 1) {
                         //mostrar a mensagem informado que tem apenas um erro....
                         //console.log("Um erro, tem mais uma chance");
-                        this.pontuacao.quantidadeQuestoesConsecutivas = -1;
+                        this.pontuacao.quantidadeQuestoesConsecutivas = 0;
                         this.mostraErroPrimeiraTentativa();
                         //this.mostraErroPrimeiraTentativa();
                     }
@@ -236,7 +236,7 @@ export class QuestaoParPage {
         const modal = await this.modalController.create({
             component: FeedbacknewPage,
             cssClass: 'my-custom-class',
-            componentProps: {"home": this.home, "imagem": feedBackImagem, "texto":feedBackTexto}
+            componentProps: {"legenda":this.questao.legendaImagem,"home": this.home, "imagem": feedBackImagem, "texto":feedBackTexto}
 
         });
        // alert("asd")
@@ -302,6 +302,10 @@ export class QuestaoParPage {
 
 
     }
+    continuar(){
+        this.feedback();
+    }
+
 
     async mostraErroSegundaTentativa() {
 

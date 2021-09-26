@@ -62,8 +62,8 @@ export class QuestoesMEG8 {
         alternativa6:
           "A deficiência imunitária é consequência direta do excesso de produção de hormônios no pâncreas, principalmente do cortisol, causando a diminuição da permeabilidade dos capilares sanguíneos e suscetibilidade à infecções.",
         alternativaCorreta: "1,3,4",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "O pâncreas é considerado uma glândula mista, uma vez que desempenha tanto função endócrina, na liberação de hormônios, bem como função exócrina, na secreção de enzimas digestivas.<br/>Os hormônios produzidos pelo pâncreas são a insulina, que visa reduzir a quantidade de glicose do sangue, e o glucagon, que visa a quebra de glicogênio no fígado, aumentando a taxa de glicose no sangue.<br/>A diabetes é um distúrbio hormonal relacionada ao pâncreas, em que a pessoa acometida apresenta alta taxa de glicose no sangue, que pode ser do tipo I (juvenil) ou tipo II (tardio).",
       },
@@ -87,8 +87,8 @@ export class QuestoesMEG8 {
         alternativa6:
           "A testosterona é um hormônio masculino relacionado à reprodução produzido pelos testículos e tem como função estimular a espermatogênese e desenvolver as características sexuais secundárias masculinas.",
         alternativaCorreta: "1,2,4,5,6",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "O hormônio folículo-estimulante (FSH) é um hormônio relacionado à reprodução produzido pela adenoipófise e atua, nas mulheres, estimulando os folículos ovarianos e, nos homens, a espermatogênese.<br/>O hormônio luteinizante (LH) é um hormônio relacionado à reprodução produzido pela adenoipófise e atua, nas mulheres, estimulando a ovulação e o corpo lúteo e, nos homens, as células intersticiais.<br/>O estrógeno é um hormônio feminino relacionado à reprodução produzido pelo ovário e tem como função a maturação dos órgãos reprodutores, estimular o desenvolvimento das características sexuais secundárias e preparar o útero para a gravidez.<br/>A progesterona é um hormônio feminino relacionado à reprodução produzido no ovário e tem como função a preparação da mucosa uterina e sua manutenção para a gravidez, bem como o desenvolvimento das glândulas mamárias.<br/>A testosterona é um hormônio masculino relacionado à reprodução produzido pelos testículos e tem como função estimular a espermatogênese e desenvolver as características sexuais secundárias masculinas.<br/>A prolactina é um hormônio relacionado à reprodução que estimula a produção de leite nas glândulas mamárias, após a estimulação prévia pelo estrógeno e progesterona.",
       },
@@ -112,8 +112,8 @@ export class QuestoesMEG8 {
         alternativa6:
           "As gonadotrofinas (FSH e LH) são hormônios relacionados à reprodução, sendo ambos produzidos e secretados pelos ovários e testículos.",
         alternativaCorreta: "1,3,4",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "As principais glândulas endócrinas humanas são: a hipófise, a tireoide, as paratireoides, o pâncreas, as suprarrenais e as gônadas.<br/>O tecido gorduroso também apresenta atividade endócrina, produzindo o hormônio leptina, que atua sobre o hipotálamo diminuindo o apetite.<br/>A glândula pineal (pequena região do encéfalo) sintetiza o hormônio melatonina, que envolve o controle das respostas corpóreas ligadas aos ciclos de claro-escuro.",
       },
@@ -326,8 +326,8 @@ export class QuestoesMEG8 {
         alternativa4:
           "No diabetes do tipo I a pessoa acometida apresenta níveis praticamente normais de glucagon no sangue, mas sofre redução do número de receptores de insulina nas membranas de algumas células, diminuindo a capacidade absorver cálcio do sangue.",
         alternativaCorreta: "1",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "No diabetes do tipo I a pessoa acometida é insulino-dependente, pois há redução acentuada de células-beta no pâncreas, causando deficiência na produção de insulina. Esse tipo de diabetes desenvolve-se antes dos 40 anos de idade e afeta cerca de 10 por cento dos diabéticos, que necessitam receber injeções de insulina diariamente, a fim de manter normais os níveis de glicose no sangue.",
       },
@@ -347,8 +347,8 @@ export class QuestoesMEG8 {
         alternativa4:
           "No diabetes do tipo II a pessoa acometida apresenta níveis praticamente normais de glucagon no sangue, mas sofre redução do número de receptores de insulina nas membranas de algumas células, diminuindo a capacidade absorver cálcio do sangue.",
         alternativaCorreta: "2",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "No diabetes do tipo II a pessoa acometida apresenta níveis praticamente normais de insulina no sangue, mas sofre redução do número de receptores de insulina nas membranas de células musculares e adiposas, diminuindo a capacidade absorver glicose do sangue. Esse tipo de diabetes geralmente acomete pessoas após os 30 anos de idade.<br/>O tratamento costuma ser realizado com medicamentos antidiabéticos, que agem podendo aumentar a produção de insulina, aumentando a sensibilidade à insulina, diminuindo a produção de glicose pelo organismo ou diminuindo a taxa de absorção de glicose durante a alimentação.",
       },
@@ -368,8 +368,8 @@ export class QuestoesMEG8 {
         alternativa4:
           "O controle hormonal no sistema endócrino é realizado principalmente por feedback negativo, ou seja, quando a concentração de um hormônio limita sua própria produção.",
         alternativaCorreta: "4",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "O controle hormonal no sistema endócrino é realizado principalmente por feedback negativo, ou seja, quando a concentração de um hormônio limita sua própria produção.<br/>Exemplo: sob estimulo do hipotálamo, a adenoipofise secreta TSH (hormônio tireotrófico) em resposta a uma baixa concentração dos hormônios T3 e T4. Como consequência, o TSH promove liberação de T3 e T4 para o sangue. O aumento da concentração desses hormônios provoca a inibição do hipotálamo e da adenoipofise, diminuindo a secreção de TSH, pois não há mais necessidade de secreção de T3 e T4 pela tireoide.",
       },

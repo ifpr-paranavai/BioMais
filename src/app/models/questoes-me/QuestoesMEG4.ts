@@ -55,8 +55,8 @@ export class QuestoesMEG4 {
         alternativa6:
           "A quantidade de sódio no sangue é controlada pelo hormônio progesterona, sintetizado no hipotálamo e armazenado pela tireoide.",
         alternativaCorreta: "1,2,3,4",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "O principal agente fisiológico regulador do equilíbrio hídrico (água) no corpo é o hormônio antidiurético (ADH), sintetizado no hipotálamo e armazenado na hipófise. Esse hormônio atua sobre os túbulos contorcidos distais dos néfrons e ductos coletores, aumentando ou diminuindo a reabsorção de água.<br/>A quantidade de sódio no sangue é controlada pelo hormônio aldosterona, secretado pelo córtex da glândula adrenal, localizada acima dos rins. Quando a quantidade de sódio no sangue está baixa, a aldosterona é secretada e atua sobre os túbulos contorcidos distais e ductos coletores, aumentando a reabsorção do sódio no filtrado glomerular.",
       },
@@ -291,8 +291,8 @@ export class QuestoesMEG4 {
         alternativa4:
           "A presença de qualquer líquido no sangue inibe a secreção de aldosterona, aumentando a reabsorção de sódio pelos túbulos coletores. Por isso, ocorre maior diurese ao ingerirmos líquidos.",
         alternativaCorreta: "1",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "A presença de álcool no sangue inibe a secreção de ADH, impedindo a reabsorção de água nos túbulos néfricos, o que aumenta a quantidade de água presente na urina. Por isso a ingestão de bebidas alcoólicas estimula a diurese.<br/>Vale lembrar que a água presente na urina, após a ingestão de bebidas alcoólicas, é proveniente do plasma sanguíneo, levando à desidratação do organismo.",
       },
@@ -312,8 +312,8 @@ export class QuestoesMEG4 {
         alternativa4:
           "O sistema urinário inibiu a filtração glomerular, tendo em vista que a grande ingestão de água estimula a parada do sistema urinário.",
         alternativaCorreta: "1",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "Durante uma viagem de campo, estudantes ficaram por horas sem água e debaixo de sol, passando a sentir cada vez mais sede. Em consequência deste fato, o sistema urinário produziu urina com maior concentração de solutos, uma vez que a falta de ingestão de água ocasionou maior reabsorção tubular e, consequentemente, menor quantidade de água na urina. A regulação da reabsorção de água, nestas condições, ocorre a partir da liberação do hormônio antidiurético (ADH).",
       },
@@ -333,8 +333,8 @@ export class QuestoesMEG4 {
         alternativa4:
           "A infecção urinária é mais comum em mulheres devido aos hormônios femininos que estimulam a proliferação de microrganismos na região íntima, que acabam infeccionando todo o sistema urinário.",
         alternativaCorreta: "1",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "A infecção urinária é mais comum em mulheres devido à anatomia do sistema urinário feminino: a uretra da mulher é bem mais curta que a do homem, além de ter uma proximidade maior com o ânus, o que significa que os microrganismos possuem maior facilidade de acesso à uretra feminina.",
       },

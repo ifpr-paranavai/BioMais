@@ -36,8 +36,8 @@ export class QuestoesMEG9 {
         alternativa6:
           "Na função motora, que ocorre após o processamento das informações sensitivas, os nervos motores conduzem impulsos do SNC para as estruturas efetoras, desencadeando uma resposta motora específica.",
         alternativaCorreta: "2,3,6",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "O sistema nervoso humano desempenha funções importantes na manutenção da homeostase, e suas funções podem ser consideradas sensitivas, integradoras e motoras.<br/>Na função sensitiva, os receptores sensitivos detectam informações do meio interno e externo, levando-as ao encéfalo e medula espinhal por meio dos nervos cranianos e raquidianos.<br/>Na função integradora, o sistema nervoso processa e interpreta as informações sensitivas, culminando na tomada de decisão adequada para cada resposta.<br/>Na função motora, que ocorre após o processamento das informações sensitivas, os nervos motores conduzem impulsos do SNC para as estruturas efetoras, desencadeando uma resposta motora específica.",
       },
@@ -87,8 +87,8 @@ export class QuestoesMEG9 {
         alternativa6:
           "As bainhas de mielina consistem em prolongamentos especiais de membrana plasmática de células gliócitas do tipo astrócitos e micróglias.",
         alternativaCorreta: "1,3,4,5",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "Os gliócitos são componentes do sistema nervoso cuja função é envolver, proteger e nutrir os neurônios.<br/>Podem ser considerados de quatro tipos: astrócitos, oligodendrócitos, células de Schwann e micróglias.<br/>Os astrócitos são tipos de gliócitos que estabelecem uma ponte nutritiva entre o sangue e os neurônios, além de promoverem sustentação física e recuperação de lesões do tecido nervoso.<br/>Oligodendrócitos e células de Schwan são tipos de gliócitos que se enrolam sobre neofibras, formando as bainhas de mielina.<br/>As micróglias são tipos de gliócitos e consistem em macrófagos especializados que fagocitam detritos e restos celulares presentes no tecido nervoso.",
       },
@@ -303,8 +303,8 @@ export class QuestoesMEG9 {
         alternativa4:
           "O tálamo atua retransmitindo informações sensoriais para o cérebro e o hipotálamo está envolvido no controle da temperatura, balanço hídrico e produção e liberação de alguns hormônios.",
         alternativaCorreta: "4",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "O tálamo atua retransmitindo informações sensoriais para o cérebro e o hipotálamo está envolvido no controle da temperatura, balanço hídrico e produção e liberação de alguns hormônios.",
       },
@@ -324,8 +324,8 @@ export class QuestoesMEG9 {
         alternativa4:
           "São exemplos de distúrbios do sistema nervoso: cefaleia, acidente vascular cerebral, hérnia de disco e psoríase.",
         alternativaCorreta: "2",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "São exemplos de distúrbios do sistema nervoso: acidente vascular cerebral, cefaleia, Alzheimer e Parkinson.<br/>O Acidente Vascular Cerebral (AVC) é causado geralmente pela obstrução de uma artéria e consequente falta de irrigação de uma área do cérebro, ou pela ruptura arterial com derrame de sangue.<br/>A cefaleia consiste em dores de cabeça que podem se propagar pela face e atingir os dentes e pescoço. Geralmente está associada à tensão emocional, distúrbios visuais e hormonais, hipertensão arterial, entre outros.<br/>A doença de Alzheimer é a forma mais comum de demência, que se inicia com a perda de memória temporária e geralmente progride e o paciente se torna incapaz de reter novas informações e manter relações interpessoais.<br/>A doença de Parkinson se caracteriza por tremores corporais incontroláveis, rigidez corporal, lentidão e dificuldade de locomoção.",
       },
@@ -345,8 +345,8 @@ export class QuestoesMEG9 {
         alternativa4:
           "O cerebelo é responsável por produzir e armazenar hormônios, sobretudo melatonina, que atua como relógio biológico do organismo.",
         alternativaCorreta: "3",
-        feedBackImagem: "Sem",
-        feedBackLegendaImagem: "Sem",
+        feedBackImagem: "SEM",
+        feedBackLegendaImagem: "SEM",
         feedBackTexto:
           "O cerebelo consiste em uma estrutura que se encaixa entre a parte posterior do cérebro e a ponte do tronco encefálico. Está conectado ao tálamo, tronco encefálico e medula espinhal por inúmeras fibras nervosas. No que concerne a suas funções, o cerebelo possui células envolvidas na coordenação motora e na percepção da localização no espaço e postura (equilíbrio).",
       },

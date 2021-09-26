@@ -39,6 +39,7 @@
         <img style="width: 100%; height: auto;" *ngIf="questao.imagem && questao.imagem.trim().toUpperCase() != 'SEM'"
             [src]="questao.imagem.includes('gif')?'assets/imagens/questoes/'+questao.imagem+'.gif':'assets/imagens/questoes/'+questao.imagem+'.png'" />
     </div>
+    <small *ngIf="questao.legendaImagem!=undefined && questao.legendaImagem!='SEM'">{{questao.legendaImagem}}</small>
     <br />
     <span *ngFor="let alter of alternativas">
 

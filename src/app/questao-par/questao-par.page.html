@@ -36,6 +36,7 @@
         <div style="margin-left: 10px; margin-right: 10px;"><h5 style="text-align: justify">{{questao.enunciado}}</h5></div>
         <div class="boxImg">
             <img style="width: 100%" *ngIf="questao.imagem && questao.imagem.trim().toUpperCase() != 'SEM'" [src]="questao.imagem.includes('gif')?'assets/imagens/questoes/'+questao.imagem+'.gif':'assets/imagens/questoes/'+questao.imagem+'.png'" />
+            <small *ngIf="questao.legendaImagem!=undefined && questao.legendaImagem!='SEM'">{{questao.legendaImagem}}</small>
         </div>
         <br/>
         <div style="text-align: center"> 
@@ -59,8 +60,8 @@
 </ion-content>
 <ion-footer>
     <ion-toolbar>
-       <!--  <ion-button color="success" expand="block" (click)="verificar()">
-            <ion-icon name="checkmark-done-outline"></ion-icon>&nbsp;&nbsp;Verificar
-        </ion-button> -->
+        <ion-button color="success" expand="block" (click)="continuar()">
+            <ion-icon name="checkmark-done-outline"></ion-icon>&nbsp;&nbsp;Continuar
+        </ion-button>
     </ion-toolbar>
 </ion-footer>

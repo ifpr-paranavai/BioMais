@@ -336,7 +336,7 @@ export class QuestoesTPG6 {
         feedBackImagem: "img5feedbackm3esq",
         feedBackLegendaImagem:
           "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
-        feedBackTexto: "Sem",
+        feedBackTexto: "SEM",
       },
       {
         id: 186,
