@@ -512,6 +512,7 @@ export class Tab1Page {
 
         if(this.pontuacao.quantidadeQuestoesConsecutivas>4){
             this.maisPontos();
+            this.pontuacao.quantiadePontosRecompensaQuestoesConsecutivas = this.pontuacao.quantiadePontosRecompensaQuestoesConsecutivas+10;
             this.pontuacao.quantidadePontos += 10;
             this.pontuacao.quantidadeQuestoesConsecutivas=0;
         }

@@ -228,7 +228,7 @@ export class QuestaoParPage {
         return a;
     }
 
-    async feedback() { // TEM Q ARRUMAR ISSO
+    async feedback(acertou) { // TEM Q ARRUMAR ISSO
         this.modalController.dismiss();
         let feedBackImagem = this.questao.feedBackImagem;
         let feedBackTexto = this.questao.feedBackTexto;
@@ -236,7 +236,7 @@ export class QuestaoParPage {
         const modal = await this.modalController.create({
             component: FeedbacknewPage,
             cssClass: 'my-custom-class',
-            componentProps: {"legenda":this.questao.legendaImagem,"home": this.home, "imagem": feedBackImagem, "texto":feedBackTexto}
+            componentProps: {"acertou":acertou,"legenda":this.questao.legendaImagem,"home": this.home, "imagem": feedBackImagem, "texto":feedBackTexto}
 
         });
        // alert("asd")
@@ -302,8 +302,8 @@ export class QuestaoParPage {
 
 
     }
-    continuar(){
-        this.feedback();
+    continuar(acertou){
+        this.feedback(acertou);
     }
 
 
@@ -320,7 +320,7 @@ export class QuestaoParPage {
 
         await loading.present();
         loading.onDidDismiss().then(s => {
-            this.feedback();
+            this.feedback(false);
 
         });
 
@@ -337,7 +337,7 @@ export class QuestaoParPage {
         await loading.present();
 
         await loading.onDidDismiss().then(a=>{
-            this.feedback();
+            this.feedback(true);
         });
         
     }

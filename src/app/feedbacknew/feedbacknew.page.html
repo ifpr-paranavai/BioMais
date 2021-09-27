@@ -6,6 +6,12 @@
 
 </ion-header>
 <ion-content padding>
+
+  <audio autoplay *ngIf="acertou && som!=undefined">
+    <source [src]="'assets/sons/'+som.som+'.mp3'" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+
   <ion-img *ngIf="imagem && imagem.trim().toUpperCase() != 'SEM'" [src]="imagem.includes('gif')?'assets/imagens/feedback/'+imagem+'.gif':'assets/imagens/feedback/'+imagem+'.png'" ></ion-img>
   <small *ngIf="legenda!=undefined && legenda!='SEM'">{{legenda}}</small>
   <div style="margin-left: 10px; margin-right: 10px;"><h5 style="text-align: justify" [innerHTML]="texto"></h5></div>
