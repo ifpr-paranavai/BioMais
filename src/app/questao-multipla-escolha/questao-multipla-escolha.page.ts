@@ -1,17 +1,19 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { NavController, NavParams, ToastController, LoadingController } from '@ionic/angular';
+import { NavController, NavParams, ToastController, LoadingController, Platform } from '@ionic/angular';
 const nav = document.querySelector('ion-nav'); // possivel solução para o navController
 import { AlertController } from '@ionic/angular';
 import { ModalController } from '@ionic/angular';
-import { Tab1Page } from '../tab1/tab1.page';
-import { FeedbackPage } from '../feedback/feedback';
+import { Pontuacao } from '../models/pontuacao';
+import { FeedbacknewPage } from '../feedbacknew/feedbacknew.page';
+/* import { NativeAudio } from '@ionic-native/native-audio/ngx'; */
+
 
 /*
   Generated class for the QuestaoMultiplaEscolha page.
   See http://ionicframework.com/docs/v2/components/#navigation for more info on
   Ionic pages and navigation.
 */
-@Component({ 
+@Component({
     selector: 'page-questao-multipla-escolha',
     templateUrl: 'questao-multipla-escolha.page.html',
     styleUrls: ['questao-multipla-escolha.page.scss']
@@ -21,6 +23,7 @@ import { FeedbackPage } from '../feedback/feedback';
 export class QuestaoMultiplaEscolhaPage {
     //private home;
     //private questao;
+    private pontuacao = Pontuacao.getInstance();
     private alternativaSelecionada;
     private tentativas = 0;
     private totalPontos;
@@ -31,22 +34,48 @@ export class QuestaoMultiplaEscolhaPage {
     private corAlternativa5 = "#F0E68C";
     private corAlternativa6 = "#F0E68C";
     private alternativas;
-    @Input() home: Tab1Page;
-    @Input() questao: {feedBackTexto:"", feedBackImagem: "", alternativaCorreta: "", alternativa1: "", alternativa2: "", alternativa3: "", alternativa4: "", alternativa5: "", alternativa6: "" }
+    private home;
+    @Input() questao: { legendaImagem: "", feedBackTexto: "", feedBackImagem: "", alternativaCorreta: "", alternativa1: "", alternativa2: "", alternativa3: "", alternativa4: "", alternativa5: "", alternativa6: "" }
 
 
-    constructor(public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController, private toastCtrl: ToastController, public loadingCtrl: LoadingController, public modalController: ModalController,) {
+    constructor(public platform: Platform, public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController, private toastCtrl: ToastController, public loadingCtrl: LoadingController, public modalController: ModalController,) {
         this.home = navParams.get("home");
         this.questao = navParams.get("questao");
         this.tentativas = 0;
-        this.totalPontos = Tab1Page.quantidadePontos;
+        this.totalPontos = this.pontuacao.quantidadePontos;
 
-        this.alternativas = [{ "alernativa": 1, "corBorda": "#F0E68C", "texto": this.questao.alternativa1 },
-        { "alernativa": 2, "corBorda": "#F0E68C", "texto": this.questao.alternativa2 },
-        { "alernativa": 3, "corBorda": "#F0E68C", "texto": this.questao.alternativa3 },
-        { "alernativa": 4, "corBorda": "#F0E68C", "texto": this.questao.alternativa4 },
-        { "alernativa": 5, "corBorda": "#F0E68C", "texto": this.questao.alternativa5 },
-        { "alernativa": 6, "corBorda": "#F0E68C", "texto": this.questao.alternativa6 }];
+
+
+       // console.log(this.questao.alternativaCorreta)
+
+        this.alternativas = [];
+
+        if (this.questao.alternativa1 != undefined) {
+            this.alternativas.push({ "alernativa": 1, "corBorda": "#F0E68C", "texto": this.questao.alternativa1 });
+        }
+
+        if (this.questao.alternativa2 != undefined) {
+            this.alternativas.push({ "alernativa": 2, "corBorda": "#F0E68C", "texto": this.questao.alternativa2 });
+        }
+
+        if (this.questao.alternativa3 != undefined) {
+            this.alternativas.push({ "alernativa": 3, "corBorda": "#F0E68C", "texto": this.questao.alternativa3 });
+        }
+
+        if (this.questao.alternativa4 != undefined) {
+            this.alternativas.push({ "alernativa": 4, "corBorda": "#F0E68C", "texto": this.questao.alternativa4 });
+        }
+
+        if (this.questao.alternativa5 != undefined) {
+            this.alternativas.push({ "alernativa": 5, "corBorda": "#F0E68C", "texto": this.questao.alternativa5 });
+        }
+
+        if (this.questao.alternativa6 != undefined) {
+            this.alternativas.push({ "alernativa": 6, "corBorda": "#F0E68C", "texto": this.questao.alternativa6 });
+        }
+
+        this.alternativas = this.embaralharArray(this.alternativas);
+        //console.log(this.alternativas);
         //console.log("alternativa 6: " + this.questao.alternativa6);
     }
 
@@ -65,19 +94,19 @@ export class QuestaoMultiplaEscolhaPage {
     verificar() {
 
         if (this.arraysIguais(this.verificarMarcadas(), this.questao.alternativaCorreta)) {
-            console.log("Parabéns, você acertou");
-            Tab1Page.quantidadeQuestoesConsecutivas++;
-            Tab1Page.acerto++;
+            //  console.log("Parabéns, você acertou");
+            this.pontuacao.quantidadeQuestoesConsecutivas++;
+            this.pontuacao.acerto++;
             this.presentLoadingCustomSucesso();
-            this.feedback();
+            this.feedback(true);
             //this.home.continuar();
         } else {
-            console.log("Você errou :(");
+            //   console.log("Você errou :(");
             if (this.tentativas == 0) {
-                console.log("Você tem " + this.tentativas + " tentativas");
-                Tab1Page.quantidadeQuestoesConsecutivas = -1;
+                //  console.log("Você tem " + this.tentativas + " tentativas");
+                this.pontuacao.quantidadeQuestoesConsecutivas = 0;
                 this.presentLoadingCustomErro();
-                this.feedback();
+                this.feedback(false);
 
             } else if (this.tentativas == 1) {
                 //HomePage.quantidadeQuestoesConsecutivas = -1;
@@ -88,39 +117,41 @@ export class QuestaoMultiplaEscolhaPage {
 
     verificarMarcadas() {
         let marcadas = [];
-        if (this.alternativas[0].corBorda == "#5cb85c") {
-            marcadas.push(1);
+        if (this.questao.alternativa1 != undefined && this.alternativas[0].corBorda == "#5cb85c") {
+            marcadas.push(this.alternativas[0].alernativa);
         }
-        if (this.alternativas[1].corBorda == "#5cb85c") {
-            marcadas.push(2);
+        if (this.questao.alternativa2 != undefined && this.alternativas[1].corBorda == "#5cb85c") {
+            marcadas.push(this.alternativas[1].alernativa);
         }
-        if (this.alternativas[2].corBorda == "#5cb85c") {
-            marcadas.push(3);
+        if (this.questao.alternativa3 != undefined && this.alternativas[2].corBorda == "#5cb85c") {
+            marcadas.push(this.alternativas[2].alernativa);
         }
-        if (this.alternativas[3].corBorda == "#5cb85c") {
-            marcadas.push(4);
+        if (this.questao.alternativa4 != undefined && this.alternativas[3].corBorda == "#5cb85c") {
+            marcadas.push(this.alternativas[3].alernativa);
         }
-        if (this.alternativas[4].corBorda == "#5cb85c") {
-            marcadas.push(5);
+        if (this.questao.alternativa5 != undefined && this.alternativas[4].corBorda == "#5cb85c") {
+            marcadas.push(this.alternativas[4].alernativa);
         }
-        if (this.alternativas[5].corBorda == "#5cb85c") {
-            marcadas.push(6);
+        if (this.questao.alternativa6 != undefined && this.alternativas[5].corBorda == "#5cb85c") {
+            marcadas.push(this.alternativas[5].alernativa);
         }
+
         return marcadas;
     }
 
 
-    async feedback() { // TEM Q ARRUMAR ISSO
-
+    async feedback(acertou) { // TEM Q ARRUMAR ISSO
+        this.modalController.dismiss();
         let feedBackImagem = this.questao.feedBackImagem;
         let feedBackTexto = this.questao.feedBackTexto;
-        
+        //alert(acertou);
         const modal = await this.modalController.create({
-            component: FeedbackPage,
+            component: FeedbacknewPage,
             cssClass: 'my-custom-class',
-            componentProps: {"home": this.home, 'questaoFeedBack': feedBackImagem, feedBackTexto}
-            
+            componentProps: { "acertou": acertou, "legenda": this.questao.legendaImagem, "home": this.home, "imagem": feedBackImagem, "texto": feedBackTexto }
+
         });
+
         return await modal.present();
     }
 
@@ -151,7 +182,7 @@ export class QuestaoMultiplaEscolhaPage {
 
         loading.onDidDismiss(() => {
             this.feedbackPrimeiraTentativa();
-            console.log('Dismissed loading');
+            // console.log('Dismissed loading');
         });
 
         loading.present();
@@ -169,7 +200,7 @@ export class QuestaoMultiplaEscolhaPage {
         });
 
         await loading.onDidDismiss();
-            this.feedback();
+        this.feedback(false);
 
         loading.present();
     }
@@ -186,8 +217,8 @@ export class QuestaoMultiplaEscolhaPage {
         });
         await loading.present();
 
-        const {role, data} = await loading.onDidDismiss();
-        console.log("Loading Erro", role)
+        const { role, data } = await loading.onDidDismiss();
+        //("Loading Erro", role)
     }
 
     async presentLoadingCustomSucesso() {
@@ -199,8 +230,8 @@ export class QuestaoMultiplaEscolhaPage {
         });
         await loading.present();
 
-        const {role, data} = await loading.onDidDismiss();
-        console.log("ta pegand", role) 
+        const { role, data } = await loading.onDidDismiss();
+        //console.log("ta pegand", role) 
     }
 
     presentToast(mensagem) {
@@ -222,12 +253,24 @@ export class QuestaoMultiplaEscolhaPage {
 
 
     arraysIguais(a, b) {
+        a = a.toString();
+        b = b.toString();
+        //alert(a);
+        //alert(b);
         var i = a.length;
         if (i != b.length) return false;
         while (i--) {
-            if (a[i] !== b[i]) return false;
+            if (a[i] != b[i]) return false;
         }
         return true;
     };
+
+    embaralharArray(a) {
+        for (let i = a.length; i; i--) {
+            let j = Math.floor(Math.random() * i);
+            [a[i - 1], a[j]] = [a[j], a[i - 1]];
+        }
+        return a;
+    }
 
 }

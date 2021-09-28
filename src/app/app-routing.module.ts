@@ -53,7 +53,8 @@ const routes: Routes = [
   {
     path: 'questao-par',
     loadChildren: () => import('./questao-par/questao-par.module').then( m => m.QuestaoParPageModule)
-  },  {
+  },
+  {
     path: 'sistema-reprodutor-feminino',
     loadChildren: () => import('./sistema-reprodutor-feminino/sistema-reprodutor-feminino.module').then( m => m.SistemaReprodutorFemininoPageModule)
   },
@@ -74,6 +75,7 @@ const routes: Routes = [
     loadChildren: () => import('./sistema-endocrino/sistema-endocrino.module').then( m => m.SistemaEndocrinoPageModule)
   },
   {
+
     path: 'sistema-nervoso',
     loadChildren: () => import('./sistema-nervoso/sistema-nervoso.module').then( m => m.SistemaNervosoPageModule)
   },
@@ -96,6 +98,10 @@ const routes: Routes = [
   {
     path: 'sentidos',
     loadChildren: () => import('./sentidos/sentidos.module').then( m => m.SentidosPageModule)
+
+    path: 'feedbacknew',
+    loadChildren: () => import('./feedbacknew/feedbacknew.module').then( m => m.FeedbacknewPageModule)
+
   }
 
 

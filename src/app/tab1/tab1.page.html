@@ -9,7 +9,7 @@
                 </ion-title>
                 <ion-row> </ion-row>
                 <!-- Caractere invisível -->
-                <b><ion-label style="font-size: 20px;">    BioMais+</ion-label></b>
+                <b><ion-label style="font-size: 20px;">    BioMais </ion-label></b>
                 <!-- Caracteres invisíveis -->
                 <ion-row> </ion-row>
                 <!-- Caractere invisível -->
@@ -29,29 +29,57 @@
         </ion-content>
     </ion-menu>
 
-    <div class="ion-page" id="main-content">
-        <ion-header>
-            <ion-toolbar>
-                <ion-buttons slot="start">
-                    <ion-menu-button></ion-menu-button>
-                </ion-buttons>
-                <ion-row>
-                    <ion-title>Aprender</ion-title>
-                    <ion-title color="success">{{quantidadeTotalPontos}} BioPontos</ion-title>
-                </ion-row>
-            </ion-toolbar>
-        </ion-header>
-        <ion-content>
-            <div>
-                <img class="bordas" style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px" src="assets/teste/capasistemadigestorio.png" (click)="iniciarResolucao('1')" />
-                <img class="bordas" style="float: left; width: 45%; margin-top: 2%; margin-bottom: 10px" src="assets/teste/capacirculatorio.jpg" (click)="iniciarResolucao('2')" />
-            </div>
 
-            <img class="bordas" style="width: 45%; margin-top: 6px" src="assets/teste/capasistemarespiratorio.png" />
-            <img class="bordas" style="float: left; width: 45%; margin-right: 5%; margin-left: 2%; margin-top: 6px" src="assets/teste/capasistemareprodutor.png" />
-            <div>
-                <img class="bordas" style="float: left; width: 45%; margin-top: 10px; margin-left: 2%" src="assets/teste/capasistemasensorial.png" />
-            </div>
-        </ion-content>
-    </div>
+  <div class="ion-page" id="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-row>
+        <ion-title>Aprender</ion-title>
+        <ion-title color="success">{{pontuacao.quantidadeTotalPontos}} BioPontos</ion-title>
+        </ion-row>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+
+      <!-- 
+      GRUPO 1: SISTEMA DIGESTÓRIO
+      GRUPO 2: SISTEMA CIRCULATÓRIO
+      GRUPO 3: SISTEMA RESPIRATÓRIO
+      GRUPO 4: SISTEMA URINÁRIO
+      GRUPO 5: SISTEMA REPRODUTOR
+      GRUPO 6: SISTEMA ESQUELÉTICO
+      GRUPO 7: SISTEMA MUSCULAR
+      GRUPO 8: SISTEMA ENDÓCRINO
+      GRUPO 9: SISTEMA NERVOSO
+      GRUPO 10: OS SENTIDOS 
+      -->
+
+      <div>
+        <img class="bordas" style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px"   src="assets/capas/capa-digestorio.png" (click)="iniciarResolucao('1')"/>
+        <img class="bordas" style="float: left; width: 45%; margin-top: 2%; margin-bottom: 10px"  src="assets/capas/capa-circulatorio.png" (click)="iniciarResolucao('2')"/>
+        </div>
+
+        <img class="bordas" style="width: 45%; margin-top: 6px" src="assets/capas/capa-respiratorio.png" (click)="iniciarResolucao('3')"/>
+        <img class="bordas" style="float: left; width: 45%; margin-right: 5%; margin-left: 2%; margin-top: 6px" src="assets/capas/capa-urinario.png" (click)="iniciarResolucao('4')"/>
+        
+        <div>
+          <img class="bordas" style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px"   src="assets/capas/capa-reprodutor.png" (click)="iniciarResolucao('5')"/>
+          <img class="bordas" style="float: left; width: 45%; margin-top: 2%; margin-bottom: 10px"  src="assets/capas/capa-esqueletico.png" (click)="iniciarResolucao('6')"/>
+          </div>
+
+      <div>
+        <img class="bordas" style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px"   src="assets/capas/capa-muscular.png" (click)="iniciarResolucao('7')"/>
+        <img class="bordas" style="float: left; width: 45%; margin-top: 2%; margin-bottom: 10px"  src="assets/capas/capa-endocrino.png" (click)="iniciarResolucao('8')"/>
+        </div>
+
+        <div>
+          <img class="bordas" style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px"   src="assets/capas/capa-nervoso.png" (click)="iniciarResolucao('9')"/>
+          <img class="bordas" style="float: left; width: 45%; margin-top: 2%; margin-bottom: 10px"  src="assets/capas/capa-os-sentidos.png" (click)="iniciarResolucao('10')"/>
+          </div>
+    </ion-content>
+  </div>
+
 </ion-app>
