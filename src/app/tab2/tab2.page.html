@@ -79,5 +79,35 @@
       <ion-card-title>Sistema Endócrino</ion-card-title>
     </ion-card-header>
   </ion-card>
+
+  <ion-card (click)="chamarNervoso()">
+    <ion-card-header>
+      <ion-fab-button style="float: left;" size="small" fab-fixed color="tertiary">
+        <img src="assets/imagensCorpo/Gaveta nervoso.png" width="30">
+      </ion-fab-button>
+      <h2><ion-icon style="float: right;" name="chevron-forward-sharp"></ion-icon></h2>
+      <ion-card-title>Sistema Nervoso</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card (click)="chamarEsqueletico()">
+    <ion-card-header>
+      <ion-fab-button style="float: left;" size="small" fab-fixed color="light">
+        <img src="assets/imagensCorpo/Gaveta esquelético.png" width="30">
+      </ion-fab-button>
+      <h2><ion-icon style="float: right;" name="chevron-forward-sharp"></ion-icon></h2>
+      <ion-card-title>Sistema Esquelético</ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card (click)="chamarSentidos()">
+    <ion-card-header>
+      <ion-fab-button style="float: left;" size="small" fab-fixed color="joao">
+        <img src="assets/imagensCorpo/Gaveta os sentidos.png" width="30">
+      </ion-fab-button>
+      <h2><ion-icon style="float: right;" name="chevron-forward-sharp"></ion-icon></h2>
+      <ion-card-title>Os sentidos</ion-card-title>
+    </ion-card-header>
+  </ion-card>
   
 </ion-content>
