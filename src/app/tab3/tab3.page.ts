@@ -19,22 +19,22 @@ export class Tab3Page {
       this.mostraMensagem("Som bloqueado!!");
     } else {
       let controle=0;
-      if (this.pontuacao.quantidadePontos > -1 && som == 'som1') {
+      if (this.pontuacao.quantidadeTotalPontos > -1 && som == 'som1') {
         this.pontuacao.sons.push({ som: 'som1' });
         this.mostraMensagem("Som desbloqueado!!");
         controle=1;
       }
-      if (this.pontuacao.quantidadePontos > 99 && som == 'som2') {
+      if (this.pontuacao.quantidadeTotalPontos > 99 && som == 'som2') {
         this.pontuacao.sons.push({ som: 'som2' });
         this.mostraMensagem("Som desbloqueado!!");
         controle=1;
       }
-      if (this.pontuacao.quantidadePontos > 249 && som == 'som3') {
+      if (this.pontuacao.quantidadeTotalPontos > 249 && som == 'som3') {
         this.pontuacao.sons.push({ som: 'som3' });
         this.mostraMensagem("Som desbloqueado!!");
         controle=1;
       }
-      if (this.pontuacao.quantidadePontos > 399 && som == 'som4') {
+      if (this.pontuacao.quantidadeTotalPontos > 399 && som == 'som4') {
         this.pontuacao.sons.push({ som: 'som4' });
         this.mostraMensagem("Som desbloqueado!!");
           controle=1;

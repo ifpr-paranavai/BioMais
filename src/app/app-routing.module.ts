@@ -98,7 +98,8 @@ const routes: Routes = [
   {
     path: 'sentidos',
     loadChildren: () => import('./sentidos/sentidos.module').then( m => m.SentidosPageModule)
-
+  },
+  {
     path: 'feedbacknew',
     loadChildren: () => import('./feedbacknew/feedbacknew.module').then( m => m.FeedbacknewPageModule)
 
