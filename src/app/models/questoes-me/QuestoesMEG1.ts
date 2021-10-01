@@ -264,20 +264,20 @@ export class QuestoesMEG1 {
         modelo: "5",
         enunciado:
           "A estrutura representada abaixo corresponde a uma glândula que atua tanto de forma exócrina (produzindo suco pancreático, que contém enzimas digestivas) como endócrina (produzindo hormônios, como a insulina e glucagon). Sob este aspecto, com base em seus conhecimentos, determine a alternativa correta.",
-        imagem: "",
-        legendaImagem: "",
-        alternativa1:
-          "A secreção de bile é realizada por meio desta estrutura, tendo como função a emulsificação de lipídios.",
+        imagem: "img62m5sd",
+        legendaImagem: "Imagem: Adaptada de Macrovector, via Freepik.com. Disponível aqui.",
+        alternativa1: 
+          "Esta estrutura produz os hormônios FSH, estrógeno e progestina, responsáveis pelas características sexuais secundárias femininas.",
         alternativa2:
-          "A secreção exócrina desta estrutura tem como função a digestão de proteínas, carboidratos, triglicerídeos e ácidos nucléicos.",
+          "A secreção de bile é realizada por meio desta estrutura, tendo como função a emulsificação de lipídios.",
         alternativa3:
+          "A secreção exócrina desta estrutura tem como função a digestão de proteínas, carboidratos, triglicerídeos e ácidos nucléicos.",
+        alternativa4:
           "Pacientes com disfunção desta estrutura geralmente apresentam icterícia e hepatite.",
-        alternativa4: "",
-
         alternativaCorreta: "3",
-        feedBackImagem: "SEM",
-        feedBackLegendaImagem: "",
-        feedBackTexto: "",
+        feedBackImagem: "img62m5sd",
+        feedBackLegendaImagem: "Imagem: Adaptada de Macrovector, via Freepik.com. Disponível aqui.",
+        feedBackTexto: "A imagem representa o pâncreas. A secreção exócrina desta estrutura, o suco pancreático, é secretada no duodeno e atua no sistema digestório tendo como função a digestão de proteínas, carboidratos, triglicerídeos e ácidos nucléicos.",
       },
       {
         id: 37,
