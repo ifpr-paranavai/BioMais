@@ -138,7 +138,7 @@ export class QuestoesMEG1 {
         alternativa4:
           "Digestão, formação de fezes, movimentos peristálticos no esôfago e eliminação de bolo fecal.",
         alternativaCorreta: "2",
-        feedBackImagem: "imgfeedback51",
+        feedBackImagem: "giffeedback51",
         feedBackLegendaImagem: "Imagem: <http://cna.weebly.com/6-ano.html>",
         feedBackTexto:
           "A animação demonstra, respectivamente, a abertura da cárdia, que consiste na região onde se localiza o esfíncter esofágico inferior, responsável por regular a passagem de bolo alimentar do esôfago para o estômago; o peristaltismo do estômago, que consiste em movimentos involuntários que auxiliam a digestão mecânica e na mistura do bolo alimentar no estômago com as substâncias secretadas por este órgão; a  secreção de suco gástrico, substância que contém enzimas (responsáveis pela digestão de proteínas) e uma secreção ácida (ácido clorídrico) capaz de amolecer e esterilizar o bolo alimentar e ativar as enzimas para que efetivem suas funções digestivas; a digestão, convertendo o bolo alimentar em quimo; e a abertura do esfíncter pilórico, que possibilita a passagem do quimo do estômago ao intestino delgado.",
@@ -158,7 +158,7 @@ export class QuestoesMEG1 {
         alternativa3: "Peristaltismo do esôfago.",
         alternativa4: "Refluxo gastroesofágico.",
         alternativaCorreta: "3",
-        feedBackImagem: "imgfeedback52",
+        feedBackImagem: "giffeedback52",
         feedBackLegendaImagem:
           "Imagem: <http://bioblogcuriosidades.blogspot.com/2010_09_03_archive.html>",
         feedBackTexto:
@@ -182,7 +182,7 @@ export class QuestoesMEG1 {
         alternativa4:
           "Secreção de bile, suco pancreático, suco gástrico e digestão no estômago.",
         alternativaCorreta: "3",
-        feedBackImagem: "imgfeedback53",
+        feedBackImagem: "giffeedback53",
         feedBackLegendaImagem: "Imagem: <http://cnesds.blogspot.com/2015/05/>",
         feedBackTexto:
           "A animação demonstra, por meio dos “pontinhos” verdes, amarelos e vermelhos, respectivamente, a secreção de bile (produzida pelo fígado), suco pancreático (produzido pelo pâncreas) e suco entérico (produzido por células da mucosa do intestino delgado). Além disso, se evidencia na animação a digestão no intestino delgado, por meio da representação da conversão de moléculas maiores em moléculas menores.",
@@ -205,7 +205,7 @@ export class QuestoesMEG1 {
         alternativa4:
           "Epiglote: fechamento da glote, evitando a entrada do bolo alimentar no sistema respiratório.",
         alternativaCorreta: "4",
-        feedBackImagem: "imgfeedback54",
+        feedBackImagem: "giffeedback54",
         feedBackLegendaImagem:
           "Imagem: <https://biopesquisa.wordpress.com/2016/08/>",
         feedBackTexto:
@@ -226,7 +226,7 @@ export class QuestoesMEG1 {
         alternativa3: "Suco pancreático.",
         alternativa4: "Suco salivar.",
         alternativaCorreta: "1",
-        feedBackImagem: "imgfeedback55",
+        feedBackImagem: "giffeedback55",
         feedBackLegendaImagem:
           "Imagem: <https://wifflegif.com/gifs/477786-animation-domination-high-def-gif>",
         feedBackTexto:
