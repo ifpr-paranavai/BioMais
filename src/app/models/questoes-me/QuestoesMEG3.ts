@@ -182,8 +182,8 @@ export class QuestoesMEG3 {
           "O muco produzido ajuda no acúmulo de microrganismos e partículas que são posteriormente “varridos” para os alvéolos pulmonares graças aos movimentos dos cílios.",
         alternativaCorreta: "1",
         feedBackImagem: "img1m5res",
-        feedBackLegendaImagem: "",
-        feedBackTexto: "",
+        feedBackLegendaImagem: "Imagem: Adaptada de Equipe da Blausen.com, Creative Commons BY 3.0, via Wikimedia Commons. Disponível aqui.",
+        feedBackTexto: "As vias respiratórias possuem epitélio de revestimento muco-ciliar, isto é, com cílios dispostos sobre as células epiteliais da mucosa que empurram o muco na mesma direção. O muco produzido ajuda na retenção de microrganismos e partículas que são posteriormente “varridos” para fora graças aos movimentos dos cílios, sendo engolidos ou expelidos.",
       },
       {
         id: 132,

@@ -99,7 +99,7 @@ export class QuestoesMEG9 {
         modelo: "4",
         enunciado:
           "A animação abaixo demonstra dois neurônios, apresentando entre si uma diferença estrutural: um deles, à direita, apresenta neurofibra mielinizada, enquanto o outro, à esquerda, apresenta neurofibra não mielinizada. No que se refere a este aspecto, analise as alternativas abaixo e selecione a proposição que julgar como verdadeira acerca das bainhas de mielina.",
-        imagem: "img1m4ner",
+        imagem: "gif1m4ner",
         legendaImagem: "Imagem: Brain Support. Disponível aqui.",
         alternativa1:
           "As neurofibras mielinizadas conduzem os impulsos de forma mais rápida, pois tem característica saltatória, passando de um nó neurofibroso para o seguinte, diferente das não mielinizadas.",
@@ -110,7 +110,7 @@ export class QuestoesMEG9 {
         alternativa4:
           "Nas neurofibras não mielinizadas o impulso de propaga ao longo do axônio por meio de sinapses elétricas interneurônios,",
         alternativaCorreta: "1",
-        feedBackImagem: "img1m4ner",
+        feedBackImagem: "gif1m4ner",
         feedBackLegendaImagem: "Imagem: Brain Support. Disponível aqui.",
         feedBackTexto:
           "As neurofibras mielinizadas conduzem os impulsos de forma mais rápida, pois tem característica saltatória, de modo que os impulsos passam de um nó neurofibroso para o seguinte, diferente das não mielinizadas, em que o impulso se propaga continuamente ao longo da membrana do neurônio.",
@@ -122,7 +122,7 @@ export class QuestoesMEG9 {
         modelo: "4",
         enunciado:
           "A animação abaixo demonstra a condução de impulsos nervosos após o contato com um objeto quente. Os impulsos gerados são responsáveis pelos atos reflexos. Sob este aspecto, analise a animação e as alternativas abaixo e selecione a alternativa que julgar como verdadeira.",
-        imagem: "img2m4ner",
+        imagem: "gif2m4ner",
         legendaImagem: "Imagem: Carpe Noctum, via Gfycat. Disponível aqui.",
         alternativa1:
           "O estímulo é detectado por um neurônio sensitivo que transmite o impulso para o encéfalo, que por meio de neurônios pseudounilaterias estimula a musculatura a se contrair.",
@@ -133,7 +133,7 @@ export class QuestoesMEG9 {
         alternativa4:
           "O estímulo é detectado por um neurônio sensitivo que transmite o impulso a um neurônio associativo, que transmite o impulso a um neurônio motor, estimulando a musculatura a realizar a ação reflexa.",
         alternativaCorreta: "4",
-        feedBackImagem: "img2m4ner",
+        feedBackImagem: "gif2m4ner",
         feedBackLegendaImagem:
           "Imagem: Carpe Noctum, via Gfycat. Disponível aqui.",
         feedBackTexto:
@@ -146,7 +146,7 @@ export class QuestoesMEG9 {
         modelo: "4",
         enunciado:
           "A animação abaixo ilustra de forma simplificada a condução de impulsos nervosos entre neurônios. Sobre esse processo, analise a animação e as alternativas e assinale a proposição que julgar como verdadeira.",
-        imagem: "img3m4ner",
+        imagem: "gif3m4ner",
         legendaImagem: "Imagem: Crash Course, via Makeagif. Disponível aqui.",
         alternativa1:
           "As sinapses entre neurônios são exclusivamente do tipo elétricas.",
@@ -157,7 +157,7 @@ export class QuestoesMEG9 {
         alternativa4:
           "Nas sinapses químicas são mediadas por neurotransmissores, como, por exemplo, a insulina e o glucagon.",
         alternativaCorreta: "3",
-        feedBackImagem: "img3m4ner",
+        feedBackImagem: "gif3m4ner",
         feedBackLegendaImagem:
           "Imagem: Crash Course, via Makeagif. Disponível aqui.",
         feedBackTexto:

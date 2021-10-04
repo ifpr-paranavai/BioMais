@@ -138,7 +138,7 @@ export class QuestoesMEG1 {
         alternativa4:
           "Digestão, formação de fezes, movimentos peristálticos no esôfago e eliminação de bolo fecal.",
         alternativaCorreta: "2",
-        feedBackImagem: "imgfeedback51",
+        feedBackImagem: "giffeedback51",
         feedBackLegendaImagem: "Imagem: <http://cna.weebly.com/6-ano.html>",
         feedBackTexto:
           "A animação demonstra, respectivamente, a abertura da cárdia, que consiste na região onde se localiza o esfíncter esofágico inferior, responsável por regular a passagem de bolo alimentar do esôfago para o estômago; o peristaltismo do estômago, que consiste em movimentos involuntários que auxiliam a digestão mecânica e na mistura do bolo alimentar no estômago com as substâncias secretadas por este órgão; a  secreção de suco gástrico, substância que contém enzimas (responsáveis pela digestão de proteínas) e uma secreção ácida (ácido clorídrico) capaz de amolecer e esterilizar o bolo alimentar e ativar as enzimas para que efetivem suas funções digestivas; a digestão, convertendo o bolo alimentar em quimo; e a abertura do esfíncter pilórico, que possibilita a passagem do quimo do estômago ao intestino delgado.",
@@ -158,7 +158,7 @@ export class QuestoesMEG1 {
         alternativa3: "Peristaltismo do esôfago.",
         alternativa4: "Refluxo gastroesofágico.",
         alternativaCorreta: "3",
-        feedBackImagem: "imgfeedback52",
+        feedBackImagem: "giffeedback52",
         feedBackLegendaImagem:
           "Imagem: <http://bioblogcuriosidades.blogspot.com/2010_09_03_archive.html>",
         feedBackTexto:
@@ -182,7 +182,7 @@ export class QuestoesMEG1 {
         alternativa4:
           "Secreção de bile, suco pancreático, suco gástrico e digestão no estômago.",
         alternativaCorreta: "3",
-        feedBackImagem: "imgfeedback53",
+        feedBackImagem: "giffeedback53",
         feedBackLegendaImagem: "Imagem: <http://cnesds.blogspot.com/2015/05/>",
         feedBackTexto:
           "A animação demonstra, por meio dos “pontinhos” verdes, amarelos e vermelhos, respectivamente, a secreção de bile (produzida pelo fígado), suco pancreático (produzido pelo pâncreas) e suco entérico (produzido por células da mucosa do intestino delgado). Além disso, se evidencia na animação a digestão no intestino delgado, por meio da representação da conversão de moléculas maiores em moléculas menores.",
@@ -205,7 +205,7 @@ export class QuestoesMEG1 {
         alternativa4:
           "Epiglote: fechamento da glote, evitando a entrada do bolo alimentar no sistema respiratório.",
         alternativaCorreta: "4",
-        feedBackImagem: "imgfeedback54",
+        feedBackImagem: "giffeedback54",
         feedBackLegendaImagem:
           "Imagem: <https://biopesquisa.wordpress.com/2016/08/>",
         feedBackTexto:
@@ -226,7 +226,7 @@ export class QuestoesMEG1 {
         alternativa3: "Suco pancreático.",
         alternativa4: "Suco salivar.",
         alternativaCorreta: "1",
-        feedBackImagem: "imgfeedback55",
+        feedBackImagem: "giffeedback55",
         feedBackLegendaImagem:
           "Imagem: <https://wifflegif.com/gifs/477786-animation-domination-high-def-gif>",
         feedBackTexto:
@@ -264,20 +264,20 @@ export class QuestoesMEG1 {
         modelo: "5",
         enunciado:
           "A estrutura representada abaixo corresponde a uma glândula que atua tanto de forma exócrina (produzindo suco pancreático, que contém enzimas digestivas) como endócrina (produzindo hormônios, como a insulina e glucagon). Sob este aspecto, com base em seus conhecimentos, determine a alternativa correta.",
-        imagem: "",
-        legendaImagem: "",
-        alternativa1:
-          "A secreção de bile é realizada por meio desta estrutura, tendo como função a emulsificação de lipídios.",
+        imagem: "img62m5sd",
+        legendaImagem: "Imagem: Adaptada de Macrovector, via Freepik.com. Disponível aqui.",
+        alternativa1: 
+          "Esta estrutura produz os hormônios FSH, estrógeno e progestina, responsáveis pelas características sexuais secundárias femininas.",
         alternativa2:
-          "A secreção exócrina desta estrutura tem como função a digestão de proteínas, carboidratos, triglicerídeos e ácidos nucléicos.",
+          "A secreção de bile é realizada por meio desta estrutura, tendo como função a emulsificação de lipídios.",
         alternativa3:
+          "A secreção exócrina desta estrutura tem como função a digestão de proteínas, carboidratos, triglicerídeos e ácidos nucléicos.",
+        alternativa4:
           "Pacientes com disfunção desta estrutura geralmente apresentam icterícia e hepatite.",
-        alternativa4: "",
-
         alternativaCorreta: "3",
-        feedBackImagem: "SEM",
-        feedBackLegendaImagem: "",
-        feedBackTexto: "",
+        feedBackImagem: "img62m5sd",
+        feedBackLegendaImagem: "Imagem: Adaptada de Macrovector, via Freepik.com. Disponível aqui.",
+        feedBackTexto: "A imagem representa o pâncreas. A secreção exócrina desta estrutura, o suco pancreático, é secretada no duodeno e atua no sistema digestório tendo como função a digestão de proteínas, carboidratos, triglicerídeos e ácidos nucléicos.",
       },
       {
         id: 37,
