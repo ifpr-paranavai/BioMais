@@ -27,14 +27,9 @@ export class QuestoesMEG4 {
         alternativa2: "Rins, uretra, pâncreas e bexiga",
         alternativa3: "Rins, apêndice, útero e uretra",
         alternativa4: "Rins, ureteres, bexiga e útero",
-        alternativa5: "",
-        alternativa6: "ALTERNATIVAS CORRETAS",
-        alternativaCorreta: "FEEDBACK IMAGEM",
-        feedBackImagem: "LEGENDA DA IMAGEM DE FEEDBACK",
-        feedBackLegendaImagem: "FEEDBACK TEXTO",
+        alternativaCorreta: "1",
         feedBackTexto:
-          "GRUPO<br/>4<br/><br/>MODELO<br/>2<br/><br/>ENUNCIADO<br/>Dentre as principais funções do sistema urinário, encontra-se a produção, armazenamento e eliminação de urina. Sobre a fisiologia do sistema urinário, com base em seus conhecimentos, assinale todas as alternativas que julgar corretas.<br/><br/>ALTERNATIVAS<br/>O sangue a ser filtrado nos rins percorre os capilares do glomérulo sob alta pressão, forçando a saída de líquido sanguíneo para a cápsula renal.<br/>Ao passar pelo túbulo néfrico, o filtrado glomerular passa por um processo de reabsorção e secreção de substâncias, e ao final do túbulo transforma-se em urina.<br/>A urina produzida nos rins é encaminhada para os ureteres que desembocam na bexiga, onde é armazenada até ser eliminada pela uretra.<br/>A urina é armazenada na bexiga graças ao esfíncter uretral, localizado na união entre a bexiga e a uretra, e de músculos na parede da uretra que se mantém contraídos impedindo sua saída.<br/>O sangue chega aos néfrons por meio das arteríolas eferentes, proveniente da veia renal, passando pelo túbulo néfrico, onde é filtrado.<br/>Ao passar pelo glomérulo, o filtrado glomerular é reabsorvido, de modo que a formação da urina se dá na porção proximal do túbulo néfrico, contendo glicose, ureia, proteínas e sais.<br/><br/>ALTERNATIVAS CORRETAS<br/>1,2,3,4<br/><br/>FEEDBACK IMAGEM<br/>Sem<br/><br/>LEGENDA DA IMAGEM DE FEEDBACK<br/>Sem<br/><br/>FEEDBACK TEXTO<br/>O sangue chega aos néfrons por meio das arteríolas aferentes, proveniente da artéria renal, passando pelos capilares do glomérulo, sob alta pressão, onde é filtrado, forçando a saída de líquido sanguíneo para a cápsula renal.<br/>Ao passar pelo túbulo néfrico, o filtrado glomerular passa por um processo de reabsorção e secreção de substâncias, e ao final do túbulo transforma-se em urina, que em condições normais é composta de água (cerca de 95 por cento), ureia, e menores quantidades de amônia, ácido úrico e sais.<br/>A urina produzida nos rins é encaminhada para os ureteres que desembocam na bexiga, onde é armazenada até ser eliminada pela uretra.<br/>A urina é armazenada na bexiga graças ao esfíncter uretral, localizado na união entre a bexiga e a uretra, e de músculos na parede da uretra que se mantém contraídos impedindo sua saída.",
-      },
+         "O conjunto de órgãos e estruturas responsáveis pela filtração do sangue, produção, armazenamento e eliminação de substâncias potencialmente tóxicas do organismo por meio da urina, constitui o sistema urinário. Esse sistema é composto por dois rins, dois ureteres, uma bexiga urinária e uma uretra."      },
       {
         id: 143,
         escolhida: "não",
