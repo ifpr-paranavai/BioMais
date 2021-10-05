@@ -1,0 +1,24 @@
+<ion-header> 
+  <ion-toolbar> 
+    <ion-buttons slot="start"> 
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-card-title><h1>Sistema Nervoso</h1></ion-card-title>
+  </ion-toolbar> 
+</ion-header> 
+
+<ion-content>
+  <ion-img src="assets/imagensCorpo/Capa nervoso.png"></ion-img>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title style="text-align: center; color: black">RESUMO</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p style="text-align: justify">O sistema nervoso é composto pelo sistema nervoso central (SNC), formado pelo encéfalo e medula espinhal, cuja função é interpretar informações obtidas e elaborar respostas adequadas enviando-as aos órgãos responsáveis; e pelo sistema nervoso periférico (SNP), formado pelos gânglios e nervos, cuja função é levar informações das diversas partes do corpo ao SNC, e vice-versa [2].</p>
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-button expand="block" color="success" fill="outline" (click)="chamarTecido_nervoso()">TECIDO NERVOSO</ion-button>
+  <ion-button expand="block" color="success" fill="outline" (click)="chamarNer_central()">SISTEMA NERVOSO CENTRAL</ion-button>
+  <ion-button expand="block" color="success" fill="outline" (click)="chamarNer_periferico()">SISTEMA NERVOSO PERIFÉRICO</ion-button>
+</ion-content>

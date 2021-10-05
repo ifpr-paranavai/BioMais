@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-reprodutor',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReprodutorPage implements OnInit {
 
-  constructor() { }
+  constructor(public router: Router) { }
 
   ngOnInit() {
   }
 
+  chamarRepro_feminino(){
+    this.router.navigate(['sistema-reprodutor-feminino']);
+  }
+  chamarRepro_marculino(){
+    this.router.navigate(['sistema-reprodutor-masculino']);
+  }
+  chamarFec_contr(){
+    this.router.navigate(['fecundacao-contracepcao']);
+  }
 }

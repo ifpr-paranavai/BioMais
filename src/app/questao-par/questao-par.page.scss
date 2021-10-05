@@ -1,14 +1,14 @@
-page-questao-par {
+
 
     .botaoPares {
         background-color: #ffffff;
         display: inline-block;
-        height: 174px;
+        min-height: 174px;
         padding: 0;
         margin: 0;
         vertical-align: top;
         width:45%;
-        border: 6px solid;
+        border: 6px solid #F0E68C;
         border-radius: 10px;
         margin: 2%;
   
@@ -54,4 +54,4 @@ page-questao-par {
       margin-top:-50px;
       margin-left:-50px;
   }
-  }
+  

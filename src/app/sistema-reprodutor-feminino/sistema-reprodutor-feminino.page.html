@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start"> 
+    <ion-back-button></ion-back-button>
+  </ion-buttons>
+    <ion-card-title><h1>Sistema Reprodutor Feminino</h1></ion-card-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card (click)="expandItem(item)" (click)="toggle()" *ngFor="let item of items">
+    <ion-card-header>
+      <h1>
+        <ion-icon style="float:right;" [name]="visible ? 'chevron-up-outline' : 'chevron-down-outline'">
+        </ion-icon>
+      </h1>
+      <ion-title style="color:black; font-size: 17px;">{{item.titulo}}</ion-title>
+      <ion-title style="color:black; font-size: 17px;">{{item.titulo2}}</ion-title>
+    </ion-card-header>
+    <ion-card-content>
+      <app-expandable expandHeight="6000px" [expanded]="item.expanded">
+        <ion-card-subtitle style="text-align: justify; font-size: 15.5px" [innerHTML]="item.referenciaFim"></ion-card-subtitle>
+        <ion-img *ngIf="item.imagem" src="{{item.imagem}}"></ion-img>
+        <ion-card-subtitle style="text-align: center;" [innerHTML]="item.referenciaImagem"></ion-card-subtitle>
+        <br>
+        <p style="text-align: justify; font-size: 15.5px" [innerHTML]="item.texto"></p>
+        <br>
+        <ion-img *ngIf="item.imagem2" src="{{item.imagem2}}"></ion-img>
+        <ion-card-subtitle style="text-align: center;" [innerHTML]="item.referenciaImagem2"></ion-card-subtitle>
+        <br>
+        <p *ngIf="item.texto2" style="text-align: justify; font-size: 15.5px" [innerHTML]="item.texto2"></p>
+        <br>
+        <ion-img *ngIf="item.imagem3" src="{{item.imagem3}}"></ion-img>
+        <ion-card-subtitle style="text-align: center;" [innerHTML]="item.referenciaImagem3"></ion-card-subtitle>
+        <br>
+        <p *ngIf="item.texto3" style="text-align: justify; font-size: 15.5px" [innerHTML]="item.texto3"></p>
+        <br>
+        <ion-img *ngIf="item.imagem4" src="{{item.imagem4}}"></ion-img>
+        <ion-card-subtitle style="text-align: center;" [innerHTML]="item.referenciaImagem4"></ion-card-subtitle>
+        <br>
+        <p *ngIf="item.texto4" style="text-align: justify; font-size: 15.5px" [innerHTML]="item.texto4"></p>
+        <br>
+        <ion-img *ngIf="item.imagem5" src="{{item.imagem5}}"></ion-img>
+        <ion-card-subtitle style="text-align: center;" [innerHTML]="item.referenciaImagem5"></ion-card-subtitle>
+        <br>
+        <p *ngIf="item.texto5" style="text-align: justify; font-size: 15.5px" [innerHTML]="item.texto5"></p>
+      </app-expandable>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

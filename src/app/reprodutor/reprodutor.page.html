@@ -1,12 +1,24 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>reprodutor</ion-title>
-    <ion-buttons slot="start">
+<ion-header> 
+  <ion-toolbar> 
+    <ion-buttons slot="start"> 
       <ion-back-button></ion-back-button>
     </ion-buttons>
-  </ion-toolbar>
-</ion-header>
+    <ion-card-title><h1>Sistema Reprodutor</h1></ion-card-title>
+  </ion-toolbar> 
+</ion-header> 
 
 <ion-content>
-
+  <ion-img src="assets/imagensCorpo/Capa reprodutor.png"></ion-img>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title style="text-align: center; color: black">RESUMO</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p style="text-align: justify">O sistema reprodutor humano, também denominado sistema genital, é um conjunto de órgãos que atum em conjunto, no sexo feminino e masculino, com a finalidade de reprodução, isto é, a geração de descendentes dando continuidade à espécie. [1]. </p>
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-button expand="block" color="success" fill="outline" (click)="chamarRepro_feminino()">SISTEMA REPRODUTOR FEMININO</ion-button>
+  <ion-button expand="block" color="success" fill="outline" (click)="chamarRepro_marculino()">SISTEMA REPRODUTOR MASCULINO</ion-button>
+  <ion-button expand="block" color="success" fill="outline" (click)="chamarFec_contr()">FECUNDAÇÃO E CONTRACEPÇÃO</ion-button>
 </ion-content>

@@ -28,5 +28,20 @@ export class Tab2Page {
   chamarReprodutor(){
     this.router.navigate(['reprodutor'])
   }
+  chamarMuscular(){
+    this.router.navigate(['sistem-muscular'])
+  }
+  chamarEndocrino(){
+    this.router.navigate(['sistema-endocrino'])
+  }
+  chamarNervoso(){
+    this.router.navigate(['sistema-nervoso'])
+  }
+  chamarEsqueletico(){
+    this.router.navigate(['sistema-esqueletico'])
+  }
+  chamarSentidos(){
+    this.router.navigate(['sentidos'])
+  }
 
 }

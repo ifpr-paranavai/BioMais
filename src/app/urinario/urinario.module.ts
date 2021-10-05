@@ -1,20 +1,24 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-
 import { IonicModule } from '@ionic/angular';
-
-import { UrinarioPageRoutingModule } from './urinario-routing.module';
+import { RouterModule } from "@angular/router";
 
 import { UrinarioPage } from './urinario.page';
+import { ExpandableComponent } from "../components/expandable/expandable.component";
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    UrinarioPageRoutingModule
+    RouterModule.forChild([
+      {
+        path: "",
+        component: UrinarioPage
+      }
+    ])
   ],
-  declarations: [UrinarioPage]
+  declarations: [UrinarioPage, ExpandableComponent]
 })
 export class UrinarioPageModule {}
