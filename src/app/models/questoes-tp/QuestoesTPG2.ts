@@ -473,10 +473,10 @@ export class QuestoesTPG2 {
           },
         ],
         feedBackImagem: "SEM",
-        feedBackLegendaImagem: "FEEDBACK TEXTO",
-        feedBackTexto:
-          "Na figura abaixo, os pequenos vasos que transportam sangue pobre em oxigênio estão representados em azul, enquanto os vasos que transportam sangue rico em oxigênio estão representados em vermelho. Esses pequenos vasos são ramificações de veias e artérias, que estão ilustrados pelas estruturas I e II, que, por sua vez, se ramificam em vasos finíssimos e de estrutura microscópica (representados por III), que estão presentes em todas as regiões do corpo, próximos das células dos tecidos, onde ocorre a nutrição, oxigenação e remoção de substâncias. Com base nas informações e em seus conhecimentos, determine as estruturas I, II e III por meio de toques nos pares.<br/><br/>IMAGEM<br/>img33m1sc<br/><br/>LEGENDA DA IMAGEM<br/>Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.<br/><br/>PARES CORRETOS<br/>I = Vênulas<br/>II = Arteríolas<br/>III = Capilares<br/><br/>FEEDBACK IMAGEM<br/>img33m1sc<br/><br/>LEGENDA DA IMAGEM DE FEEDBACK<br/>Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.<br/><br/>FEEDBACK TEXTO<br/>Os vasos sanguíneos de maior calibre se ramificam em vasos menores, de modo que as veias, ao se ramificarem em vasos mais finos, passam a ser chamadas de vênulas (representadas por I), e as ramificações arteriais finas denominam-se arteríolas (representadas por II). Vênulas e arteríolas, se ramificam em vasos ainda menores, de calibre microscópico, denominados capilares sanguíneos (representados por III), que estão presentes em todas as regiões do corpo, próximos das células dos tecidos.",
-      },
+        feedBackLegendaImagem: "Imagem: Adaptada de Zoofari, (Creative Commons BY-SA 3.0), via Wikimedia Commons. Disponível aqui.",
+        feedBackTexto:        
+        "Na circulação sanguínea, o sangue proveniente dos tecidos, pobre em oxigênio e rico em gás carbônico, chega ao coração por meio das veias cavas (representadas por I). Esse sangue é bombeado do coração aos pulmões para ser oxigenado, passando pelas artérias pulmonares (representadas por II), que são as únicas artérias (exceção) que transportam sangue pobre em oxigênio. O sangue, após ser oxigenado nos pulmões, retorna ao coração por meio das veias pulmonares (representadas por III), que também são uma exceção, sendo as únicas veias que transportam sangue rico em oxigênio.",
+            },
       {
         id: 67,
         escolhida: "não",

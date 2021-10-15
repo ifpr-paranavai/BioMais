@@ -21,7 +21,7 @@ export class QuestoesTPG3 {
         escolhida: "não",
         grupo: "3",
         modelo: "1",
-        enunciado: "",
+        enunciado: "Durante o processo de respiração, o ar segue um trajeto específico no sistema respiratório, representado na figura abaixo. No que se refere à anatomia das estruturas que constituem os pulmões, analise as indicações I, II e III na figura e forme os pares corretos entre as estruturas indicadas e as alternativas propostas.",
         imagem: "img1m1res",
         legendaImagem:
           "Imagem: Adaptada de LadyoHats, Domínio Público, via Wikimedia Commons. Disponível aqui.",

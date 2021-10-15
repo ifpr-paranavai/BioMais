@@ -29,7 +29,8 @@ export class QuestoesMEG4 {
         alternativa4: "Rins, ureteres, bexiga e útero",
         alternativaCorreta: "1",
         feedBackTexto:
-         "O conjunto de órgãos e estruturas responsáveis pela filtração do sangue, produção, armazenamento e eliminação de substâncias potencialmente tóxicas do organismo por meio da urina, constitui o sistema urinário. Esse sistema é composto por dois rins, dois ureteres, uma bexiga urinária e uma uretra."      },
+          "O conjunto de órgãos e estruturas responsáveis pela filtração do sangue, produção, armazenamento e eliminação de substâncias potencialmente tóxicas do organismo por meio da urina, constitui o sistema urinário. Esse sistema é composto por dois rins, dois ureteres, uma bexiga urinária e uma uretra."
+      },
       {
         id: 143,
         escolhida: "não",
@@ -65,18 +66,18 @@ export class QuestoesMEG4 {
         imagem: "gif1m4uri",
         legendaImagem: "Imagem: Nemours KidsHealth, Via Makeagif. Disponível aqui.",
         alternativa1:
-          "Quando a bexiga está cheia, receptores nervosos dos rins transmitem a informação à bexiga, provocando vontade de urinar. Na micção, ocorre relaxamento dos músculos da bexiga e contração dos esfíncteres.",
+          "Quando a bexiga está cheia, receptores nervosos em sua parede transmitem a informação ao encéfalo, provocando vontade de urinar. Na micção, ocorre contração dos músculos da bexiga e relaxamento dos esfíncteres.",
         alternativa2:
-          "A micção é um processo exclusivamente involuntário, controlado por hormônios como o ADH e aldosterona.",
+          "Quando a bexiga está cheia, receptores nervosos dos rins transmitem a informação à bexiga, provocando vontade de urinar. Na micção, ocorre relaxamento dos músculos da bexiga e contração dos esfíncteres.",
         alternativa3:
-          "A micção é um processo exclusivamente voluntário, controlado por hormônios como a angiotensina e o glucagon.",
+          " A micção é um processo exclusivamente involuntário, controlado por hormônios como o ADH e aldosterona.",
         alternativa4:
-         "A micção é um processo exclusivamente voluntário, controlado por hormônios como a angiotensina e o glucagon.",
+          "A micção é um processo exclusivamente voluntário, controlado por hormônios como a angiotensina e o glucagon.",
         alternativaCorreta: "1",
         feedBackImagem: "gif1m4uri",
         feedBackLegendaImagem: "Imagem: Nemours KidsHealth, Via Makeagif. Disponível aqui.",
         feedBackTexto:
-         "Quando a bexiga está cheia, receptores nervosos em sua parede transmitem a informação ao encéfalo, provocando vontade de urinar. Na micção, ocorre contração dos músculos da bexiga e relaxamento dos esfíncteres. Os esfíncteres urinários são controlados involuntária e voluntariamente, por isso podemos interromper a micção se quisermos.",
+          "Quando a bexiga está cheia, receptores nervosos em sua parede transmitem a informação ao encéfalo, provocando vontade de urinar. Na micção, ocorre contração dos músculos da bexiga e relaxamento dos esfíncteres. Os esfíncteres urinários são controlados involuntária e voluntariamente, por isso podemos interromper a micção se quisermos.",
       },
       {
         id: 147,
@@ -100,7 +101,7 @@ export class QuestoesMEG4 {
         feedBackLegendaImagem:
           "Imagem: CrashCourse, via Makeagif. Disponível aqui.",
         feedBackTexto:
-          "A animação abaixo demonstra um ureter em corte, bem como movimentos realizados por sua camada intermediaria de tecido muscular liso, denominados de peristaltismo. O peristaltismo da musculatura dos ureteres facilita a condução da urina proveniente dos rins em direção à bexiga.",
+          "A animação demonstra um ureter em corte, bem como movimentos realizados por sua camada intermediaria de tecido muscular liso, denominados de peristaltismo. O peristaltismo da musculatura dos ureteres facilita a condução da urina proveniente dos rins em direção à bexiga.",
       },
       {
         id: 148,
@@ -124,7 +125,8 @@ export class QuestoesMEG4 {
         feedBackImagem: "gif3m4uri",
         feedBackLegendaImagem: "Imagem: Nehasethi – Design Mate, via Makeagif. Disponível aqui.",
         feedBackTexto:
-        "O processo fisiológico que ocorre no interior dos néfrons, necessários para a formação da urina é demonstrado na animação em dois momentos: no primeiro, ilustra-se a água e resíduos sendo extravasados dos capilares do glomérulo em direção à cápsula renal e, em seguida, para o túbulo néfrico. No segundo, é ilustrado o processo de reabsorção de água e sais importantes do túbulo néfrico pelos capilares, que voltam para o sangue. Assim, ao final do percurso pelo túbulo néfrico, o líquido denominado filtrado glomerular passa a ser chamado de urina, e está pronto para sair dos rins e ser eliminado por meio das vias uriníferas para o meio externo."      },
+          "O processo fisiológico que ocorre no interior dos néfrons, necessários para a formação da urina é demonstrado na animação em dois momentos: no primeiro, ilustra-se a água e resíduos sendo extravasados dos capilares do glomérulo em direção à cápsula renal e, em seguida, para o túbulo néfrico. No segundo, é ilustrado o processo de reabsorção de água e sais importantes do túbulo néfrico pelos capilares, que voltam para o sangue. Assim, ao final do percurso pelo túbulo néfrico, o líquido denominado filtrado glomerular passa a ser chamado de urina, e está pronto para sair dos rins e ser eliminado por meio das vias uriníferas para o meio externo."
+      },
       {
         id: 149,
         escolhida: "não",
@@ -197,7 +199,7 @@ export class QuestoesMEG4 {
         feedBackImagem: "img11m5uri",
         feedBackLegendaImagem:
           "Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
-        feedBackTexto:"A hemodiálise é indicada para pacientes com insuficiência renal aguda ou crônica graves e tem como função limpar e filtrar o sangue, fazendo o trabalho que os rins doentes não podem fazer. Neste procedimento, uma máquina recebe o sangue de um paciente e é impulsionado por uma bomba até o filtro de diálise, onde é exposto à uma solução através de uma membrana semipermeável que retira o líquido e as toxinas em excesso e devolve o sangue limpo para o paciente."      
+        feedBackTexto: "A hemodiálise é indicada para pacientes com insuficiência renal aguda ou crônica graves e tem como função limpar e filtrar o sangue, fazendo o trabalho que os rins doentes não podem fazer. Neste procedimento, uma máquina recebe o sangue de um paciente e é impulsionado por uma bomba até o filtro de diálise, onde é exposto à uma solução através de uma membrana semipermeável que retira o líquido e as toxinas em excesso e devolve o sangue limpo para o paciente."
       },
       {
         id: 152,
@@ -207,11 +209,11 @@ export class QuestoesMEG4 {
         enunciado:
           "Os cálculos renais, popularmente conhecidos como pedras nos rins, são considerados uma doença do sistema urinário muito comum e que normalmente causam muita dor em pessoas acometidas. Sobre esta anomalia do sistema urinário, analise a figura abaixo e as alternativas, selecionando a proposição que julgar como verdadeira.",
         imagem: "img12m5uri",
-        legendaImagem: "ALTERNATIVAS",
+        legendaImagem: "Imagem: Adaptada de Myupchar, Creative Commons BY-SA 4.0, via Wikimedia Commons. Disponível aqui.",
         alternativa1:
           "Os cálculos renais são massas sólidas formadas por minerais que se acumulam e se juntam dentro dos rins, causando muita dor e desconforto, principalmente quando são expulsas do organismo por meio de contrações, podendo lesionar os tecidos do sistema urinário. ",
         alternativa2:
-         "Os cálculos renais são massas sólidas formadas por lipídios que se acumulam e se juntam dentro da bexiga, causando muita dor e desconforto, principalmente quando são expulsas do organismo por meio de contrações, podendo lesionar os tecidos do sistema urinário.",
+          "Os cálculos renais são massas sólidas formadas por lipídios que se acumulam e se juntam dentro da bexiga, causando muita dor e desconforto, principalmente quando são expulsas do organismo por meio de contrações, podendo lesionar os tecidos do sistema urinário.",
         alternativa3: "Os cálculos renais consistem em lesões dos glomérulos dos néfrons, trazendo graves prejuízos à função renal. Devido a isso, os pacientes precisam passar por sessões de hemodiálise, que filtra o sangue e retira as excretas metabólicas do organismo.",
         alternativa4: "Os cálculos renais consistem em um tipo de infecção bacteriana que acomete o parênquima dos rins, que se prolifera causando muita dor, consistindo em uma doença crônica irreversível.         ",
         alternativaCorreta: "1",

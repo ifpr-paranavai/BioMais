@@ -162,7 +162,7 @@ export class QuestoesMEG8 {
         feedBackImagem: "imggif2m4endo",
         feedBackLegendaImagem: "",
         feedBackTexto:
-          "Além disso, os hormônios FSH e LH, por serem hormônios tróficos, influenciam na produção de outros hormônios, nas gônadas: os hormônios sexuais. No caso da mulher, os hormônios são o estrógeno e a progesterona.",
+          "O hipotálamo, ao secretar o hormônio liberador de gonadotrofina (GnRH), estimula a adenoipófise a secretar hormônio folículo-estimulante (FSH), que atua sobre os ovários desenvolvendo os folículos ovarianos, e hormônio luteinizante (LH), responsável pela ovulação. Além disso, os hormônios FSH e LH, por serem hormônios tróficos, influenciam na produção de outros hormônios, nas gônadas: os hormônios sexuais. No caso da mulher, os hormônios são o estrógeno e a progesterona."
       },
       {
         id: 229,

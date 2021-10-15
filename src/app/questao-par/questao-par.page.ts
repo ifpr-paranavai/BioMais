@@ -48,10 +48,17 @@ export class QuestaoParPage {
             this.showImage = true;
         }
 
+       
+
+        for(let x=0;x<this.questao.pares;x++){
+            this.questao.pares[x].corBorda="#F0E68C";
+            this.questao.pares[x].desabilitar=false;
+        }
+
 
         this.pares = this.questao.pares;
 
-        console.log(this.pares[0].id);
+       //console.log(this.pares[0].id);
 
         this.pares = this.embaralharArray(this.pares);
 

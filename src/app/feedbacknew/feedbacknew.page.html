@@ -11,8 +11,10 @@
     <source [src]="'assets/sons/'+som.som+'.mp3'" type="audio/mpeg">
   Your browser does not support the audio element.
   </audio>
-
-  <ion-img *ngIf="imagem && imagem.trim().toUpperCase() != 'SEM'" [src]="imagem.includes('gif')?'assets/imagens/feedback/'+imagem+'.gif':'assets/imagens/feedback/'+imagem+'.png'" ></ion-img>
+<!-- {{image}} -->
+<!-- <ion-img [src]="assets/imagens/questoes/'+imagem+'.gif'" ></ion-img> -->
+<!-- <img  style="width: 80px; height: 80px;" [src]="image" /> -->
+  <img *ngIf="imagem && imagem.trim().toUpperCase() != 'SEM'" [src]="imagem.includes('gif')?'assets/imagens/questoes/'+imagem+'.gif':'assets/imagens/questoes/'+imagem+'.png'" />
   <small *ngIf="legenda!=undefined && legenda!='SEM'">{{legenda}}</small>
   <div style="margin-left: 10px; margin-right: 10px;"><h5 style="text-align: justify" [innerHTML]="texto"></h5></div>
 </ion-content>
