@@ -5,6 +5,7 @@ import { AlertController } from '@ionic/angular';
 import { ModalController } from '@ionic/angular';
 import { Pontuacao } from '../models/pontuacao';
 import { FeedbacknewPage } from '../feedbacknew/feedbacknew.page';
+import { Tab1Page } from '../tab1/tab1.page';
 /* import { NativeAudio } from '@ionic-native/native-audio/ngx'; */
 
 
@@ -38,12 +39,12 @@ export class QuestaoMultiplaEscolhaPage {
     @Input() questao: { legendaImagem: "", feedBackTexto: "", feedBackImagem: "", alternativaCorreta: "", alternativa1: "", alternativa2: "", alternativa3: "", alternativa4: "", alternativa5: "", alternativa6: "" }
 
 
-    constructor(public platform: Platform, public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController, private toastCtrl: ToastController, public loadingCtrl: LoadingController, public modalController: ModalController,) {
+    constructor(public platform: Platform, public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController, private toastCtrl: ToastController, public loadingCtrl: LoadingController, public modalController: ModalController, public tab1Page: Tab1Page) {
         this.home = navParams.get("home");
         this.questao = navParams.get("questao");
         this.tentativas = 0;
         this.totalPontos = this.pontuacao.quantidadePontos;
-
+        console.log(this.tab1Page.subscribeTimer);
 
 
        // console.log(this.questao.alternativaCorreta)

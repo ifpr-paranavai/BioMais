@@ -50,6 +50,7 @@ import {Pontuacao} from '../models/pontuacao';
 import { IonicStorageModule } from '@ionic/storage';
 import { Storage } from '@ionic/storage';
 import { timeoutWith } from 'rxjs-compat/operator/timeoutWith';
+import { timer } from 'rxjs/observable/timer';
 
 export function continuar() {}
 
@@ -96,8 +97,8 @@ export class Tab1Page {
     private questoesMultiplaGrupoSelecionado = [];
     private questoesParesGrupoSelecionado = [];
 
-    
-    
+    private timeLeft: number = 60;
+    public subscribeTimer: any;
     
     public static quantidadePontosDia;
     //public static usuarioLogado={resolvidog1:"", nome:""};
@@ -651,12 +652,23 @@ export class Tab1Page {
     //--------------------------------------------------------------------------------------------------------
 
 
+    observableTimer(){
+        const source = timer(0, 1000);
+        const countDown = source.subscribe(val => {
+            this.subscribeTimer = this.timeLeft - val;
+            console.log(this.subscribeTimer, '-');
+
+        });
+    }
+
     iniciarResolucao(grupo) {
         this.questoesSelecionadasNovaImplementacao = [];
         this.quantidadeQuestoesResolvidas=0;
         this.pontuacao.acerto=0;
         this.pontuacao.quantidadePontos=0;
         this.pontuacao.quantidadeQuestoesConsecutivas=0;
+
+        this.observableTimer();
         
         if(grupo == 1){
             let questoesNovas = this.shuffle([].concat(this.questoesMultiplaEscolhaG1,this.questoesToqueParesG1));
