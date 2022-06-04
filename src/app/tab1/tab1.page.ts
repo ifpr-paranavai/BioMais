@@ -99,6 +99,7 @@ export class Tab1Page {
 
     private timeLeft: number = 60;
     public subscribeTimer: any;
+    private countDown: any;
     
     public static quantidadePontosDia;
     //public static usuarioLogado={resolvidog1:"", nome:""};
@@ -172,13 +173,13 @@ export class Tab1Page {
 
     }
 
-    chamardiGestorio() {
+    chamarDigestorio() {
         this.router.navigate(['digestorio']);
     }
     chamarConf() {
         this.router.navigate(['configuracoes'])
     }
-    chamarcarDiovascular() {
+    chamarCardiovascular() {
         this.router.navigate(['cardiovascular'])
     }
     chamarRespiratorio() {
@@ -507,6 +508,13 @@ export class Tab1Page {
     async continuar() {
         let questaoSelecionada = this.retornaQuestaoAleatoriamenteNovaImplementacao();
 
+
+        // Finaliza o temporizador
+        this.countDown.unsubscribe();
+
+        // Reinicia o temporizador
+        this.observableTimer();
+
         if (this.pontuacao.acerto == 1) {
             this.pontuacao.quantidadePontos += 10;
         }
@@ -654,11 +662,19 @@ export class Tab1Page {
 
     observableTimer(){
         const source = timer(0, 1000);
-        const countDown = source.subscribe(val => {
+        this.countDown = source.subscribe(val => {
             this.subscribeTimer = this.timeLeft - val;
-            console.log(this.subscribeTimer, '-');
-
+            console.log(this.subscribeTimer);
+            if(this.subscribeTimer == 55){
+                this.outOfTime();
+            }
         });
+    }
+    
+
+    outOfTime(){
+        this.countDown.unsubscribe();
+        console.log("Acabou o tempo");
     }
 
     iniciarResolucao(grupo) {
@@ -805,10 +821,6 @@ export class Tab1Page {
 
         });
 
-    }
-
-    public resetTimer(){
-        this.subscribeTimer = 60;
     }
 
     //---------------------------------------------------------------------------------------------------------

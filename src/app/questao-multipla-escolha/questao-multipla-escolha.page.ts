@@ -39,13 +39,11 @@ export class QuestaoMultiplaEscolhaPage {
     @Input() questao: { legendaImagem: "", feedBackTexto: "", feedBackImagem: "", alternativaCorreta: "", alternativa1: "", alternativa2: "", alternativa3: "", alternativa4: "", alternativa5: "", alternativa6: "" }
 
 
-    constructor(public platform: Platform, public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController, private toastCtrl: ToastController, public loadingCtrl: LoadingController, public modalController: ModalController, public tab1Page: Tab1Page) {
+    constructor(public platform: Platform, public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController, private toastCtrl: ToastController, public loadingCtrl: LoadingController, public modalController: ModalController) {
         this.home = navParams.get("home");
         this.questao = navParams.get("questao");
-        this.tentativas = 0;
+        this.tentativas = 0;    
         this.totalPontos = this.pontuacao.quantidadePontos;
-        console.log(this.tab1Page.subscribeTimer);
-
 
        // console.log(this.questao.alternativaCorreta)
 
@@ -78,6 +76,7 @@ export class QuestaoMultiplaEscolhaPage {
         this.alternativas = this.embaralharArray(this.alternativas);
         //console.log(this.alternativas);
         //console.log("alternativa 6: " + this.questao.alternativa6);
+
     }
 
 
@@ -89,7 +88,6 @@ export class QuestaoMultiplaEscolhaPage {
             alternativa.corBorda = "#F0E68C";
         }
     }
-
 
 
     verificar() {
