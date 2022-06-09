@@ -6,6 +6,7 @@ import { ModalController } from '@ionic/angular';
 import { Pontuacao } from '../models/pontuacao';
 import { FeedbacknewPage } from '../feedbacknew/feedbacknew.page';
 import { Tab1Page } from '../tab1/tab1.page';
+import { timer } from 'rxjs/observable/timer';
 /* import { NativeAudio } from '@ionic-native/native-audio/ngx'; */
 
 
@@ -28,6 +29,8 @@ export class QuestaoMultiplaEscolhaPage {
     private alternativaSelecionada;
     private tentativas = 0;
     private totalPontos;
+    private verifyTime;
+    private time;
     private corAlternativa1 = "#F0E68C";
     private corAlternativa2 = "#F0E68C";
     private corAlternativa3 = "#F0E68C";
@@ -44,6 +47,7 @@ export class QuestaoMultiplaEscolhaPage {
         this.questao = navParams.get("questao");
         this.tentativas = 0;    
         this.totalPontos = this.pontuacao.quantidadePontos;
+        this.startTimer();
 
        // console.log(this.questao.alternativaCorreta)
 
@@ -79,6 +83,27 @@ export class QuestaoMultiplaEscolhaPage {
 
     }
 
+    startTimer(){
+        const source = timer(0, 1000);
+        this.verifyTime = source.subscribe(val =>{
+            this.time = Tab1Page.subscribeTimer;
+            if(this.time == 0){
+                Tab1Page.outOfTime();
+                this.feedback(false);
+                this.verifyTime.unsubscribe()
+            }
+        })
+    }
+
+    formatTimeLeft(time) {
+        const minutes = Math.floor(time / 60);
+        let seconds: number =  time % 60;
+        let secondsConverted: string = (time % 60).toString();
+        if(seconds < 10){
+            secondsConverted = `0${seconds}`;
+        }
+        return `${minutes}:${secondsConverted}`;
+    }
 
 
     marcarAlteranativa(alternativa) {

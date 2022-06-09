@@ -86,8 +86,8 @@ export class Tab1Page {
     private questoesParesGrupoSelecionado = [];
 
     private timeLeft: number = 60;
-    public subscribeTimer: any;
-    private countDown: any;
+    public static subscribeTimer: any;
+    public static countDown: any;
     
     public static quantidadePontosDia;
     //public static usuarioLogado={resolvidog1:"", nome:""};
@@ -483,14 +483,14 @@ export class Tab1Page {
 
 
     async continuar() {
-        let questaoSelecionada = this.retornaQuestaoAleatoriamenteNovaImplementacao();
-
-
+        
         // Finaliza o temporizador
-        this.countDown.unsubscribe();
+        Tab1Page.countDown.unsubscribe();
 
         // Reinicia o temporizador
         this.observableTimer();
+
+        let questaoSelecionada = this.retornaQuestaoAleatoriamenteNovaImplementacao();
 
         if (this.pontuacao.acerto == 1) {
             this.pontuacao.quantidadePontos += 10;
@@ -622,18 +622,15 @@ export class Tab1Page {
 
     observableTimer(){
         const source = timer(0, 1000);
-        this.countDown = source.subscribe(val => {
-            this.subscribeTimer = this.timeLeft - val;
-            console.log(this.subscribeTimer);
-            if(this.subscribeTimer == 55){
-                this.outOfTime();
-            }
+        Tab1Page.countDown = source.subscribe(val => {
+            Tab1Page.subscribeTimer = this.timeLeft - val;
+            console.log(Tab1Page.subscribeTimer);
         });
     }
     
 
-    outOfTime(){
-        this.countDown.unsubscribe();
+    static outOfTime(){
+        Tab1Page.countDown.unsubscribe();
         console.log("Acabou o tempo");
     }
 
