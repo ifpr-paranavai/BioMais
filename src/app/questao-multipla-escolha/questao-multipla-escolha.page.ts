@@ -201,7 +201,8 @@ export class QuestaoMultiplaEscolhaPage {
         <div >
           <img src="assets/imagens/incorreto.png"/>
         </div>`,
-            duration: 700
+            duration: 700,
+            cssClass: 'transparent'
         });
 
         loading.onDidDismiss(() => {
@@ -220,7 +221,8 @@ export class QuestaoMultiplaEscolhaPage {
         <div >
           <img src="assets/imagens/incorreto.png"/>
         </div>`,
-            duration: 700
+            duration: 700,
+            cssClass: 'transparent'
         });
 
         await loading.onDidDismiss();
@@ -237,7 +239,8 @@ export class QuestaoMultiplaEscolhaPage {
       <div >
         <img src="assets/imagens/incorreto.png"/>
       </div>`,
-            duration: 500
+            duration: 500,
+            cssClass: 'transparent'
         });
         await loading.present();
 
