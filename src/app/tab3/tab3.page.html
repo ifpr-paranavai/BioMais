@@ -12,6 +12,28 @@
 </ion-header>
 
 <ion-content>
+
+  <ion-card color="light">
+    <ion-card-header>
+      <center>
+        <ion-title>Dificuldade</ion-title>
+      </center>
+      </ion-card-header>
+    <ion-card-content>
+      <ion-row>
+        <ion-col>
+          <ion-button (click)="modificadorPontos('facil')" color="success">Fácil</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button (click)="modificadorPontos('normal')" color="warning">Médio</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button (click)="modificadorPontos('dificil')" color="danger">Difícil</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+
 <h2 style="padding: 14px;">Acumule pontos e desbloqueie sons</h2>
 
   <ion-card color="light">

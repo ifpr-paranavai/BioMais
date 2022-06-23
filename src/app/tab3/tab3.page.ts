@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { AlertController, LoadingController } from '@ionic/angular';
 import { Pontuacao } from '../models/pontuacao';
+import { Tab1Page } from '../tab1/tab1.page';
 
 @Component({
   selector: 'app-tab3',
@@ -104,5 +105,18 @@ verificar(som){
     // console.log('é pra ter alterado a cor')
   }
 
+  modificadorPontos(dificuldade){
+    switch (dificuldade){
+      case 'facil':
+        Tab1Page.pointMultiplier = 1.0;
+        break;
+      case 'normal':
+        Tab1Page.pointMultiplier = 1.5;
+        break;
+      case 'dificil':
+        Tab1Page.pointMultiplier = 2.0;
+        break;
+    }
+  }
 
 }

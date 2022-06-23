@@ -85,6 +85,8 @@ export class Tab1Page {
     private questoesMultiplaGrupoSelecionado = [];
     private questoesParesGrupoSelecionado = [];
 
+    public static pointMultiplier: number = 1.0;
+
     private timeLeft: number = 60;
     public static subscribeTimer: any;
     public static countDown: any;
@@ -480,7 +482,7 @@ export class Tab1Page {
         const {role, data} = await loading.onDidDismiss();
         //("Loading Erro", role)
     }
-
+ 
 
     async continuar() {
         
@@ -493,13 +495,13 @@ export class Tab1Page {
         let questaoSelecionada = this.retornaQuestaoAleatoriamenteNovaImplementacao();
 
         if (this.pontuacao.acerto == 1) {
-            this.pontuacao.quantidadePontos += 10;
+            this.pontuacao.quantidadePontos += (10 * Tab1Page.pointMultiplier);
         }
 
         if(this.pontuacao.quantidadeQuestoesConsecutivas>4){
             this.maisPontos();
             this.pontuacao.quantiadePontosRecompensaQuestoesConsecutivas = this.pontuacao.quantiadePontosRecompensaQuestoesConsecutivas+10;
-            this.pontuacao.quantidadePontos += 10;
+            this.pontuacao.quantidadePontos += (10 * Tab1Page.pointMultiplier);
             this.pontuacao.quantidadeQuestoesConsecutivas=0;
         }
         this.pontuacao.acerto = 0;
@@ -621,6 +623,19 @@ export class Tab1Page {
     }
 
     observableTimer(){
+        switch(Tab1Page.pointMultiplier){
+            case 1.0:
+                this.timeLeft = 60;
+                break;
+
+            case 1.5:
+                this.timeLeft = 45;
+                break;
+            
+            case 2.0:
+                this.timeLeft = 30;
+                break;
+        }
         const source = timer(0, 1000);
         Tab1Page.countDown = source.subscribe(val => {
             Tab1Page.subscribeTimer = this.timeLeft - val;
