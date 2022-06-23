@@ -102,7 +102,7 @@ verificar(som){
 
   alteradorCores() {
     document.getElementById("testando").style.backgroundColor = "purple";
-    // console.log('é pra ter alterado a cor')
+    // console.log('é pra ter alterado a cor') 
   }
 
   modificadorPontos(dificuldade){
