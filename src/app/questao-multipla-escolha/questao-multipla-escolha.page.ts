@@ -5,6 +5,8 @@ import { AlertController } from '@ionic/angular';
 import { ModalController } from '@ionic/angular';
 import { Pontuacao } from '../models/pontuacao';
 import { FeedbacknewPage } from '../feedbacknew/feedbacknew.page';
+import { Tab1Page } from '../tab1/tab1.page';
+import { timer } from 'rxjs/observable/timer';
 /* import { NativeAudio } from '@ionic-native/native-audio/ngx'; */
 
 
@@ -27,6 +29,8 @@ export class QuestaoMultiplaEscolhaPage {
     private alternativaSelecionada;
     private tentativas = 0;
     private totalPontos;
+    private verifyTime;
+    private time;
     private corAlternativa1 = "#F0E68C";
     private corAlternativa2 = "#F0E68C";
     private corAlternativa3 = "#F0E68C";
@@ -35,16 +39,16 @@ export class QuestaoMultiplaEscolhaPage {
     private corAlternativa6 = "#F0E68C";
     private alternativas;
     private home;
+    private hideElement: boolean = Tab1Page.hideElement;
     @Input() questao: { legendaImagem: "", feedBackTexto: "", feedBackImagem: "", alternativaCorreta: "", alternativa1: "", alternativa2: "", alternativa3: "", alternativa4: "", alternativa5: "", alternativa6: "" }
 
 
-    constructor(public platform: Platform, public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController, private toastCtrl: ToastController, public loadingCtrl: LoadingController, public modalController: ModalController,) {
+    constructor(public platform: Platform, public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController, private toastCtrl: ToastController, public loadingCtrl: LoadingController, public modalController: ModalController) {
         this.home = navParams.get("home");
         this.questao = navParams.get("questao");
-        this.tentativas = 0;
+        this.tentativas = 0;    
         this.totalPontos = this.pontuacao.quantidadePontos;
-
-
+        !this.hideElement ? this.startTimer(): null;
 
        // console.log(this.questao.alternativaCorreta)
 
@@ -77,8 +81,30 @@ export class QuestaoMultiplaEscolhaPage {
         this.alternativas = this.embaralharArray(this.alternativas);
         //console.log(this.alternativas);
         //console.log("alternativa 6: " + this.questao.alternativa6);
+
     }
 
+    startTimer(){
+        const source = timer(0, 1000);
+        this.verifyTime = source.subscribe(val =>{
+            this.time = Tab1Page.subscribeTimer;
+            if(this.time == 0){
+                Tab1Page.outOfTime();
+                this.feedback(false);
+                this.verifyTime.unsubscribe()
+            }
+        })
+    }
+
+    formatTimeLeft(time) {
+        const minutes = Math.floor(time / 60);
+        let seconds: number =  time % 60;
+        let secondsConverted: string = (time % 60).toString();
+        if(seconds < 10){
+            secondsConverted = `0${seconds}`;
+        }
+        return `${minutes}:${secondsConverted}`;
+    }
 
 
     marcarAlteranativa(alternativa) {
@@ -88,7 +114,6 @@ export class QuestaoMultiplaEscolhaPage {
             alternativa.corBorda = "#F0E68C";
         }
     }
-
 
 
     verificar() {
@@ -177,7 +202,8 @@ export class QuestaoMultiplaEscolhaPage {
         <div >
           <img src="assets/imagens/incorreto.png"/>
         </div>`,
-            duration: 700
+            duration: 700,
+            cssClass: 'transparent'
         });
 
         loading.onDidDismiss(() => {
@@ -196,7 +222,8 @@ export class QuestaoMultiplaEscolhaPage {
         <div >
           <img src="assets/imagens/incorreto.png"/>
         </div>`,
-            duration: 700
+            duration: 700,
+            cssClass: 'transparent'
         });
 
         await loading.onDidDismiss();
@@ -213,7 +240,8 @@ export class QuestaoMultiplaEscolhaPage {
       <div >
         <img src="assets/imagens/incorreto.png"/>
       </div>`,
-            duration: 500
+            duration: 500,
+            cssClass: 'transparent'
         });
         await loading.present();
 

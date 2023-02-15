@@ -3,6 +3,14 @@
 
 /** Ionic CSS Variables **/
 :root {
+
+  ion-loading.transparent {
+    .loading-wrapper {
+      background: transparent;
+      box-shadow: none;
+    }
+  }
+  
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;

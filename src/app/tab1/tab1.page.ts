@@ -1,15 +1,3 @@
-/*
-
-Atuais problemas
-
-1 - não é possivel selecionar mais de uma alternativa em questões de multipla escolha - MUDEI PARA BACKGROUND COLOR PARA FICAR MAIS VISÍVEL, ESTÁ DANDO AGORA.
-2 - as vezes ao clickar no botão as questões são embaralhadas mas não leva para a pagina de questões e no console indica que acabaram as questões - NÃO ACONTECEU NENHUMA VEZ. PODE SER POR ALGUM ERRO EM UMA DAS PÁGINAS DE QUESTÕES
-3 - ao alterar o css da página questao-multipla-escolha a maioria das funcionalidades não funcionam - TERÍAMOS QUE VER JUNTOS, NÃO CONSEGUI ENTENDER
-4 - a pagina de feedback não puxa as imagens e nem os textos de feedback - AGORA ESTÁ PASSANDO OS TEXTOS E IMAGENS, NÃO ESTÁ APARECENDO POIS NA PASTA NÃO TEM AS IMAGENS NECESSÁRIAS. COLOQUEI UM CONSOLE.LOG MOSTRANDO AS IMAGENS ASSOCIADAS AS QUESTÕES
-5 - a função continuar da pagina feedback não funciona - RESOLVIDO, ESTAVA FALTANDO PASSAR O THIS.HOME, ESTAVA SÓ THIS
-
-*/
-
 import { Component } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 
@@ -50,6 +38,7 @@ import {Pontuacao} from '../models/pontuacao';
 import { IonicStorageModule } from '@ionic/storage';
 import { Storage } from '@ionic/storage';
 import { timeoutWith } from 'rxjs-compat/operator/timeoutWith';
+import { timer } from 'rxjs/observable/timer';
 
 export function continuar() {}
 
@@ -96,8 +85,12 @@ export class Tab1Page {
     private questoesMultiplaGrupoSelecionado = [];
     private questoesParesGrupoSelecionado = [];
 
-    
-    
+    public static pointMultiplier: number = 1.0;
+    public static hideElement: boolean = true;
+
+    private timeLeft: number = 60;
+    public static subscribeTimer: any;
+    public static countDown: any;
     
     public static quantidadePontosDia;
     //public static usuarioLogado={resolvidog1:"", nome:""};
@@ -136,7 +129,6 @@ export class Tab1Page {
         private platform: Platform,
         public navCtrl: NavController) {
 
-            //console.log("AAAAAA");
         this.questoesMultiplaEscolhaG1 = questoesMEG1.getQuestoes();
         this.questoesMultiplaEscolhaG2 = questoesMEG2.getQuestoes();
         this.questoesMultiplaEscolhaG3 = questoesMEG3.getQuestoes();
@@ -171,13 +163,13 @@ export class Tab1Page {
 
     }
 
-    chamardiGestorio() {
+    chamarDigestorio() {
         this.router.navigate(['digestorio']);
     }
     chamarConf() {
         this.router.navigate(['configuracoes'])
     }
-    chamarcarDiovascular() {
+    chamarCardiovascular() {
         this.router.navigate(['cardiovascular'])
     }
     chamarRespiratorio() {
@@ -189,10 +181,6 @@ export class Tab1Page {
     chamarReprodutor() {
         this.router.navigate(['reprodutor'])
     }
-
-
-    //--------------------------------------------------------------------------------------------------------
-
 
     chamarQuestao(tipo) {
         //console.log(tipo);
@@ -207,9 +195,6 @@ export class Tab1Page {
         }
 
     }
-
-    //--------------------------------------------------------------------------------------------------------
-
 
     armazenarQuestoes(grupo) {
         let questoesG1 = [];
@@ -474,8 +459,6 @@ export class Tab1Page {
         this.iniciarResolucao(grupo);
     }
 
-    //--------------------------------------------------------------------------------------------------------
-
     retornaQuestaoAleatoriamenteNovaImplementacao() {
         let questaoRetorno = undefined;
         if (this.quantidadeQuestoesResolvidas < this.questoesSelecionadasNovaImplementacao.length) {
@@ -485,7 +468,6 @@ export class Tab1Page {
         return questaoRetorno;
     }
 
-    //--------------------------------------------------------------------------------------------------------
     async maisPontos() {
 
         const loading = await this.loadingCtrl.create({
@@ -501,19 +483,26 @@ export class Tab1Page {
         const {role, data} = await loading.onDidDismiss();
         //("Loading Erro", role)
     }
-
+ 
 
     async continuar() {
+        
+        // Finaliza o temporizador
+        Tab1Page.countDown.unsubscribe();
+
+        // Reinicia o temporizador
+        this.observableTimer();
+
         let questaoSelecionada = this.retornaQuestaoAleatoriamenteNovaImplementacao();
 
         if (this.pontuacao.acerto == 1) {
-            this.pontuacao.quantidadePontos += 10;
+            this.pontuacao.quantidadePontos += (10 * Tab1Page.pointMultiplier);
         }
 
         if(this.pontuacao.quantidadeQuestoesConsecutivas>4){
             this.maisPontos();
             this.pontuacao.quantiadePontosRecompensaQuestoesConsecutivas = this.pontuacao.quantiadePontosRecompensaQuestoesConsecutivas+10;
-            this.pontuacao.quantidadePontos += 10;
+            this.pontuacao.quantidadePontos += (10 * Tab1Page.pointMultiplier);
             this.pontuacao.quantidadeQuestoesConsecutivas=0;
         }
         this.pontuacao.acerto = 0;
@@ -564,9 +553,6 @@ export class Tab1Page {
         }
     }
 
-    //--------------------------------------------------------------------------------------------------------
-
-
     retornaQuestaoAleatoriamente() {
         let questaoRetorno = undefined;
 
@@ -578,15 +564,11 @@ export class Tab1Page {
         return questaoRetorno;
     }
 
-    //--------------------------------------------------------------------------------------------------------
-
     static escolheMensagemAleatoriamente() {
 
         let list: string[] = ["Parabéns!!", "Correto!!!", "Muito bem!", "Continue assim!!"];
         return list[Math.floor(Math.random() * list.length)];
     }
-
-    //--------------------------------------------------------------------------------------------------------
 
     escolheModeloAleatoriamente() {
         //let list: number[] = [1, 2, 3, 4, 5, 6];
@@ -595,8 +577,6 @@ export class Tab1Page {
         return list[Math.floor(Math.random() * list.length)];
     }
 
-    //--------------------------------------------------------------------------------------------------------
-
     embaralharArray(a) {
         for (let i = a.length; i; i--) {
             let j = Math.floor(Math.random() * i);
@@ -604,9 +584,6 @@ export class Tab1Page {
         }
         return a;
     }
-
-    //--------------------------------------------------------------------------------------------------------
-
 
     /**O tipo indica se é multipla ou pares e o grupo é 1 ou 2 ou 3 ...**/
     retornaQuestoesGrupoSelecionado(grupo, tipo) {
@@ -631,8 +608,6 @@ export class Tab1Page {
         return listaRetorno;
     }
 
-    //--------------------------------------------------------------------------------------------------------
-
     shuffle(array) {
         var currentIndex = array.length, temporaryValue, randomIndex;
 
@@ -648,8 +623,38 @@ export class Tab1Page {
         return array;
     }
 
-    //--------------------------------------------------------------------------------------------------------
+    observableTimer(){
 
+        Tab1Page.hideElement = false;
+
+        switch(Tab1Page.pointMultiplier){
+            case 1.2:
+                this.timeLeft = 60;
+                break;
+
+            case 1.5:
+                this.timeLeft = 45;
+                break;
+            
+            case 2.0:
+                this.timeLeft = 30;
+                break;
+            
+            default:
+                Tab1Page.hideElement = true;
+                break;
+            }
+
+        const source = timer(0, 1000);
+        Tab1Page.countDown = source.subscribe(val => {
+            Tab1Page.subscribeTimer = this.timeLeft - val;
+        });
+    }
+    
+
+    static outOfTime(){
+        Tab1Page.countDown.unsubscribe();
+    }
 
     iniciarResolucao(grupo) {
         this.questoesSelecionadasNovaImplementacao = [];
@@ -657,6 +662,8 @@ export class Tab1Page {
         this.pontuacao.acerto=0;
         this.pontuacao.quantidadePontos=0;
         this.pontuacao.quantidadeQuestoesConsecutivas=0;
+
+        this.observableTimer();
         
         if(grupo == 1){
             let questoesNovas = this.shuffle([].concat(this.questoesMultiplaEscolhaG1,this.questoesToqueParesG1));
@@ -762,8 +769,6 @@ export class Tab1Page {
         //console.log("grupo "+ grupo + "selecionado");
     }
 
-    //--------------------------------------------------------------------------------------------------------
-
     buscaQuestoes(aplicacao, grupo) {
 
         this.storage.get('questoesResolver').then((val) => {
@@ -794,11 +799,5 @@ export class Tab1Page {
         });
 
     }
-
-
-
-
-    //---------------------------------------------------------------------------------------------------------
-
 
 }
