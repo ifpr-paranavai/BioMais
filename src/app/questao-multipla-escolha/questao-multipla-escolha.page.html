@@ -2,7 +2,7 @@
 
     <ion-toolbar color="light">
         <ion-title color="success" slot="end">{{totalPontos}} BioPontos
-            <br><a>{{formatTimeLeft(time)}}</a>
+            <br><a *ngIf="!hideElement">{{formatTimeLeft(time)}}</a>
         </ion-title>
         <ion-grid>
             <ion-row>

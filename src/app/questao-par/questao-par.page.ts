@@ -5,6 +5,8 @@ const nav = document.querySelector('ion-nav'); // possivel solução para o navC
 import {Pontuacao} from '../models/pontuacao';
 
 import { FeedbacknewPage } from '../feedbacknew/feedbacknew.page';
+import { Tab1Page } from '../tab1/tab1.page';
+import { timer } from 'rxjs/observable/timer';
 
 @Component({
     selector: 'page-questao-par',
@@ -21,12 +23,13 @@ export class QuestaoParPage {
   private questao;
   private home;
   private totalPontos;
-
+  private verifyTime;
+  private time;
+  private hideElement: boolean = Tab1Page.hideElement;
 
     private erros;
 
     showImage: boolean = false;
-
 
   private pares;
   constructor(public modalController: ModalController, public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController, private toastCtrl: ToastController, public loadingCtrl: LoadingController) {
@@ -36,6 +39,7 @@ export class QuestaoParPage {
       this.precionado1 = false;
       this.precionado2 = false;
       this.totalPontos = this.pontuacao.quantidadePontos;
+      !this.hideElement ? this.startTimer(): null;
 
 
         this.erros = 0;
@@ -358,6 +362,35 @@ export class QuestaoParPage {
             //console.log(':-(');
         });
         toast.present();
+    }
+
+    startTimer(){
+        const source = timer(0, 1000);
+        this.verifyTime = source.subscribe(val =>{
+            this.time = Tab1Page.subscribeTimer;
+            if(this.time == 0){
+                Tab1Page.outOfTime();
+                this.feedback(false);
+                this.verifyTime.unsubscribe()
+            }
+        })
+    }
+
+    formatTimeLeft(time) {
+        if(this.time == 300)
+            return this.removeTimer()
+
+        const minutes = Math.floor(time / 60);
+        let seconds: number =  time % 60;
+        let secondsConverted: string = (time % 60).toString();
+        if(seconds < 10){
+            secondsConverted = `0${seconds}`;
+        }
+        return `${minutes}:${secondsConverted}`;
+    }
+
+    removeTimer(){
+        this.verifyTime.unsubscribe()
     }
 
 }

@@ -86,6 +86,7 @@ export class Tab1Page {
     private questoesParesGrupoSelecionado = [];
 
     public static pointMultiplier: number = 1.0;
+    public static hideElement: boolean = true;
 
     private timeLeft: number = 60;
     public static subscribeTimer: any;
@@ -623,8 +624,11 @@ export class Tab1Page {
     }
 
     observableTimer(){
+
+        Tab1Page.hideElement = false;
+
         switch(Tab1Page.pointMultiplier){
-            case 1.0:
+            case 1.2:
                 this.timeLeft = 60;
                 break;
 
@@ -635,18 +639,21 @@ export class Tab1Page {
             case 2.0:
                 this.timeLeft = 30;
                 break;
-        }
+            
+            default:
+                Tab1Page.hideElement = true;
+                break;
+            }
+
         const source = timer(0, 1000);
         Tab1Page.countDown = source.subscribe(val => {
             Tab1Page.subscribeTimer = this.timeLeft - val;
-            console.log(Tab1Page.subscribeTimer);
         });
     }
     
 
     static outOfTime(){
         Tab1Page.countDown.unsubscribe();
-        console.log("Acabou o tempo");
     }
 
     iniciarResolucao(grupo) {

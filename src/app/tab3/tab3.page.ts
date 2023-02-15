@@ -10,6 +10,9 @@ import { Tab1Page } from '../tab1/tab1.page';
 })
 export class Tab3Page {
   private pontuacao = Pontuacao.getInstance();
+  private currentDifficulty: String;
+  readonly DEFAULT_DIFFICULTY_COLOR = 'black';
+  public difficultyColor = this.DEFAULT_DIFFICULTY_COLOR;
   constructor(public loadingCtrl: LoadingController, public alertController: AlertController) { }
 
   adicionarRemoverSons(som) {
@@ -105,18 +108,43 @@ verificar(som){
     // console.log('é pra ter alterado a cor') 
   }
 
-  modificadorPontos(dificuldade){
-    switch (dificuldade){
+  selectDifficulty(difficulty: String){
+        
+    if((this.currentDifficulty == difficulty) && (this.difficultyColor != this.DEFAULT_DIFFICULTY_COLOR)){
+      this.difficultyColor = this.DEFAULT_DIFFICULTY_COLOR;
+      Tab1Page.pointMultiplier = 1.0
+      return;
+    }
+
+    this.currentDifficulty = difficulty;
+
+    switch (difficulty){
       case 'facil':
-        Tab1Page.pointMultiplier = 1.0;
+        Tab1Page.pointMultiplier = 1.2;
+        this.changeDifficultyColor('#2DD36F');
         break;
       case 'normal':
         Tab1Page.pointMultiplier = 1.5;
+        this.changeDifficultyColor('#DBA800');
         break;
       case 'dificil':
         Tab1Page.pointMultiplier = 2.0;
+        this.changeDifficultyColor('red');
         break;
     }
   }
 
+  async informAboutDifficulties(){
+    const alert = await this.alertController.create({
+      message: `
+        <p><b>Inseto: 60 segundos e 20% mais BioPontos</b></p>
+        <p><b>Peixe: 45 segundos e 50% mais BioPontos</b></p>
+        <p><b>Humano: 30 segundos e 100% mais BioPontos</b></p>`
+    })
+    await alert.present();
+  }
+
+  async changeDifficultyColor(color: string){
+    this.difficultyColor = color;
+  }
 }

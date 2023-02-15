@@ -6,31 +6,46 @@
 
     <ion-title color="success" slot="end">
       {{pontuacao.quantidadeTotalPontos}} BioPontos
-
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
-  <ion-card color="light">
+  <ion-card color="light" [ngStyle]="{'border': 'solid 1px ' + difficultyColor}">
     <ion-card-header>
       <center>
-        <ion-title>Dificuldade</ion-title>
+        <ion-title size="large" [ngStyle]="{'color': difficultyColor}">Selecione a dificuldade</ion-title>
       </center>
       </ion-card-header>
     <ion-card-content>
       <ion-row>
         <ion-col>
-          <ion-button (click)="modificadorPontos('facil')" color="success">Fácil</ion-button>
+          <ion-row>
+            <ion-button (click)="selectDifficulty('facil')" color="success">
+              <ion-icon size = "large" name="bug" style="color: white;"></ion-icon>
+            </ion-button>
+          </ion-row>
+          <ion-row text-center >           
+          </ion-row>
         </ion-col>
         <ion-col>
-          <ion-button (click)="modificadorPontos('normal')" color="warning">Médio</ion-button>
+          <ion-row>
+            <ion-button (click)="selectDifficulty('normal')" color="warning">
+              <ion-icon size = "large" name="fish" style="color:white;"></ion-icon>
+            </ion-button>
+          </ion-row>
         </ion-col>
         <ion-col>
-          <ion-button (click)="modificadorPontos('dificil')" color="danger">Difícil</ion-button>
+          <ion-row>
+            <ion-button (click)="selectDifficulty('dificil')" color="danger">
+              <ion-icon size = "large" name="man-sharp" style="color: white;"></ion-icon>
+            </ion-button>
+          </ion-row>
         </ion-col>
       </ion-row>
+      
+      <ion-icon name="information-circle-outline" style="float: right; color: blue; font-size: large;" (click)="informAboutDifficulties()"></ion-icon>
     </ion-card-content>
   </ion-card>
 

@@ -39,6 +39,7 @@ export class QuestaoMultiplaEscolhaPage {
     private corAlternativa6 = "#F0E68C";
     private alternativas;
     private home;
+    private hideElement: boolean = Tab1Page.hideElement;
     @Input() questao: { legendaImagem: "", feedBackTexto: "", feedBackImagem: "", alternativaCorreta: "", alternativa1: "", alternativa2: "", alternativa3: "", alternativa4: "", alternativa5: "", alternativa6: "" }
 
 
@@ -47,7 +48,7 @@ export class QuestaoMultiplaEscolhaPage {
         this.questao = navParams.get("questao");
         this.tentativas = 0;    
         this.totalPontos = this.pontuacao.quantidadePontos;
-        this.startTimer();
+        !this.hideElement ? this.startTimer(): null;
 
        // console.log(this.questao.alternativaCorreta)
 
