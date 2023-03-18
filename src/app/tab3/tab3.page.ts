@@ -17,45 +17,56 @@ export class Tab3Page {
 
   adicionarRemoverSons(som) {
     //fazer a regra para remover caso tenha
-    
-    if (this.pontuacao.sons.filter(function (el) { return el.som == som; }).length>0) {
+
+    if (this.pontuacao.sons.filter(function (el) { return el.som == som; }).length > 0) {
       this.pontuacao.sons = this.pontuacao.sons.filter(function (el) { return el.som != som; });
       this.mostraMensagem("Som bloqueado!!");
     } else {
-      let controle=0;
+      let controle = 0;
       if (this.pontuacao.quantidadeTotalPontos > -1 && som == 'som1') {
         this.pontuacao.sons.push({ som: 'som1' });
         this.mostraMensagem("Som desbloqueado!!");
-        controle=1;
+        controle = 1;
       }
       if (this.pontuacao.quantidadeTotalPontos > 99 && som == 'som2') {
         this.pontuacao.sons.push({ som: 'som2' });
         this.mostraMensagem("Som desbloqueado!!");
-        controle=1;
+        controle = 1;
       }
       if (this.pontuacao.quantidadeTotalPontos > 249 && som == 'som3') {
         this.pontuacao.sons.push({ som: 'som3' });
         this.mostraMensagem("Som desbloqueado!!");
-        controle=1;
+        controle = 1;
       }
       if (this.pontuacao.quantidadeTotalPontos > 399 && som == 'som4') {
         this.pontuacao.sons.push({ som: 'som4' });
         this.mostraMensagem("Som desbloqueado!!");
-          controle=1;
+        controle = 1;
       }
-      console.log(controle)
-      if(controle==0){
-        
-          this.mostraMensagem("Você não possui pontuação suficiente!!");
-        
+
+      if (controle == 0) {
+
+        this.mostraMensagem("Você não possui pontuação suficiente!!");
+
       }
     }
   }
 
-verificar(som){
-  
-  return this.pontuacao.sons.filter(function (el) { return el.som == som; }).length>0?true:false;
-}
+  comprarDesafioFinal() {
+    if (this.pontuacao.quantidadeTotalPontos > 499) {
+      this.pontuacao.desafioFinal = true;
+      this.mostraMensagem("Desafio final desbloqueado. Aproveite!!");
+    } else {
+      this.mostraMensagem("Você não possui pontuação suficiente!!");
+    }
+  }
+
+
+
+  verificar(som) {
+
+    return this.pontuacao.sons.filter(function (el) { return el.som == som; }).length > 0 ? true : false;
+  }
 
   async mostraMensagem(mensagem) {
 
@@ -108,33 +119,42 @@ verificar(som){
     // console.log('é pra ter alterado a cor') 
   }
 
-  selectDifficulty(difficulty: String){
-        
-    if((this.currentDifficulty == difficulty) && (this.difficultyColor != this.DEFAULT_DIFFICULTY_COLOR)){
-      this.difficultyColor = this.DEFAULT_DIFFICULTY_COLOR;
-      Tab1Page.pointMultiplier = 1.0
-      return;
-    }
+  selectDifficulty(difficulty: String) {
 
-    this.currentDifficulty = difficulty;
+    if (this.pontuacao.quantidadeTotalPontos > 49) {
 
-    switch (difficulty){
-      case 'facil':
-        Tab1Page.pointMultiplier = 1.2;
-        this.changeDifficultyColor('#2DD36F');
-        break;
-      case 'normal':
-        Tab1Page.pointMultiplier = 1.5;
-        this.changeDifficultyColor('#DBA800');
-        break;
-      case 'dificil':
-        Tab1Page.pointMultiplier = 2.0;
-        this.changeDifficultyColor('red');
-        break;
+      this.mostraMensagem("Temporizador selecionado!!");
+
+
+      if ((this.currentDifficulty == difficulty) && (this.difficultyColor != this.DEFAULT_DIFFICULTY_COLOR)) {
+        this.difficultyColor = this.DEFAULT_DIFFICULTY_COLOR;
+        Tab1Page.pointMultiplier = 1.0
+        return;
+      }
+
+      this.currentDifficulty = difficulty;
+
+      switch (difficulty) {
+        case 'facil':
+          Tab1Page.pointMultiplier = 1.2;
+          this.changeDifficultyColor('#2DD36F');
+          break;
+        case 'normal':
+          Tab1Page.pointMultiplier = 1.5;
+          this.changeDifficultyColor('#DBA800');
+          break;
+        case 'dificil':
+          Tab1Page.pointMultiplier = 2.0;
+          this.changeDifficultyColor('red');
+          break;
+      }
+      
+    } else {
+      this.mostraMensagem("Você não possui pontuação suficiente!!");
     }
   }
 
-  async informAboutDifficulties(){
+  async informAboutDifficulties() {
     const alert = await this.alertController.create({
       message: `
         <p><b>Inseto: 60 segundos e 20% mais BioPontos</b></p>
@@ -144,7 +164,7 @@ verificar(som){
     await alert.present();
   }
 
-  async changeDifficultyColor(color: string){
+  async changeDifficultyColor(color: string) {
     this.difficultyColor = color;
   }
 }

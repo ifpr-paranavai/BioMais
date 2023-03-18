@@ -7,6 +7,7 @@ export class Pontuacao {
   public quantiadePontosRecompensaQuestoesConsecutivas = 0;
   public quantidadeTotalPontos=0;
   public sons=[{som:'som1'}];
+  public desafioFinal=false;
 
   private constructor() { }
 
