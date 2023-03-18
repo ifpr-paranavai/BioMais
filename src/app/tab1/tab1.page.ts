@@ -765,6 +765,15 @@ export class Tab1Page {
                 this.questoesSelecionadasNovaImplementacao.push(questoesNovas[x]);
             }
             this.continuar();
+        }else if(grupo == 11){
+            let questoesNovas = this.shuffle([].concat(this.questoesMultiplaEscolhaG1,this.questoesToqueParesG1,this.questoesMultiplaEscolhaG2,this.questoesToqueParesG2,this.questoesMultiplaEscolhaG3,this.questoesToqueParesG3,this.questoesMultiplaEscolhaG4,this.questoesToqueParesG4,this.questoesMultiplaEscolhaG5,this.questoesToqueParesG5,this.questoesMultiplaEscolhaG6,this.questoesToqueParesG6,this.questoesMultiplaEscolhaG7,this.questoesToqueParesG7,this.questoesMultiplaEscolhaG8,this.questoesToqueParesG8,this.questoesMultiplaEscolhaG9,this.questoesToqueParesG9,this.questoesMultiplaEscolhaG10,this.questoesToqueParesG10));
+            questoesNovas = this.shuffle(questoesNovas);
+           // questoesNovas = this.shuffle(questoesNovas);
+
+            for(let x=0; x<30; x++){
+                this.questoesSelecionadasNovaImplementacao.push(questoesNovas[x]);
+            }
+            this.continuar();
         }
         //console.log("grupo "+ grupo + "selecionado");
     }
@@ -799,5 +808,25 @@ export class Tab1Page {
         });
 
     }
+
+    async mostraMensagem(mensagem) {
+
+        const loading = await this.loadingCtrl.create({
+          spinner: null,
+          message: mensagem,
+          duration: 2000
+        });
+        await loading.present();
+    
+        // const { role, data } = await loading.onDidDismiss();
+        // console.log('Loading dismissed with role:', role);
+    
+        await loading.onDidDismiss().then(s => {
+    
+          console.log('Dismissed loading');
+        });
+    
+    
+      }
 
 }

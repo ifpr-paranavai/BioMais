@@ -79,6 +79,10 @@
           <img class="bordas" style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px"   src="assets/capas/capa-nervoso.png" (click)="iniciarResolucao('9')"/>
           <img class="bordas" style="float: left; width: 45%; margin-top: 2%; margin-bottom: 10px"  src="assets/capas/capa-os-sentidos.png" (click)="iniciarResolucao('10')"/>
           </div>
+
+          <div>
+            <img class="bordas" style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px"   [src]="pontuacao.desafioFinal?'assets/capas/capa-final.png':'assets/capas/capa-final-cadeado.png'" (click)="pontuacao.desafioFinal?iniciarResolucao('11'):mostraMensagem('Você precisa desbloquear este desafio na loja!!')"/>
+            </div>
     </ion-content>
   </div>
 

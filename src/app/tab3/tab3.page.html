@@ -12,10 +12,12 @@
 
 <ion-content>
 
+  <h2 style="padding: 14px;">Deixe o jogo mais interessante</h2>
+
   <ion-card color="light" [ngStyle]="{'border': 'solid 1px ' + difficultyColor}">
     <ion-card-header>
       <center>
-        <ion-title size="large" [ngStyle]="{'color': difficultyColor}">Selecione a dificuldade</ion-title>
+        <ion-title size="large" [ngStyle]="{'color': difficultyColor}">Selecione a dificuldade - 50 BioPontos</ion-title>
       </center>
       </ion-card-header>
     <ion-card-content>
@@ -49,7 +51,7 @@
     </ion-card-content>
   </ion-card>
 
-<h2 style="padding: 14px;">Acumule pontos e desbloqueie sons</h2>
+<h2 style="padding: 14px;">Desbloqueie sons</h2>
 
   <ion-card color="light">
     <ion-card-header>
@@ -112,6 +114,21 @@
     <ion-card-content (click)="adicionarRemoverSons('som4')">
       <center>
         <ion-icon size="large" [name]="verificar('som4')?'lock-open-outline':'lock-closed-outline'"></ion-icon>
+      </center>
+    </ion-card-content>
+  </ion-card>
+
+  <h2 style="padding: 14px;">Desbloqueie o desfio final</h2>
+  
+  <ion-card color="light">
+    <ion-card-header>
+      <h4>Desafio Final - 500 BioPontos</h4>
+      
+    </ion-card-header>
+
+    <ion-card-content (click)="comprarDesafioFinal('som4')">
+      <center>
+        <ion-icon size="large" [name]="pontuacao.desafioFinal?'lock-open-outline':'lock-closed-outline'"></ion-icon>
       </center>
     </ion-card-content>
   </ion-card>
