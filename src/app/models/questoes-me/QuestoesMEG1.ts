@@ -33,7 +33,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "1,2,3,4",
         feedBackImagem: "imgfeedback41",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Olek Remesz, Creative Commons BY-SA 2.5, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Olek Remesz, Creative Commons BY-SA 2.5, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Dentre as funções desempenhadas pelo sistema digestório, destacam-se:<br/>- Ingestão e trituração do alimento e liberação de substâncias no trato gastrointestinal.<br/>- Digestão química e mecânica.<br/>- Absorção de nutrientes, água e sais minerais.<br/>- Eliminação de restos não aproveitados.",
       },
@@ -53,7 +53,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "1,2,3,4",
         feedBackImagem: "imgfeedback42",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Os dentes localizados na frente da boca possuem formato que facilita cortar o alimento e são denominados incisivos. Nas laterais destes, temos dentes pontiagudos que permitem com que o alimento seja “rasgado”, os quais são denominados caninos. Os dentes localizados mais ao fundo da boca exercem uma função trituradora de alimentos, sendo que os dois primeiros após os dentes caninos são chamados pré-molares, enquanto os três últimos são os molares.",
       },
@@ -76,7 +76,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "1,2,3",
         feedBackImagem: "imgfeedback43",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "As glândulas salivares maiores são exócrinas e responsáveis pela produção e secreção da saliva. São encontradas em três pares, sendo elas: Parótida: localizada entre o ângulo da mandíbula e à base do crânio. Submandibular: localizada na parte inferior da mandíbula. Sublingual: localizada no assoalho da boca.",
       },
@@ -97,7 +97,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "1,2,3,4",
         feedBackImagem: "imgfeedback44",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A Síndrome de Sjögren é uma doença autoimune que pode afetar as glândulas salivares causando boca seca, devido à baixa produção de saliva. Tendo em vista as importantes funções da saliva para o sistema digestório, pacientes com esta síndrome poderão apresentar dificuldades em processos como:<br/>- Umedecimento da cavidade oral e facilitação da deglutição.<br/>- Início da digestão do amido por meio da ptialina.<br/>- Umedecimento de alimentos secos.<br/>- Neutralização de substâncias ácidas.",
       },
@@ -241,7 +241,7 @@ export class QuestoesMEG1 {
           "A imagem abaixo representa uma estrutura pequena com o formato de uma pera, situada abaixo do fígado e ao lado direito do estômago. Trata-se de um tipo de saco onde é armazenado uma substância de grande importância para o processo digestivo. A respeito desta substância, determina a alternativa correta.",
         imagem: "img61m5sd",
         legendaImagem:
-          "Imagem: Adaptada de Macrovector, via Freepik.com. Disponível aqui.",
+          "Imagem: Adaptada de Macrovector, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Substância produzida pelo fígado, armazenada na vesícula biliar e secretada no duodeno para a emulsificação de lipídios.",
         alternativa2:
@@ -253,7 +253,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "1",
         feedBackImagem: "img61m5sd",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Macrovector, via Freepik.com. Disponível aqui.",
+          "Imagem: Adaptada de Macrovector, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A bile é uma substância produzida pelo fígado, armazenada na vesícula biliar (estrutura representada na imagem) e é secretada no duodeno para a emulsificação de lipídios.",
       },
@@ -265,7 +265,7 @@ export class QuestoesMEG1 {
         enunciado:
           "A estrutura representada abaixo corresponde a uma glândula que atua tanto de forma exócrina (produzindo suco pancreático, que contém enzimas digestivas) como endócrina (produzindo hormônios, como a insulina e glucagon). Sob este aspecto, com base em seus conhecimentos, determine a alternativa correta.",
         imagem: "img62m5sd",
-        legendaImagem: "Imagem: Adaptada de Macrovector, via Freepik.com. Disponível aqui.",
+        legendaImagem: "Imagem: Adaptada de Macrovector, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1: 
           "Esta estrutura produz os hormônios FSH, estrógeno e progestina, responsáveis pelas características sexuais secundárias femininas.",
         alternativa2:
@@ -276,7 +276,7 @@ export class QuestoesMEG1 {
           "Pacientes com disfunção desta estrutura geralmente apresentam icterícia e hepatite.",
         alternativaCorreta: "3",
         feedBackImagem: "img62m5sd",
-        feedBackLegendaImagem: "Imagem: Adaptada de Macrovector, via Freepik.com. Disponível aqui.",
+        feedBackLegendaImagem: "Imagem: Adaptada de Macrovector, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto: "A imagem representa o pâncreas. A secreção exócrina desta estrutura, o suco pancreático, é secretada no duodeno e atua no sistema digestório tendo como função a digestão de proteínas, carboidratos, triglicerídeos e ácidos nucléicos.",
       },
       {
@@ -288,7 +288,7 @@ export class QuestoesMEG1 {
           "O órgão representado na imagem produz e secreta substâncias que compõem o suco gástrico, sendo fundamental no processo digestivo. No suco gástrico, podemos encontrar enzimas (responsáveis pela digestão de proteínas) e uma secreção ácida capaz de amolecer e esterilizar o bolo alimentar e ativar as enzimas para que efetivem suas funções digestivas. No que se refere às substâncias digestivas produzidas e secretadas por este órgão, assinale a alternativa correta.",
         imagem: "img63m5sd",
         legendaImagem:
-          "Imagem: Adaptada de Macrovector, via Freepik.com. Disponível aqui.",
+          "Imagem: Adaptada de Macrovector, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Produz as substâncias digestivas: maltase, sacarase e ptialina.",
         alternativa2:
@@ -300,7 +300,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "2",
         feedBackImagem: "img63m5sd",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Macrovector, via Freepik.com. Disponível aqui.",
+          "Imagem: Adaptada de Macrovector, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A figura representa o estômago. Esse órgão produz as substâncias digestivas: pepsina, renina e ácido clorídrico. A pepsina e a renina são enzimas que digerem proteínas, e o ácido clorídrico tem como função amolecer e esterilizar o bolo alimentar e ativar as enzimas para que efetivem suas funções digestivas.",
       },
@@ -313,7 +313,7 @@ export class QuestoesMEG1 {
           "A estrutura representada na imagem tem como função exócrina a produção de suco pancreático que é conduzido até o duodeno, onde atua na digestão. Esta secreção contém enzimas para a digestão de moléculas de carboidratos, proteínas, gorduras e ácidos nucleicos. Sabendo disso, assinale a alternativa que corresponda corretamente às enzimas digestivas responsáveis pela digestão destas moléculas, produzidas por esta estrutura.",
         imagem: "img64m5sd",
         legendaImagem:
-          "Imagem: Adaptada de Macrovector, via Freepik.com. Disponível aqui.",
+          "Imagem: Adaptada de Macrovector, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Produz as substâncias digestivas: maltase, sacarase e lactase.",
         alternativa2:
@@ -325,7 +325,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "4",
         feedBackImagem: "img64m5sd",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Macrovector, via Freepik.com. Disponível aqui.",
+          "Imagem: Adaptada de Macrovector, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A figura representa o pâncreas. Essa glândula produz as substâncias digestivas: amilase pancreática, que quebra o amido que não foi digerido na boca; lipase pancreática, que digere as gorduras em ácidos graxos e glicerol; proteases, que digerem proteínas em polipeptídios e peptídios; e nucleases, que digerem DNA e RNA em nucleotídeos.",
       },
@@ -338,7 +338,7 @@ export class QuestoesMEG1 {
           "Na primeira porção da estrutura ilustrada na figura abaixo, ocorre a secreção de substâncias que compõem o suco entérico, contendo enzimas que complementam a ação das enzimas pancreáticas.  No suco entérico, as enzimas digerem dissacarídeos em monossacarídeos, peptídeos em aminoácidos isolados e nucleotídeos em bases nitrogenadas, fosfatos e pentoses. Com base nestas informações, assinale a alternativa que corresponda corretamente às enzimas produzidas pela estrutura representada na imagem.",
         imagem: "img65m5sd",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Produz as substâncias digestivas: maltase, lactase, sacarase, peptidases e nucleotidases.",
         alternativa2:
@@ -350,7 +350,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "1",
         feedBackImagem: "img65m5sd",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A imagem representa o intestino delgado. Este órgão produz as substâncias digestivas: maltase, lactase e sacarase, que são tipos de carboidrases (digerem os dissacarídeos em monossacarídeos), peptidases, que digerem peptídeos em aminoácidos isolados, e as nucleotidases, que digerem nucleotídeos em bases nitrogenadas, fosfatos e pentoses.",
       },
@@ -363,7 +363,7 @@ export class QuestoesMEG1 {
           "A estrutura representada na imagem possui cerca de 1,5 m de comprimento e 6 cm de diâmetro e faz parte das porções finais do sistema digestivo, desempenhando funções importantes e possuindo características específicas. Nesse sentido, assinale a alternativa que contemple as características e funções deste órgão.",
         imagem: "img66m5sd",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Ausência de bactérias, produção de muco e digestão de proteínas.",
         alternativa2:
@@ -375,7 +375,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "1",
         feedBackImagem: "img66m5sd",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A imagem representa o intestino grosso. Este órgão tem como função a absorção de água e sais minerais, e a produção de muco. Uma característica do intestino grosso é a presença de bactérias, muitas das quais mantém relações de mútuo benefício com os hospedeiros humanos: produzem substâncias úteis ao nosso organismo (como algumas vitaminas) em troca de um habitat favorável ao seu desenvolvimento.",
       },
@@ -388,7 +388,7 @@ export class QuestoesMEG1 {
           "A parede intestinal é composta por projeções da mucosa que se aparentam com “rugas” ou “pregas”. As células destas projeções, por sua vez, apresentam projeções microscópicas. Essas projeções, macroscópicas e microscópicas, possuem uma nomenclatura específica e desempenham uma função importante no processo digestivo. Com base neste contexto e em seus conhecimentos, determine a alternativa correta.",
         imagem: "img67m5sd",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Essas projeções são chamadas vilosidades e microvilosidades, e são capazes de aumentar a superfície de contato intestinal, ampliando a eficiência da absorção.",
         alternativa2:
@@ -400,7 +400,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "1",
         feedBackImagem: "img67m5sd",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Essas projeções são chamadas vilosidades e microvilosidades, e são capazes de aumentar a superfície de contato intestinal, ampliando a eficiência da absorção.",
       },
@@ -413,7 +413,7 @@ export class QuestoesMEG1 {
           "A digestão depende de fatores químicos importantes como, por exemplo, o pH, que consiste na escala dos níveis de acidez e alcalinidade de uma solução. Existem três locais do sistema digestório que ocorrem os processos de digestão, e em cada um deles o pH ideal para que estes processos ocorram é diferente. Com base neste contexto e em seus conhecimentos, determine a classificação do pH ideal para a digestão nas estruturas destacadas por cores na figura, na ordem de passagem do alimento pelo sistema digestivo.",
         imagem: "img68m5sd",
         legendaImagem:
-          "Imagem: Adaptada de Olek Remesz, Creative Commons BY-SA 2.5, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Olek Remesz, Creative Commons BY-SA 2.5, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1: "Ácido, ácido e neutro.",
         alternativa2: "Neutro, ácido e básico.",
         alternativa3: "Básico, neutro e ácido.",
@@ -421,7 +421,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "2",
         feedBackImagem: "img68m5sd",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Olek Remesz, Creative Commons BY-SA 2.5, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Olek Remesz, Creative Commons BY-SA 2.5, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A digestão depende de fatores químicos importantes como, por exemplo, o pH, que consiste na escala dos níveis de acidez e alcalinidade de uma solução. O pH ideal na boca (representada em rosa) é neutro, o pH ideal para o estômago (representado em laranja) é ácido e o pH ideal no intestino (representado em verde) é básico.",
       },
@@ -434,7 +434,7 @@ export class QuestoesMEG1 {
           "O processo da digestão é controlado pelo sistema nervoso autônomo e também por hormônios. Dentre os quatro hormônios principais envolvidos, três são produzidos pela estrutura representada na imagem. Com base em seus conhecimentos sobre o controle da digestão, assinale a alternativa que corresponda aos hormônios produzidos pela estrutura representada na imagem.",
         imagem: "img69m5sd",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1: "Produz os hormônios: gastrina, FSH e testosterona.",
         alternativa2: "Produz os hormônios: insulina e glucagon.",
         alternativa3:
@@ -444,7 +444,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "3",
         feedBackImagem: "img69m5sd",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O processo da digestão é controlado pelo sistema nervoso autônomo e também por hormônios. Dentre os quatro hormônios envolvidos, três são produzidos pelo intestino delgado, sendo eles: secretina, colecistoquinina e inibidor gástrico. O quarto hormônio principal envolvido no controle da digestão é a gastrina, que é produzido por células do estômago.",
       },
@@ -457,7 +457,7 @@ export class QuestoesMEG1 {
           "A estrutura representada na imagem produz e secreta de forma exócrina o suco pancreático, substância que contém enzimas digestivas. Em situações anormais, sobretudo desencadeadas por maus hábitos como o alcoolismo, o pâncreas pode sofrer de um distúrbio denominado pancreatite. Sobre esse distúrbio do sistema digestório, com base em seus conhecimentos, assinale a alternativa que julgar verdadeira.",
         imagem: "img70m5sd",
         legendaImagem:
-          "Imagem: Adaptada de Macrovector, via Freepik.com. Disponível aqui.",
+          "Imagem: Adaptada de Macrovector, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "As enzimas digestivas pancreáticas são produzidas em uma forma inativa, sendo ativadas apenas no intestino. Contudo, em condições anormais, o pâncreas retém o suco pancreático, cujas enzimas podem lesionar e inflamar o órgão, causando a pancreatite.",
         alternativa2:
@@ -469,7 +469,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "1",
         feedBackImagem: "img70m5sd",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Macrovector, via Freepik.com. Disponível aqui.",
+          "Imagem: Adaptada de Macrovector, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A estrutura representada na imagem é o pâncreas, que tem como uma de suas funções produzir e secretar de forma exócrina o suco pancreático, que contém enzimas digestivas. As enzimas digestivas pancreáticas são produzidas em uma forma inativa, sendo ativadas apenas no intestino. Contudo, em condições anormais, o pâncreas retém o suco pancreático, cujas enzimas podem lesionar e inflamar o órgão, causando a pancreatite.",
       },
@@ -482,7 +482,7 @@ export class QuestoesMEG1 {
           "O intestino delgado começa no esfíncter pilórico, que o comunica com o estômago, e termina na válvula íleocecal, que se comunica com o intestino grosso. Se esticássemos o intestino delgado de um ser humano em linha reta e o medíssemos, que medida teríamos, aproximadamente? Assinale a alternativa que considerar correta.",
         imagem: "extra1m5sd",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1: "2 metros",
         alternativa2: "7 metros",
         alternativa3: "15 metros",
@@ -490,7 +490,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "2",
         feedBackImagem: "extra1m5sd",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O intestino delgado começa no esfíncter pilórico, que o comunica com o estômago, e termina na válvula íleocecal, que se comunica com o intestino grosso. Se esticássemos o intestino delgado de um ser humano em linha reta e o medíssemos, ele totalizaria cerca de sete metros.",
       },
@@ -503,7 +503,7 @@ export class QuestoesMEG1 {
           "Diariamente, em condições normais, produzimos entre 1000 a 2000 ml de saliva. Essa secreção é muito importante no processo digestivo, e atua no pH neutro da boca. Sob esse aspecto, com base nas informações e em seus conhecimentos, assinale a alternativa que melhor defina a saliva.",
         imagem: "extra2m5sd",
         legendaImagem:
-          "Imagem: Adaptada de Pereru, Creative Commons BY-SA 4.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Pereru, Creative Commons BY-SA 4.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Fluido transparente e viscoso de pH entre 6,8 e 7,2 que é produzido pelas glândulas salivares, mantendo a boca e os lábios constantemente umedecidos. Contém ptialina, um tipo de enzima que inicia a digestão de amido e glicogênio.",
         alternativa2:
@@ -515,7 +515,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "1",
         feedBackImagem: "extra2m5sd",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Pereru, Creative Commons BY-SA 4.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Pereru, Creative Commons BY-SA 4.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A saliva é um fluido transparente e viscoso de pH entre 6,8 e 7,2 que é produzido pelas glândulas salivares, mantendo a boca e os lábios constantemente umedecidos. Contém ptialina, um tipo de enzima que inicia a digestão de amido e glicogênio.",
       },
@@ -528,7 +528,7 @@ export class QuestoesMEG1 {
           "O refluxo gastroesofágico é uma patologia caracterizada pelo retorno do conteúdo gástrico para o esôfago e, muitas vezes, para outras estruturas adjacentes. Com base em seus conhecimentos, assinale a alternativa que corresponda ao mecanismo patológico relacionado ao refluxo gastroesofágico.",
         imagem: "extra3m5sd",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Quando o esfíncter esofágico inferior não se fecha corretamente, o conteúdo estomacal pode retornar para o esôfago.",
         alternativa2:
@@ -540,7 +540,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "1",
         feedBackImagem: "extra3m5sd",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O refluxo gastroesofágico é uma patologia caracterizada pelo retorno do conteúdo gástrico para o esôfago e, muitas vezes, para outras estruturas adjacentes. Isso ocorre quando o esfíncter esofágico inferior não se fecha corretamente, levando o conteúdo estomacal a retornar para o esôfago.",
       },
@@ -553,7 +553,7 @@ export class QuestoesMEG1 {
           "O engasgo é uma manifestação do organismo quando um alimento ou objeto toma um caminho errado em nosso corpo. Sob esse aspecto, responda como ocorre o engasgo e por que tossimos quando engasgamos, assinalando a alternativa correspondente.",
         imagem: "extra4m5sd",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Ocorre quando o alimento permanece no esôfago e tossimos para “empurrá-lo” para o estômago.",
         alternativa2:
@@ -565,7 +565,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "2",
         feedBackImagem: "extra4m5sd",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O engasgo é uma manifestação do organismo quando um alimento ou objeto toma um caminho errado em nosso corpo, ocorrendo quando o alimento entra nas vias respiratórias, de modo que a tosse é um reflexo para expulsar o alimento.",
       },
@@ -578,7 +578,7 @@ export class QuestoesMEG1 {
           "Os dentes são estruturas acessórias ao sistema digestório e tem como função cortar, perfurar, prender e triturar os alimentos. A estrutura dentária é composta por três camadas, conforme indicado na imagem. Sob esse aspecto, com base no contexto e em seus conhecimentos, analise a figura e assinale a alternativa correspondente às camadas I, II e III, respectivamente.",
         imagem: "extra5m5sd",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1: "Esmalte, dentina e polpa.",
         alternativa2: "Polpa, esmalte e dentina.",
         alternativa3: "Dentina, polpa e esmalte.",
@@ -586,7 +586,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "1",
         feedBackImagem: "extra5m5sd",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A estrutura dentária é composta por três camadas: esmalte (indicado em I), dentina (indicado em II) e polpa (indicado em III).",
       },
@@ -709,7 +709,7 @@ export class QuestoesMEG1 {
         alternativaCorreta: "2",
         feedBackImagem: "imgfeedback116",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Ao nos alimentarmos, os alimentos não dependem da ação da gravidade, pois o peristaltismo do esôfago conduz a comida ao estômago. Por isso, se engolirmos um alimento de “ponta-cabeça”, ele sofrerá propulsão pelo esôfago até o estômago.",
       },

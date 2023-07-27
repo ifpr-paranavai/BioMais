@@ -1,33 +1,33 @@
 <ion-app>
-    <ion-menu side="start" content-id="main-content">
-        <ion-header style="background-color: green;">
-            <ion-toolbar translucent>
-                <ion-row> </ion-row>
-                <!-- Caractere invisível -->
-                <ion-title>
-                    <img src="assets/icon/favicon.png">
-                </ion-title>
-                <ion-row> </ion-row>
-                <!-- Caractere invisível -->
-                <b><ion-label style="font-size: 20px;">    BioMais </ion-label></b>
-                <!-- Caracteres invisíveis -->
-                <ion-row> </ion-row>
-                <!-- Caractere invisível -->
-            </ion-toolbar>
-        </ion-header>
-        <ion-content>
-            <ion-list>
-                <ion-item>
-                    <ion-icon name="document-text-outline" color="medium" slot="start"></ion-icon>
-                    <b><ion-label>Termos de Uso</ion-label></b>
-                </ion-item>
-                <ion-item>
-                    <ion-icon name="exit-outline" color="danger" slot="start"></ion-icon>
-                    <b><ion-label>Sair</ion-label></b>
-                </ion-item>
-            </ion-list>
-        </ion-content>
-    </ion-menu>
+  <ion-menu side="start" content-id="main-content">
+    <ion-header style="background-color: green;">
+      <ion-toolbar translucent>
+        <ion-row> </ion-row>
+        <!-- Caractere invisível -->
+        <ion-title>
+          <img src="assets/icon/favicon.png">
+        </ion-title>
+        <ion-row> </ion-row>
+        <!-- Caractere invisível -->
+        <b><ion-label style="font-size: 20px;"> BioMais </ion-label></b>
+        <!-- Caracteres invisíveis -->
+        <ion-row> </ion-row>
+        <!-- Caractere invisível -->
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item>
+          <ion-icon name="document-text-outline" color="medium" slot="start"></ion-icon>
+          <b><ion-label>Termos de Uso</ion-label></b>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="exit-outline" color="danger" slot="start"></ion-icon>
+          <b><ion-label>Sair</ion-label></b>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
 
 
   <div class="ion-page" id="main-content">
@@ -37,8 +37,8 @@
           <ion-menu-button></ion-menu-button>
         </ion-buttons>
         <ion-row>
-        <ion-title>Aprender</ion-title>
-        <ion-title color="success">{{pontuacao.quantidadeTotalPontos}} BioPontos</ion-title>
+          <ion-title>Aprender</ion-title>
+          <ion-title color="success">{{pontuacao.quantidadeTotalPontos}} BioPontos</ion-title>
         </ion-row>
       </ion-toolbar>
     </ion-header>
@@ -58,31 +58,48 @@
       -->
 
       <div>
-        <img class="bordas" style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px"   src="assets/capas/capa-digestorio.png" (click)="iniciarResolucao('1')"/>
-        <img class="bordas" style="float: left; width: 45%; margin-top: 2%; margin-bottom: 10px"  src="assets/capas/capa-circulatorio.png" (click)="iniciarResolucao('2')"/>
-        </div>
+        <img class="bordas"
+          style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px"
+          src="assets/capas/capa-digestorio.png" (click)="iniciarResolucao('1')" />
+        <img class="bordas" style="float: left; width: 45%; margin-top: 2%; margin-bottom: 10px"
+          src="assets/capas/capa-circulatorio.png" (click)="iniciarResolucao('2')" />
+      </div>
 
-        <img class="bordas" style="width: 45%; margin-top: 6px" src="assets/capas/capa-respiratorio.png" (click)="iniciarResolucao('3')"/>
-        <img class="bordas" style="float: left; width: 45%; margin-right: 5%; margin-left: 2%; margin-top: 6px" src="assets/capas/capa-urinario.png" (click)="iniciarResolucao('4')"/>
-        
-        <div>
-          <img class="bordas" style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px"   src="assets/capas/capa-reprodutor.png" (click)="iniciarResolucao('5')"/>
-          <img class="bordas" style="float: left; width: 45%; margin-top: 2%; margin-bottom: 10px"  src="assets/capas/capa-esqueletico.png" (click)="iniciarResolucao('6')"/>
-          </div>
+      <img class="bordas" style="width: 45%; margin-top: 6px" src="assets/capas/capa-respiratorio.png"
+        (click)="iniciarResolucao('3')" />
+      <img class="bordas" style="float: left; width: 45%; margin-right: 5%; margin-left: 2%; margin-top: 6px"
+        src="assets/capas/capa-urinario.png" (click)="iniciarResolucao('4')" />
 
       <div>
-        <img class="bordas" style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px"   src="assets/capas/capa-muscular.png" (click)="iniciarResolucao('7')"/>
-        <img class="bordas" style="float: left; width: 45%; margin-top: 2%; margin-bottom: 10px"  src="assets/capas/capa-endocrino.png" (click)="iniciarResolucao('8')"/>
-        </div>
+        <img class="bordas"
+          style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px"
+          src="assets/capas/capa-reprodutor.png" (click)="iniciarResolucao('5')" />
+        <img class="bordas" style="float: left; width: 45%; margin-top: 2%; margin-bottom: 10px"
+          src="assets/capas/capa-esqueletico.png" (click)="iniciarResolucao('6')" />
+      </div>
 
-        <div>
-          <img class="bordas" style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px"   src="assets/capas/capa-nervoso.png" (click)="iniciarResolucao('9')"/>
-          <img class="bordas" style="float: left; width: 45%; margin-top: 2%; margin-bottom: 10px"  src="assets/capas/capa-os-sentidos.png" (click)="iniciarResolucao('10')"/>
-          </div>
+      <div>
+        <img class="bordas"
+          style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px"
+          src="assets/capas/capa-muscular.png" (click)="iniciarResolucao('7')" />
+        <img class="bordas" style="float: left; width: 45%; margin-top: 2%; margin-bottom: 10px"
+          src="assets/capas/capa-endocrino.png" (click)="iniciarResolucao('8')" />
+      </div>
 
-          <div>
-            <img class="bordas" style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px"   [src]="pontuacao.desafioFinal?'assets/capas/capa-final.png':'assets/capas/capa-final-cadeado.png'" (click)="pontuacao.desafioFinal?iniciarResolucao('11'):mostraMensagem('Você precisa desbloquear este desafio na loja!!')"/>
-            </div>
+      <div>
+        <img class="bordas"
+          style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px"
+          src="assets/capas/capa-nervoso.png" (click)="iniciarResolucao('9')" />
+        <img class="bordas" style="float: left; width: 45%; margin-top: 2%; margin-bottom: 10px"
+          src="assets/capas/capa-os-sentidos.png" (click)="iniciarResolucao('10')" />
+      </div>
+
+      <div>
+        <img class="bordas"
+          style="float: left; width: 45%; margin-right: 5%;  margin-left: 2%; margin-top: 2%; margin-bottom: 10px"
+          [src]="pontuacao.desafioFinal?'assets/capas/capa-final.png':'assets/capas/capa-final-cadeado.png'"
+          (click)="pontuacao.desafioFinal?iniciarResolucao('11'):mostraMensagem('Você precisa desbloquear este desafio na loja!!')" />
+      </div>
     </ion-content>
   </div>
 

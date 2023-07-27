@@ -56,7 +56,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1,2,3,4",
         feedBackImagem: "feedback1m2sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Sobre o coração, é correto afirmar que:<br/>- Possui quatro cavidades internas, das quais são dois átrios (direito e esquerdo) e dois ventrículos (direito e esquerdo).<br/>- A parede dos ventrículos é mais espessa que dos átrios, pois os átrios bombeiam sangue para os ventrículos, que estão localizados logo abaixo deles, mas os ventrículos bombeiam sangue para regiões mais distantes, o que exige uma maior resistência.<br/>- Os átrios bombeiam sangue para os ventrículos, que se localizam logo abaixo deles, de modo que o átrio direito bombeia sangue para o ventrículo direito, enquanto o átrio esquerdo bombeia sangue para o ventrículo direito.<br/>- Os ventrículos bombeiam sangue para as artérias, sendo que o ventrículo direito impulsiona o sangue para as artérias pulmonares (que levarão sangue aos pulmões) e o ventrículo esquerdo impulsiona o sangue para a artéria aorta (que levará sangue para os tecidos do corpo).",
       },
@@ -79,7 +79,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1,2,3",
         feedBackImagem: "feedback2m2sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O distrito linfático é composto por quatro componentes principais: a linfa, os vasos linfáticos, os linfonodos e os órgãos linfoides. Sobre esse distrito, é correto afirmar que:<br/>- Realizam a coleta de liquido tissular retornando-o para o sangue: o líquido tissular consiste basicamente no plasma sanguíneo que extravasa dos capilares aos tecidos para nutri-los e oxigená-los, sendo que uma das funções do distrito linfático é coletar/drenar o excesso desse líquido, redirecionando-o novamente para a circulação sanguínea.<br/>- Os capilares linfáticos convergem para o ducto torácico e ducto linfático direito: os capilares linfáticos são vasos de calibre finíssimo (microscópico) localizados entre as células dos tecidos. Esses capilares convergem-se em vasos linfáticos maiores, que desembocam nos ductos linfáticos (torácico e direito), que conduzem a linfa para veias de grande calibre da corrente sanguínea.<br/>- Os linfonodos funcionam como filtros da linfa: Os linfonodos são nódulos linfáticos cuja função é filtrar a linfa que vem das extremidades corporais, que circula por canais onde há leucócitos nos linfonodos, que identificam e destroem corpos estranhos e demais substâncias, possivelmente nocivos ao organismo.",
       },
@@ -99,7 +99,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1,2,3,4",
         feedBackImagem: "feedback3m2sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Macrovector, via Freepik.com. Disponível aqui.",
+          "Imagem: Adaptada de Macrovector, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O baço é um órgão linfóide secundário localizado do lado esquerdo do abdome, sob as últimas costelas. Dentre as importantes funções desempenhadas por ele, destacam-se:<br/>- Armazenamento de linfócitos e monócitos, que são dois tipos de leucócitos (glóbulos brancos) presentes no sangue.<br/>- Filtragem do sangue para remoção de microrganismos, substâncias estranhos e resíduos, de modo que quando o sangue passa pelo baço, sofre uma “limpeza” pelos linfócitos presentes nesse órgão.<br/>- Destruição de hemácias envelhecidas, já que estas já perderam sua função de captação de oxigênio<br/>- Armazenamento de sangue, tendo a capacidade de acumular cerca de 250ml para uma eventual situação de emergência.",
       },
@@ -119,7 +119,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1,2,3,4",
         feedBackImagem: "feedback4m2sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de D. Ilyin , (Domínio público – CC0 1.0), via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de D. Ilyin , (Domínio público – CC0 1.0), via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Os órgãos linfoides secundários são aqueles nos quais os linfócitos são capazes de se multiplicar, sendo constituídos pelos linfonodos, adenoides, tonsilas, placas de Peyer, apêndice vermiforme e baço.",
       },
@@ -131,7 +131,7 @@ export class QuestoesMEG2 {
         enunciado:
           "A frequência dos batimentos cardíacos é controlada por regiões especiais do coração, responsáveis por ativar impulsos elétricos que acarretam as contrações das câmaras cardíacas, e o GIF abaixo representa esse processo. Sob este aspecto, assinale a única alternativa correta a respeito do sistema de condução cardíaco.",
         imagem: "gif56m4sc",
-        legendaImagem: "Imagem: Blog Caderno Educação Física. Disponível aqui.",
+        legendaImagem: "Imagem: Blog Caderno Educação Física. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "O nodo sinoatrial se localiza na junção entre átrio direito e veia cava superior e é responsável por emitir sinal elétrico que se propaga na musculatura dos átrios, contraindo-os.",
         alternativa2:
@@ -143,7 +143,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "gif56m4sc",
         feedBackLegendaImagem:
-          "Imagem: Blog Caderno Educação Física. Disponível aqui.",
+          "Imagem: Blog Caderno Educação Física. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A frequência dos batimentos cardíacos é controlada por regiões especiais do coração, responsáveis por ativar impulsos elétricos que acarretam as contrações das câmaras cardíacas. O nodo sinoatrial é um aglomerado de células especializadas e se localiza na junção entre o átrio direito e a veia cava superior, sendo responsável por emitir um sinal elétrico que se propaga na musculatura dos átrios, contraindo-os (sístole atrial). O nodo atrioventricular é outra região especializada do coração, localizada na porção inferior do septo interatrial, que retarda o sinal, possibilitando tempo adequado para que o sangue dos átrios passe para os ventrículos. Do nodo atrioventricular, o sinal elétrico chega ao feixe de His, que consiste na conexão elétrica entre átrios e ventrículos, que se divide nos ramos direito e esquerdo, que cruzam o septo e se ramificam em feixes terminais denominados fibras de Purkinje, que conduzem o potencial de ação para as paredes dos ventrículos, estimulando que estes entrem em sístole (após o término da sístole dos átrios).",
       },
@@ -155,7 +155,7 @@ export class QuestoesMEG2 {
         enunciado:
           "O sistema circulatório sanguíneo é responsável por transportar o sangue para todas as partes do nosso corpo. A circulação completa permite que o sangue rico em oxigênio não se misture com o sangue pobre em oxigênio, de modo que estes percorrem caminhos distintos através do sistema cardiovascular. Com base na figura e em seus conhecimentos, assinale a alternativa que corresponda ao trajeto percorrido pelo sangue oxigenado, desde a oxigenação até a sua distribuição às células.",
         imagem: "gif57m4sc",
-        legendaImagem: "Imagem: Pinterest. Disponível aqui.",
+        legendaImagem: "Imagem: Pinterest. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Pulmões, átrio direito, ventrículo direito, aorta, vênulas, capilares e tecidos.",
         alternativa2:
@@ -166,7 +166,7 @@ export class QuestoesMEG2 {
           "Pulmões, veias pulmonares, átrio direito, ventrículo direito, veias cavas, vênulas, capilares e tecidos.",
         alternativaCorreta: "3",
         feedBackImagem: "gif57m4sc",
-        feedBackLegendaImagem: "Imagem: Pinterest. Disponível aqui.",
+        feedBackLegendaImagem: "Imagem: Pinterest. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Na circulação sanguínea, o trajeto do sangue rico em oxigênio (representado em vermelho no GIF) pelo corpo humano se inicia nos pulmões onde é oxigenado, em seguida passa pelas veias pulmonares chegando ao átrio esquerdo, onde é bombeado para o ventrículo esquerdo que, por sua vez, bombeia o sangue para a aorta. A aorta se ramifica em vasos de calibre cada vez menores, chamados arteríolas, que se ramificam em vasos de calibre microscópicos denominados capilares, que se comunicam com os tecidos, nutrindo-os e oxigenando-os.",
       },
@@ -178,14 +178,14 @@ export class QuestoesMEG2 {
         enunciado:
           "O GIF abaixo demonstra por meio de setas o trajeto do sangue no coração e a abertura e fechamento das valvas cardíacas que impedem o refluxo sanguíneo. Sob esse aspecto, analise o GIF e, com base em seus conhecimentos, assinale a alternativa que corresponda às valvas que impedem o refluxo de sangue para os átrios e as valvas que impedem o refluxo de sangue para os ventrículos, respectivamente.",
         imagem: "gif58m4sc",
-        legendaImagem: "Imagem: Blog Kleber Trainer. Disponível aqui.",
+        legendaImagem: "Imagem: Blog Kleber Trainer. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1: "Valvas venosas e valvas de Purkinje.",
         alternativa2: "Valvas atrioventriculares e valvas semilunares.",
         alternativa3: "Valvas semilunares e valvas atrioventriculares.",
         alternativa4: "Valvas sinoatriais e valvas de His.",
         alternativaCorreta: "2",
         feedBackImagem: "gif58m4sc",
-        feedBackLegendaImagem: "Imagem: Blog Kleber Trainer. Disponível aqui.",
+        feedBackLegendaImagem: "Imagem: Blog Kleber Trainer. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "No coração, cada átrio se comunica com seu respectivo ventrículo por meio de um orifício contendo uma valva atrioventricular. Na porção direita do coração, esta valva denomina-se valva tricúspide, enquanto na porção direita é chamada de valva bicúspide. Assim, as valvas atrioventriculares impedem o refluxo de sangue para os átrios. Os ventrículos, por sua vez, se comunicam com artérias (aorta e artéria pulmonar) por meio de orifícios que contém as chamadas valvas semilunares, que tem como função impedir o refluxo de sangue para os ventrículos.",
       },
@@ -197,7 +197,7 @@ export class QuestoesMEG2 {
         enunciado:
           "O coração é um órgão formado por células musculares estriadas cardíacas e garante o bombeamento do sangue para todas as partes do corpo. Quando em bom funcionamento, o coração se contrai, relaxa, abre e fecha valvas de forma precisa, impulsionando um volume máximo de sangue com o menor gasto de energia possível. Em relação ao funcionamento do coração, analise o GIF e, com base em seus conhecimentos, assinale a única alternativa correta.",
         imagem: "gif59m4sc",
-        legendaImagem: "Imagem: Anatomia papel e caneta. Disponível aqui.",
+        legendaImagem: "Imagem: Anatomia papel e caneta. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Átrios e ventrículos entram em sístole (contração das câmaras cardíacas) simultaneamente.",
         alternativa2:
@@ -209,7 +209,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "4",
         feedBackImagem: "gif59m4sc",
         feedBackLegendaImagem:
-          "Imagem: Anatomia papel e caneta. Disponível aqui.",
+          "Imagem: Anatomia papel e caneta. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O sangue pobre em oxigênio chega nos átrios do coração, que se comunicam com os ventrículos logo abaixo deles por um orifício contendo as valvas atrioventriculares. Quando os átrios estão entram em sístole (contração), essas valvas se abrem para que a passagem do sangue dos átrios para os ventrículos ocorra. Quando os ventrículos estão em sístole, as valvas atrioventriculares permanecem fechadas, exercendo sua função ao impedir que o sangue dos ventrículos retorne para os átrios.",
       },
@@ -221,7 +221,7 @@ export class QuestoesMEG2 {
         enunciado:
           "Quando sofremos ferimentos onde há extravasamento sanguíneo, nosso corpo reage na tentativa de evitar a perda excessiva de sangue. Este processo é denominado coagulação sanguínea e ocorre graças a uma série de reações. O GIF abaixo demonstra brevemente esse processo. Sob esse aspecto, assinale a alternativa mais adequada sobre a formação de coágulos sanguíneos.",
         imagem: "gif60m4sc",
-        legendaImagem: "Imagem: Boomac2 via Makeagif. Disponível aqui.",
+        legendaImagem: "Imagem: Boomac2 via Makeagif. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "As plaquetas aderem no ferimento, a fibrina forma uma rede de filamentos e as hemácias se acumulam no local, levando à formação do coágulo.",
         alternativa2:
@@ -233,7 +233,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback60m4sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "No caso de um ferimento, as plaquetas são ativadas, vão se atraindo e aderem no local, formando um “tampão” inicial na lesão. Após uma sequência de reações químicas envolvendo fatores de coagulação (sobretudo enzimas), o resultado é o surgimento da fibrina (uma proteína fibrosa), que forma uma rede de filamentos que se entrelaçam com as plaquetas, formando um “tampão” mais compacto. As hemácias, incapazes de atravessar, acumulam-se no local juntamente com o plasma, originando o coágulo.",
       },
@@ -246,7 +246,7 @@ export class QuestoesMEG2 {
           "A figura abaixo representa por meio de um esquema, a resposta imune denominada específica ou adaptativa, isto é, que é adquirida pelo ser humano ao longo da vida. Nesse sentido, analise a figura, identifique a etapa sinalizada por I e assinale a alternativa correta.",
         imagem: "img71m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Os macrófagos fagocitam e digerem o patógeno e apresentam os antígenos dele em sua membrana plasmática, que é reconhecido pelo linfócito T auxiliar.",
         alternativa2:
@@ -258,7 +258,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback71m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Na resposta imune adquirida, o processo representado em I é denominado “apresentação dos antígenos pelo macrófago”. Nesta etapa, os macrófagos fagocitam e digerem o patógeno e apresentam os antígenos dele em sua membrana plasmática. Ao ser apresentado na membrana plasmática do macrófago, o antígeno do patógeno é reconhecido pelo linfócito T auxiliar. Posteriormente, os linfócitos T auxiliares estimulam linfócitos B e T citotóxicos a combater os invasores. Linfócitos do tipo T e B podem se diferenciar em células de memória.",
       },
@@ -271,7 +271,7 @@ export class QuestoesMEG2 {
           "Os linfócitos B são um tipo de glóbulo branco que desempenha um importante papel na imunidade humoral. A indicação I na imagem representa a etapa de ativação, multiplicação e diferenciação dos linfócitos B. Sob esse aspecto, assinale a alternativa correta a respeito dos linfócitos B.",
         imagem: "img72m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Os linfócitos B podem se diferenciar em plasmócitos (que produzem anticorpos que favorecem a destruição dos patógenos) ou em células de memória (que guardam informações de reconhecimento do patógeno).",
         alternativa2:
@@ -283,7 +283,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback72m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Após o processo de apresentação dos antígenos pelo macrófago, os linfócitos T auxiliares se multiplicam, ativam os linfócitos B e T citotóxicos, havendo também a diferenciação de alguns linfócitos em células de memória. Os linfócitos B, ao serem ativados durante o processo de resposta imune, se multiplicam e podem se diferenciar em plasmócitos (que produzem anticorpos que favorecem a destruição dos patógenos) ou em células de memória (que guardam informações de reconhecimento do patógeno) e são ativadas e respondem rapidamente a um novo contato com o antígeno (resposta secundária).",
       },
@@ -296,7 +296,7 @@ export class QuestoesMEG2 {
           "Os linfócitos T citotóxicos são um grupo de glóbulos brancos que desempenham um importante papel na imunidade celular. A indicação I na imagem representa a etapa de ativação, multiplicação, diferenciação e ação dessas células. Nesse sentido, analise a figura e, com base em seus conhecimentos, assinale a alternativa correta a respeito da etapa sinalizada por I, acerca dos linfócitos T citotóxicos.",
         imagem: "img73m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Os linfócitos T citotóxicos reconhecem e destroem as células infectadas e podem se diferenciar em células de memória, que guardam informações de reconhecimento do patógeno.",
         alternativa2:
@@ -308,7 +308,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback73m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Após o processo de apresentação dos antígenos pelo macrófago, os linfócitos T auxiliares se multiplicam, ativam os linfócitos B e T citotóxicos, havendo também a diferenciação de alguns linfócitos em células de memória. Os linfócitos T citotóxicos, ao serem ativados durante o processo de resposta imune, se multiplicam, reconhecem e destroem as células infectadas e podem se diferenciar em células de memória, que guardam informações de reconhecimento do patógeno e respondem rapidamente a um novo contato com o antígeno (resposta secundária).",
       },
@@ -321,7 +321,7 @@ export class QuestoesMEG2 {
           "A resposta imune adaptativa ou específica, consiste na imunidade adquirida pelo ser humano ao longo da vida, por meio do contato com antígenos. Na figura abaixo, as indicações I, II e III representam células de defesa envolvidas no processo de defesa imunitária. A célula I é responsável por combater diretamente células infectadas, II tem o papel de se diferenciar em células que produzem anticorpos e III tem a função de guardar informações de reconhecimento do patógeno/antígeno, atuando rapidamente no reconhecimento no caso de um novo ataque. Sob este aspecto, assinale a alternativa que corresponda às células I, II e III.",
         imagem: "img74m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Em I encontra-se representado um linfócito T citotóxico, em II encontra-se representado um linfócito B e em III encontra-se representada uma célula de memória.",
         alternativa2:
@@ -333,7 +333,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback74m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Após o processo de apresentação dos antígenos pelo macrófago, os linfócitos T auxiliares se multiplicam, ativam os linfócitos B e T citotóxicos, havendo também a diferenciação de alguns linfócitos em células de memória. Os linfócitos T citotóxicos (representados por I), ao serem ativados durante o processo de resposta imune, se multiplicam, reconhecem e destroem as células infectadas. Os linfócitos B (representados por II), ao serem ativados durante o processo de resposta imune, se multiplicam e podem se diferenciar em plasmócitos, que produzem anticorpos que favorecem a destruição dos patógenos. As células de memória (representados por III), surgem da diferenciação de linfócitos T (auxiliares e citotóxicos) e B, e são responsáveis por guardar informações de reconhecimento do patógeno/antígeno, respondendo rapidamente a um novo contato (resposta secundária).",
       },
@@ -346,7 +346,7 @@ export class QuestoesMEG2 {
           "O anticorpo é uma proteína que lembra a letra Y, composta por quatro cadeias polipeptídicas, duas de maior tamanho (idênticas) denominadas cadeias pesadas, e duas de menor tamanho (também idênticas) denominadas cadeias leves. Além disso, cada uma dessas cadeias do anticorpo pode ser estruturada em duas porções, representadas por I e II na figura abaixo, as quais determinam a característica do anticorpo. Sob esse aspecto, analise a figura e assinale a alternativa que corresponda às porções indicadas.",
         imagem: "img75m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "A indicação I representa a porção variável, que se liga ao antígeno e muda de um anticorpo para outro; e a indicação II representa a porção constante, que apresenta uma sequência de aminoácidos muitas vezes comuns a diferentes anticorpos.",
         alternativa2:
@@ -358,7 +358,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "img75m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Os anticorpos são proteínas formadas por quatro cadeias polipeptídicas, sendo duas de maior tamanho (idênticas entre si) denominadas cadeias pesadas, e outras duas de menor tamanho (também idênticas entre si) denominadas cadeias leves. Cada uma dessas cadeias, ainda pode ser dividida em duas porções: a porção variável (representada por I e ilustrada na cor roxa) e a porção constante (representada por II e ilustrada na cor rosa). A porção variável é a parte do anticorpo que se liga ao antígeno e varia de um anticorpo para outro. A porção constante apresenta uma sequência de aminoácidos que, geralmente, é comum a diferentes anticorpos, variando pouco em sua estrutura de um anticorpo para outro.",
       },
@@ -371,7 +371,7 @@ export class QuestoesMEG2 {
           "A figura abaixo esquematiza de forma simplificada o processo de hematopoiese, isto é, a formação de elementos figurados do sangue. Esse processo ocorre na medula óssea, que consiste em uma rede de tecido conjuntivo frouxo localizada na cavidade da parte esponjosa de alguns ossos. No que se refere ao processo de hematopoiese, assinale a alternativa que considerar correta.",
         imagem: "img76m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Na medula óssea estão presentes células-tronco hematopoiéticas pluripotentes que podem se diferenciar em células de linhagem mielóide ou de linhagem linfoide.",
         alternativa2:
@@ -383,7 +383,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback76m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O processo de hematopoiese, isto é, a formação dos elementos figurados do sangue (hemácias, glóbulos brancos e plaquetas) ocorre na medula óssea, que consiste em uma rede de tecido conjuntivo frouxo localizada na cavidade da parte esponjosa de alguns ossos. Na medula óssea estão presentes células-tronco hematopoiéticas pluripotentes que podem se diferenciar em células de linhagem mielóide, que originam as hemácias, glóbulos brancos granulócitos, monócitos e plaquetas, ou de linhagem linfoide, que originam os linfócitos dos tipos B e T.",
       },
@@ -396,7 +396,7 @@ export class QuestoesMEG2 {
           "Certas substâncias ou patógenos têm efeitos severos no organismo podendo matar a pessoa antes mesmo da ação imune. Nessas situações, o tratamento pode ser realizado por meio da injeção de uma substância chamada soro imune. A imagem abaixo representa o processo de produção deste soro. Analise a figura e, com base em seus conhecimentos, assinale a alternativa mais adequada a respeito deste processo.",
         imagem: "img77m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0) e de Pikisuperstar, via Freepik.com.  Disponível aqui e aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>) e de Pikisuperstar, via Freepik.com.  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a> e aqui.",
         alternativa1:
           "O soro é produzido a partir da inoculação do antígeno/patógeno (doses controladas) no animal, que produz anticorpos. Esses anticorpos são extraídos posteriormente juntamente com o plasma sanguíneo do animal, caracterizando o soro imune.",
         alternativa2:
@@ -408,7 +408,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback77m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0) e de Pikisuperstar, via Freepik.com.  Disponível aqui e aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>) e de Pikisuperstar, via Freepik.com.  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a> e aqui.",
         feedBackTexto:
           "Certas substâncias ou patógenos têm efeitos severos no organismo podendo matar a pessoa antes mesmo da ação imune. Nessas situações, o tratamento pode ser realizado por meio da injeção de uma substância chamada soro imune. Este soro é produzido a partir da inoculação do antígeno/patógeno (em doses controladas) no animal, que induz a produção de anticorpos. Algumas semanas depois, com o animal já imune, ocorre a retirada de sangue, que passa por um processo de separação (elementos figurados e plasma), de modo que esses anticorpos são extraídos posteriormente juntamente com o plasma sanguíneo do animal, caracterizando o soro imune. Esse soro, tem função de ser utilizado na cura de uma doença já adquirida (picadas de animais peçonhentos ou outras doenças, como a Covid-19), se caracterizando como uma imunização passiva, pois não estimula a memória imunitária de quem o recebe, o que, consequentemente, não previne da doença (ao contrário do que ocorre com as vacinas).",
       },
@@ -421,7 +421,7 @@ export class QuestoesMEG2 {
           "Certas substâncias ou patógenos têm efeitos severos no organismo podendo matar a pessoa antes mesmo da ação imune. Nessas situações, o tratamento pode ser realizado por meio do uso de uma substância chamada soro imune. A imagem abaixo representa o processo de produção deste soro. Com base nas informações e em seus conhecimentos, assinale a alternativa mais adequada a respeito da ação do soro imune no organismo de um paciente.",
         imagem: "img78m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0) e de Pikisuperstar, via Freepik.com.  Disponível aqui e aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>) e de Pikisuperstar, via Freepik.com.  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a> e aqui.",
         alternativa1:
           "O soro imune, ao ser utilizado como tratamento do paciente, é considerado um tipo de imunização passiva, pois não estimula a memória imunitária, tendo eficiência temporária no combate da doença.",
         alternativa2:
@@ -433,7 +433,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback78m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0) e de Pikisuperstar, via Freepik.com.  Disponível aqui e aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>) e de Pikisuperstar, via Freepik.com.  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a> e aqui.",
         feedBackTexto:
           "O soro imune é considerado um tipo de imunização passiva, que é muito utilizado em casos de intoxicação, picadas de animais peçonhentos e, mais recentemente, em casos de doenças como a Covid-19, por exemplo, que exigem procedimentos de urgência. Assim, esse tipo de imunização é utilizado como tratamento do paciente, não estimulando a memória imunitária e tendo eficiência temporária no combate da doença, ou seja, os anticorpos injetados desaparecem da circulação do paciente em poucos dias, tornando-o passível de uma nova aquisição da doença.",
       },
@@ -446,7 +446,7 @@ export class QuestoesMEG2 {
           "A vacina foi um grande avanço médico do século XX e tem grande importância na prevenção de inúmeras doenças. No que se refere ao mecanismo de ação da vacina no processo de imunização, assinale a alternativa que julgar correta.",
         imagem: "img79m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "A vacina consiste em um tipo de imunização ativa, caracterizada pela injeção de antígenos no paciente, que desencadeiam uma resposta imunitária primária com produção de células de memória.",
         alternativa2:
@@ -458,7 +458,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "img79m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A vacina consiste em um tipo de imunização ativa, caracterizada pela injeção de antígenos previamente inativados, atenuados ou fragmentados no paciente, que desencadeiam uma resposta imunitária primária, havendo a produção de células de memória, que guardam informações dos antígenos. No caso de uma nova infecção, as células de memória são estimuladas e ocorre uma resposta imune secundária, na qual o sistema imune age de forma mais rápida e intensa no combate aos invasores, impedindo que a doença se manifeste, sobretudo de forma grave.",
       },
@@ -471,7 +471,7 @@ export class QuestoesMEG2 {
           "A vacina consiste em um tipo de imunização ativa, caracterizada pela injeção de antígenos previamente inativados, atenuados ou fragmentados no paciente, cuja função é preparar o sistema imunitário do organismo, prevenindo-o do ataque de variadas doenças. O processo de produção de vacinas encontra-se ilustrado de forma simplificada na figura abaixo. Analise a figura e, com base em seus conhecimentos sobre as fases desse processo, assinale a alternativa correta.",
         imagem: "img80m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "A fase 1 consiste na obtenção do antígeno (microrganismo ou fragmentos), a fase 2 consiste no isolamento e purificação do antígeno (que é morto ou atenuado) e a fase 3 consiste na adição do adjuvante (substância que possibilita o aumento da resposta imunológica).",
         alternativa2:
@@ -483,7 +483,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback80m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A fase 1 consiste na obtenção do antígeno, ou seja, a parte do patógeno que as células de defesa reconhecem, que pode ser um microrganismo inteiro ou fragmentos. A fase 2 consiste no isolamento e purificação do antígeno, na qual o antígeno é isolado do meio e de outros componentes e purificado (por meio de técnicas laboratoriais), momento no qual também é morto ou atenuado (enfraquecido). A fase 3 consiste na adição do adjuvante, que consiste em uma substância que dificulta o antígeno ser processado pelas células apresentadoras de antígeno (macrófago, por exemplo) e possibilita o aumento da resposta imunológica. A partir de então, a vacina está pronta para ser aplicada no paciente e prevenir o desenvolvimento da doença para a qual foi produzida.",
       },
@@ -496,7 +496,7 @@ export class QuestoesMEG2 {
           "A figura abaixo ilustra a anatomia das veias que, por não apresentarem movimentos de pulsação, contam com o movimento dos músculos esqueléticos próximos a elas que as espremem, fazendo o sangue fluir. Além desse fato, existem estruturas que desempenham uma importante função para o fluxo sanguíneo nas veias, ilustradas abaixo. Sob esse aspecto, analise a figura, identifique quais são essas estruturas e, com base em seus conhecimentos, assinale a alternativa correspondente.",
         imagem: "img81m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "A figura demonstra as válvulas venosas, cuja função é impedir o refluxo de sangue e garantir a circulação em um único sentido: em direção ao coração.",
         alternativa2:
@@ -508,7 +508,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback81m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "As veias do sistema circulatório são responsáveis por transportar o sangue que parte dos tecidos e órgãos em direção ao coração. Diferentemente das artérias, as veias não apresentam movimentos de pulsação, apesar de se contraírem e relaxarem com lentidão. Assim, as veias contam com o movimento dos músculos esqueléticos próximos a elas que as comprimem, fazendo o sangue fluir. No interior das veias, ainda há válvulas venosas, cuja função é impedir o refluxo de sangue e garantir a circulação em um único sentido: em direção ao coração.",
       },
@@ -521,7 +521,7 @@ export class QuestoesMEG2 {
           "A figura abaixo representa as varizes, que são muito conhecidas pelo efeito estético que apresentam, geralmente nas pernas, mas que consistem em um problema de saúde que indica uma veia doente, cujas causas podem ser genéticas ou comportamentais. Sobre esse tipo de doença que afeta o sistema circulatório humano, assinale a alternativa correta.",
         imagem: "img82m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "As varizes são veias dilatadas, deformadas e insuficientes em decorrência de uma falha nas válvulas venosas, que causa refluxo e acúmulo de sangue em trechos das veias.",
         alternativa2:
@@ -533,7 +533,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "img82m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "As varizes são muito conhecidas pelo efeito estético que apresentam, geralmente nas pernas, mas que consistem em um problema de saúde que indica uma veia doente, cujas causas podem ser genéticas ou comportamentais. Essas veias doentes apresentam uma falha nas válvulas venosas, que causa refluxo e acúmulo de sangue, tornando-as dilatadas, deformadas e insuficientes. As varizes, muitas vezes, não apresentam sintomas além da insatisfação estética, mas podem causar dor, inchaço, desconfortos ou dormência.",
       },
@@ -546,7 +546,7 @@ export class QuestoesMEG2 {
           "A circulação sanguínea humana é dupla, isto é, o sangue passa duas vezes pelo coração por meio de dois circuitos separados anatomicamente e com funções diferentes, representados na figura por I (pequena circulação) e II (grande circulação). Sob esse aspecto, assinale a alternativa que corresponda às características de I e II, respectivamente.",
         imagem: "img83m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Pikisuperstar, via Freepik.com. Disponível aqui.",
+          "Imagem: Adaptada de Pikisuperstar, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Na pequena circulação, o sangue pobre em oxigênio é bombeado do coração aos pulmões, onde é oxigenado, e retorna ao coração. Na grande circulação, o sangue oxigenado é bombeado do coração em direção aos tecidos, retornando pobre em oxigênio ao coração.",
         alternativa2:
@@ -558,7 +558,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "img83m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Pikisuperstar, via Freepik.com. Disponível aqui.",
+          "Imagem: Adaptada de Pikisuperstar, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Na pequena circulação (representada por I), o sangue pobre em oxigênio é bombeado do ventrículo direito do coração para a artéria pulmonar que leva o sangue aos pulmões, onde é oxigenado e retorna ao coração, chegando ao átrio esquerdo pelas veias pulmonares. Na grande circulação, o sangue oxigenado é bombeado do ventrículo esquerdo do coração para a artéria aorta em direção aos tecidos, oxigenando-os, de modo que, em seguida, o sangue retorna pobre em oxigênio ao coração, chegando pelas veias cavas (superior e inferior) no átrio direito.",
       },
@@ -571,7 +571,7 @@ export class QuestoesMEG2 {
           "O sistema circulatório sanguíneo é responsável por transportar o sangue para todas as partes do nosso corpo. A circulação completa permite que o sangue rico em oxigênio não se misture com o sangue pobre em oxigênio, de modo que estes percorrem caminhos distintos por meio dos vasos sanguíneos. Sob esse aspecto, com base na figura e em seus conhecimentos, assinale a alternativa que corresponda ao trajeto do sangue oxigenado no organismo.",
         imagem: "img84m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Pikisuperstar, via Freepik.com. Disponível aqui.",
+          "Imagem: Adaptada de Pikisuperstar, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "O sangue é oxigenado nos pulmões, retorna ao coração pelas veias pulmonares, passa pelo átrio esquerdo e ventrículo esquerdo, onde é bombeado para a artéria aorta, que se ramifica em arteríolas e capilares, chegando até os tecidos.",
         alternativa2:
@@ -583,7 +583,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "img84m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Pikisuperstar, via Freepik.com. Disponível aqui.",
+          "Imagem: Adaptada de Pikisuperstar, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O sangue é oxigenado nos pulmões, retorna ao coração pelas veias pulmonares, passa pelo átrio esquerdo e ventrículo esquerdo, onde é bombeado para a artéria aorta, que se ramifica em arteríolas e capilares, chegando até os tecidos.",
       },
@@ -596,7 +596,7 @@ export class QuestoesMEG2 {
           "O sistema circulatório sanguíneo é responsável por transportar o sangue para todas as partes do nosso corpo. A circulação completa permite que o sangue rico em oxigênio não se misture com o sangue pobre em oxigênio, de modo que estes percorrem caminhos distintos por meio dos vasos sanguíneos. Sob esse aspecto, com base na figura e em seus conhecimentos, assinale a alternativa que corresponda ao trajeto do sangue pobre em oxigênio no organismo.",
         imagem: "img85m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Pikisuperstar, via Freepik.com. Disponível aqui.",
+          "Imagem: Adaptada de Pikisuperstar, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Dos capilares próximos aos tecidos, o sangue pobre em oxigênio conflui para vênulas e veias de maior calibre que desembocam nas veias cavas, chegando ao átrio direito e ventrículo direito, que bombeia o sangue para os pulmões por meio das artérias pulmonares.",
         alternativa2:
@@ -608,7 +608,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "img85m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Pikisuperstar, via Freepik.com. Disponível aqui.",
+          "Imagem: Adaptada de Pikisuperstar, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Dos capilares próximos aos tecidos, o sangue pobre em oxigênio conflui para vênulas e veias de maior calibre que desembocam nas veias cavas, chegando ao átrio direito e ventrículo direito, que bombeia o sangue para os pulmões por meio das artérias pulmonares.",
       },
@@ -621,7 +621,7 @@ export class QuestoesMEG2 {
           "A frequência dos batimentos cardíacos é controlada por regiões especiais do coração, responsáveis por ativar e distribuir impulsos elétricos que acarretam as contrações das câmaras cardíacas. A imagem abaixo indica quatro estruturas envolvidas no controle da frequência cardíaca. Com base na imagem e em seus conhecimentos, assinale a alternativa que corresponda às estruturas I, II, III e IV, respectivamente.",
         imagem: "img86m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "A estrutura I corresponde ao nodo sinoatrial, II ao nodo atrioventricular, III ao feixe de His e IV às fibras de Purkinje.",
         alternativa2:
@@ -633,7 +633,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "img86m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O nodo sinoatrial (representado por I) é um aglomerado de células especializadas e se localiza na junção entre o átrio direito e a veia cava superior, sendo responsável por emitir um sinal elétrico que se propaga na musculatura dos átrios, contraindo-os (sístole atrial). O nodo atrioventricular (representado por II) é outra região especializada do coração, localizada na porção inferior do septo interatrial, que retarda o sinal, possibilitando tempo adequado para que o sangue dos átrios passe para os ventrículos. Do nodo atrioventricular, o sinal elétrico chega ao feixe de His (representado por III), que consiste em na conexão elétrica entre átrios e ventrículos, que se divide nos ramos direito e esquerdo, que cruzam o septo e se ramificam em feixes terminais denominados fibras de Purkinje (representadas por IV), que conduzem o potencial de ação para as paredes dos ventrículos, estimulando que estes entrem em sístole (após o término da sístole dos átrios).",
       },
@@ -646,7 +646,7 @@ export class QuestoesMEG2 {
           "No coração existem quatro valvas que permitem o fluxo sanguíneo adequado através das câmaras cardíacas, em consonância com o ciclo cardíaco de sístoles e diástoles. Analise a figura e as estruturas indicadas e, com base em seus conhecimentos, assinale a alternativa correta.",
         imagem: "img87m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Zoofari, (Creative Commons BY-SA 3.0), via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Zoofari, (Creative Commons BY-SA 3.0), via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "A indicação na figura representa as valvas atrioventriculares, localizadas entre os átrios e ventrículos, cuja função é garantir a passagem do sangue no sentido do átrio para o ventrículo durante a sístole atrial e evitar o refluxo de sangue durante a sístole ventricular.",
         alternativa2:
@@ -658,7 +658,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback87m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Zoofari, (Creative Commons BY-SA 3.0), via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Zoofari, (Creative Commons BY-SA 3.0), via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A indicação na figura representa as valvas atrioventriculares, localizadas entre os átrios e ventrículos, em ambos os lados do coração. Na porção direita do coração (à esquerda, na imagem) a valva atrioventricular é denominada tricúspide, enquanto na porção esquerda do coração (à direita, na imagem) é denominada bicúspide. A função das valvas atrioventriculares é garantir a passagem do sangue do átrio para o ventrículo durante a sístole atrial e evitar o refluxo de sangue (para os átrios) durante a sístole ventricular.",
       },
@@ -671,7 +671,7 @@ export class QuestoesMEG2 {
           "No coração existem quatro valvas que permitem o fluxo sanguíneo adequado através das câmaras cardíacas, em consonância com o ciclo cardíaco de sístoles e diástoles. Analise a figura e as estruturas indicadas e, com base em seus conhecimentos, assinale a alternativa correta.",
         imagem: "img88m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "A indicação na figura representa as valvas semilunares, localizadas junto aos orifícios de abertura da aorta e artéria pulmonar, logo após os ventrículos, cuja função é garantir a passagem do sangue dos ventrículos para as artérias durante a sístole ventricular e evitar o refluxo de sangue durante a diástole ventricular.",
         alternativa2:
@@ -683,7 +683,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback88m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A indicação na figura representa as valvas semilunares, localizadas junto aos orifícios de abertura da aorta e artéria pulmonar, logo após os ventrículos. Na porção direita do coração (à esquerda, na imagem) a valva localizada na abertura da artéria pulmonar é denominada valva pulmonar, enquanto na porção esquerda (à direita, na imagem) a valva localizada na abertura da artéria aorta é denominada valva aórtica.  A função das valvas semilunares é garantir a passagem do sangue dos ventrículos para as artérias durante a sístole ventricular e evitar o refluxo de sangue (das artérias para os ventrículos) durante a diástole ventricular.",
       },
@@ -696,7 +696,7 @@ export class QuestoesMEG2 {
           "O coração é um órgão oco com quatro cavidades, constituído predominantemente por tecido muscular estriado cardíaco, bem como de tecido conjuntivo e células endoteliais, que constituem as camadas do coração, representadas na figura abaixo. Sobre as camadas do coração, com base na figura e em seus conhecimentos, assinale a alternativa correta.",
         imagem: "img89m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "A estrutura I corresponde ao pericárdio fibroso, II ao pericárdio seroso, III ao epicárdio, IV ao miocárdio e V ao endocárdio.",
         alternativa2:
@@ -708,7 +708,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "img89m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Na camada mais externa do coração, encontra-se o pericárdio, constituído por tecido conjuntivo e que pode ser estruturado em três camadas: uma mais externa, o pericárdio fibroso (representado por I), que está ligado intimamente com outra mais interna, o pericárdio seroso (representado por II), e, adiante, o epicárdio (representado por III), que se separa das outras camadas de pericárdio por uma breve camada líquida. O epicárdio encontra-se aderido ao miocárdio (representado por (IV), que consiste na camada intermediária e mais espessa do coração, constituída por tecido muscular estriado cardíaco. Por fim, a camada mais interna consiste no endocárdio (representada por V), composta por uma camada de células endoteliais que reveste as câmaras cardíacas.",
       },
@@ -721,7 +721,7 @@ export class QuestoesMEG2 {
           "Quando sofremos uma lesão onde há extravasamento sanguíneo, nosso corpo reage na tentativa de evitar a perda excessiva de sangue. Este processo é denominado coagulação sanguínea e ocorre graças a uma série de reações. Sob esse aspecto, com base na figura e em seus conhecimentos, assinale a alternativa que corresponda às estruturas/fatores envolvidos nesse processo.",
         imagem: "img90m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Na formação do coágulo estão envolvidas as plaquetas, fatores de coagulação (principalmente enzimas), a fibrina e hemácias.",
         alternativa2:
@@ -733,7 +733,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "img90m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "No caso de um ferimento, as plaquetas são ativadas, vão se atraindo e aderem no local, formando um “tampão” inicial na lesão. Após uma sequência de reações químicas envolvendo fatores de coagulação (sobretudo enzimas), o resultado é o surgimento da fibrina (uma proteína fibrosa), que forma uma rede de filamentos que se entrelaçam com as plaquetas, formando um “tampão” mais compacto. As hemácias, incapazes de atravessar, acumulam-se no local juntamente com o plasma, originando o coágulo.",
       },
@@ -746,7 +746,7 @@ export class QuestoesMEG2 {
           "A figura abaixo ilustra um capilar linfático, localizado entre as células dos tecidos do corpo humano e possuindo calibre um pouco maior que os capilares sanguíneos. No que se refere aos capilares linfáticos, com base na figura e em seus conhecimentos, assinale a alternativa correta.",
         imagem: "extra6m5sc",
         legendaImagem:
-          "Imagem: Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Os capilares linfáticos são vasos microscópicos de fundo cego, cuja função é retirar o excesso de líquido tissular que extravasa dos capilares sanguíneos e banha as células (nutrindo-as e oxigenando-as), reconduzindo este líquido à circulação sanguínea.",
         alternativa2:
@@ -758,7 +758,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "extra6m5sc",
         feedBackLegendaImagem:
-          "Imagem: Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Os capilares linfáticos são vasos microscópicos de fundo cego, cuja função é retirar o excesso de líquido tissular que extravasa dos capilares sanguíneos e banha as células (nutrindo-as e oxigenando-as), reconduzindo este líquido à circulação sanguínea. Contudo, a maior parte do líquido tissular que banha as células é reabsorvido pelos próprios capilares sanguíneos. Assim, o líquido tissular pode ter dois destinos: ser recolhido pelos capilares sanguíneos ou pelos capilares linfáticos. Quando o líquido é recolhido pelos capilares linfáticos, forma a linfa.",
       },
@@ -771,7 +771,7 @@ export class QuestoesMEG2 {
           "A figura abaixo demonstra a estrutura de linfonodos, que consistem em nódulos linfáticos de estrutura esponjosa e ricos em leucócitos, localizados no percurso dos vasos linfáticos, sobretudo em regiões estratégicas como pescoço, virilha e axilas. Sobre essas estruturas, assinale a alternativa que considerar correta.",
         imagem: "extra7m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Os linfonodos têm como principal função filtrar a linfa que vem das extremidades corporais, de modo que os leucócitos presentes nessas estruturas identificam e destroem corpos estranhos e demais substâncias, possivelmente nocivos ao organismo.",
         alternativa2:
@@ -783,7 +783,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "extra7m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A função dos linfonodos é de filtrar a linfa que vem das extremidades corporais, de modo que, ao passar pelos linfonodos, a linfa circula por canais onde há leucócitos, que identificam e destroem corpos estranhos e demais substâncias, possivelmente nocivos ao organismo.",
       },
@@ -796,7 +796,7 @@ export class QuestoesMEG2 {
           "Os capilares sanguíneos são vasos finíssimos que estabelecem comunicação com uma arteríola e uma vênula, estando presentes em todas as regiões do corpo. São responsáveis por banhar as células com líquido tissular, nutrindo-as e oxigenando-as, bem como coletar por meio desse mesmo líquido, o gás carbônico e as excretas produzidas pelo seu metabolismo. Nos capilares sanguíneos, encontram-se estruturas como a representada por I na figura abaixo, localizadas em torno da entrada do capilar. No que se refere a essas estruturas e sua função, assinale a alternativa que considerar correta.",
         imagem: "extra8m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "A estrutura indicada por I é um esfíncter pré-capilar, cuja função é regular o suprimento de sangue que flui para os tecidos, por meio de sua contração ou relaxamento.",
         alternativa2:
@@ -808,7 +808,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "extra8m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A estrutura indicada por I na figura é um esfíncter pré-capilar, que consiste em uma célula muscular lisa, localizada em torno da entrada do capilar sanguíneo. A função desse esfíncter consiste em regular o suprimento de sangue que flui para os tecidos, por meio de sua contração (que diminui ou bloqueia o fluxo) ou relaxamento (que permite a passagem e distribuição do sangue no trajeto do capilar, para as células próximas).",
       },
@@ -821,7 +821,7 @@ export class QuestoesMEG2 {
           "O sangue leva oxigênio e nutrientes para as células dos tecidos de todo o corpo, retirando gás carbônico e excretas resultantes do metabolismo celular. Contudo, não podemos esquecer que o coração, assim como todos os tecidos do corpo, também precisa ser nutrido e oxigenado e também produz substâncias em seu metabolismo celular que precisam ser retiradas. Por isso, o coração é vascularizado pelas estruturas representadas em I e II. Sobre essas indicações na figura abaixo, com base em seus conhecimentos, assinale a alternativa que considerar correta.",
         imagem: "extra9m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "A irrigação sanguínea da musculatura cardíaca é realizada pelas artérias coronárias (representadas por I) que partem da aorta, enquanto as veias coronárias (representadas por II) levam sangue pobre em oxigênio do músculo cardíaco para o átrio direito do coração.",
         alternativa2:
@@ -833,7 +833,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "extra9m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A irrigação sanguínea da musculatura cardíaca, com sangue rico em oxigênio e nutrientes, é realizada pelas artérias coronárias (representadas por I) que partem da aorta, enquanto as veias coronárias (representadas por II) levam o sangue pobre em oxigênio proveniente do músculo cardíaco para o átrio direito do coração, que será posteriormente conduzido aos pulmões para ser oxigenado.",
       },
@@ -846,7 +846,7 @@ export class QuestoesMEG2 {
           "A arritmia cardíaca é uma patologia que ocorre quando os impulsos elétricos do coração não funcionam da maneira correta, provocando batimentos acelerados, lentos ou irregulares. Como forma de tratamento, dispositivos implantáveis denominados marca-passos são inseridos cirurgicamente sob a pele do tórax ou abdome, ajudando na melhora do quadro. Sob esse aspecto, assinale a alternativa correspondente ao funcionamento de um marca-passo.",
         imagem: "extra10m5sc",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Os eletrodos atuam como sensores e identificam o funcionamento do coração, enviando sinais elétricos do coração ao gerador. Se o batimento estiver anormal, o gerador emite impulsos elétricos e os envia ao coração, estimulando e controlando os batimentos cardíacos.",
         alternativa2:
@@ -858,7 +858,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "extra10m5sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A função do marca-passo é basicamente monitorar a frequência cardíaca do paciente e estimular o coração, evitando um funcionamento anormal que possa pôr em risco a vida. O marca-passo é composto por três componentes: o gerador, que é implantado abaixo da pele do paciente, os eletrodos, que conectam o gerador às câmaras cardíacas, e o programador, que é responsável pela configuração do marca-passo. Os eletrodos atuam como sensores e identificam o funcionamento do coração, enviando sinais elétricos do coração ao gerador. Se o batimento estiver anormal, o gerador emite impulsos elétricos e os envia ao coração, estimulando e controlando os batimentos cardíacos.",
       },
@@ -880,7 +880,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback1m6sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de D. Ilyin , (Domínio público – CC0 1.0), via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de D. Ilyin , (Domínio público – CC0 1.0), via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Os órgãos imunitários primários são aqueles onde os linfócitos se originam e se diferenciam (amadurecem), sendo compostos pela medula óssea e pelo timo. Os órgãos imunitários secundários são aqueles onde os linfócitos se multiplicam e exercem importantes funções na defesa do organismo, sendo compostos pelos linfonodos, adenoides, tonsilas, baço, apêndice vermiforme e placas de Peyer.",
       },
@@ -902,7 +902,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback2m6sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A aterosclerose consiste na deposição de placas de gordura na superfície interior das artérias, ocasionando estreitamento e enrijecimento, comprometendo a elasticidade da artéria acometida e causando aumento da pressão arterial sistólica. A prevenção ocorre por meio da adoção de hábitos saudáveis, como alimentação equilibrada e prática de exercícios físicos regulares, embora um dos fatores de risco também envolva o fator genético. Quando as placas de gordura interrompem totalmente o fluxo sanguíneo da artéria, a aterosclerose pode desencadear o infarto do miocárdio.",
       },
@@ -924,7 +924,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback3m6sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O infarto do miocárdio é causado pela interrupção do fluxo sanguíneo ao músculo cardíaco, provocada pela obstrução de uma artéria coronária ou suas ramificações, levando à necrose (morte tecidual) da região sem irrigação, devido à falta de oxigênio. A principal causa da obstrução dessas artérias é decorrente da aterosclerose, isto é, na deposição de placas de gordura na superfície interior das artérias que, ao obstruírem completamente os vasos, provocam o infarto.",
       },
@@ -946,7 +946,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback4m6sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A hipertensão arterial, também conhecida como “pressão alta”, ocorre quando a força ou pressão que o sangue exerce sobre a parede interna das artérias encontra-se acima do normal. Essa alteração do sistema circulatório sanguíneo é geralmente causada pelo estresse emocional, hábitos alimentares inadequados (sobretudo alimentação rica em gorduras e sais) e sedentarismo, aumentando os riscos de derrames de sangue no tecido cerebral e de ataques cardíacos. A pressão arterial pode ser aferida pelo método auscultatório utilizando um estetoscópio e um esfigmomanômetro. Com esses equipamentos, o profissional da saúde identifica a pressão sistólica (pressão máxima), que ocorre durante a sístole ventricular e sua medição ideal varia entre 110 a 120 mm Hg, bem como a pressão diastólica (pressão mínima), que ocorre durante a sístole ventricular, e varia entre 70 a 80 mm Hg.",
       },
@@ -968,7 +968,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback5m6sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A imunidade humoral consiste no processo de defesa do organismo realizado por proteínas especiais produzidas por linfócitos B maduros, ou plasmócitos, denominadas anticorpos. Esses anticorpos se ligam ao antígeno/patógeno, tornando-o inativo e favorecendo a sua destruição.",
       },
@@ -990,7 +990,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback6m6sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A imunidade celular consiste no processo de defesa do organismo realizado diretamente por células denominadas linfócitos T citotóxicos. Quando os invasores (microrganismos como vírus e bactérias, por exemplo) sobrevivem e se proliferam em células hospedeiras, impossibilitando a ação de anticorpos, os linfócitos T reconhecem células anormais ou infectadas e, por meio de liberação de substâncias, perfuram a membrana plasmática dessas células, destruindo-as.",
       },
@@ -1012,7 +1012,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback7m6sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Zoofari, (Creative Commons BY-SA 3.0), via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Zoofari, (Creative Commons BY-SA 3.0), via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "É comum dizer que as artérias carregam sangue arterial (rico em oxigênio) e as veias carregam sangue venoso (rico em gás carbônico). Entretanto existem duas exceções, que são as artérias pulmonares, que transportam sangue pobre em oxigênio do ventrículo direito aos pulmões; e as veias pulmonares, que transportam sangue rico em oxigênio dos pulmões ao átrio esquerdo.",
       },
@@ -1054,7 +1054,7 @@ export class QuestoesMEG2 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback9m6sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Sciencia58 e Domdomegg, (Creative Commons CC BY-AS 4.0), via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "As células de memória, surgem da diferenciação de linfócitos T (auxiliares e citotóxicos) e linfócitos B, e são responsáveis por guardar informações de reconhecimento do patógeno/antígeno, respondendo rapidamente no caso de um novo contato (resposta secundária). Essa resposta, é responsável pelo surgimento, em um curto intervalo de tempo, de um “exército” de células específicas envolvidas na defesa do organismo.",
       },

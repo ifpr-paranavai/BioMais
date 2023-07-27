@@ -107,7 +107,7 @@ export class QuestoesMEG5 {
         alternativaCorreta: "1,3,5",
         feedBackImagem: "imgfeedback1m2repro",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Pikisuperstar, via Freepik.com. Disponível aqui.",
+          "Imagem: Adaptada de Pikisuperstar, via Freepik.com. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O preservativo (camisinha) masculino e feminino, o diafragma e os espermicidas podem ser considerados métodos contraceptivos de barreira, pois, ao formarem uma barreira física durante o ato sexual, impedem que os espermatozoides cheguem até o útero.",
       },
@@ -119,7 +119,7 @@ export class QuestoesMEG5 {
         enunciado:
           "A animação abaixo demonstra um importante processo para a reprodução humana, nos órgãos internos do sistema genital feminino. Analise a animação e as alternativas abaixo e, com base em seus conhecimentos, determine a alternativa que julgar como correta, acerca do processo demonstrado.",
         imagem: "imggif1m4repro",
-        legendaImagem: "Imagem: Via GIFER. Disponível aqui.",
+        legendaImagem: "Imagem: Via GIFER. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "O ovócito secundário é liberado do folículo ovariano (ovulação) e recolhido pelas fimbrias, para ser encaminhado para as tubas uterinas.",
         alternativa2:
@@ -130,7 +130,7 @@ export class QuestoesMEG5 {
           "O zigoto é liberado do folículo ovariano (ovulação) e capturado pelo epidídimo, para ser encaminhado para as tubas uterinas.",
         alternativaCorreta: "1",
         feedBackImagem: "imggif1m4repro",
-        feedBackLegendaImagem: "Imagem: Via GIFER. Disponível aqui.",
+        feedBackLegendaImagem: "Imagem: Via GIFER. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A animação demonstra a liberação do ovócito secundário do folículo ovariano, processo denominado ovulação. Ao ser liberado, o ovócito é “recolhido” pelas fimbrias, que são finas terminações das tubas uterinas, que direcionam o ovócito para o interior de uma das tubas, onde os espermatozoides o encontram para uma possível fecundação.",
       },
@@ -142,7 +142,7 @@ export class QuestoesMEG5 {
         enunciado:
           "A animação abaixo demonstra o calendário do ciclo menstrual, durante o período médio de 28 dias. As fases do ciclo uterino consistem em: menstruação (1º ao 5º dia), fase proliferativa (5º ao 13º dia), ovulação (13º ao 16º dia) e a fase luteínica (16º ao 28º dia). Com base na animação, nas informações e em seus conhecimentos, determine os processos ocorridos na fase de 1. menstruação, 2. fase proliferativa, 3. ovulação e 4. fase luteínica, respectivamente.",
         imagem: "imggif2m4repro",
-        legendaImagem: "Imagem: Malucia1003, via Tenor. Disponível aqui.",
+        legendaImagem: "Imagem: Malucia1003, via Tenor. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "1. manutenção e crescimento do revestimento do endométrio; 2. Eliminação do revestimento uterino; 3. formação do corpo lúteo; 4. liberação do ovócito secundário.",
         alternativa2:
@@ -154,7 +154,7 @@ export class QuestoesMEG5 {
         alternativaCorreta: "3",
         feedBackImagem: "imggif2m4repro",
         feedBackLegendaImagem:
-          "Imagem: Malucia1003, via Tenor. Disponível aqui.",
+          "Imagem: Malucia1003, via Tenor. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A primeira fase do ciclo menstrual, a menstruação, ocorre entre os dias 1 e 5, e consiste na eliminação do revestimento do endométrio. A segunda fase, a fase proliferativa, ocorre entre os dias 5 e 13, e consiste no crescimento do revestimento uterino. Durante essas duas fases, ocorre o desenvolvimento e maturação do folículo ovariano, que passa a abrigar o ovócito secundário.<br/>A terceira fase, a ovulação, ocorre geralmente no 14º dia do ciclo, podendo variar, conforme mostrado no GIF, entre os dias 13 e 16, aproximadamente. Essa fase consiste na liberação do ovócito secundário, que é direcionado para o interior das tubas uterinas.<br/>A quarta fase, denominada fase luteínica, ocorre após a ovulação, por volta dos dias 16 a 28, conforme demonstrado no GIF. Nessa fase, ocorre formação do corpo lúteo no ovário, produção de progesterona e a manutenção e preparação do endométrio uterino para uma possível nidação.<br/>Se não houver fecundação, o ciclo se reinicia com uma nova menstruação. Se houver, inicia-se a gravidez.",
       },
@@ -166,7 +166,7 @@ export class QuestoesMEG5 {
         enunciado:
           "Os conhecimentos científicos sobre a reprodução humana têm possibilitado a solução para algumas dificuldades para procriar. A animação abaixo demonstra uma técnica de reprodução denominada fecundação ou fertilização in vitro. Analise a animação e as alternativas e, com base em seus conhecimentos, determine a alternativa correta sobre essa técnica.",
         imagem: "imggif3m4repro",
-        legendaImagem: "Imagem: Via Gfycat. Disponível aqui.",
+        legendaImagem: "Imagem: Via Gfycat. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Neste tipo de fertilização, hormônios são sintetizados em laboratório e indicados para uso oral ou injetável para a mulher, que passa a ovular com maior frequência, aumentando as chances de uma possível gravidez.",
         alternativa2:
@@ -177,7 +177,7 @@ export class QuestoesMEG5 {
           "São coletados os gametas femininos e masculinos dos progenitores e, em laboratório, o óvulo é fecundado pelo espermatozoide. Após a formação do embrião em meio nutritivo em incubadora, ocorre sua implantação no útero materno.",
         alternativaCorreta: "4",
         feedBackImagem: "imggif3m4repro",
-        feedBackLegendaImagem: "Imagem: Via Gfycat. Disponível aqui.",
+        feedBackLegendaImagem: "Imagem: Via Gfycat. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Há variados métodos para auxiliar pessoas que tem o intuito de procriar, mas que, possuem dificuldade de gerar, naturalmente, o próprio embrião. Dentre eles, destaca-se a fecundação in vitro.<br/>Nesse processo, primeiramente a mulher será estimulada hormonalmente para o desenvolvimento dos próprios folículo ovarianos. A partir de então, são coletados os gametas femininos e masculinos dos progenitores e, em laboratório, o óvulo é fecundado pelo espermatozoide. Após a formação do embrião em meio nutritivo em incubadora, ocorre sua implantação no útero materno.",
       },
@@ -190,7 +190,7 @@ export class QuestoesMEG5 {
           "A figura abaixo ilustra um método contraceptivo cirúrgico (definitivo) realizado em homens, a partir do secionamento dos ductos deferentes. Esse procedimento gera receio em alguns homens acerca da possibilidade de perderem a libido ou deixarem de ejacular normalmente. Sobre essa afirmação, analise a figura e as alternativas, selecionando a proposição que julgar como correta.",
         imagem: "img6m5repro",
         legendaImagem:
-          "Imagem: Adaptada de Timdwilliamson, Creative Commons BY-SA 4.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Timdwilliamson, Creative Commons BY-SA 4.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "A laqueadura tubária não diminui o desejo sexual, apesar de alterar a secreção de testosterona pelos testículos. Porém, ao atingir o orgasmo, o homem com laqueadura nas tubas uterinas ejacula com déficit significativo de secreções.",
         alternativa2:
@@ -202,7 +202,7 @@ export class QuestoesMEG5 {
         alternativaCorreta: "2",
         feedBackImagem: "img6m5repro",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Timdwilliamson, Creative Commons BY-SA 4.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Timdwilliamson, Creative Commons BY-SA 4.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A figura demonstra o método contraceptivo cirúrgico (definitivo) em homens, denominado vasectomia. Esse procedimento não diminui o desejo sexual, pois não altera a secreção de testosterona pelos testículos, hormônio responsável pela libido. Ao atingir o orgasmo, o homem vasectomizado ejacula normalmente, com a diferença que seu esperma não contém espermatozoides produzidos nos testículos, sendo constituído apenas por secreções das glândulas acessórias.<br/>Nas mulheres, o procedimento contraceptivo cirúrgico (definitivo) é denominado laqueadura tubária, que consiste no secionamento das tubas uterinas, impedindo que os espermatozoides, no ato sexual desprotegido, cheguem até os ovócitos.",
       },
@@ -215,7 +215,7 @@ export class QuestoesMEG5 {
           "A figura abaixo ilustra os processos ocorridos ao longo do ciclo menstrual, nos ovários (ciclo ovariano) e no útero (ciclo uterino) da mulher. Analise a figura e as alternativas e, com base em seus conhecimentos, determina a proposição que julgar como INCORRETA, no que se refere às fases do ciclo.",
         imagem: "img7m5repro",
         legendaImagem:
-          "Imagem: Own work, Domínio público, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Own work, Domínio público, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Entre os dias 1-13, aproximadamente, ocorre estímulos hormonais que levam ao crescimento do folículo ovariano e o aumento contínuo do endométrio, devido à menstruação, caracterizando a fase luteínica.",
         alternativa2:
@@ -227,7 +227,7 @@ export class QuestoesMEG5 {
         alternativaCorreta: "1",
         feedBackImagem: "img7m5repro",
         feedBackLegendaImagem:
-          "Imagem: Own work, Domínio público, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Own work, Domínio público, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Entre os dias 1-5, aproximadamente, ocorre a descamação do endométrio, devido a redução das taxas hormonais, caracterizando a fase de menstruação.<br/>Entre os dias 5-13, aproximadamente, ocorre estímulos hormonais que levam ao crescimento do folículo ovariano e da espessura do endométrio, no útero, caracterizando a fase proliferativa.<br/>Entre os dias 13-16, aproximadamente, ocorre a expulsão do ovócito secundário do folículo ovariano e o endométrio atinge cerca de 4 milímetros de espessura e apresenta filamentos de muco, caracterizando a fase de ovulação.<br/>Entre os dias 16-28, aproximadamente, há formação do corpo lúteo, que secreta estrógeno e progesterona. No útero, esses hormônios promovem aumento adicional do endométrio, tornando-o ideal para a implantação de um possível embrião, caracterizando a fase luteínica.<br/>Portanto, afirmar que “entre os dias 1-13, aproximadamente, ocorre estímulos hormonais que levam ao crescimento do folículo ovariano e o aumento contínuo do endométrio, devido à menstruação, caracterizando a fase luteínica”, consiste em uma afirmação incorreta.",
       },
@@ -240,7 +240,7 @@ export class QuestoesMEG5 {
           "Após o ato sexual com ejaculação desprotegida, centenas de espermatozoides são atraídos para o ovócito secundário e, ao chegarem nele, os espermatozoides inserem-se pelos espaços entre as células foliculares. Por meio de ações enzimáticas, abre-se um canal na zona pelúcida por onde um espermatozoide bem-sucedido penetra e atinge a membrana plasmática. Sobre esse processo, analise e figura e as alternativas abaixo e seleciona uma proposição que julgar como verdadeira.",
         imagem: "img8m5repro",
         legendaImagem:
-          "Imagem: Adaptada de OpenStax College, Creative Commons BY-SA 3.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de OpenStax College, Creative Commons BY-SA 3.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Ao entrar em contato, a corona radiata e a região intermediária do espermatozoide se fundem, impedindo a fecundação. Inicia-se a primeira divisão da meiose e núcleos masculino e feminino se desenvolvem, formando o feto.",
         alternativa2:
@@ -252,7 +252,7 @@ export class QuestoesMEG5 {
         alternativaCorreta: "3",
         feedBackImagem: "img8m5repro",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de OpenStax College, Creative Commons BY-SA 3.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de OpenStax College, Creative Commons BY-SA 3.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O gameta feminino exerce forte atração química sobre os espermatozoides, que nadam em direção a ele. Ao chegar ao ovócito, os espermatozoides inserem-se pelos espaços entre as células foliculares. Por meio de ações enzimáticas, abre-se um canal na zona pelúcida por onde o espermatozoide penetra e atinge a membrana plasmática.<br/>Ao entrar em contato, membrana plasmática do ovócito e do espermatozoide se fundem por meio da ação de proteínas, o que impede a entrada de outro espermatozoide. A cabeça e a cauda do espermatozoide penetram no citoplasma do ovócito, induzindo-o a completar a segunda divisão da meiose, formando o segundo corpúsculo polar e o pronúcleo do óvulo, que está pronto para encontrar o núcleo do espermatozoide, que aumenta de tamanho e passa a ser chamado pronúcleo masculino. Ao se unirem, os pronúcleos formam o zigoto, iniciando assim o desenvolvimento embrionário.",
       },
@@ -265,7 +265,7 @@ export class QuestoesMEG5 {
           "A figura abaixo ilustra a ovulogênese, processo de formação dos gametas femininos, que tem início antes do nascimento da mulher, e perdura ao longo de sua vida adulta, até a menopausa, que marca o encerramento da atividade reprodutiva da mulher. Analise a figura abaixo e as informações das alternativas e, com base em seus conhecimentos, determine a proposição que julgar como correta para a fase proliferativa (1), fase de crescimento (2) e fase de maturação (3), respectivamente.",
         imagem: "img9m5repro",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "1. as ovogônias se desenvolvem originando o ovócito I.  2. as células precursoras dos gametas aumentam em quantidade por mitose e originam as ovogônias. 3. na puberdade, os ovócitos II amadurecem mensalmente, finalizando a meiose e originando os ovócitos I.",
         alternativa2:
@@ -277,7 +277,7 @@ export class QuestoesMEG5 {
         alternativaCorreta: "4",
         feedBackImagem: "img9m5repro",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A ovulogênese pode ser dividida em três etapas básicas:<br/>- Fase proliferativa: esta fase ocorre no início da fase fetal, onde as células precursoras dos gametas femininos aumentam em quantidade e originam as ovogônias. Essas divisões, que acontecem no epitélio germinativo do ovário.<br/>- Fase de crescimento: ainda durante o desenvolvimento fetal, as ovogônias crescem, com aumento do citoplasma e acúmulo de substâncias nutritivas e entram em meiose, passando a ser chamadas de ovócitos primários, que permanecem estacionados na prófase I da meiose até a puberdade.<br/>- Fase de maturação: essa fase se inicia quando a menina atinge sua maturidade sexual (11 a 15 anos), quando a cada 28 dias (ciclo menstrual) um folículo (conjunto de ovócito primário e células foliculares) amadurece, terminando a meiose I e passando a ser chamado de ovócito secundário.<br/>O ovócito secundário ovulado é impulsionado para dentro da tuba uterina e, se não for fecundado, ele degenera em cerca de 24 horas após ser liberado e não conclui a meiose II. Se houver espermatozoides na tuba uterina e um deles penetrar o ovócito secundário, no entanto, a meiose II é retomada e libera o segundo corpúsculo polar, que assim como o primeiro, degenera. Os núcleos de espermatozoide e óvulo então se unem, formando o zigoto.",
       },
@@ -290,7 +290,7 @@ export class QuestoesMEG5 {
           "O sistema reprodutor masculino é formado por órgãos e estruturas internas (pênis e escroto) e externas (ductos e glândulas), conforme ilustrado na figura abaixo. Analise a figura e as alternativas e, com base em seus conhecimentos sobre a fisiologia do sistema genital masculino, determine a alternativa que julgar como correta.",
         imagem: "img10m5repro",
         legendaImagem:
-          "Imagem: Adaptada de Tsaitgaist, Creative Commons BY-SA 3.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Tsaitgaist, Creative Commons BY-SA 3.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Os espermatozoides são produzidos no interior da próstata, armazenados nas glândulas seminais e passam pelos ductos deferentes. Durante a ejaculação, os testículos e a glândula bulbouretral lançam secreções no epididimo, que juntamente dos espermatozoides, constituem o sêmen.",
         alternativa2:
@@ -302,7 +302,7 @@ export class QuestoesMEG5 {
         alternativaCorreta: "2",
         feedBackImagem: "img10m5repro",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Tsaitgaist, Creative Commons BY-SA 3.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Tsaitgaist, Creative Commons BY-SA 3.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Os espermatozoides são produzidos no interior dos testículos, em regiões denominadas túbulos seminíferos. Em um primeiro momento, os espermatozoides vão dos testículos e dos epidídimos para os ductos deferentes, que transporta os espermatozoides, durante a excitação sexual, do epidídimo em direção à uretra por contrações peristálticas.<br/>Anteriormente à ejaculação, as glândulas bulbouretrais liberam um líquido que contribui para a limpeza da uretra, antes da passagem do esperma.<br/>Em um segundo momento, as glândulas seminais e a próstata lançam secreções no ducto ejaculatório, em direção à uretra, que constituem a maior parte do esperma. Durante a ejaculação, o esperma (espermatozoides e secreções das glândulas) é direcionado até a extremidade da uretra e é eliminado por meio de contrações espasmódicas dos músculos do corpo esponjoso do pênis.",
       },
@@ -315,7 +315,7 @@ export class QuestoesMEG5 {
           "A figura abaixo ilustra o interior da região pélvica feminina, onde se encontram os órgãos do sistema reprodutor. Sob este aspecto, analise a figura e as alternativas e, com base em seus conhecimentos, determine a alternativa que julgar correta sobre o sistema genital feminino.",
         imagem: "img11m5repro",
         legendaImagem:
-          "Imagem: Adaptada de Tsaitgaist, Creative Commons BY-SA 3.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Tsaitgaist, Creative Commons BY-SA 3.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "O pudendo consiste nas estruturas internas do sistema genital feminino, sendo composto por lábios maiores, lábios menores, clitóris, vestíbulo vaginal e vagina.",
         alternativa2:
@@ -327,7 +327,7 @@ export class QuestoesMEG5 {
         alternativaCorreta: "3",
         feedBackImagem: "img11m5repro",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Tsaitgaist, Creative Commons BY-SA 3.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Tsaitgaist, Creative Commons BY-SA 3.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O pudendo feminino consiste no sistema genital externo da mulher, sendo constituído de estruturas principais como: monte de púbis, lábios maiores, lábios menores, clitóris e vestíbulo vaginal. Na região do pudendo, também se encontram próximas outras estruturas, tais como: a abertura da uretra, o ânus e o períneo.<br/>A vagina é um tubo de paredes fibromusculares que vai do pudendo até o cérvix uterino (base do útero). A vagina é o receptáculo do pênis durante o ato sexual, bem como a saída para o fluxo menstrual e da passagem do bebê no parto normal.<br/>O útero é um órgão interno, muscular e oco, cuja porção central consiste na cavidade uterina, com paredes são revestidas pelo endométrio, um tecido rico em glândulas, vasos sanguíneos e vasos linfáticos, que descama durante a menstruação. O útero consiste no local de implantação de um óvulo fertilizado, desenvolvimento do feto durante a gestação e trabalho de parto.<br/>As tubas uterinas são tubos que partem lateralmente do útero, e em suas extremidades encontram-se uma região alargada e com franjas (as fímbrias), situadas próximas aos ovários. As tubas uterinas fornecem uma via para os espermatozoides chegarem até o óvulo e transportam os oócitos secundários e óvulos fecundados dos ovários até o útero.<br/>Os ovários são as gônadas femininas, ou seja, são responsáveis pela produção de gametas (ovócitos secundários) e hormônios femininos.",
       },

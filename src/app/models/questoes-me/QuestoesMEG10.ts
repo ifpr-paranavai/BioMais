@@ -93,7 +93,7 @@ export class QuestoesMEG10 {
         enunciado:
           "A animação abaixo demonstra o processo sensitivo do olfato. Analise a imagem e as alternativas e, com base em seus conhecimentos, determine a proposição que melhor corresponda ao mecanismo funcional do na percepção do cheiro.",
         imagem: "gif1m4sen",
-        legendaImagem: "Imagem: SER, via Pinterest. Disponível aqui.",
+        legendaImagem: "Imagem: SER, via Pinterest. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "As moléculas dispersas chegam ao teto da cavidade nasal, onde se dispersam e atingem quimiorreceptores que se comunicam com o bulbo olfatório. Do bulbo, os impulsos são direcionados para o cérebro.",
         alternativa2:
@@ -104,7 +104,7 @@ export class QuestoesMEG10 {
           "As moléculas dispersas no ar estimulam os mecanorreceptores na faringe a produzirem substâncias que são enviadas para o córtex cerebral, onde o olfato é processado e interpretado.",
         alternativaCorreta: "1",
         feedBackImagem: "gif1m4sen",
-        feedBackLegendaImagem: "Imagem: SER, via Pinterest. Disponível aqui.",
+        feedBackLegendaImagem: "Imagem: SER, via Pinterest. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "As moléculas dispersas entram pelas narinas, passam pelas conchas nasais e chegam ao teto da cavidade nasal, onde está localizado o muco, que umedece a superfície da cavidade nasal. As substâncias odoríferas se dispersam e atingem quimiorreceptores que se comunicam com neurônios do bulbo olfatório. Do bulbo, os impulsos são direcionados para o cérebro.",
       },
@@ -116,7 +116,7 @@ export class QuestoesMEG10 {
         enunciado:
           "A animação abaixo demonstra o interior da orelho (porção média e interna), ilustrando o processo e, que essas estruturas recebem os sons e desencadeiam sua percepção, possibilitando efetivar o sentido da audição. Analise a animação e as alternativas e, acerca da audição, assinale a alternativa que julgar como verdadeira.",
         imagem: "gif2m4sen",
-        legendaImagem: "Imagem: Blog by Biosom. Disponível aqui.",
+        legendaImagem: "Imagem: Blog by Biosom. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "As células sensoriais localizadas no tímpano enviam estímulo nervoso que passa por toda a orelha média e interna, chegando à cóclea. Na cóclea, neurônios associativos transmitem a informação ao nervo auditivo que a levará ao cérebro.",
         alternativa2:
@@ -127,7 +127,7 @@ export class QuestoesMEG10 {
           "As células sensoriais auditivas se localizam no pavilhão auditivo, onde há presença de líquido coclear. Esse líquido umedece as células nervosas do meato acústico, onde a frequência sonora é identificada e enviada para o cérebro.",
         alternativaCorreta: "2",
         feedBackImagem: "gif2m4sen",
-        feedBackLegendaImagem: "Imagem: Blog by Biosom. Disponível aqui.",
+        feedBackLegendaImagem: "Imagem: Blog by Biosom. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "As ondas sonoras atingem a membrana do tímpano e a faz vibrar movimentando o martelo bigorna e estribo, que atuam como amplificadores e transmissores das vibrações para a orelha interna.<br/>As ondas sonoras, ao passarem pela orelha média chegam a orelha interna, de modo que a movimentação do estribo faz a janela oval vibrar comunicando a vibração ao líquido coclear. Por intermédio deste líquido, as vibrações fazem com que as células sensoriais identifiquem o estímulo sonoro, gerando impulsos nervosos que são conduzidos ao nervo auditivo e ao centro de audição do córtex cerebral",
       },
@@ -140,7 +140,7 @@ export class QuestoesMEG10 {
           "A pupila consiste em um orifício de tamanho regulável, localizado no centro da íris. A figura demonstra a pupila dilatando e se contraindo, o que visualmente acarreta em um aumento ou diminuição de seu tamanho. Analise a figura e as alternativas e assinale a proposição que julgar como verdadeira, no que concerne à pupila.",
         imagem: "gif3m4sen",
         legendaImagem:
-          "Imagem: Greyson Orlando, Domínio Público, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Greyson Orlando, Domínio Público, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "O diâmetro da pupila varia de acordo com a luminosidade do ambiente, no intuito de captar a quantidade adequada de luz para a formação da imagem. Assim, na luz, as pupilas se dilatam e na penumbra elas se contraem.",
         alternativa2:
@@ -152,7 +152,7 @@ export class QuestoesMEG10 {
         alternativaCorreta: "3",
         feedBackImagem: "gif3m4sen",
         feedBackLegendaImagem:
-          "Imagem: Greyson Orlando, Domínio Público, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Greyson Orlando, Domínio Público, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O diâmetro da pupila varia de acordo com a luminosidade do ambiente, no intuito de captar a quantidade adequada de luz para a formação da imagem. Assim, na luz, as pupilas se contraem e na penumbra elas se dilatam.",
       },
@@ -164,7 +164,7 @@ export class QuestoesMEG10 {
         enunciado:
           "A animação abaixo ilustra uma estrutura presente no processo de percepção de sabor, envolvida, portanto, com o sentido do paladar. Analise a animação e as alternativas e selecione a proposição que julgar verdadeira acerca desta estrutura.",
         imagem: "gif4m4sen",
-        legendaImagem: "Imagem: Toppr. Disponível aqui.",
+        legendaImagem: "Imagem: Toppr. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "A animação indica uma papila gustativa do tipo filiforme, onde há agrupamento de botões gustativos que interagem com as substâncias alimentares, gerando impulsos que desencadeiam a sensação do paladar.",
         alternativa2:
@@ -175,7 +175,7 @@ export class QuestoesMEG10 {
           "A animação indica um botão gustativo, onde as substâncias alimentares interagem com proteínas receptoras nas células sensoriais, gerando impulsos que são levados ao cérebro.",
         alternativaCorreta: "4",
         feedBackImagem: "gif4m4sen",
-        feedBackLegendaImagem: "Imagem: Toppr. Disponível aqui.",
+        feedBackLegendaImagem: "Imagem: Toppr. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A animação indica um botão gustativo.<br/>Na língua, encontram-se as papilas gustativas, que são saliências onde situam-se os botões gustativos, constituídos principalmente por células sensoriais quimiorreceptoras, que partem de aberturas denominadas poros gustativos (representado na imagem).<br/>Durante a mastigação, substâncias componentes dos alimentos dissolvem-se na saliva e entram em contato com os agrupamentos de quimiorreceptores (botões gustativos). Nessa região, as substâncias alimentares interagem com proteínas receptoras nas células sensoriais, causando mudança elétrica na membrana plasmática.<br/>Os impulsos elétricos são transmitidos às terminações nervosas que estão em contato com os botões gustativos e levados a regiões especificas do cérebro, onde são interpretados produzindo a sensação de paladar.",
       },
@@ -188,7 +188,7 @@ export class QuestoesMEG10 {
           "A cóclea é um longo tubo em forma de concha com o interior dividido em três compartimentos cheios de líquido. A figura abaixo demonstra o órgão de Corti, região que contém as células sensoriais fonoceptoras, localizada no compartimento intermediário da cóclea. Sobre a fisiologia desta região no sentido da audição, analise as alternativas e selecione a proposição que julgar como correta.",
         imagem: "img1m5sen",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Por intermédio do líquido coclear, as vibrações das ondas sonoras fazem os cílios das células sensoriais roçarem a membrana tectórica, gerando impulsos nervosos que são conduzidos ao nervo auditivo.",
         alternativa2:
@@ -200,7 +200,7 @@ export class QuestoesMEG10 {
         alternativaCorreta: "1",
         feedBackImagem: "img1m5sen",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A cóclea é um longo tubo em forma de concha com o interior dividido em três compartimentos cheios de líquido. O órgão de Corti, localizado no compartimento intermediário da cóclea, é uma região que contém as células sensoriais fonoceptoras. Essas células entram em contato com uma estrutura membranosa chamada membrana tectórica, que se apoia sobre os cílios das células sensoriais.<br/>Por intermédio do líquido coclear, as vibrações das ondas sonoras fazem os cílios das células sensoriais roçarem a membrana tectórica, gerando impulsos nervosos que são conduzidos ao nervo auditivo.",
       },
@@ -213,7 +213,7 @@ export class QuestoesMEG10 {
           "O daltonismo é uma alteração visual de origem genética caracterizada pela incapacidade de distinguir cores, sobretudo a vermelho do verde. A figura abaixo ilustra uma imagem com um teste desse tipo de daltonismo. Sobre o daltonismo, analise as alternativas e selecione a que julgar como correta.",
         imagem: "img2m5sen",
         legendaImagem:
-          "Imagem: Adaptada de Wellcome images, Creative Commons BY-SA 4.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Wellcome images, Creative Commons BY-SA 4.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "A principal causa do daltonismo consiste na deficiência ou ausência de células bastonetes, responsáveis pela percepção das cores.",
         alternativa2:
@@ -225,7 +225,7 @@ export class QuestoesMEG10 {
         alternativaCorreta: "4",
         feedBackImagem: "img2m5sen",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Wellcome images, Creative Commons BY-SA 4.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Wellcome images, Creative Commons BY-SA 4.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O daltonismo é uma alteração visual de origem genética caracterizada pela incapacidade de distinguir cores, sobretudo a vermelho do verde. A principal causa do daltonismo consiste na deficiência ou ausência de células cones, responsáveis pela percepção das cores.<br/>A figura demonstra um número 3, formado por pontos verdes, e ao seu redor, integrando o círculo, encontram-se pontos vermelhos. Essa diferenciação não é identificada por portadores de daltonismo.",
       },
@@ -238,7 +238,7 @@ export class QuestoesMEG10 {
           "A figura abaixo ilustra de forma simplificada o processo de formação de imagens, na efetivação do sentido da visão. Analise as alternativas e, com base em seus conhecimentos sobre este sentido, assinale a alternativa que julgar como verdadeira.",
         imagem: "img3m5sen",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "A imagem formada é virtual e direita, a qual fica localizada sobre a esclera, onde por meio de uma reação química as ondas luminosas são transformadas em impulsos elétricos e enviados para interpretação ao cérebro.",
         alternativa2:
@@ -250,7 +250,7 @@ export class QuestoesMEG10 {
         alternativaCorreta: "3",
         feedBackImagem: "img3m5sen",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A luz atravessa a córnea e chega a íris, onde a pupila controla a intensidade de luz a ser recebida pelo olho. Ao chegar na lente, esta forma uma imagem real e invertida do objeto, a qual fica localizada exatamente sobre a retina, onde existem diversas células fotorreceptoras que através de uma reação química transformam as ondas luminosas em impulsos elétricos. Esses impulsos são conduzidos pelo nervo óptico até o cérebro, que interpreta a imagem (que a fazem ficar na posição correta e enxergamos o objeto nitidamente)",
       },
@@ -263,7 +263,7 @@ export class QuestoesMEG10 {
           "A figura abaixo ilustra os principais receptores sensoriais do sentido do tato. Analise a figura e as alternativas e, com base em seus conhecimentos acerca dos receptores do tato, determine a alternativa que corresponder, respectivamente, às indicações da figura.",
         imagem: "img4m5sen",
         legendaImagem:
-          "Imagem: Adaptada de CNX OpenStax, Creative Commons BY-SA 3.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de CNX OpenStax, Creative Commons BY-SA 3.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "I. Corpúsculo de Merkel. II. Terminal de Ruffini. III. Disco de Paccini. IV. Corpúsculo de Krause. e V. Corpúsculo de Meissner.",
         alternativa2:
@@ -275,7 +275,7 @@ export class QuestoesMEG10 {
         alternativaCorreta: "2",
         feedBackImagem: "imgfeed4m5sen",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de CNX OpenStax, Creative Commons BY-SA 3.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de CNX OpenStax, Creative Commons BY-SA 3.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Os receptores indicados na imagem consistem em:<br/>Corpúsculos de Pacini: Receptores com terminação nervosa envolvida por camadas concêntricas de tecido conjuntivo, adquirindo o aspecto de uma cebola. Estão localizados abaixo da pele e nos tecidos das fáscias. O estímulo de receptor tátil ocorre apenas pela compressão local e rápida dos tecidos, captando sensações de toque e vibração.<br/>Terminações de Ruffini: São receptores pequenos e pouco abundantes. Estão localizados em camadas mais profundas da pele e em tecidos mais profundos bem como em cápsulas articulares. Estão relacionados com a percepção de sinais de tato e pressão prolongados e intensos, bem como sensações térmicas de calor.<br/>Discos de Merkel: São receptores formados por ramificações axonais com vários discos terminais. São encontrados principalmente em áreas que apresentam grandes quantidades de corpúsculos de Meissner, como nas pontas dos dedos. Esses receptores percebem o toque contínuo de objetos sobre a pele.<br/>Corpúsculo de Meissner: São receptores pequenos formados por um axônio mielínico. Apresenta uma grande sensibilidade e é encontrado em áreas de pele sem pelos (lábios e pontas dos dedos). São sensíveis a vibrações de baixa frequência e a movimentos de objetos na superfície da pele (estímulos passageiros).<br/>Corpúsculo de Krause: São estruturas formadas por uma fibra nervosa, cuja terminação tem a forma de bastão com uma das extremidades mais grossa. Estão localizados em regiões de limite da epiderme com a mucosa, como ao redor dos lábios e dos genitais. Captam sensações térmicas de frio.",
       },

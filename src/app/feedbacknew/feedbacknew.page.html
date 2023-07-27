@@ -15,7 +15,7 @@
 <!-- <ion-img [src]="assets/imagens/questoes/'+imagem+'.gif'" ></ion-img> -->
 <!-- <img  style="width: 80px; height: 80px;" [src]="image" /> -->
   <img *ngIf="imagem && imagem.trim().toUpperCase() != 'SEM'" [src]="imagem.includes('gif')?'assets/imagens/questoes/'+imagem+'.gif':'assets/imagens/questoes/'+imagem+'.png'" />
-  <small *ngIf="legenda!=undefined && legenda!='SEM'">{{legenda}}</small>
+  <small *ngIf="legenda!=undefined && legenda!='SEM'"  [innerHTML]="legenda"></small>
   <div style="margin-left: 10px; margin-right: 10px;"><h5 style="text-align: justify" [innerHTML]="texto"></h5></div>
 </ion-content>
 

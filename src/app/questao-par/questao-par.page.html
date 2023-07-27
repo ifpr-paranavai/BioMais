@@ -38,7 +38,7 @@
         <div style="margin-left: 10px; margin-right: 10px;"><h5 style="text-align: justify">{{questao.enunciado}}</h5></div>
         <div class="boxImg">
             <img style="width: 100%" *ngIf="questao.imagem && questao.imagem.trim().toUpperCase() != 'SEM'" [src]="questao.imagem.includes('gif')?'assets/imagens/questoes/'+questao.imagem+'.gif':'assets/imagens/questoes/'+questao.imagem+'.png'" />
-            <small *ngIf="questao.legendaImagem!=undefined && questao.legendaImagem!='SEM'">{{questao.legendaImagem}}</small>
+            <small *ngIf="questao.legendaImagem!=undefined && questao.legendaImagem!='SEM'" [innerHTML]="questao.legendaImagem"></small>
         </div>
         <br/>
         <div style="text-align: center"> 

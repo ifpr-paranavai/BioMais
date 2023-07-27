@@ -63,7 +63,7 @@ export class QuestoesMEG9 {
         alternativaCorreta: "1,4,5",
         feedBackImagem: "imgfeedback1m2ner",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Helixitta, Creative Commons BY-SA 4.0, via Wikimedia Commons, disponível aqui.",
+          "Imagem: Adaptada de Helixitta, Creative Commons BY-SA 4.0, via <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.en'> Wikimedia Commons</a>, <a href='https://commons.wikimedia.org/wiki/File:Afferent_and_efferent_neurons_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Quando tocamos um objeto quente, o neurônio sensitivo (aferente) responde ao calor, transmitindo impulsos nervosos a um neurônio associativo, localizado na medula espinhal.<br/>O neurônio associativo localizado na medula espinhal retransmite a informação proveniente do neurônio sensitivo para um nervo motor.<br/>Os impulsos nervosos, após passarem por neurônios sensitivos e associativos, são retransmitidos para nervos motores, que estimulam os músculos a reagirem com o movimento de afastamento.<br/>Além disso de estimular os neurônios motores responsáveis pela ação, os neurônios associativos também estimulam neurônios que conduzem impulsos ao encéfalo, permitindo a tomada de consciência sobre o ocorrido.",
       },
@@ -100,7 +100,7 @@ export class QuestoesMEG9 {
         enunciado:
           "A animação abaixo demonstra dois neurônios, apresentando entre si uma diferença estrutural: um deles, à direita, apresenta neurofibra mielinizada, enquanto o outro, à esquerda, apresenta neurofibra não mielinizada. No que se refere a este aspecto, analise as alternativas abaixo e selecione a proposição que julgar como verdadeira acerca das bainhas de mielina.",
         imagem: "gif1m4ner",
-        legendaImagem: "Imagem: Brain Support. Disponível aqui.",
+        legendaImagem: "Imagem: Brain Support. <a href='https://www.brainlatam.com/blog/cerebro-sociedade-da-infancia-a-fase-adulta-em-que-momento-nosso-cerebro-esta-realmente-preparado-para-assumir-responsabilidades-diante-do-social--396'>Disponível aqui</a>.",
         alternativa1:
           "As neurofibras mielinizadas conduzem os impulsos de forma mais rápida, pois tem característica saltatória, passando de um nó neurofibroso para o seguinte, diferente das não mielinizadas.",
         alternativa2:
@@ -111,7 +111,7 @@ export class QuestoesMEG9 {
           "Nas neurofibras não mielinizadas o impulso de propaga ao longo do axônio por meio de sinapses elétricas interneurônios,",
         alternativaCorreta: "1",
         feedBackImagem: "gif1m4ner",
-        feedBackLegendaImagem: "Imagem: Brain Support. Disponível aqui.",
+        feedBackLegendaImagem: "Imagem: Brain Support. <a href='https://www.brainlatam.com/blog/cerebro-sociedade-da-infancia-a-fase-adulta-em-que-momento-nosso-cerebro-esta-realmente-preparado-para-assumir-responsabilidades-diante-do-social--396'>Disponível aqui</a>.",
         feedBackTexto:
           "As neurofibras mielinizadas conduzem os impulsos de forma mais rápida, pois tem característica saltatória, de modo que os impulsos passam de um nó neurofibroso para o seguinte, diferente das não mielinizadas, em que o impulso se propaga continuamente ao longo da membrana do neurônio.",
       },
@@ -123,7 +123,7 @@ export class QuestoesMEG9 {
         enunciado:
           "A animação abaixo demonstra a condução de impulsos nervosos após o contato com um objeto quente. Os impulsos gerados são responsáveis pelos atos reflexos. Sob este aspecto, analise a animação e as alternativas abaixo e selecione a alternativa que julgar como verdadeira.",
         imagem: "gif2m4ner",
-        legendaImagem: "Imagem: Carpe Noctum, via Gfycat. Disponível aqui.",
+        legendaImagem: "Imagem: Carpe Noctum, via Gfycat. <a href='https://gfycat.com/narrowflashycowbird'>Disponível aqui</a>.",
         alternativa1:
           "O estímulo é detectado por um neurônio sensitivo que transmite o impulso para o encéfalo, que por meio de neurônios pseudounilaterias estimula a musculatura a se contrair.",
         alternativa2:
@@ -135,7 +135,7 @@ export class QuestoesMEG9 {
         alternativaCorreta: "4",
         feedBackImagem: "gif2m4ner",
         feedBackLegendaImagem:
-          "Imagem: Carpe Noctum, via Gfycat. Disponível aqui.",
+          "Imagem: Carpe Noctum, via Gfycat. <a href='https://gfycat.com/narrowflashycowbird'>Disponível aqui</a>.",
         feedBackTexto:
           "O estímulo é detectado por um neurônio sensitivo que transmite o impulso a um neurônio associativo, que transmite o impulso a um neurônio motor, estimulando a musculatura a realizar a ação reflexa.",
       },
@@ -147,7 +147,7 @@ export class QuestoesMEG9 {
         enunciado:
           "A animação abaixo ilustra de forma simplificada a condução de impulsos nervosos entre neurônios. Sobre esse processo, analise a animação e as alternativas e assinale a proposição que julgar como verdadeira.",
         imagem: "gif3m4ner",
-        legendaImagem: "Imagem: Crash Course, via Makeagif. Disponível aqui.",
+        legendaImagem: "Imagem: Crash Course, via Makeagif. <a href='https://makeagif.com/gif/the-nervous-system-part-3-synapses-crash-course-ap-10-aKvhiO?position=5'>Disponível aqui</a>.",
         alternativa1:
           "As sinapses entre neurônios são exclusivamente do tipo elétricas.",
         alternativa2:
@@ -159,7 +159,7 @@ export class QuestoesMEG9 {
         alternativaCorreta: "3",
         feedBackImagem: "gif3m4ner",
         feedBackLegendaImagem:
-          "Imagem: Crash Course, via Makeagif. Disponível aqui.",
+          "Imagem: Crash Course, via Makeagif. <a href='https://makeagif.com/gif/the-nervous-system-part-3-synapses-crash-course-ap-10-aKvhiO?position=5'>Disponível aqui</a>.",
         feedBackTexto:
           "Há dois tipos de sinapses nervosas: a sinapse elétrica e a sinapse química.<br/>Nas sinapses elétricas, as membranas das células unem-se por meio de junções do tipo gap, que permitem a transmissão de potencial de ação diretamente de uma célula para outra.<br/>Nas sinapses químicas (tipo mais comum), não há contato entre os neurônios, havendo um espaço estreito, o espaço sináptico, onde são liberados neurotransmissores (mediadores químicos) originando um novo impulso nervoso (se for entre neurônios) ou uma ação do órgão-alvo (contração da musculatura, por exemplo).",
       },
@@ -172,7 +172,7 @@ export class QuestoesMEG9 {
           "A figura abaixo ilustra o sistema nervoso periférico autônomo simpático. Analise a figura e as alternativas e, com base em seus conhecimentos sobre este ramo do SNPA, assinale a alternativa que julgar como correta.",
         imagem: "img7m5ner",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         alternativa1:
           "De modo geral, estimula principalmente atividades relaxantes e digestórias, geralmente liberando acetilcolina.",
         alternativa2:
@@ -184,7 +184,7 @@ export class QuestoesMEG9 {
         alternativaCorreta: "2",
         feedBackImagem: "img7feedm5ner",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "O SNPA simpático é constituído por nervos raquidianos que partem da região torácica e lombar, com gânglios próximos da medula. De modo geral, estimula ações que mobilizam energia, geralmente liberando adrenalina, permitindo o organismo responder a situações de estresse, como por exemplo: acelerar os batimentos cardíacos, aumentar a pressão arterial, aumentar a concentração de açúcar no sangue e ativar o metabolismo geral do corpo.",
       },
@@ -197,7 +197,7 @@ export class QuestoesMEG9 {
           "A figura abaixo ilustra o sistema nervoso periférico autônomo parassimpático. Analise a figura e as alternativas e, com base em seus conhecimentos sobre este ramo do SNPA, assinale a alternativa que julgar como correta.",
         imagem: "img8m5ner",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         alternativa1:
           "De modo geral, estimula principalmente atividades relaxantes e digestórias, geralmente liberando acetilcolina.",
         alternativa2:
@@ -209,7 +209,7 @@ export class QuestoesMEG9 {
         alternativaCorreta: "1",
         feedBackImagem: "img8feedm5ner",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+                    "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "O SNPA parassimpático, é constituído por nervos cranianos que partem do encéfalo e nervos raquidianos que partem da região sacral, sendo que os gânglios são mais próximos do órgão controlado. De modo geral, estimula principalmente atividades relaxantes e digestórias, geralmente liberando acetilcolina, como a redução do ritmo cardíaco e da pressão sanguínea, aumento das secreções estomacais e intestinais, etc.",
       },
@@ -222,7 +222,7 @@ export class QuestoesMEG9 {
           "A figura abaixo demonstra uma sinapse química neuromuscular, onde as extremidades axônicas dos neurônios são dilatadas e seu citoplasma apresenta vesículas membranosas repletas de neurotransmissores, que são lançados sobre a musculatura esquelética. Sobre esse processo, analise a figura e as alternativas propostas e selecione a proposição que julgar como verdadeira.",
         imagem: "img9m5ner",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+                    "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         alternativa1:
           "Os neurotransmissores ligam-se a proteínas receptoras de membrana da célula pós-sinaptica (fibra muscular), gerando um potencial de ação que desencadeia o processo de contração.",
         alternativa2:
@@ -234,7 +234,7 @@ export class QuestoesMEG9 {
         alternativaCorreta: "1",
         feedBackImagem: "img9m5ner",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+                    "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "A figura demonstra uma sinapse química neuromuscular, onde as extremidades axônicas dos neurônios são dilatadas e seu citoplasma apresenta vesículas membranosas repletas de neurotransmissores, que são lançados sobre a musculatura esquelética.<br/>Os neurotransmissores ligam-se a proteínas receptoras de membrana da célula pós-sinaptica (fibra muscular), gerando um potencial de ação que desencadeia o processo de contração. O neurotransmissor mediador das sinapses químicas neuromusculares consiste na acetilcolina.",
       },
@@ -247,7 +247,7 @@ export class QuestoesMEG9 {
           "A figura abaixo ilustra o encéfalo e a medula espinhal em corte, demonstrando que ambos possuem uma camada de cor acinzentada e outra esbranquiçada. Contudo, enquanto a camada cinzenta é mais externa no cérebro, ela encontra-se localizada mais internamente na medula. Sobre a substância cinzenta e branca, analise a figura e as alternativas e assinale a alternativa que julgar como verdadeira.",
         imagem: "img10m5ner",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+                    "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         alternativa1:
           "Na substância branca estão localizados os gliócitos do tipo astrócitos, ologodendrócitos, células de Schwann e micróglias, enquanto na substância cinzenta estão localizados as neurofibras.",
         alternativa2:
@@ -259,7 +259,7 @@ export class QuestoesMEG9 {
         alternativaCorreta: "4",
         feedBackImagem: "img10m5ner",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+                    "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "Na substância cinzenta, localizam-se os corpos celulares dos neurônios e certos tipos de gliócitos, enquanto na substância branca, localizam-se principalmente as neurofibras revestidas por mielina.",
       },
@@ -272,7 +272,7 @@ export class QuestoesMEG9 {
           "A figura abaixo demonstra, em I, o maior nervo do corpo humano e que em determinadas condições pode causar dor, formigamento no membro e pontadas, por exemplo. Analise a figura e as alternativas propostas e, com base em seus conhecimentos, selecione a proposição que julgar como correta.",
         imagem: "img11m5ner",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+                    "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         alternativa1:
           "A figura indica o nervo plexo braquial, formado pelos ramos ventrais das raízes dos nervos cervicais inferiores e do primeiro torácico. Quando a imunidade está baixa, o nervo inflama, causando a dor plexo braquial.",
         alternativa2:
@@ -284,7 +284,7 @@ export class QuestoesMEG9 {
         alternativaCorreta: "3",
         feedBackImagem: "img11feedm5ner",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+                    "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto: "",
       },
       {

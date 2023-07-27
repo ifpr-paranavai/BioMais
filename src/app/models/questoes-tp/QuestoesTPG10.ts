@@ -25,7 +25,7 @@ export class QuestoesTPG10 {
           "A figura abaixo demonstra estruturas relacionadas ao sentido do paladar. Analise a imagem, as indicações e as alternativas propostas e, com base em seus conhecimentos sobre este sentido, determine as proposições que julgar correspondentes, por meio de toques nos pares.",
         imagem: "img1m1sen",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         pares: [
           {
             id: 1,
@@ -78,7 +78,7 @@ export class QuestoesTPG10 {
         ],
         feedBackImagem: "img1m1sen",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O paladar permite-nos reconhecer o gosto dos alimentos, bem como a sua textura. As estruturas que desempenham essas funções, encontradas principalmente na língua, são as papilas gustativas (representadas em I). Nessas saliências, situam-se os botões gustativos (representados por II), constituídas principalmente por células sensoriais quimiorreceptoras, que partem de aberturas denominadas poros gustativos (representados por III).",
       },
@@ -91,7 +91,7 @@ export class QuestoesTPG10 {
           "A figura abaixo demonstra o epitélio olfativo, região responsável pela percepção de cheiro do sentido do olfato. Analise a figura e as indicações e, com base em seus conhecimentos sobre o tema, determine as proposições que julgar correspondentes, por meio de toques nos pares.",
         imagem: "img2m1sen",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         pares: [
           {
             id: 1,
@@ -144,7 +144,7 @@ export class QuestoesTPG10 {
         ],
         feedBackImagem: "img2m1sen",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A figura demonstra, respectivamente, uma célula mitral (representada em I), um quimiorreceptor (representado em II) e cílios olfatórios (representado em III).<br/>As moléculas dispersas no ar, ao adentrarem a cavidade nasal, difundem-se no muco e atingem os prolongamentos sensoriais (cílios olfatórios) dos neurônios receptores olfativos (quimiorreceptores), gerando impulsos nervosos que são conduzidos até o corpo celular da célula olfatória e em seguida seu axônio, que se comunica com o bulbo olfatório.<br/>No bulbo olfatório, há neurônios chamados células mitrais, cujos dendritos formam um novelo esférico denominado glomérulo, que são estruturas sinápticas que recebem os impulsos das células receptoras olfativas. Após ser processada inicialmente no bulbo, a informação é enviada para diferentes regiões do cérebro.",
       },
@@ -157,7 +157,7 @@ export class QuestoesTPG10 {
           "A figura abaixo ilustra algumas estruturas da orelha, órgão responsável pela audição e equilíbrio do corpo. Analise a figura com as indicações e as alternativas e, com base em seus conhecimentos sobre este órgão, determine as proposições que julgar correspondentes, por meio de toques nos pares.",
         imagem: "img3m1sen",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         pares: [
           {
             id: 1,
@@ -210,7 +210,7 @@ export class QuestoesTPG10 {
         ],
         feedBackImagem: "img3m1sen",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "As estruturas indicadas na figura são, respectivamente, o tímpano (representado em I), a cóclea (representada em II) e o nervo auditivo (representado em III).<br/>Na percepção do som, o estímulo sonoro atinge a membrana do tímpano e a faz vibrar movimentando os ossículos martelo bigorna e estribo, que atuam como amplificadores e transmissores das vibrações para a orelha interna.<br/>Localizada na orelha interna, a cóclea é uma estrutura em forma de concha cheia de líquido e é responsável pela audição, enquanto os canais semicirculares (juntamente com duas câmaras abaixo deles) são responsáveis pelo equilíbrio.<br/>Por intermédio do líquido coclear, as vibrações fazem com que as células sensoriais identifiquem o estímulo sonoro, gerando impulsos nervosos que são conduzidos pelo nervo auditivo ao centro de audição do córtex cerebral",
       },
@@ -223,7 +223,7 @@ export class QuestoesTPG10 {
           "A figura abaixo ilustra parte visível de um olho humano, responsável pelo sentido da visão. Analise a figura e suas indicações juntamente com as alternativas e, com base em seus conhecimentos sobro esse órgão dos sentidos, determine as proposições que julgar correspondentes, por meio de toques nos pares.",
         imagem: "img4m1sen",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         pares: [
           {
             id: 1,
@@ -276,7 +276,7 @@ export class QuestoesTPG10 {
         ],
         feedBackImagem: "img4m1sen",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A figura indica, respectivamente, a pupila (representada em I), a íris (representada em II) e a esclera (representada em III).<br/>A esclera é a camada mais externa, formada por tecido conjuntivo resistente, possuindo cor branca. A íris consiste no disco colorido do olho, contendo um orifício central de tamanho regulável, a pupila, por onde a luz penetra no globo ocular",
       },
@@ -289,7 +289,7 @@ export class QuestoesTPG10 {
           "A figura abaixo ilustra algumas estruturas da orelha, órgão responsável pela audição e equilíbrio do corpo. Analise a figura com as indicações e as alternativas e, com base em seus conhecimentos sobre este órgão, determine as proposições que julgar correspondentes, por meio de toques nos pares.",
         imagem: "img5m1sen",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         pares: [
           {
             id: 1,
@@ -342,7 +342,7 @@ export class QuestoesTPG10 {
         ],
         feedBackImagem: "img5m1sen",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A figura demonstra, respectivamente as estruturas: pavilhão auditivo (representado em I), meato acústico externo (representado em II) e tuba auditiva (representada em III).<br/>O pavilhão auditivo, conhecido popularmente como orelha, funciona como uma concha acústica, captando os sons e direcionando para outra estrutura, o meato acústico externo, que consiste em um canal auditivo que se estende do pavilhão auricular até o tímpano. O epitélio do canal auditivo possui células secretoras de cera que retém partículas de poeira e microrganismos, protegendo as estruturas no interior da orelha.<br/>A tuba auditiva é um canal flexível que comunica a orelha média com a garganta, e sua função é equilibrar a pressão no interior da orelha de acordo com o meio externo. fim",
       },
@@ -354,7 +354,7 @@ export class QuestoesTPG10 {
         enunciado:
           "As alternativas abaixo apresentam imagens e informações acerca de três órgãos do sentido. Analise as figuras e as alternativas e, com base em seus conhecimentos, relacione a ilustração com sua respectiva característica.",
         legendaImagem:
-          "Imagens: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponíveis aqui.",
+          "Imagens: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  Disponíveis aqui.",
         pares: [
           {
             id: 1,
@@ -401,7 +401,7 @@ export class QuestoesTPG10 {
         ],
         feedBackImagem: "imgfeed1m3sen",
         feedBackLegendaImagem:
-          "Imagens: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponíveis aqui.",
+          "Imagens: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  Disponíveis aqui.",
         feedBackTexto:
           "A figura demonstra, respectivamente, regiões sensoriais dos órgãos dos sentidos: paladar, olfato e tato.",
       },

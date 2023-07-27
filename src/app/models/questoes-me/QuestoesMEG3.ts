@@ -38,7 +38,7 @@ export class QuestoesMEG3 {
         alternativaCorreta: "1,2,3",
         feedBackImagem: "img4m1res",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A ventilação pulmonar consiste na inspiração (inalação do ar) e expiração (exalação do ar) e envolve a troca de ar entre a atmosfera e os alvéolos pulmonares. A respiração externa consiste na troca de gases entre os alvéolos pulmonares e o sangue nos capilares pulmonares através da membrana respiratória. O sangue dos capilares ganha oxigênio (O2) e perde gás carbônico (CO2). A respiração interna consiste na troca de gases entre o sangue nos capilares sistêmicos com as células teciduais. O sangue dos capilares perde oxigênio (O2) e ganha gás carbônico (CO2).",
       },
@@ -64,7 +64,7 @@ export class QuestoesMEG3 {
         alternativaCorreta: "1,2,3,4",
         feedBackImagem: "img5m1res",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Durante a inspiração, o diafragma e os músculos intercostais contraem acarretando o aumento do volume da caixa torácica e a entrada de ar nos pulmões. O aumento do volume da caixa torácica torna a pressão interna menor que a externa, favorecendo a entrada de ar proveniente do ambiente.<br/>Durante a expiração, o diafragma e os músculos intercostais relaxam resultando na diminuição do volume da caixa torácica e a saída de ar dos pulmões. A diminuição do volume da caixa torácica torna a pressão interna maior que a externa, favorecendo a saída de ar dos pulmões.",
       },
@@ -101,7 +101,7 @@ export class QuestoesMEG3 {
         enunciado:
           "Cada pulmão possui milhões de alvéolos, cada um com cerca de 0,2 mm de diâmetro. As paredes dos alvéolos são extremamente finas e revestidas internamente por um líquido e envolvidas externamente por capilares sanguíneos. O GIF abaixo representa, de forma simplificada, o processo ocorrido nos alvéolos, durante a respiração. Sob esse aspecto, com base no GIF e em seus conhecimentos, determine a alternativa correta.",
         imagem: "gif1res",
-        legendaImagem: "Imagem: GIFER, disponível aqui.",
+        legendaImagem: "Imagem: GIFER, <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "O ar proveniente da inspiração está representado em amarelo e é rico em gás oxigênio (O2), que ao chegar aos alvéolos se difunde aos capilares sanguíneos, entra nas hemácias e se combina com a hemoglobina viajando pelo corpo, chegando aos capilares de todos os tecidos.",
         alternativa2:
@@ -112,7 +112,7 @@ export class QuestoesMEG3 {
           "O sangue que retorna dos tecidos do corpo aos pulmões está representado por amarelo e é rico em gás carbônico (CO2), que se difunde para os capilares e penetra nas hemácias, sendo levado aos tecidos do corpo.",
         alternativaCorreta: "1",
         feedBackImagem: "gif1res",
-        feedBackLegendaImagem: "Imagem: GIFER, disponível aqui.",
+        feedBackLegendaImagem: "Imagem: GIFER, <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A animação representa de forma simplificada o processo de respiração, demonstrando à esquerda, o processo de ventilação pulmonar (inspiração e expiração) e à direita a respiração externa (trocas gasosas entre alvéolos e capilares sanguíneos pulmonares).<br/>O ar proveniente da inspiração está representado em amarelo e é rico em gás oxigênio (O2), que ao chegar aos alvéolos se difunde aos capilares sanguíneos, entra nas hemácias e se combina com a hemoglobina viajando pelo corpo, chegando aos capilares de todos os tecidos.<br/>Nos tecidos, ocorre a respiração celular, consumindo oxigênio e liberando gás carbônico, de modo que, após esse processo (respiração interna), o sangue proveniente dos tecidos do corpo chega aos pulmões rico em gás carbônico (CO2). Esse gás se difunde para os alvéolos pulmonares, sendo eliminado na expiração, conforme representado em rosa.",
       },
@@ -124,7 +124,7 @@ export class QuestoesMEG3 {
         enunciado:
           "O ar dos pulmões é constantemente renovado por meio da inspiração e expiração. Essa renovação de ar nos pulmões é chamada ventilação pulmonar, sendo auxiliada por músculos intercostais e pelo diafragma. Com base na animação e em seus conhecimentos, determine a alternativa correta.",
         imagem: "gif2res",
-        legendaImagem: "Imagem: Makeagif. Disponível aqui.",
+        legendaImagem: "Imagem: Makeagif. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "Durante a inspiração, o diafragma se contrai e desce, aumentando o volume da caixa torácica, forçando o ar a entrar nos pulmões. Durante a expiração, o diafragma relaxa e sobe, diminuindo o volume da caixa torácica, liberando o ar dos pulmões ao ambiente.",
         alternativa2:
@@ -147,7 +147,7 @@ export class QuestoesMEG3 {
         enunciado:
           "As paredes dos alvéolos pulmonares são extremamente finas e recobertas por capilares sanguíneos, nos quais o sangue circula muito perto do ar, que penetra nos alvéolos. A proximidade entre os capilares e a parede fina dos alvéolos permite a difusão de gases entre o sangue e o ar, representada pelo GIF abaixo. Sobre este processo, com base na figura e em seus conhecimentos, determine a alternativa correta.",
         imagem: "gif3res",
-        legendaImagem: "Imagem: Makeagif. Disponível aqui.",
+        legendaImagem: "Imagem: Makeagif. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "O intercâmbio de gases respiratórios entre o sangue e o ar é denominado hematose e consiste na difusão de O2 do ar dos alvéolos para o sangue dos capilares, simultaneamente à difusão de CO2 dos capilares para os alvéolos.",
         alternativa2:
@@ -158,7 +158,7 @@ export class QuestoesMEG3 {
           "A difusão de gases entre os alvéolos pulmonares ocorre por osmose, ou seja, pelo transporte do líquido do ambiente de menor concentração para o de maior concentração.",
         alternativaCorreta: "1",
         feedBackImagem: "gif3res",
-        feedBackLegendaImagem: "Imagem: Makeagif. Disponível aqui.",
+        feedBackLegendaImagem: "Imagem: Makeagif. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O intercâmbio de gases respiratórios entre o sangue e o ar é denominado hematose e consiste na difusão de O2 do ar dos alvéolos para o sangue dos capilares, simultaneamente à difusão de CO2 dos capilares para os alvéolos. O gás carbônico é eliminado para o ar atmosférico por meio da expiração, enquanto o gás oxigênio se combina com a hemoglobina, no sangue, sendo transportado chegando aos capilares sanguíneos de todos os tecidos do corpo.",
       },
@@ -171,7 +171,7 @@ export class QuestoesMEG3 {
           "As vias respiratórias possuem epitélio de revestimento muco-ciliar, isto é, com cílios dispostos sobre as células epiteliais da mucosa que empurram o muco na mesma direção. A figura abaixo demonstra a presença de muco e de cílios, que se estendem das cavidades nasais aos brônquios. Com base em seus conhecimentos sobre o assunto, assinale a alternativa que corresponda à função muco-ciliar nas vias respiratórias.",
         imagem: "img1m5res",
         legendaImagem:
-          "Imagem: Adaptada de Equipe da Blausen.com, Creative Commons BY 3.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Equipe da Blausen.com, Creative Commons BY 3.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "O muco produzido ajuda na retenção de microrganismos e partículas que são posteriormente “varridos” para fora graças aos movimentos dos cílios, sendo engolidos ou expelidos.",
         alternativa2:
@@ -182,7 +182,7 @@ export class QuestoesMEG3 {
           "O muco produzido ajuda no acúmulo de microrganismos e partículas que são posteriormente “varridos” para os alvéolos pulmonares graças aos movimentos dos cílios.",
         alternativaCorreta: "1",
         feedBackImagem: "img1m5res",
-        feedBackLegendaImagem: "Imagem: Adaptada de Equipe da Blausen.com, Creative Commons BY 3.0, via Wikimedia Commons. Disponível aqui.",
+        feedBackLegendaImagem: "Imagem: Adaptada de Equipe da Blausen.com, Creative Commons BY 3.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto: "As vias respiratórias possuem epitélio de revestimento muco-ciliar, isto é, com cílios dispostos sobre as células epiteliais da mucosa que empurram o muco na mesma direção. O muco produzido ajuda na retenção de microrganismos e partículas que são posteriormente “varridos” para fora graças aos movimentos dos cílios, sendo engolidos ou expelidos.",
       },
       {
@@ -194,7 +194,7 @@ export class QuestoesMEG3 {
           "A cavidade nasal tem um papel importante na preparação do ar, para que este chegue aos pulmões em boas condições. No nariz interno, encontramos estruturas denominadas conchas nasais, subdivididas em superior, média e inferior, formando canais denominados meatos, conforme representado na figura abaixo. Com base na figura e em seus conhecimentos, assinale a alternativa que corresponda as funções das conchas nasais no sistema respiratório.",
         imagem: "img2m5res",
         legendaImagem:
-          "Imagem: Adaptada de Rage against, Creative Commons - CC0 1.0, Domínio Público, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Rage against, Creative Commons - CC0 1.0, Domínio Público, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "As conchas nasais existem para aumentar a superfície mucosa e rotacionar o ar, para que ele seja devidamente filtrado, umedecido e aquecido.",
         alternativa2:
@@ -206,7 +206,7 @@ export class QuestoesMEG3 {
         alternativaCorreta: "1",
         feedBackImagem: "img2m5res",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Rage against, Creative Commons - CC0 1.0, Domínio Público, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Rage against, Creative Commons - CC0 1.0, Domínio Público, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "A cavidade nasal tem um papel importante na preparação do ar, para que este chegue aos pulmões em boas condições. No nariz interno, encontramos estruturas denominadas conchas nasais, subdivididas em superior, média e inferior, formando canais denominados meatos. As conchas nasais existem para aumentar a superfície mucosa e rotacionar o ar, para que ele seja devidamente filtrado, umedecido e aquecido.",
       },
@@ -219,7 +219,7 @@ export class QuestoesMEG3 {
           "A figura abaixo representa o processo de hematose, isto é, trocas gasosas entre os alvéolos pulmonares e o sangue, envolvendo o gás oxigênio (O2) e gás carbônico (CO2). Sob esse aspecto, analise a figura e, com base em seus conhecimentos, assinale a alternativa mais adequada a respeito do gás oxigênio (O2).",
         imagem: "img3m5res",
         legendaImagem:
-          "Imagem: Adaptada de Domdomegg, Creative Commons BY 4.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Domdomegg, Creative Commons BY 4.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "O O2 chega aos alvéolos por meio dos bronquíolos e, devido à proximidade dos capilares à parede fina dos alvéolos, o O2 difunde-se para o sangue e penetra nas hemácias, combinando-se com a hemoglobina e sendo levado aos tecidos do corpo.",
         alternativa2:
@@ -231,7 +231,7 @@ export class QuestoesMEG3 {
         alternativaCorreta: "1",
         feedBackImagem: "img3m5res",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Domdomegg, Creative Commons BY 4.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Domdomegg, Creative Commons BY 4.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O O2 chega aos alvéolos por meio dos bronquíolos (processo de inspiração) e, devido à proximidade dos capilares à parede fina dos alvéolos, o O2 difunde-se para o sangue e penetra nas hemácias, combinando-se com a hemoglobina e sendo levado aos tecidos do corpo. Ao mesmo tempo, o CO2 presente no sangue difunde-se para os alvéolos, sendo eliminado na expiração.",
       },
@@ -244,7 +244,7 @@ export class QuestoesMEG3 {
           "A figura abaixo representa o processo de hematose, isto é, trocas gasosas entre os alvéolos pulmonares e o sangue, envolvendo o gás oxigênio (O2) e gás carbônico (CO2). Sob esse aspecto, analise a figura e, com base em seus conhecimentos, assinale a alternativa mais adequada a respeito do gás carbônico (CO2).",
         imagem: "img4m5res",
         legendaImagem:
-          "Adaptada de Domdomegg, Creative Commons BY 4.0, via Wikimedia Commons. Disponível aqui.",
+          "Adaptada de Domdomegg, Creative Commons BY 4.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "O CO2 chega aos alvéolos por meio dos capilares sanguíneos como produto da respiração celular e, devido à proximidade dos capilares à parede fina dos alvéolos, difunde-se para o ar alveolar e é encaminhado para as vias respiratórias, sendo eliminado na expiração.",
         alternativa2:
@@ -256,7 +256,7 @@ export class QuestoesMEG3 {
         alternativaCorreta: "1",
         feedBackImagem: "img4m5res",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Domdomegg, Creative Commons BY 4.0, via Wikimedia Commons. Disponível aqui.",
+          "Imagem: Adaptada de Domdomegg, Creative Commons BY 4.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O CO2 chega aos alvéolos por meio dos capilares sanguíneos como produto da respiração celular e, devido à proximidade dos capilares à parede fina dos alvéolos, difunde-se para o ar alveolar e é encaminhado para as vias respiratórias, sendo eliminado na expiração. Ao mesmo tempo, o oxigênio proveniente da inspiração é difundido dos alvéolos ao sangue capilares, penetrando nas hemácias e combinando-se com a hemoglobina, sendo levado para os tecidos do corpo, onde estes são oxigenados.",
       },
@@ -269,7 +269,7 @@ export class QuestoesMEG3 {
           "Os pulmões humanos são dois órgãos esponjosos com aproximadamente 25 cm de altura e cerca de 700 gramas, localizados no interior da caixa torácica. Em seu interior, encontram-se cerca de 150 milhões de alvéolos pulmonares, onde ocorrem as trocas gasosas entre o sangue e o ar. A respeito dos pulmões, com base em seus conhecimentos e na figura abaixo, determine a alternativa correta.",
         imagem: "img5m5res",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0).  Disponível aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
         alternativa1:
           "O pulmão direito possui três lobos enquanto o pulmão esquerdo possui apenas dois. Ambos são envoltos por duas membranas, a pleura interna (aderida à superfície pulmonar) e a pleura externa (aderida à caixa torácica).",
         alternativa2:
@@ -281,7 +281,7 @@ export class QuestoesMEG3 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback5m5res",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (Creative Commons 3.0) e de Gtaf, Creative Commons BY-SA 4.0, via Wikimedia Commons. Disponível aqui e aqui.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>) e de Gtaf, Creative Commons BY-SA 4.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a> e aqui.",
         feedBackTexto:
           "O pulmão direito possui três lobos enquanto o pulmão esquerdo possui apenas dois. Ambos são envoltos por duas membranas, a pleura interna (aderida à superfície pulmonar) e a pleura externa (aderida à caixa torácica).",
       },
