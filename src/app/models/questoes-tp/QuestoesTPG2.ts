@@ -617,7 +617,7 @@ export class QuestoesTPG2 {
         enunciado:
           "Os órgãos linfoides são um conjunto de órgãos onde ocorre a formação, a maturação e/ou a multiplicação dos leucócitos (glóbulos brancos). No que se refere aos órgãos linfoides e dentre as alternativas abaixo, relacione as alternativas respectivas, por meio da formação de pares com as alternativas propostas.",
         legendaImagem:
-          "Imagens: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  Disponíveis aqui.",
+        "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         pares: [
           {
             id: 1,
@@ -667,7 +667,7 @@ export class QuestoesTPG2 {
         ],
         feedBackImagem: "feedback1m3sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "Por se constituírem dos principais locais de formação e amadurecimento dos linfócitos, a medula óssea e o timo são considerados órgãos linfoides primários. Os demais órgãos do sistema imunitário, cujas funções estão atreladas à multiplicação dos linfócitos para atuação na defesa do organismo, são denominados órgãos linfoides secundários, a exemplo do baço.",
       },
@@ -738,7 +738,7 @@ export class QuestoesTPG2 {
         enunciado:
           "O sangue é composto por uma parte líquida denominada plasma e por elementos figurados, como células e fragmentos celulares. Com relação aos elementos figurados do sangue, estes estão representados nas imagens contidas nas alternativas abaixo. Sob esse aspecto, relacione as imagens com as informações mais adequadas, por meio da seleção dos respectivos pares.",
         legendaImagem:
-          "Imagens: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  Disponíveis aqui.",
+        "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         pares: [
           {
             id: 1,
@@ -788,7 +788,7 @@ export class QuestoesTPG2 {
         ],
         feedBackImagem: "feedback3m3sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "Os glóbulos vermelhos, também chamados de hemácias ou eritrócitos, são células com forma discoidal, sem núcleo e repletas de hemoglobina (proteína responsável pela cor vermelha do sangue e por captar oxigênio nos pulmões), tendo como principal função o transporte de gás oxigênio para os tecidos. Os glóbulos brancos, também chamados de leucócitos, são células esféricas e nucleadas (com núcleo) e têm função de defesa contra microrganismos ou partículas estranhas que eventualmente entram no organismo. As plaquetas são fragmentos celulares anucleados, contendo forma irregular ou oval, envoltas por membrana plasmática e glicoproteínas. Esses fragmentos atuam no sangue auxiliando no processo de coagulação sanguínea.",
       },
@@ -800,7 +800,7 @@ export class QuestoesTPG2 {
         enunciado:
           "As imagens das alternativas a seguir ilustram três tipos de vasos sanguíneos (fora de proporção, tendo em vista que eles possuem diferenças significativas entre eles, em relação ao calibre/diâmetro). Sob este aspecto, analise as imagens e, com base em seus conhecimentos, relacione-as com as informações mais adequadas, por meio da seleção dos respectivos pares.",
         legendaImagem:
-          "Imagens: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  Disponíveis aqui.",
+        "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         pares: [
           {
             id: 1,
@@ -847,7 +847,7 @@ export class QuestoesTPG2 {
         ],
         feedBackImagem: "feedback4m3sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "Os vasos sanguíneos podem ser de três tipos: artérias, que conduzem sangue do coração aos órgãos e tecidos corporais, consistindo no tipo de vaso mais espesso; as veias, que conduzem sangue dos órgãos e tecidos corporais ao coração, com espessura pouco menos espessa que as artérias; e os capilares sanguíneos, que são vasos finíssimos de calibre microscópico e estabelecem relação entre arteríolas e vênulas, estando presentes em praticamente todas as regiões do corpo, muito próximos das células.",
       },
@@ -859,7 +859,7 @@ export class QuestoesTPG2 {
         enunciado:
           "O ciclo cardíaco é caracterizado por momentos de contração e relaxamento das câmaras cardíacas, os quais estão representados nas imagens das alternativas a seguir. Com base nas imagens e nas informações, relacione as imagens com as informações mais adequadas, por meio da seleção dos respectivos pares.",
         legendaImagem:
-          "Imagens: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  Disponíveis aqui.",
+        "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         pares: [
           {
             id: 1,
@@ -908,7 +908,7 @@ export class QuestoesTPG2 {
         ],
         feedBackImagem: "feedback5m3sc",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "Durante o ciclo cardíaco, no momento denominado diástole geral (átrios e ventrículos em diástole), o ciclo é marcado por um grande silêncio devido às valvas semilunares e atrioventriculares permanecerem fechadas, ocorrendo a entrada de sangue nos átrios. Na sístole atrial, as valvas atrioventriculares se abrem e os átrios se contraem, bombeando sangue para os ventrículos. Na sístole ventricular, os átrios relaxam, as valvas atrioventriculares se fecham, as valvas semilunares se abrem e os ventrículos se contraem, bombeando sangue para as artérias.",
       },

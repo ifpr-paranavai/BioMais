@@ -61,10 +61,12 @@ export class QuestaoParPage {
 
 
         this.pares = this.questao.pares;
+        //console.log(this.pares);
 
        //console.log(this.pares[0].id);
 
         this.pares = this.embaralharArray(this.pares);
+        this.pares = this.reorganizarArrayPorIds(this.pares);
 
         //this.atribuirParesObjetos();
 
@@ -86,6 +88,24 @@ export class QuestaoParPage {
         this.inTimeOut = false;
 
     }
+
+     reorganizarArrayPorIds(array) {
+        const objetosImpares = array.filter(objeto => objeto.id % 2 !== 0);
+        const objetosPares = array.filter(objeto => objeto.id % 2 === 0);
+      
+        const novoArrayObjetos = [];
+      
+        for (let i = 0; i < 6; i++) {
+          if (i % 2 === 0) {
+            novoArrayObjetos.push(objetosImpares[i / 2]);
+          } else {
+            novoArrayObjetos.push(objetosPares[(i - 1) / 2]);
+          }
+        }
+      
+        return novoArrayObjetos;
+      }
+      
 
 
 
@@ -236,6 +256,9 @@ export class QuestaoParPage {
             let j = Math.floor(Math.random() * i);
             [a[i - 1], a[j]] = [a[j], a[i - 1]];
         }
+        
+
+
         return a;
     }
 

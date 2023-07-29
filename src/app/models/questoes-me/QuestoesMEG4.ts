@@ -64,7 +64,7 @@ export class QuestoesMEG4 {
         enunciado:
           "O GIF abaixo representa o processo de micção, ou seja, eliminação da urina da bexiga para o meio externo. Analise a animação e, com base em seus conhecimentos, assinale a alternativa correta acerca desse processo.",
         imagem: "gif1m4uri",
-        legendaImagem: "Imagem: Nemours KidsHealth, Via Makeagif. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        legendaImagem: "Imagem: Nemours KidsHealth, Via Makeagif. <a href='https://makeagif.com/gif/how-the-urinary-system-works-zwONYv'>Disponível aqui</a>.",
         alternativa1:
           "Quando a bexiga está cheia, receptores nervosos em sua parede transmitem a informação ao encéfalo, provocando vontade de urinar. Na micção, ocorre contração dos músculos da bexiga e relaxamento dos esfíncteres.",
         alternativa2:
@@ -75,7 +75,7 @@ export class QuestoesMEG4 {
           "A micção é um processo exclusivamente voluntário, controlado por hormônios como a angiotensina e o glucagon.",
         alternativaCorreta: "1",
         feedBackImagem: "gif1m4uri",
-        feedBackLegendaImagem: "Imagem: Nemours KidsHealth, Via Makeagif. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        feedBackLegendaImagem: "Imagem: Nemours KidsHealth, Via Makeagif. <a href='https://makeagif.com/gif/how-the-urinary-system-works-zwONYv'>Disponível aqui</a>.",
         feedBackTexto:
           "Quando a bexiga está cheia, receptores nervosos em sua parede transmitem a informação ao encéfalo, provocando vontade de urinar. Na micção, ocorre contração dos músculos da bexiga e relaxamento dos esfíncteres. Os esfíncteres urinários são controlados involuntária e voluntariamente, por isso podemos interromper a micção se quisermos.",
       },
@@ -87,7 +87,8 @@ export class QuestoesMEG4 {
         enunciado:
           "A animação abaixo demonstra um ureter em corte, bem como movimentos realizados por sua camada intermediaria de tecido muscular liso, denominados de peristaltismo. Sobre essa característica fisiológica dos ureteres, analise a animação e as alternativas e, com base em seus conhecimentos, assinale a alternativa que julgar correta.",
         imagem: "gif2m4uri",
-        legendaImagem: "Imagem: CrashCourse, via Makeagif. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        legendaImagem: 
+        "Imagem: CrashCourse, via Makeagif. <a href='https://makeagif.com/gif/urinary-system-part-2-crash-course-ap-39-n5csQe?position=15'>Disponível aqui</a>.",
         alternativa1:
           "O peristaltismo da musculatura dos ureteres facilita a condução da urina proveniente dos rins em direção à bexiga.",
         alternativa2:
@@ -99,7 +100,7 @@ export class QuestoesMEG4 {
         alternativaCorreta: "1",
         feedBackImagem: "gif2m4uri",
         feedBackLegendaImagem:
-          "Imagem: CrashCourse, via Makeagif. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Imagem: CrashCourse, via Makeagif. <a href='https://makeagif.com/gif/urinary-system-part-2-crash-course-ap-39-n5csQe?position=15'>Disponível aqui</a>.",
         feedBackTexto:
           "A animação demonstra um ureter em corte, bem como movimentos realizados por sua camada intermediaria de tecido muscular liso, denominados de peristaltismo. O peristaltismo da musculatura dos ureteres facilita a condução da urina proveniente dos rins em direção à bexiga.",
       },
@@ -112,7 +113,7 @@ export class QuestoesMEG4 {
           "A animação abaixo representa o processo fisiológico que ocorre no interior dos néfrons, necessários para a formação da urina. Com base em seus conhecimentos sobre o tema, analise a animação e as alternativas propostas e assinale a proposição que julgar verdadeira.",
         imagem: "gif3m4uri",
         legendaImagem:
-          "Imagem: Nehasethi – Design Mate, via Makeagif. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Nehasethi – Design Mate, via Makeagif. <a href='https://makeagif.com/gif/std-10-science-nephron-structure-and-functions-v-ac5O?position=5'>Disponível aqui</a>.",
         alternativa1:
           "A animação demonstra a água e resíduos sendo extravasados dos capilares do glomérulo e, em seguida, o processo de reabsorção de água e sais importantes do túbulo néfrico pelos capilares.",
         alternativa2:
@@ -123,7 +124,8 @@ export class QuestoesMEG4 {
           "A animação demonstra o processo de eliminação ativa de excretas da cápsula renal para o novelo de capilares glomerulares, que são direcionados às arteríolas aferentes e sendo reabsorvidos pelo sangue.",
         alternativaCorreta: "1",
         feedBackImagem: "gif3m4uri",
-        feedBackLegendaImagem: "Imagem: Nehasethi – Design Mate, via Makeagif. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        feedBackLegendaImagem: 
+        "Imagem: Nehasethi – Design Mate, via Makeagif. <a href='https://makeagif.com/gif/std-10-science-nephron-structure-and-functions-v-ac5O?position=5'>Disponível aqui</a>.",
         feedBackTexto:
           "O processo fisiológico que ocorre no interior dos néfrons, necessários para a formação da urina é demonstrado na animação em dois momentos: no primeiro, ilustra-se a água e resíduos sendo extravasados dos capilares do glomérulo em direção à cápsula renal e, em seguida, para o túbulo néfrico. No segundo, é ilustrado o processo de reabsorção de água e sais importantes do túbulo néfrico pelos capilares, que voltam para o sangue. Assim, ao final do percurso pelo túbulo néfrico, o líquido denominado filtrado glomerular passa a ser chamado de urina, e está pronto para sair dos rins e ser eliminado por meio das vias uriníferas para o meio externo."
       },
@@ -136,7 +138,7 @@ export class QuestoesMEG4 {
           "A animação abaixo demonstra os órgãos e estruturas do sistema urinário masculino e o trajeto da urina, desde sua formação até sua eliminação pelo organismo. Sobre o sistema urinário, com base em seus conhecimentos, analise a figura e as alternativas e assinale a alternativa que julgar verdadeira.",
         imagem: "gif4m4uri",
         legendaImagem:
-          "Imagem: Notselc – Voidaq, via Makeagif. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Notselc – Voidaq, via Makeagif. <a href='https://makeagif.com/gif/urinary-system-problems-explanation-3d-lgJ_cV'>Disponível aqui</a>.",
         alternativa1:
           "A urina é formada nos rins, passa pela pelve renal, ureteres e chega à bexiga, onde fica armazenada até ser eliminada pela uretra.",
         alternativa2:
@@ -148,7 +150,7 @@ export class QuestoesMEG4 {
         alternativaCorreta: "1",
         feedBackImagem: "gif4m4uri",
         feedBackLegendaImagem:
-          "Imagem: Notselc – Voidaq, via Makeagif. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Imagem: Notselc – Voidaq, via Makeagif. <a href='https://makeagif.com/gif/urinary-system-problems-explanation-3d-lgJ_cV'>Disponível aqui</a>.",
         feedBackTexto:
           "A urina é formada nos rins, em estruturas funcionais denominadas néfrons, passa pela pelve renal, uma estrutura em forma de funil que direciona a urina para os ureteres, vias uriníferas que desembocam na bexiga, órgão onde a urina fica armazenada até ser eliminada pela uretra.",
       },
@@ -161,7 +163,7 @@ export class QuestoesMEG4 {
           "A figura abaixo ilustra um néfron, estrutura funcional dor rins, responsável pela filtração do sangue e produção de urina. Com base em seus conhecimentos sobre o tema, analise a figura e as alternativas propostas e assinale a alternativa que julgar verdadeira.",
         imagem: "img10m5uri",
         legendaImagem:
-          "Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         alternativa1:
           "Ao redor dos néfrons há uma rede de capilares sanguíneos que se ramificam da arteríola eferente. A proximidade desses capilares com o túbulo néfrico possibilita a reabsorção de água e substâncias úteis do filtrado para o sangue, e da secreção de excretas dos capilares para a urina em formação.",
         alternativa2:
@@ -173,7 +175,7 @@ export class QuestoesMEG4 {
         alternativaCorreta: "1",
         feedBackImagem: "feedback1m5uri",
         feedBackLegendaImagem:
-          "Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "Ao redor dos néfrons há uma rede de capilares sanguíneos (denominados capilares peritubulares) que se ramificam da arteríola eferente. A proximidade desses capilares com o túbulo néfrico possibilita a reabsorção de água e substâncias úteis do filtrado para o sangue, e da secreção de excretas dos capilares para a urina em formação. Esses processos são ativos, o que significa que há dispêndio de energia por parte do túbulo renal.",
       },
@@ -186,7 +188,7 @@ export class QuestoesMEG4 {
           "A figura abaixo ilustra o processo de hemodiálise. Neste procedimento, uma máquina recebe o sangue de um paciente e é impulsionado por uma bomba até o filtro de diálise, onde é exposto à uma solução através de uma membrana semipermeável que retira o líquido e as toxinas em excesso e devolve o sangue limpo para o paciente. Sobre esse procedimento, com base em seus conhecimentos, analise as alternativas abaixo e selecione a que julgar como correta.",
         imagem: "img11m5uri",
         legendaImagem:
-          "Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         alternativa1:
           "A hemodiálise é indicada para pacientes com insuficiência renal aguda ou crônica graves e tem como função limpar e filtrar o sangue, fazendo o trabalho que os rins doentes não podem fazer.",
         alternativa2:
@@ -198,7 +200,7 @@ export class QuestoesMEG4 {
         alternativaCorreta: "1",
         feedBackImagem: "img11m5uri",
         feedBackLegendaImagem:
-          "Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto: "A hemodiálise é indicada para pacientes com insuficiência renal aguda ou crônica graves e tem como função limpar e filtrar o sangue, fazendo o trabalho que os rins doentes não podem fazer. Neste procedimento, uma máquina recebe o sangue de um paciente e é impulsionado por uma bomba até o filtro de diálise, onde é exposto à uma solução através de uma membrana semipermeável que retira o líquido e as toxinas em excesso e devolve o sangue limpo para o paciente."
       },
       {
@@ -209,7 +211,8 @@ export class QuestoesMEG4 {
         enunciado:
           "Os cálculos renais, popularmente conhecidos como pedras nos rins, são considerados uma doença do sistema urinário muito comum e que normalmente causam muita dor em pessoas acometidas. Sobre esta anomalia do sistema urinário, analise a figura abaixo e as alternativas, selecionando a proposição que julgar como verdadeira.",
         imagem: "img12m5uri",
-        legendaImagem: "Imagem: Adaptada de Myupchar, Creative Commons BY-SA 4.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        legendaImagem: 
+        "Imagem: Adaptada de Myupchar, <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.en'>Creative Commons BY-SA 4.0</a>, via Wikimedia Commons. <a href='https://commons.wikimedia.org/wiki/File:A_man_with_Kidney_Stones.png'>Disponível aqui</a>.",
         alternativa1:
           "Os cálculos renais são massas sólidas formadas por minerais que se acumulam e se juntam dentro dos rins, causando muita dor e desconforto, principalmente quando são expulsas do organismo por meio de contrações, podendo lesionar os tecidos do sistema urinário. ",
         alternativa2:
@@ -218,7 +221,8 @@ export class QuestoesMEG4 {
         alternativa4: "Os cálculos renais consistem em um tipo de infecção bacteriana que acomete o parênquima dos rins, que se prolifera causando muita dor, consistindo em uma doença crônica irreversível.         ",
         alternativaCorreta: "1",
         feedBackImagem: "img12m5uri",
-        feedBackLegendaImagem: "Imagem: Adaptada de Myupchar, Creative Commons BY-SA 4.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        feedBackLegendaImagem: 
+        "Imagem: Adaptada de Myupchar, <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.en'>Creative Commons BY-SA 4.0</a>, via Wikimedia Commons. <a href='https://commons.wikimedia.org/wiki/File:A_man_with_Kidney_Stones.png'>Disponível aqui</a>.",
         feedBackTexto: "Os cálculos renais são massas sólidas formadas por minerais que se acumulam e se juntam dentro dos rins, causando muita dor e desconforto, principalmente quando são expulsas do organismo por meio de contrações, podendo lesionar os tecidos do sistema urinário. Além dessa patologia, existem outras que acometem o sistema urinário, sendo que algumas delas são: a infecção urinária (proliferação de microrganismos como bactérias, vírus ou fungo em qualquer parte do sistema urinário), a insuficiência renal (dificuldade de o rim filtrar o sangue e promover a formação e eliminação de urina), a incontinência urinária (perda da capacidade voluntária de controle da micção), câncer (aparecimento de células anormais que se multiplicam e destroem os tecidos), dentre outras.",
       },
       {
@@ -230,7 +234,7 @@ export class QuestoesMEG4 {
           "A figura abaixo consiste em uma tabela de coloração da urina, indicando o nível de hidratação do corpo de acordo com a cor apresentada. Quando estamos desidratados, a urina eliminada é mais escura, pois possui menor quantidade de água e, consequentemente, maior concentração de substâncias. De que forma isso ocorre? Analise a figura e as alternativas abaixo e assinale a alternativa que julgar verdadeira.",
         imagem: "img13m5uri",
         legendaImagem:
-          "Imagem: Adaptada de Petar Milosevic, Creative Commons BY-SA 4.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Adaptada de Petar Milosevic, <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.en'>Creative Commons BY-SA 4.0</a>, via Wikimedia Commons. <a href='https://commons.wikimedia.org/wiki/File:Urine_Hydration_chart.jpg'>Disponível aqui</a>.",
         alternativa1:
           "Quando bebemos pouca água, a concentração do sangue aumenta, o que acarreta na liberação do hormônio ADH. O ADH aumenta a reabsorção de água do filtrado glomerular pelos capilares peritubulares, que retorna para o sangue, o que torna a urina mais concentrada.",
         alternativa2:
@@ -242,7 +246,7 @@ export class QuestoesMEG4 {
         alternativaCorreta: "1",
         feedBackImagem: "img13m5uri",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Petar Milosevic, Creative Commons BY-SA 4.0, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Imagem: Adaptada de Petar Milosevic, <a href='https://creativecommons.org/licenses/by-sa/4.0/deed.en'>Creative Commons BY-SA 4.0</a>, via Wikimedia Commons. <a href='https://commons.wikimedia.org/wiki/File:Urine_Hydration_chart.jpg'>Disponível aqui</a>.",
         feedBackTexto:
           "Quando bebemos pouca água, o corpo fica desidratado e a concentração (de solutos) do sangue aumenta. Com isso, a hipófise é estimulada a liberar hormônio ADH. Esse hormônio aumenta a reabsorção de água do filtrado glomerular (presente no túbulo néfrico) pelos capilares peritubulares, fazendo com que esta água retorne para o sangue, fazendo com que a quantidade de água a ser eliminada diminui, o que torna a urina mais concentrada.",
       },
@@ -255,7 +259,7 @@ export class QuestoesMEG4 {
           "A figura abaixo demonstra o processo de filtração do sangue e formação de urina na unidade funcional dos rins: o néfron. Ambos os rins são compostos por cerca de néfrons, localizados no córtex renal. Para filtrar o sangue e formar a urina, os néfrons realizam três processos, representados na figura. Com base em seus conhecimentos, analise a figura e as alternativas e assinale a proposição correta.",
         imagem: "img14m5uri",
         legendaImagem:
-          "Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         alternativa1:
           "Em I, o plasma sanguíneo e as substâncias dissolvidas são filtrados no glomérulo; Em II, a água, os íons e outras substâncias importantes são reabsorvidos pelos capilares peritubulares, retornando para o sangue; Em III, resíduos e excesso de íons são secretados pelos capilares para o túbulo renal, formando a urina.",
         alternativa2:
@@ -267,7 +271,7 @@ export class QuestoesMEG4 {
         alternativaCorreta: "1",
         feedBackImagem: "img14m5uri",
         feedBackLegendaImagem:
-          "Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "Em I, está representada a filtração glomerular, processo no qual o plasma sanguíneo e as substâncias dissolvidas são filtrados no glomérulo e passam para a cápsula renal.<br/>Em II, está representada a reabsorção tubular, processo no qual a água, os íons e outras substâncias importantes são reabsorvidos do túbulo renal e ducto coletor pelos capilares peritubulares, retornando para o sangue.<br/>Em III, está representada a secreção tubular, processo no qual resíduos metabólicos, fármacos e excesso de íons, por exemplo, são secretados pelos capilares para o túbulo renal, formando a urina.",
       },

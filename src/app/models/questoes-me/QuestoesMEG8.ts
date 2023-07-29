@@ -38,7 +38,7 @@ export class QuestoesMEG8 {
         alternativaCorreta: "1,2,3,4,5",
         feedBackImagem: "imgfeedbackm2",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "O córtex da glândula suprarrenal produz hormônios do tipo esteroides, sendo os principais deles os glicocorticoides e os mineralocorticoides.<br/>A medula da glândula suprarrenal produz hormônios do tipo catecolaminas, sendo os principais deles a adrenalina e noradrenalina.<br/>Os mineralocorticoides são hormônios produzidos pelo córtex da glândula suprarrenal e atuam promovendo a reabsorção de sódio e a excreção de potássio pelos rins.<br/>Os glicocorticoides são hormônios produzidos pelo córtex da glândula suprarrenal e atuam na produção de glicose a partir de proteínas e gorduras, aumentando os níveis de glicose no sangue.<br/>A adrenalina é um hormônio produzido pela medula da glândula suprarrenal e promove ações no organismo em reações de alerta.<br/>A noradrenalina é um hormônio produzido pela medula da glândula suprarrenal e é liberada em doses mais ou menos constantes pela medula da glândula suprarrenal, independentemente da liberação de adrenalina, tendo como função manter a pressão sanguínea em níveis adequados.",
       },
@@ -125,7 +125,7 @@ export class QuestoesMEG8 {
         enunciado:
           "A animação abaixo ilustra uma importante função da glândula hipófise, localizada na base do encéfalo. Analise a animação e as alternativas e, com base em seus conhecimentos acerca desta importante glândula do sistema endócrino, selecione a alternativa que julgar como verdadeira.",
         imagem: "imggif1m4endo",
-        legendaImagem: "Imagem: CrashCourse, via Makeagif. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        legendaImagem: "Imagem: CrashCourse, via Makeagif. <a href='https://makeagif.com/gif/endocrine-system-part-1-glands-hormones-crash-course-ap-23-jtUXnt?position=20'>Disponível aqui</a>.",
         alternativa1:
           "A animação representa a função da adenoipófise em armazenar e liberar hormônios produzidos pelo hipotálamo, tais como a prolactina, o paratormônio e a melatonina.",
         alternativa2:
@@ -137,7 +137,7 @@ export class QuestoesMEG8 {
         alternativaCorreta: "3",
         feedBackImagem: "imggif1m4endo",
         feedBackLegendaImagem:
-          "Imagem: CrashCourse, via Makeagif. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: CrashCourse, via Makeagif. <a href='https://makeagif.com/gif/endocrine-system-part-1-glands-hormones-crash-course-ap-23-jtUXnt?position=20'>Disponível aqui</a>.",
         feedBackTexto:
           "A animação representa a função da adenoipófise em produzir hormônios tróficos, isto é, que estimulam o funcionamento de outras glândulas endócrinas. Dentre os principais hormônios tróficos, encontram-se o hormônio tireotrófico (TSH) que estimula a tireoide, o hormônio adrenocorticotrófico (ACTH) que regula o córtex da glândula suprarrenal, bem como os hormônios folículo-estimulante (FSH) e luteinizante (LH) que atuam sobre as gônadas masculinas e femininas.",
       },
@@ -149,7 +149,7 @@ export class QuestoesMEG8 {
         enunciado:
           "A animação abaixo demonstra a relação entre o controle hormonal do hipotálamo sobre a hipófise que, por sua vez, regula o funcionamento de órgãos-alvo, tais como as gônadas femininas, conforme ilustrado. Analise a imagem e as alternativas e selecione a proposição que julgar como verdadeira.",
         imagem: "imggif2m4endo",
-        legendaImagem: "Imagem: Leshaeros, via Makeagif. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        legendaImagem: "Imagem: Leshaeros, via Makeagif. <a href='https://makeagif.com/i/XGFzeW'>Disponível aqui</a>.",
         alternativa1:
           "O hipotálamo, ao secretar o hormônio liberador de gonadotrofina (GnRH), estimula a neuroipófise a secretar estrógeno e progesterona, que atuam preparando a mucosa uterina para uma possível gravidez.",
         alternativa2:
@@ -173,7 +173,7 @@ export class QuestoesMEG8 {
           "A animação abaixo demonstra uma glândula muito importante para a homeostasia no organismo humano, cuja função principal é estimular e manter os processos metabólicos em diferentes órgãos, bem como regular a taxa de água, sódio e potássio no sangue. Com base nas informações, analise a imagem e as alternativas e selecione a proposição que julgar como verdadeira.",
         imagem: "imggif3m4endo",
         legendaImagem:
-          "Imagem: BodyParts3D – DBCLS, Creative Commons BY-SA 2.1 JP, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: BodyParts3D – DBCLS, <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>Creative Commons BY-SA 2.1 JP</a>, via Wikimedia Commons. <a href='https://commons.wikimedia.org/wiki/File:Thyroid_lar_ani.gif'>Disponível aqui</a>.",
         alternativa1:
           "A glândula representada na imagem consiste na tireoide, responsável pela produção de hormônios tri-iodotironina (T3), tiroxina (T4) e calcitonina. Aderidas a tireoide estão as glândulas paratireoides, que produzem o paratormônio.",
         alternativa2:
@@ -185,7 +185,7 @@ export class QuestoesMEG8 {
         alternativaCorreta: "1",
         feedBackImagem: "imggif3m4endo",
         feedBackLegendaImagem:
-          "Imagem: BodyParts3D – DBCLS, Creative Commons BY-SA 2.1 JP, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: BodyParts3D – DBCLS, <a href='https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en'>Creative Commons BY-SA 2.1 JP</a>, via Wikimedia Commons. <a href='https://commons.wikimedia.org/wiki/File:Thyroid_lar_ani.gif'>Disponível aqui</a>.",
         feedBackTexto:
           "A glândula representada na imagem consiste na tireoide, responsável pela produção de hormônios tri-iodotironina (T3), tiroxina (T4) e calcitonina. Aderidas a tireoide estão as glândulas paratireoides, que produzem o paratormônio.",
       },
@@ -198,7 +198,7 @@ export class QuestoesMEG8 {
           "A figura abaixo ilustra um caso grave de uma doença da glândula tireoide, que acarreta seu crescimento anormal e consequente formação de um volume no pescoço, chamado bócio. No que se refere a esta doença da glândula tireoide, analise as alternativas e selecione a que julgar como verdadeira.",
         imagem: "img6m5endo",
         legendaImagem:
-          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         alternativa1:
           "Hipertireoidismo: a glândula diminui e produz menos hormônios que o necessário, causando diminuição da temperatura corporal, ressecamento da pele, diminuição da pressão arterial e tendência a engordar.",
         alternativa2:
@@ -210,7 +210,7 @@ export class QuestoesMEG8 {
         alternativaCorreta: "3",
         feedBackImagem: "img6m5endo",
         feedBackLegendaImagem:
-          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "A doença indicada pela imagem consiste no hipertireoidismo, em que a glândula aumenta e produz hormônios em excesso, causando aumento da temperatura corporal, sudorese intensa, perda de peso, irritabilidade, hipertensão e olhos arregalados.<br/>Ao contrário, também há outra disfunção da tireoide, conhecida como hipotireoidismo, em que a glândula produz menos hormônios que o necessário, causando diminuição da temperatura corporal, ressecamento da pele, diminuição da pressão arterial e tendência a engordar.",
       },
@@ -223,7 +223,7 @@ export class QuestoesMEG8 {
           "A imagem abaixo ilustra duas glândulas humanas presentes no corpo da mulher, sendo uma de natureza endócrina e outra exócrina. Analise a figura e as alternativas e, com base nas informações e em seus conhecimentos, determine a alternativa que indique corretamente a relação entre as duas glândulas.",
         imagem: "img7m5endo",
         legendaImagem:
-          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         alternativa1:
           "A adenoipofise é responsável por produzir o hormônio prolactina, que estimula a secreção de leite pelas glândulas mamárias. A neuroipófise secreta o hormônio oxitocina, que promove a contração das glândulas mamárias para a expulsão do leite.",
         alternativa2:
@@ -235,7 +235,7 @@ export class QuestoesMEG8 {
         alternativaCorreta: "1",
         feedBackImagem: "img7m5endo",
         feedBackLegendaImagem:
-          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "A adenoipofise é responsável por produzir o hormônio prolactina, que estimula a secreção de leite pelas glândulas mamárias (após a estimulação prévia das glândulas mamárias por estrógeno e progesterona). A neuroipófise secreta o hormônio oxitocina, que promove a contração das glândulas mamárias para a expulsão do leite durante a amamentação. A liberação da oxitocina é estimulada pela própria sucção do peito pelo bebê.",
       },
@@ -248,7 +248,7 @@ export class QuestoesMEG8 {
           "A figura abaixo ilustra o processo de regulação da taxa de glicose no sangue, destacando a relação funcional entre o pâncreas (responsável pela produção de insulina e glucagon) e o fígado. Sob este aspecto, analise a figura e as alternativas e selecione a proposição que julgar como verdadeira sobre esse processo.",
         imagem: "img8m5endo",
         legendaImagem:
-          "Imagem: Rhcastilhos, Domínio público, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Rhcastilhos, <a href='https://creativecommons.org/publicdomain/mark/1.0/deed.pt_BR'>Domínio público</a>, via Wikimedia Commons. <a href='https://commons.wikimedia.org/wiki/File:Glicemia.svg'>Disponível aqui</a>.",
         alternativa1:
           "Em altas taxas de glicose no sangue, o glucagon estimula todas as células a absorver mais glicose e o excesso é armazenado no fígado. Com baixas taxas, a insulina estimula o fígado a converter glicogênio em glicose.",
         alternativa2:
@@ -260,7 +260,7 @@ export class QuestoesMEG8 {
         alternativaCorreta: "2",
         feedBackImagem: "img8m5endo",
         feedBackLegendaImagem:
-          "Imagem: Rhcastilhos, Domínio público, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Rhcastilhos, <a href='https://creativecommons.org/publicdomain/mark/1.0/deed.pt_BR'>Domínio público</a>, via Wikimedia Commons. <a href='https://commons.wikimedia.org/wiki/File:Glicemia.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "Após uma refeição, a insulina estimula todas as células a absorver mais glicose e o excesso é armazenado no fígado. Em longo período sem alimento, o glucagon estimula o fígado a converter glicogênio em glicose.",
       },
@@ -273,7 +273,7 @@ export class QuestoesMEG8 {
           "A figura abaixo ilustra os níveis hormonais de hormônio folículo-estimulante, hormônio luteinizante, estrógeno, progesterona de uma mulher adulta, em idade férgil, durante o ciclo menstrual. Analise a imagem e as alternativas e selecione a proposição que julgar como verdadeira acerca dos hormônios relacionados à reprodução.",
         imagem: "img9m5endo",
         legendaImagem:
-          "Imagem: Adaptada de MindZiper, Domínio público, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Adaptada de MindZiper, <a href='https://creativecommons.org/publicdomain/zero/1.0/deed.en'>Domínio público</a>, via Wikimedia Commons. <a href='https://commons.wikimedia.org/wiki/File:MenstrualCycle2_es.svg'>Disponível aqui</a>.",
         alternativa1:
           "Por volta do dia 28 do ciclo, o nível de estrógeno e progesterona fica muito baixo, levando a mucosa uterina a se desprender e ser eliminada na menstruação, o que inicia um novo ciclo.",
         alternativa2:
@@ -285,7 +285,7 @@ export class QuestoesMEG8 {
         alternativaCorreta: "1",
         feedBackImagem: "img9m5endo",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de MindZiper, Domínio público, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Adaptada de MindZiper, <a href='https://creativecommons.org/publicdomain/zero/1.0/deed.en'>Domínio público</a>, via Wikimedia Commons. <a href='https://commons.wikimedia.org/wiki/File:MenstrualCycle2_es.svg'>Disponível aqui</a>.",
         feedBackTexto:
           "O início do ciclo menstrual é marcado pela menstruação. A fase folicular é marcada pelo desenvolvimento do folículo ovariano, sob estímulo do hormônio hipofisário FSH.<br/>Com o desenvolvimento dos folículos, estes passam a produzir estrógeno, o que promove o espessamento da parede uterina e induz a hipófise a liberar grande quantidade de FSH e LH.<br/>Por volta do 14º dia, o FSH e o LH, em altas taxas, induzem a ovulação.<br/>Altas taxas de LH após a ovulação, induzem o folículo rompido a se transformarem no corpo lúteo e produzirem estrógeno e grande quantidade de progesterona. O corpo lúteo atinge seu desenvolvimento máximo entre 8 a 10 dias após a ovulação, caracterizando a fase lútea.<br/>O estrógeno e a progesterona produzidos pelo corpo lúteo, agora inibem (por feedback negativo) a produção de FSH e LH, o que promove a regressão do corpo lúteo, que deixa de produzir estrógeno e progesterona.<br/>Por volta do dia 28 do ciclo, o nível de estrógeno e progesterona fica muito baixo, levando a mucosa uterina a se desprender e ser eliminada na menstruação, o que inicia um novo ciclo.<br/>A queda de estrógeno e progesterona faz com que a hipófise volte a produzir FSH.",
       },
@@ -298,7 +298,7 @@ export class QuestoesMEG8 {
           "A figura abaixo ilustra as principais glândulas do sistema endócrino. Analise a figura e as alternativas e assinale a proposição que compreenda apenas as glândulas pertencente a este sistema do corpo humano.",
         imagem: "img10m5endo",
         legendaImagem:
-          "Imagem: Adaptada de MrArifnajafov, Domínio Público, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Adaptada de MrArifnajafov, <a href='https://creativecommons.org/publicdomain/mark/1.0/deed.pt_BR'>Domínio Público</a>, via Wikimedia Commons. <a href='https://commons.wikimedia.org/wiki/File:Illu_endocrine_system-az.jpg'>Disponível aqui</a>.",
         alternativa1: "Hipófise, tireoide, suprarrenal, pâncreas e gônadas.",
         alternativa2: "Hipófise, tireoide, fígado, rins, ovário e testículos.",
         alternativa3: "Hipotálamo, suprarrenal, fígado, ovário e gônadas.",
@@ -306,7 +306,7 @@ export class QuestoesMEG8 {
         alternativaCorreta: "1",
         feedBackImagem: "imgfeed10m5endo",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de MrArifnajafov, Domínio Público, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Adaptada de MrArifnajafov, <a href='https://creativecommons.org/publicdomain/mark/1.0/deed.pt_BR'>Domínio Público</a>, via Wikimedia Commons. <a href='https://commons.wikimedia.org/wiki/File:Illu_endocrine_system-az.jpg'>Disponível aqui</a>.",
         feedBackTexto:
           "As principais glândulas do sistema endócrino são: Hipófise, tireoide, suprarrenal, pâncreas e gônadas (ovários e testículos).",
       },

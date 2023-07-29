@@ -1344,7 +1344,7 @@ export class QuestoesTPG1 {
           enunciado:
             "Durante a alimentação, as três estruturas representadas e/ou destacadas por cores nas imagens abaixo realizam funções importantes no sistema digestório humano. Relacione-as com as alternativas propostas, por meio da formação de pares.",
           legendaImagem:
-            "Imagens: Adaptadas de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  Disponíveis aqui.",
+          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
           pares: [
             {
               id: 1,
@@ -1394,7 +1394,7 @@ export class QuestoesTPG1 {
           ],
           feedBackImagem: "imgfeedback21",
           feedBackLegendaImagem:
-            "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
           feedBackTexto:
             "As glândulas salivares são responsáveis pela produção e secreção de saliva, que desemboca na cavidade oral. Na boca, ocorre a trituração do alimento, início da digestão por amilase salivar e deglutição. A epiglote tem como função o fechamento da laringe permitindo a passagem do alimento para o esôfago (impedindo que o alimento entre no sistema respiratório).",
         },
@@ -1406,7 +1406,7 @@ export class QuestoesTPG1 {
           enunciado:
             "Durante o processo de digestão, em condições normais, o alimento segue uma sequência anatômica definida: boca, faringe, esôfago, estômago, intestino delgado, intestino grosso, reto e ânus. Nas imagens, estão indicadas a faringe, esôfago e estômago. Sob esse aspecto, com base em seus conhecimentos, relacione em pares as estruturas representadas nas figuras com as informações que condizem à função de cada uma delas.",
           legendaImagem:
-            "Imagens: Adaptadas de Olek Remesz, Creative Commons BY-SA 2.5, via Wikimedia Commons. Disponíveis aqui e aqui.",
+          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
           pares: [
             {
               id: 1,
@@ -1456,7 +1456,7 @@ export class QuestoesTPG1 {
           ],
           feedBackImagem: "imgfeedback22",
           feedBackLegendaImagem:
-            "Imagem: Adaptada de Olek Remesz, Creative Commons BY-SA 2.5, via Wikimedia Commons. <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
           feedBackTexto:
             "Na faringe, ocorre a passagem de ar e alimentos, se comunicando com boca, cavidade nasal, esôfago e laringe. No esôfago, ocorre peristaltismo e secreção de muco permitindo o transporte do alimento até o estômago. No estômago, ocorre produção de suco gástrico, digestão química e mecânica dos alimentos e conversão de bolo alimentar em quimo.",
         },
@@ -1468,7 +1468,7 @@ export class QuestoesTPG1 {
           enunciado:
             "Durante o processo de digestão, em condições normais, o alimento segue uma sequência anatômica definida: boca, faringe, esôfago, estômago, intestino delgado, intestino grosso, reto e ânus.  Nas imagens, estão indicados o intestino delgado, intestino grosso e ânus. Sob esse aspecto, com base em seus conhecimentos, relacione em pares as estruturas representadas nas figuras com as informações que condizem à função de cada uma delas.",
           legendaImagem:
-            "Imagens: Adaptadas de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  Disponíveis aqui.",
+          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
           pares: [
             {
               id: 1,
@@ -1517,7 +1517,7 @@ export class QuestoesTPG1 {
           ],
           feedBackImagem: "imgfeedback23",
           feedBackLegendaImagem:
-            "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
           feedBackTexto:
             "O intestino delgado é responsável pela produção e secreção de suco entérico, digestão do quimo e absorção de nutrientes. O intestino grosso realiza o armazenamento de resíduos não aproveitados, absorção de água e sais minerais. O ânus tem função de eliminação de fezes.",
         },
@@ -1529,7 +1529,7 @@ export class QuestoesTPG1 {
           enunciado:
             "As glândulas salivares, a língua, os dentes, o fígado, o pâncreas e a vesícula biliar são considerados órgãos/estruturas acessórios ou anexos ao sistema digestório e desempenham importantes funções em nosso organismo. Nesse sentido, relacione em pares as figuras referentes às estruturas anexas com as informações que julgar mais adequadas, em relação à função de cada uma delas.",
           legendaImagem:
-            "Imagens: Adaptadas de Macrovector, via Freepik.com. Disponíveis aqui.",
+          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
           pares: [
             {
               id: 1,
@@ -1588,7 +1588,7 @@ export class QuestoesTPG1 {
           enunciado:
             "Durante os processos digestivos, o alimento inicialmente digerido na boca e deglutido passa do esôfago ao estômago pelo esfíncter esofágico inferior. Após a digestão química inicial no estômago (proteínas), o conteúdo estomacal é conduzido ao duodeno, através da abertura do esfíncter pilórico. No duodeno, ocorre a digestão química de proteínas, carboidratos e lipídios, por meio da secreção de bile, suco pancreático e suco entérico. Com base nas informações, relacione cada imagem com a informação mais adequada, formando pares com as alternativas propostas.",
           legendaImagem:
-            "Imagens: Adaptadas de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  Disponíveis aqui.",
+          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
           pares: [
             {
               id: 1,
@@ -1635,7 +1635,7 @@ export class QuestoesTPG1 {
           ],
           feedBackImagem: "imgfeedback25",
           feedBackLegendaImagem:
-            "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+          "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
           feedBackTexto:
             "No esfíncter esofágico inferior, ocorre a passagem de bolo alimentar. No esfíncter pilórico, ocorre a passagem do quimo. No duodeno, ocorre a digestão química duodenal.",
         },

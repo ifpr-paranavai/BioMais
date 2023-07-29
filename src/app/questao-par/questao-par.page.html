@@ -8,21 +8,26 @@
             <ion-row>
                 <ion-col>
                     <div style="border-left: 20px;">
-                        <img style="width: 20%; float:left;" [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>0?1:0.1}"
-                            src="assets/imagens/coracao.png" /> 
+                        <img style="width: 20%; float:left;"
+                            [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>0?1:0.1}"
+                            src="assets/imagens/coracao.png" />
 
-                            <img style="width: 20%; float:left;" [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>1?1:0.1}"
-                            src="assets/imagens/coracao.png" /> 
+                        <img style="width: 20%; float:left;"
+                            [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>1?1:0.1}"
+                            src="assets/imagens/coracao.png" />
 
-                            <img style="width: 20%; float:left;" [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>2?1:0.1}"
-                            src="assets/imagens/coracao.png" /> 
+                        <img style="width: 20%; float:left;"
+                            [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>2?1:0.1}"
+                            src="assets/imagens/coracao.png" />
 
-                            <img style="width: 20%; float:left;" [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>3?1:0.1}"
-                            src="assets/imagens/coracao.png" /> 
+                        <img style="width: 20%; float:left;"
+                            [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>3?1:0.1}"
+                            src="assets/imagens/coracao.png" />
 
-                            <img style="width: 20%; float:left;" [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>4?1:0.1}"
-                            src="assets/imagens/coracao.png" /> 
-                        </div>
+                        <img style="width: 20%; float:left;"
+                            [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>4?1:0.1}"
+                            src="assets/imagens/coracao.png" />
+                    </div>
 
                 </ion-col>
             </ion-row>
@@ -35,20 +40,31 @@
 <ion-content padding>
     <div class="fundos">
 
-        <div style="margin-left: 10px; margin-right: 10px;"><h5 style="text-align: justify">{{questao.enunciado}}</h5></div>
-        <div class="boxImg">
-            <img style="width: 100%" *ngIf="questao.imagem && questao.imagem.trim().toUpperCase() != 'SEM'" [src]="questao.imagem.includes('gif')?'assets/imagens/questoes/'+questao.imagem+'.gif':'assets/imagens/questoes/'+questao.imagem+'.png'" />
-            <small *ngIf="questao.legendaImagem!=undefined && questao.legendaImagem!='SEM'" [innerHTML]="questao.legendaImagem"></small>
+        <div style="margin-left: 10px; margin-right: 10px;">
+            <h5 style="text-align: justify">{{questao.enunciado}}</h5>
         </div>
-        <br/>
-        <div style="text-align: center"> 
+        <div class="boxImg">
+            <img style="width: 100%" *ngIf="questao.imagem && questao.imagem.trim().toUpperCase() != 'SEM'"
+                [src]="questao.imagem.includes('gif')?'assets/imagens/questoes/'+questao.imagem+'.gif':'assets/imagens/questoes/'+questao.imagem+'.png'" />
+            <small *ngIf="questao.legendaImagem!=undefined && questao.legendaImagem!='SEM'"
+                [innerHTML]="questao.legendaImagem"></small>
+        </div>
+        <br />
+        <div style="text-align: center">
 
         </div>
 
         <div style="text-align: center">
             <span *ngFor="let par of pares">
-      <button style="margin: 5px;border-radius: 10px" [disabled]="par.desabilitar" class="botaoPares" (click)="botaoPrecionadoNovo(par)" [ngStyle]="{'background-color': par.corBorda}" id="close-image"> <div *ngIf="(par.imagem && par.imagem != '') || par.descricao.includes('img')" class="boxImg"><img *ngIf="(par.imagem && par.imagem.trim().toUpperCase() != '' && par.imagem.trim().toUpperCase() != 'SEM')|| par.descricao.includes('img')" [src]="par.descricao.includes('gif')?'assets/imagens/questoes/'+par.descricao+'.gif':'assets/imagens/questoes/'+par.descricao+'.png'"/></div><h5 *ngIf="!par.descricao.includes('img')">{{par.descricao}}</h5></button>
-    </span>
+                <button style="margin: 5px;border-radius: 10px" [disabled]="par.desabilitar" class="botaoPares"
+                    (click)="botaoPrecionadoNovo(par)" [ngStyle]="{'background-color': par.corBorda}" id="close-image">
+                    <div *ngIf="(par.imagem && par.imagem != '') || par.descricao.includes('img')" class="boxImg"><img
+                            *ngIf="(par.imagem && par.imagem.trim().toUpperCase() != '' && par.imagem.trim().toUpperCase() != 'SEM')|| par.descricao.includes('img')"
+                            [src]="par.descricao.includes('gif')?'assets/imagens/questoes/'+par.descricao+'.gif':'assets/imagens/questoes/'+par.descricao+'.png'" />
+                    </div>
+                    <h5 *ngIf="!par.descricao.includes('img')">{{par.descricao}}</h5>
+                </button>
+            </span>
 
         </div>
 
@@ -56,7 +72,7 @@
 
 
     </div>
-    <br/>
+    <br />
 
 
 </ion-content>

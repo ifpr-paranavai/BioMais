@@ -221,7 +221,7 @@ export class QuestoesTPG3 {
         enunciado:
           "Assim como todos os outros sistemas do corpo humano, o sistema respiratório, em condições anormais, pode ser acometido por algumas doenças. As figuras nas alternativas abaixo demonstram os principais sintomas de três doenças distintas do trato respiratório humano. Sob esse aspecto, a partir de seus conhecimentos sobre o assunto, relacione as figuras com as informações mais adequadas, por meio de toque nos pares.",
         legendaImagem:
-          "Imagens: Adaptadas de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  Disponíveis aqui.",
+        "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         pares: [
           {
             id: 1,
@@ -271,7 +271,7 @@ export class QuestoesTPG3 {
         ],
         feedBackImagem: "feedback7m3res",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "A enfisema pulmonar é uma doença degenerativa, onde ocorre a destruição dos alvéolos em decorrência de muito tempo de agressão ao pulmão, sendo o cigarro sua causa principal. O edema pulmonar consiste em um acúmulo de líquido no interior dos pulmões, geralmente causado por uma doença cardíaca, quando o coração se encontra com dificuldade de bombear o sangue, aumentando a pressão no interior dos pequenos vasos sanguíneos dos pulmões. A bronquite consiste em uma inflamação da mucosa dos brônquios e bronquíolos, geralmente causada por uma infecção viral, na qual os bronquíolos secretam uma quantidade excessiva de muco, tornando-se comprimidos e inflamados.",
       },
@@ -345,7 +345,7 @@ export class QuestoesTPG3 {
         enunciado:
           "No processo de respiração, destacam-se três momentos básicos: a ventilação pulmonar, a respiração interna (tecidual) e a respiração externa (pulmonar). As alternativas abaixo ilustram esses três momentos e suas designações. Com base em seus conhecimentos e nas alternativas em imagem e texto, associe as correspondências por meio de toques nos pares.",
         legendaImagem:
-          "Imagens: Adaptadas de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  Disponíveis aqui.",
+        "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         pares: [
           {
             id: 1,
@@ -395,7 +395,7 @@ export class QuestoesTPG3 {
         ],
         feedBackImagem: "feedback9m3res",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Imagem: Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "A ventilação pulmonar consiste na inspiração (inalação do ar) e expiração (exalação do ar) e envolve a troca de ar entre a atmosfera e os alvéolos pulmonares. A respiração externa consiste na troca de gases entre os alvéolos pulmonares e o sangue nos capilares pulmonares através da membrana respiratória. O sangue dos capilares ganha oxigênio (O2) e perde gás carbônico (CO2). A respiração interna consiste na troca de gases entre o sangue nos capilares sistêmicos com as células teciduais. O sangue dos capilares perde oxigênio (O2) e ganha gás carbônico (CO2).",
       },

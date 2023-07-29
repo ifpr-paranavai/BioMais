@@ -100,7 +100,7 @@ export class QuestoesMEG6 {
           "O esqueleto humano pode ser agrupado em axial (crânio, coluna vertebral e caixa torácica) e apendicular (membros). O membro superior, é formado por três regiões: braços, antebraços e mãos. Com base nas informações e na figura abaixo, analise as alternativas e selecione a que julgar como correta acerca dos ossos pertencentes aos membros superiores.",
         imagem: "img8m5esq",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         alternativa1:
           "O braço é composto pelo osso úmero, o antebraço pelo rádio e ulna, e as mãos por ossos do carpo, metacarpo e falanges.",
         alternativa2:
@@ -112,7 +112,7 @@ export class QuestoesMEG6 {
         alternativaCorreta: "1",
         feedBackImagem: "img8feedbackm5esq",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "O esqueleto humano pode ser agrupado em axial (crânio, coluna vertebral e caixa torácica) e apendicular (membros). O membro superior, é formado por três regiões: braços, antebraços e mãos. O braço é composto pelo osso úmero, o antebraço pelo rádio e ulna, e as mãos por ossos do carpo, metacarpo e falanges.",
       },
@@ -125,7 +125,7 @@ export class QuestoesMEG6 {
           "A figura abaixo representa a estrutura interna de um osso longo, de modo que cada parte possibilita desempenha diversas funções como sustentação, proteção, movimentação, armazenamento de minerais e formação de células sanguíneas. Analise a figura e as alternativas e selecione a proposição que considerar verdadeira sobre a estrutura dos ossos.",
         imagem: "img9m5esq",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         alternativa1:
           "Formado por tecido ósseo esponjoso (I), pelo osso compacto que contém medula óssea vermelha (II) e no interior dos ossos há uma matriz rígida onde se forma a medula óssea amarela (III). São revestidos por tecido conjuntivo denominado epiderme (IV) e em suas extremidades geralmente há colágeno (V).",
         alternativa2:
@@ -137,7 +137,7 @@ export class QuestoesMEG6 {
         alternativaCorreta: "4",
         feedBackImagem: "img9feedbackm5esq",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "A figura demonstra um osso longo, formado por tecido ósseo compacto (I), pelo osso esponjoso que contém medula óssea vermelha (II) e no interior dos ossos há uma matriz rígida onde se forma a medula óssea amarela (III). São revestidos por tecido conjuntivo denominado periósteo (IV) e em suas extremidades geralmente há cartilagem (V).<br/>Vale lembrar que não são todos os ossos que apresentam, por exemplo, a medula óssea vermelha, de modo que nos adultos, está geralmente presente apenas os ossos pélvicos, esterno, costelas, clavícula, escápula, ossos cranianos e nas extremidades do fêmur e úmero.",
       },
@@ -150,7 +150,7 @@ export class QuestoesMEG6 {
           "A figura abaixo ilustra a coluna vertebral, que é constituída por 33 ossos denominados vértebras. Nos adultos, algumas vértebras se fundem, reduzindo seu número a 26. As vértebras formam um eixo ósseo firme e flexível e, em seu interior há um tubo interno onde se localiza a medula espinal. Analise a figura e as alternativas e selecione a alternativa que julgar como correta, acerca da coluna vertebral.",
         imagem: "img10m5esq",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         alternativa1:
           "A coluna vertebral é formada pela porção escapular (12 vértebras), torácica (7 vértebras), lombar (4 vértebras) e pubiana (fusão de 4 vértebras que formam o osso ílio) e cocciana (fusão de 2 vértebras que formam o cóccix).",
         alternativa2:
@@ -162,7 +162,7 @@ export class QuestoesMEG6 {
         alternativaCorreta: "2",
         feedBackImagem: "img10feedbackm5esq",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "A coluna vertebral é formada por 7 vértebras cervicais (primeiras vértebras que constituem o pescoço), 12 vértebras torácicas (ligadas às costelas, formando a caixa torácica), 5 vértebras lombares (maiores vértebras, suportam o peso da parte superior do corpo quando estamos em pé), 5 vértebras sacrais (que fundidas na fase adulta formam o osso sacro) e 4 vértebras coccianas (que fundidas na fase adulta formam o osso cóccix).",
       },
@@ -175,7 +175,7 @@ export class QuestoesMEG6 {
           "O tecido ósseo se forma durante o desenvolvimento embrionário, mas se renova continuamente na vida adulta. Esse processo é chamado remodelamento ósseo e a figura abaixo demonstra as células envolvidas nesse processo. Analise a figura e as alternativas e, com base em seus conhecimentos, assinale a alternativa que julgar verdadeira.",
         imagem: "img11m5esq",
         legendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         alternativa1:
           "As células que destroem áreas lesadas ou envelhecidas são chamadas medula óssea vermelha, originadas a partir da fusão de osso esponjoso. As células que produzem o tecido ósseo são chamadas osteoclastos. As células que mantem a atividade do tecido ósseo (maduro) são chamadas macrófagos.",
         alternativa2:
@@ -187,7 +187,7 @@ export class QuestoesMEG6 {
         alternativaCorreta: "2",
         feedBackImagem: "img11m5esq",
         feedBackLegendaImagem:
-          "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/br/' target='_blank'>Creative Commons 3.0</a>).  <a href='http://commons.wikimedia.org/wiki/File:Respiratory_system_complete_en.svg'>Disponível aqui</a>.",
+        "Imagem: Adaptada de Servier Medical Art, (<a href='https://creativecommons.org/licenses/by/3.0/' target='_blank'>Creative Commons 3.0</a>).  <a href='https://smart.servier.com/image-set-download/'>Disponível aqui</a>.",
         feedBackTexto:
           "O tecido ósseo se forma durante o desenvolvimento embrionário, mas se renova continuamente na vida adulta. Esse processo é chamado remodelamento ósseo. As células que produzem o tecido ósseo são chamadas osteoblastos. Elas produzem a matriz extracelular, que possui colágeno, e também iniciam o processo de calcificação do osso, que é a deposição de sais minerais na matriz, como o cálcio<br/>As células que mantem a atividade do tecido ósseo (maduro) são chamadas osteócitos. Além dessas células, o tecido ósseo também possui os osteoclastos, células importantes originadas pela fusão de monócitos, que se movem na superfície óssea e destroem áreas lesadas ou envelhecidas do osso, abrindo caminho para sua regeneração, pelos osteoblastos.",
       },
