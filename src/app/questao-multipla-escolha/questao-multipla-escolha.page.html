@@ -1,25 +1,61 @@
 <ion-header>
 
-  <ion-toolbar color="light">
-      <ion-title color="success" slot="end">{{totalPontos}} BioPontos</ion-title>
-  </ion-toolbar>
+    <ion-toolbar color="light">
+        <ion-title color="success" slot="end">{{totalPontos}} BioPontos
+            <br><a *ngIf="!hideElement">{{formatTimeLeft(time)}}</a>
+        </ion-title>
+        <ion-grid>
+            <ion-row>
+                <ion-col>
+                    <div style="border-left: 20px;">
+                        <img style="width: 20%; float:left;" [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>0?1:0.1}"
+                            src="assets/imagens/coracao.png" /> 
+
+                            <img style="width: 20%; float:left;" [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>1?1:0.1}"
+                            src="assets/imagens/coracao.png" /> 
+
+                            <img style="width: 20%; float:left;" [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>2?1:0.1}"
+                            src="assets/imagens/coracao.png" /> 
+
+                            <img style="width: 20%; float:left;" [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>3?1:0.1}"
+                            src="assets/imagens/coracao.png" /> 
+
+                            <img style="width: 20%; float:left;" [ngStyle]="{'opacity':pontuacao.quantidadeQuestoesConsecutivas>4?1:0.1}"
+                            src="assets/imagens/coracao.png" /> 
+                        </div>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+
+    </ion-toolbar>
 
 </ion-header>
 
 <ion-content padding>
-  <h3>{{questao.enunciado}}</h3>
-  <h5>A correta é a {{questao.alternativaCorreta}}</h5>
-  <img style="width: 100%" *ngIf="questao.imagem != ''" [src]="questao.imagem" />
-  <br/>
-  <span *ngFor="let alter of alternativas">
-  <ul>
-  <button  *ngIf="alter.texto != undefined" (click)="marcarAlteranativa(alter)" [ngStyle]="{'background-color': alter.corBorda}" class="botaoPares"><h5 style="text-align: justify">{{alter.texto}}</h5></button>
-  </ul>
-</span>
+    <div style="margin-left: 10px; margin-right: 10px;">
+        <h5 style="text-align: justify">{{questao.enunciado}}</h5>
+    </div>
+   <!-- <h5>A correta é a {{questao.alternativaCorreta}}</h5>  -->
+    <div class="boxImg">
+        <img style="width: 100%; height: auto;" *ngIf="questao.imagem && questao.imagem.trim().toUpperCase() != 'SEM'"
+            [src]="questao.imagem.includes('gif')?'assets/imagens/questoes/'+questao.imagem+'.gif':'assets/imagens/questoes/'+questao.imagem+'.png'" />
+    </div>
+    <small *ngIf="questao.legendaImagem!=undefined && questao.legendaImagem!='SEM'"  [innerHTML]="questao.legendaImagem"></small>
+    <br />
+    <span *ngFor="let alter of alternativas">
+
+        <button style="width: 95%; margin: 5px; border-radius: 10px;" *ngIf="alter.texto != undefined"
+            (click)="marcarAlteranativa(alter)" [ngStyle]="{'background-color': alter.corBorda}" class="botaoPares">
+            <h5 style="text-align: justify">{{alter.texto}}</h5>
+        </button>
+
+    </span>
 
 </ion-content>
 <ion-footer>
-  <ion-toolbar>
-      <button ion-button (click)="verificar()" style="width: 100%">Verificar</button>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-button color="success" expand="block" (click)="verificar()">
+            <ion-icon name="checkmark-done-outline"></ion-icon>&nbsp;&nbsp;Verificar
+        </ion-button>
+    </ion-toolbar>
 </ion-footer>

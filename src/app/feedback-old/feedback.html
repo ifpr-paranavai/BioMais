@@ -1,0 +1,20 @@
+<ion-header>
+
+    <ion-toolbar>
+        <ion-title>Vamos Reforçar!!</ion-title>
+    </ion-toolbar>
+
+</ion-header>
+<ion-content padding>
+    <ion-img *ngIf="imagem && imagem.trim().toUpperCase() != 'SEM'" [src]="imagem.includes('gif')?'assets/imagens/feedback/'+imagem+'.gif':'assets/imagens/feedback/'+imagem+'.png'" ></ion-img>
+    <p [innerHTML]="texto"></p>
+</ion-content>
+
+<ion-footer>
+    <ion-toolbar>
+        <ion-button color="warning" expand="block" (click)="continuar()">
+            <ion-icon name="rocket-outline"></ion-icon>&nbsp;&nbsp;Continuar
+        </ion-button>
+       
+    </ion-toolbar>
+</ion-footer>

@@ -1,70 +1,196 @@
-<ion-header  [translucent]="true">
-  <ion-toolbar >
+<ion-header [translucent]="true">
+  <ion-toolbar>
     <ion-title color="dark" slot="start">
       Loja de pontos
     </ion-title>
 
-    <ion-title color="dark" slot="end">
-      50
-    <ion-icon name="body"></ion-icon>
+    <ion-title color="success" slot="end">
+      {{pontuacao.quantidadeTotalPontos}} BioPontos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
-  <ion-row></ion-row>
+  <h2 style="padding: 14px;">Deixe o jogo mais interessante</h2>
 
-<ion-grid>   <!-- Botão pra alterar as cores -->
-    <ion-button (click)="alteradorCores()" style="height: 45px;" expand="block" color="success">   
+  <ion-card color="light" [ngStyle]="{'border': 'solid 1px ' + difficultyColor}">
+    <ion-card-header>
+      <center>
+        <ion-title size="large" [ngStyle]="{'color': difficultyColor}">Selecione a dificuldade - 50 BioPontos</ion-title>
+      </center>
+      </ion-card-header>
+    <ion-card-content>
+      <ion-row>
+        <ion-col>
+          <ion-row>
+            <ion-button (click)="selectDifficulty('facil')" color="success">
+              <ion-icon size = "large" name="bug" style="color: white;"></ion-icon>
+            </ion-button>
+          </ion-row>
+          <ion-row text-center >           
+          </ion-row>
+        </ion-col>
+        <ion-col>
+          <ion-row>
+            <ion-button (click)="selectDifficulty('normal')" color="warning">
+              <ion-icon size = "large" name="fish" style="color:white;"></ion-icon>
+            </ion-button>
+          </ion-row>
+        </ion-col>
+        <ion-col>
+          <ion-row>
+            <ion-button (click)="selectDifficulty('dificil')" color="danger">
+              <ion-icon size = "large" name="man-sharp" style="color: white;"></ion-icon>
+            </ion-button>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+      
+      <ion-icon name="information-circle-outline" style="float: right; color: blue; font-size: large;" (click)="informAboutDifficulties()"></ion-icon>
+    </ion-card-content>
+  </ion-card>
+
+<h2 style="padding: 14px;">Desbloqueie sons</h2>
+
+  <ion-card color="light">
+    <ion-card-header>
+      <h4>Som 1 - liberado</h4>
+      <audio controls>
+        <source src="assets/sons/som1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </ion-card-header>
+
+    <ion-card-content (click)="adicionarRemoverSons('som1')">
+      <center>
+        <ion-icon size="large" [name]="verificar('som1')?'lock-open-outline':'lock-closed-outline'"></ion-icon>
+        
+      </center>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card color="light">
+    <ion-card-header>
+      <h4>Som 2 - 100 BioPontos</h4>
+      <audio controls>
+        <source src="assets/sons/som2.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </ion-card-header>
+
+    <ion-card-content (click)="adicionarRemoverSons('som2')">
+      <center>
+        <ion-icon size="large" [name]="verificar('som2')?'lock-open-outline':'lock-closed-outline'"></ion-icon>
+      </center>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card color="light">
+    <ion-card-header>
+      <h4>Som 3 - 250 BioPontos</h4>
+      <audio controls>
+        <source src="assets/sons/som3.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </ion-card-header>
+
+    <ion-card-content (click)="adicionarRemoverSons('som3')">
+      <center>
+        <ion-icon size="large" [name]="verificar('som3')?'lock-open-outline':'lock-closed-outline'"></ion-icon>
+      </center>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card color="light">
+    <ion-card-header>
+      <h4>Som 4 - 400 BioPontos</h4>
+      <audio controls>
+        <source src="assets/sons/som4.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </ion-card-header>
+
+    <ion-card-content (click)="adicionarRemoverSons('som4')">
+      <center>
+        <ion-icon size="large" [name]="verificar('som4')?'lock-open-outline':'lock-closed-outline'"></ion-icon>
+      </center>
+    </ion-card-content>
+  </ion-card>
+
+  <h2 style="padding: 14px;">Desbloqueie o desafio final</h2>
+  
+  <ion-card color="light">
+    <ion-card-header>
+      <h4>Desafio Final - 500 BioPontos</h4>
+      
+    </ion-card-header>
+
+    <ion-card-content (click)="comprarDesafioFinal('som4')">
+      <center>
+        <ion-icon size="large" [name]="pontuacao.desafioFinal?'lock-open-outline':'lock-closed-outline'"></ion-icon>
+      </center>
+    </ion-card-content>
+  </ion-card>
+
+
+
+
+  <ion-grid>
+    <!-- Botão pra alterar as cores -->
+    <!--   <ion-button (click)="alteradorCores()" style="height: 45px;" expand="block" color="success">   
       <ion-label style="padding-right:75%;">Cores</ion-label>
       <ion-icon name="chevron-down-outline"></ion-icon>
-    </ion-button>
-    
+    </ion-button> -->
+
 
     <ion-col></ion-col> <!-- Serve para dar espaço entre os cards -->
 
 
-  <ion-row>
-    <ion-col>
+    <ion-row>
+      <!--  <ion-col>
       <ion-button style="height: 45px;" expand="block" color="tertiary">
           <ion-label style="padding-right:45%;">Ícone</ion-label>
           <ion-icon name="leaf-sharp"></ion-icon>
       </ion-button>
-    </ion-col>
+    </ion-col> -->
 
-    <ion-col>
-      <ion-button style="height: 45px;" expand="block" color="dark">
+      <!-- <ion-col>
+        <ion-button style="height: 45px;" expand="block">
           <ion-label style="padding-right:45%;">Áudio</ion-label>
           <ion-icon color="light" name="volume-mute"></ion-icon>
-      </ion-button>
-    </ion-col>
-  </ion-row>
+
+         
+        </ion-button>
+      </ion-col> -->
+    </ion-row>
 
 
-  <ion-card>
+
+
+    <!--  <ion-card>
     <ion-item color="medium">
       <ion-label>Tema</ion-label>
       <ion-icon name="sunny"></ion-icon>
       <ion-toggle color="dark"></ion-toggle>
       <ion-icon name="sunny-outline"></ion-icon>
     </ion-item>
-  </ion-card>
+  </ion-card> -->
 
-<ion-col></ion-col>
+    <ion-col></ion-col>
 
-  <ion-card>
+    <!--   <ion-card>
     <ion-item color="danger">
       <ion-label>Desbloquear Segredo</ion-label>
       <ion-icon name="lock-closed" color="warning"></ion-icon>
     </ion-item>
   </ion-card>
+ -->
+  </ion-grid>
 
-</ion-grid>
+  <ion-col></ion-col>
 
-<ion-col></ion-col>
-
-<ion-grid> <!-- icones -->
+  <!-- <ion-grid>
   <ion-row nowrap>
 
     <ion-col>
@@ -100,7 +226,7 @@
   </ion-row>
 
 
-  <ion-row nowrap> <!-- icones 2 -->
+  <ion-row nowrap> 
 
     <ion-col>
       <ion-fab-button size="large" fab-fixed color="success">
@@ -133,7 +259,7 @@
     </ion-col>
 
   </ion-row>
-</ion-grid>
+</ion-grid> -->
 
 
 

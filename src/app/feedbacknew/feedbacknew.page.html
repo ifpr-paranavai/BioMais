@@ -1,0 +1,29 @@
+<ion-header>
+
+  <ion-toolbar>
+      <ion-title>Vamos Reforçar!!</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+<ion-content padding>
+
+  <audio autoplay *ngIf="acertou && som!=undefined">
+    <source [src]="'assets/sons/'+som.som+'.mp3'" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+<!-- {{image}} -->
+<!-- <ion-img [src]="assets/imagens/questoes/'+imagem+'.gif'" ></ion-img> -->
+<!-- <img  style="width: 80px; height: 80px;" [src]="image" /> -->
+  <img *ngIf="imagem && imagem.trim().toUpperCase() != 'SEM'" [src]="imagem.includes('gif')?'assets/imagens/questoes/'+imagem+'.gif':'assets/imagens/questoes/'+imagem+'.png'" />
+  <small *ngIf="legenda!=undefined && legenda!='SEM'"  [innerHTML]="legenda"></small>
+  <div style="margin-left: 10px; margin-right: 10px;"><h5 style="text-align: justify" [innerHTML]="texto"></h5></div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+      <ion-button color="warning" expand="block" (click)="continuar()">
+          <ion-icon name="rocket-outline"></ion-icon>&nbsp;&nbsp;Continuar
+      </ion-button>
+     
+  </ion-toolbar>
+</ion-footer>

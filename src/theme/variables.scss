@@ -3,6 +3,14 @@
 
 /** Ionic CSS Variables **/
 :root {
+
+  ion-loading.transparent {
+    .loading-wrapper {
+      background: transparent;
+      box-shadow: none;
+    }
+  }
+  
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -20,7 +28,7 @@
   --ion-color-secondary-tint: #50c8ff;
 
   /** tertiary **/
-  --ion-color-tertiary: #5260ff;
+  --ion-color-tertiary: #cc0690;
   --ion-color-tertiary-rgb: 82, 96, 255;
   --ion-color-tertiary-contrast: #ffffff;
   --ion-color-tertiary-contrast-rgb: 255, 255, 255;
@@ -74,13 +82,28 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+
+
+  --ion-color-joao: #f35900;
+  --ion-color-joao-rgb: 243, 89, 0;
+  --ion-color-joao-contrast: #000000;
+  --ion-color-joao-contrast-rgb: 0, 0, 0;
+  --ion-color-joao-shade: #ff6811;
+  --ion-color-joao-tint: #d14f04;
+
+  .ion-color-joao {
+    --ion-color-base: var(--ion-color-joao);
+    --ion-color-base-rgb: var(--ion-color-joao-rgb);
+    --ion-color-contrast: var(--ion-color-joao-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-joao-contrast-rgb);
+    --ion-color-shade: var(--ion-color-joao-shade);
+    --ion-color-tint: var(--ion-color-joao-tint);
+  }
 }
 
-@media (prefers-color-scheme: dark) {
-  /*
-   * Dark Colors
-   * -------------------------------------------
-   */
+/* @media (prefers-color-scheme: dark) {
+
 
   body {
     --ion-color-primary: #428cff;
@@ -145,12 +168,18 @@
     --ion-color-light-contrast-rgb: 255,255,255;
     --ion-color-light-shade: #1e2023;
     --ion-color-light-tint: #383a3e;
+
+    --ion-color-orange: #FF4500;
+    --ion-color-orange-rgb: 244, 245, 248;
+    --ion-color-orange-contrast: #000000;
+    --ion-color-orange-contrast-rgb: 0, 0, 0;
+    --ion-color-orange-shade: #8a076d;
+    --ion-color-orange-tint: #e71b58;
+
+
   }
 
-  /*
-   * iOS Dark Theme
-   * -------------------------------------------
-   */
+ 
 
   .ios body {
     --ion-background-color: #000000;
@@ -191,10 +220,7 @@
   }
 
 
-  /*
-   * Material Design Dark Theme
-   * -------------------------------------------
-   */
+
 
   .md body {
     --ion-background-color: #121212;
@@ -233,4 +259,4 @@
 
     --ion-card-background: #1e1e1e;
   }
-}
+} */
